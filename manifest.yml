@@ -1,5 +1,5 @@
 applications:
-- name: cryptoment
+- name: cryptoment-api
   random-route: true
   disk_quota: 64M
   memory: 128M
