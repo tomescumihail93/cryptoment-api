@@ -1,6 +1,9 @@
-const express = require('express')
-const app = express()
+const express = require('express');
+var cfenv = require('cfenv');
+const app = express();
+
 
 app.get('/test', (req, res) => res.send('Hello World!'))
 
-app.listen(3000, () => console.log('Example app listening on port 3000!'))
+var appEnv = cfenv.getAppEnv();
+app.listen(appEnv.port, () => console.log('Example app listening on port 3000!'))
