@@ -6,3 +6,4 @@ applications:
   path: .
   domain: mybluemix.net
   host: cryptoment-api
+  buildpack: staticfile_buildpack
