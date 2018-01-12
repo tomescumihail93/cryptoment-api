@@ -1,0 +1,9 @@
+applications:
+- name: cryptoment
+  random-route: true
+  disk_quota: 64M
+  memory: 128M
+  path: .
+  domain: mybluemix.net
+  host: cryptoment-api
+  buildpack: staticfile_buildpack
