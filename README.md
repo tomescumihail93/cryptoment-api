@@ -1,2 +1,0 @@
-# cryptoment-api
-Cryptoment backend
