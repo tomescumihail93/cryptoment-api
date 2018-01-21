@@ -1,0 +1,7216 @@
+{
+  "ripple": [
+    {
+      "id": "1",
+      "exchange": "Bithumb",
+      "pair": "XRP/KRW",
+      "volume24h": "$856,680,000",
+      "price": "$1.92",
+      "volume": "34.82%"
+    },
+    {
+      "id": "2",
+      "exchange": "Upbit",
+      "pair": "XRP/KRW",
+      "volume24h": "$392,170,000",
+      "price": "$1.93",
+      "volume": "15.94%"
+    },
+    {
+      "id": "3",
+      "exchange": "Bitfinex",
+      "pair": "XRP/USD",
+      "volume24h": "$141,090,000",
+      "price": "$1.56",
+      "volume": "5.73%"
+    },
+    {
+      "id": "4",
+      "exchange": "Coinone",
+      "pair": "XRP/KRW",
+      "volume24h": "$129,910,000",
+      "price": "$1.92",
+      "volume": "5.28%"
+    },
+    {
+      "id": "5",
+      "exchange": "HitBTC",
+      "pair": "XRP/BTC",
+      "volume24h": "$103,008,000",
+      "price": "$1.57",
+      "volume": "4.19%"
+    },
+    {
+      "id": "6",
+      "exchange": "Binance",
+      "pair": "XRP/BTC",
+      "volume24h": "$95,861,500",
+      "price": "$1.57",
+      "volume": "3.90%"
+    },
+    {
+      "id": "7",
+      "exchange": "Poloniex",
+      "pair": "XRP/BTC",
+      "volume24h": "$72,041,700",
+      "price": "$1.57",
+      "volume": "2.93%"
+    },
+    {
+      "id": "8",
+      "exchange": "Korbit",
+      "pair": "XRP/KRW",
+      "volume24h": "$60,734,000",
+      "price": "$1.92",
+      "volume": "2.47%"
+    },
+    {
+      "id": "9",
+      "exchange": "Bittrex",
+      "pair": "XRP/BTC",
+      "volume24h": "$60,304,700",
+      "price": "$1.58",
+      "volume": "2.45%"
+    },
+    {
+      "id": "10",
+      "exchange": "Huobi",
+      "pair": "XRP/USDT",
+      "volume24h": "$57,513,800",
+      "price": "$1.58",
+      "volume": "2.34%"
+    },
+    {
+      "id": "11",
+      "exchange": "Kraken",
+      "pair": "XRP/EUR",
+      "volume24h": "$55,413,400",
+      "price": "$1.58",
+      "volume": "2.25%"
+    },
+    {
+      "id": "12",
+      "exchange": "Bitstamp",
+      "pair": "XRP/USD",
+      "volume24h": "$50,527,300",
+      "price": "$1.57",
+      "volume": "2.05%"
+    },
+    {
+      "id": "13",
+      "exchange": "Upbit",
+      "pair": "XRP/BTC",
+      "volume24h": "$38,189,100",
+      "price": "$1.58",
+      "volume": "1.55%"
+    },
+    {
+      "id": "14",
+      "exchange": "Kraken",
+      "pair": "XRP/USD",
+      "volume24h": "$36,936,900",
+      "price": "$1.57",
+      "volume": "1.50%"
+    },
+    {
+      "id": "15",
+      "exchange": "Bitbank",
+      "pair": "XRP/JPY",
+      "volume24h": "$36,115,800",
+      "price": "$1.61",
+      "volume": "1.47%"
+    },
+    {
+      "id": "16",
+      "exchange": "Binance",
+      "pair": "XRP/ETH",
+      "volume24h": "$35,573,000",
+      "price": "$1.57",
+      "volume": "1.45%"
+    },
+    {
+      "id": "17",
+      "exchange": "Huobi",
+      "pair": "XRP/BTC",
+      "volume24h": "$21,649,300",
+      "price": "$1.59",
+      "volume": "0.88%"
+    },
+    {
+      "id": "18",
+      "exchange": "Poloniex",
+      "pair": "XRP/USDT",
+      "volume24h": "$19,305,100",
+      "price": "$1.56",
+      "volume": "0.78%"
+    },
+    {
+      "id": "19",
+      "exchange": "Bitfinex",
+      "pair": "XRP/BTC",
+      "volume24h": "$19,127,900",
+      "price": "$1.57",
+      "volume": "0.78%"
+    },
+    {
+      "id": "20",
+      "exchange": "Kraken",
+      "pair": "XRP/BTC",
+      "volume24h": "$17,118,800",
+      "price": "$1.58",
+      "volume": "0.70%"
+    },
+    {
+      "id": "21",
+      "exchange": "Bittrex",
+      "pair": "XRP/USDT",
+      "volume24h": "$15,609,300",
+      "price": "$1.56",
+      "volume": "0.63%"
+    },
+    {
+      "id": "22",
+      "exchange": "Bitstamp",
+      "pair": "XRP/EUR",
+      "volume24h": "$15,385,400",
+      "price": "$1.58",
+      "volume": "0.63%"
+    },
+    {
+      "id": "23",
+      "exchange": "OKEx",
+      "pair": "XRP/USDT",
+      "volume24h": "$11,727,400",
+      "price": "$1.60",
+      "volume": "0.48%"
+    },
+    {
+      "id": "24",
+      "exchange": "Koinex",
+      "pair": "XRP/INR",
+      "volume24h": "$11,521,000",
+      "price": "$1.82",
+      "volume": "0.47%"
+    },
+    {
+      "id": "25",
+      "exchange": "Bitstamp",
+      "pair": "XRP/BTC",
+      "volume24h": "$9,177,260",
+      "price": "$1.58",
+      "volume": "0.37%"
+    },
+    {
+      "id": "26",
+      "exchange": "BTC Markets",
+      "pair": "XRP/AUD",
+      "volume24h": "$9,061,730",
+      "price": "$1.65",
+      "volume": "0.37%"
+    },
+    {
+      "id": "27",
+      "exchange": "Exmo",
+      "pair": "XRP/USD",
+      "volume24h": "$8,867,980",
+      "price": "$1.71",
+      "volume": "0.36%"
+    },
+    {
+      "id": "28",
+      "exchange": "ZB.COM",
+      "pair": "XRP/USDT",
+      "volume24h": "$7,715,570",
+      "price": "$1.66",
+      "volume": "0.31%"
+    },
+    {
+      "id": "29",
+      "exchange": "CoinEgg",
+      "pair": "XRP/BTC",
+      "volume24h": "$7,620,990",
+      "price": "$1.62",
+      "volume": "0.31%"
+    },
+    {
+      "id": "30",
+      "exchange": "CEX.IO",
+      "pair": "XRP/USD",
+      "volume24h": "$7,157,900",
+      "price": "$1.67",
+      "volume": "0.29%"
+    },
+    {
+      "id": "31",
+      "exchange": "OKEx",
+      "pair": "XRP/BTC",
+      "volume24h": "$6,106,240",
+      "price": "$1.62",
+      "volume": "0.25%"
+    },
+    {
+      "id": "32",
+      "exchange": "Bittrex",
+      "pair": "XRP/ETH",
+      "volume24h": "$5,211,670",
+      "price": "$1.56",
+      "volume": "0.21%"
+    },
+    {
+      "id": "33",
+      "exchange": "Bitcoin Indonesia",
+      "pair": "XRP/IDR",
+      "volume24h": "$4,636,270",
+      "price": "$1.65",
+      "volume": "0.19%"
+    },
+    {
+      "id": "34",
+      "exchange": "Bitso",
+      "pair": "XRP/MXN",
+      "volume24h": "$4,288,760",
+      "price": "$1.62",
+      "volume": "0.17%"
+    },
+    {
+      "id": "35",
+      "exchange": "BX Thailand",
+      "pair": "XRP/THB",
+      "volume24h": "$4,239,350",
+      "price": "$1.75",
+      "volume": "0.17%"
+    },
+    {
+      "id": "36",
+      "exchange": "Exmo",
+      "pair": "XRP/BTC",
+      "volume24h": "$3,368,160",
+      "price": "$1.57",
+      "volume": "0.14%"
+    },
+    {
+      "id": "37",
+      "exchange": "Ripple China",
+      "pair": "XRP/CNY",
+      "volume24h": "$2,746,860",
+      "price": "$1.74",
+      "volume": "0.11%"
+    },
+    {
+      "id": "38",
+      "exchange": "RippleFox",
+      "pair": "XRP/CNY",
+      "volume24h": "$2,292,380",
+      "price": "$1.72",
+      "volume": "0.09%"
+    },
+    {
+      "id": "39",
+      "exchange": "Gatehub",
+      "pair": "XRP/USD",
+      "volume24h": "$1,867,260",
+      "price": "$1.55",
+      "volume": "0.08%"
+    },
+    {
+      "id": "40",
+      "exchange": "Upbit",
+      "pair": "XRP/ETH",
+      "volume24h": "$1,701,780",
+      "price": "$1.56",
+      "volume": "0.07%"
+    },
+    {
+      "id": "41",
+      "exchange": "Bitcoin Indonesia",
+      "pair": "XRP/BTC",
+      "volume24h": "$1,684,560",
+      "price": "$1.60",
+      "volume": "0.07%"
+    },
+    {
+      "id": "42",
+      "exchange": "Gate.io",
+      "pair": "XRP/USDT",
+      "volume24h": "$1,667,240",
+      "price": "$1.73",
+      "volume": "0.07%"
+    },
+    {
+      "id": "43",
+      "exchange": "Exmo",
+      "pair": "XRP/RUB",
+      "volume24h": "$1,633,660",
+      "price": "$1.69",
+      "volume": "0.07%"
+    },
+    {
+      "id": "44",
+      "exchange": "Gatehub",
+      "pair": "XRP/ETH",
+      "volume24h": "$1,421,080",
+      "price": "$1.65",
+      "volume": "0.06%"
+    },
+    {
+      "id": "45",
+      "exchange": "Upbit",
+      "pair": "XRP/USDT",
+      "volume24h": "$1,313,750",
+      "price": "$1.57",
+      "volume": "0.05%"
+    },
+    {
+      "id": "46",
+      "exchange": "Gatehub",
+      "pair": "XRP/BTC",
+      "volume24h": "$1,266,190",
+      "price": "$1.65",
+      "volume": "0.05%"
+    },
+    {
+      "id": "47",
+      "exchange": "CEX.IO",
+      "pair": "XRP/BTC",
+      "volume24h": "$1,234,400",
+      "price": "$1.58",
+      "volume": "0.05%"
+    },
+    {
+      "id": "48",
+      "exchange": "Bitstamp (Ripple Gateway)",
+      "pair": "XRP/USD",
+      "volume24h": "$906,584",
+      "price": "$1.53",
+      "volume": "0.04%"
+    },
+    {
+      "id": "49",
+      "exchange": "Coinrail",
+      "pair": "XRP/BTC",
+      "volume24h": "$822,427",
+      "price": "$1.58",
+      "volume": "0.03%"
+    },
+    {
+      "id": "50",
+      "exchange": "Gatehub",
+      "pair": "XRP/EUR",
+      "volume24h": "$725,072",
+      "price": "$1.56",
+      "volume": "0.03%"
+    },
+    {
+      "id": "51",
+      "exchange": "CEX.IO",
+      "pair": "XRP/EUR",
+      "volume24h": "$665,382",
+      "price": "$1.58",
+      "volume": "0.03%"
+    },
+    {
+      "id": "52",
+      "exchange": "ZB.COM",
+      "pair": "XRP/BTC",
+      "volume24h": "$577,728",
+      "price": "$1.58",
+      "volume": "0.02%"
+    },
+    {
+      "id": "53",
+      "exchange": "Bitso",
+      "pair": "XRP/BTC",
+      "volume24h": "$512,607",
+      "price": "$1.58",
+      "volume": "0.02%"
+    },
+    {
+      "id": "54",
+      "exchange": "Altcoin Trader",
+      "pair": "XRP/ZAR",
+      "volume24h": "$512,219",
+      "price": "$1.79",
+      "volume": "0.02%"
+    },
+    {
+      "id": "55",
+      "exchange": "HitBTC",
+      "pair": "XRP/ETH",
+      "volume24h": "$457,870",
+      "price": "$1.58",
+      "volume": "0.02%"
+    },
+    {
+      "id": "56",
+      "exchange": "BTC Markets",
+      "pair": "XRP/BTC",
+      "volume24h": "$420,704",
+      "price": "$1.57",
+      "volume": "0.02%"
+    },
+    {
+      "id": "57",
+      "exchange": "Bitsane",
+      "pair": "XRP/BTC",
+      "volume24h": "$400,614",
+      "price": "$1.59",
+      "volume": "0.02%"
+    },
+    {
+      "id": "58",
+      "exchange": "RippleFox",
+      "pair": "XRP/XLM",
+      "volume24h": "$392,924",
+      "price": "$1.82",
+      "volume": "0.02%"
+    },
+    {
+      "id": "59",
+      "exchange": "AEX",
+      "pair": "XRP/BITCNY",
+      "volume24h": "$357,348",
+      "price": "$1.51",
+      "volume": "0.01%"
+    },
+    {
+      "id": "60",
+      "exchange": "Mr. Exchange",
+      "pair": "XRP/ADA",
+      "volume24h": "$346,657",
+      "price": "$1.75",
+      "volume": "0.01%"
+    },
+    {
+      "id": "61",
+      "exchange": "OKEx",
+      "pair": "XRP/ETH",
+      "volume24h": "$326,794",
+      "price": "$1.59",
+      "volume": "0.01%"
+    },
+    {
+      "id": "62",
+      "exchange": "Bitstamp (Ripple Gateway)",
+      "pair": "XRP/BTC",
+      "volume24h": "$321,570",
+      "price": "$1.64",
+      "volume": "0.01%"
+    },
+    {
+      "id": "63",
+      "exchange": "Coinrail",
+      "pair": "XRP/KRW",
+      "volume24h": "$234,555",
+      "price": "$1.66",
+      "volume": "0.01%"
+    },
+    {
+      "id": "64",
+      "exchange": "Gatehub",
+      "pair": "XRP/REP",
+      "volume24h": "$229,616",
+      "price": "$2.06",
+      "volume": "0.01%"
+    },
+    {
+      "id": "65",
+      "exchange": "LiteBit.eu",
+      "pair": "XRP/EUR",
+      "volume24h": "$202,106",
+      "price": "$1.57",
+      "volume": "0.01%"
+    },
+    {
+      "id": "66",
+      "exchange": "Mr. Exchange",
+      "pair": "XRP/ETH",
+      "volume24h": "$190,428",
+      "price": "$1.67",
+      "volume": "0.01%"
+    },
+    {
+      "id": "67",
+      "exchange": "Gate.io",
+      "pair": "XRP/BTC",
+      "volume24h": "$190,162",
+      "price": "$1.73",
+      "volume": "0.01%"
+    },
+    {
+      "id": "68",
+      "exchange": "Mr. Exchange",
+      "pair": "XRP/JPY",
+      "volume24h": "$180,910",
+      "price": "$1.57",
+      "volume": "0.01%"
+    },
+    {
+      "id": "69",
+      "exchange": "Bitsane",
+      "pair": "XRP/BCH",
+      "volume24h": "$160,695",
+      "price": "$1.63",
+      "volume": "0.01%"
+    },
+    {
+      "id": "70",
+      "exchange": "AEX",
+      "pair": "XRP/BTC",
+      "volume24h": "$158,919",
+      "price": "$1.53",
+      "volume": "0.01%"
+    },
+    {
+      "id": "71",
+      "exchange": "Bitsane",
+      "pair": "XRP/ETH",
+      "volume24h": "$131,068",
+      "price": "$1.60",
+      "volume": "0.01%"
+    },
+    {
+      "id": "72",
+      "exchange": "Exrates",
+      "pair": "XRP/BTC",
+      "volume24h": "$124,000",
+      "price": "$1.42",
+      "volume": "0.01%"
+    },
+    {
+      "id": "73",
+      "exchange": "Mr. Exchange",
+      "pair": "XRP/REP",
+      "volume24h": "$109,415",
+      "price": "$2.07",
+      "volume": "0.00%"
+    },
+    {
+      "id": "74",
+      "exchange": "Exrates",
+      "pair": "XRP/USD",
+      "volume24h": "$107,614",
+      "price": "$1.34",
+      "volume": "0.00%"
+    },
+    {
+      "id": "75",
+      "exchange": "Bitinka",
+      "pair": "BTC/XRP",
+      "volume24h": "$89,645",
+      "price": "$1.54",
+      "volume": "0.00%"
+    },
+    {
+      "id": "76",
+      "exchange": "Bitsane",
+      "pair": "XRP/USD",
+      "volume24h": "$88,815",
+      "price": "$1.82",
+      "volume": "0.00%"
+    },
+    {
+      "id": "77",
+      "exchange": "Stellar Decentralized Exchange",
+      "pair": "XRP/XLM",
+      "volume24h": "$85,645",
+      "price": "$1.87",
+      "volume": "0.00%"
+    },
+    {
+      "id": "78",
+      "exchange": "Bits Blockchain",
+      "pair": "XRP/BTC",
+      "volume24h": "$72,623",
+      "price": "$1.57",
+      "volume": "0.00%"
+    },
+    {
+      "id": "79",
+      "exchange": "Tripe Dice Exchange",
+      "pair": "XRP/BTC",
+      "volume24h": "$70,373",
+      "price": "$1.57",
+      "volume": "0.00%"
+    },
+    {
+      "id": "80",
+      "exchange": "Qryptos",
+      "pair": "XRP/BTC",
+      "volume24h": "$59,112",
+      "price": "$1.65",
+      "volume": "0.00%"
+    },
+    {
+      "id": "81",
+      "exchange": "Bitsane",
+      "pair": "XRP/LTC",
+      "volume24h": "$51,907",
+      "price": "$1.60",
+      "volume": "0.00%"
+    },
+    {
+      "id": "82",
+      "exchange": "Abucoins",
+      "pair": "XRP/BTC",
+      "volume24h": "$51,779",
+      "price": "$1.60",
+      "volume": "0.00%"
+    },
+    {
+      "id": "83",
+      "exchange": "The Rock Trading",
+      "pair": "XRP/EUR",
+      "volume24h": "$51,716",
+      "price": "$1.61",
+      "volume": "0.00%"
+    },
+    {
+      "id": "84",
+      "exchange": "Mr. Exchange",
+      "pair": "XRP/BTC",
+      "volume24h": "$49,726",
+      "price": "$1.63",
+      "volume": "0.00%"
+    },
+    {
+      "id": "85",
+      "exchange": "BitFlip",
+      "pair": "XRP/RUB",
+      "volume24h": "$39,393",
+      "price": "$1.91",
+      "volume": "0.00%"
+    },
+    {
+      "id": "86",
+      "exchange": "Gatehub",
+      "pair": "XRP/QAU",
+      "volume24h": "$35,640",
+      "price": "$1.81",
+      "volume": "0.00%"
+    },
+    {
+      "id": "87",
+      "exchange": "Mr. Exchange",
+      "pair": "XRP/USD",
+      "volume24h": "$27,635",
+      "price": "$1.59",
+      "volume": "0.00%"
+    },
+    {
+      "id": "88",
+      "exchange": "Rippex",
+      "pair": "XRP/BRL",
+      "volume24h": "$24,814",
+      "price": "$1.78",
+      "volume": "0.00%"
+    },
+    {
+      "id": "89",
+      "exchange": "The Rock Trading",
+      "pair": "BTC/XRP",
+      "volume24h": "$23,641",
+      "price": "$1.60",
+      "volume": "0.00%"
+    },
+    {
+      "id": "90",
+      "exchange": "Gatehub",
+      "pair": "XRP/ETC",
+      "volume24h": "$22,032",
+      "price": "$1.61",
+      "volume": "0.00%"
+    },
+    {
+      "id": "91",
+      "exchange": "Mr. Exchange",
+      "pair": "XRP/LTC",
+      "volume24h": "$19,797",
+      "price": "$1.57",
+      "volume": "0.00%"
+    },
+    {
+      "id": "92",
+      "exchange": "Mr. Exchange",
+      "pair": "XRP/ETC",
+      "volume24h": "$15,532",
+      "price": "$1.67",
+      "volume": "0.00%"
+    },
+    {
+      "id": "93",
+      "exchange": "Cryptomate",
+      "pair": "XRP/GBP",
+      "volume24h": "$9,438",
+      "price": "$1.71",
+      "volume": "0.00%"
+    },
+    {
+      "id": "94",
+      "exchange": "Bitsane",
+      "pair": "XRP/EUR",
+      "volume24h": "$9,425",
+      "price": "$1.63",
+      "volume": "0.00%"
+    },
+    {
+      "id": "95",
+      "exchange": "BitFlip",
+      "pair": "XRP/USD",
+      "volume24h": "$7,052",
+      "price": "$1.75",
+      "volume": "0.00%"
+    },
+    {
+      "id": "96",
+      "exchange": "BitFlip",
+      "pair": "XRP/BTC",
+      "volume24h": "$619",
+      "price": "$1.66",
+      "volume": "0.00%"
+    },
+    {
+      "id": "97",
+      "exchange": "Bitsane",
+      "pair": "XRP/DASH",
+      "volume24h": "$534",
+      "price": "$1.58",
+      "volume": "0.00%"
+    },
+    {
+      "id": "98",
+      "exchange": "Coinbene",
+      "pair": "XRP/USDT",
+      "volume24h": "$388",
+      "price": "$1.50",
+      "volume": "0.00%"
+    },
+    {
+      "id": "99",
+      "exchange": "BitFlip",
+      "pair": "XRP/EUR",
+      "volume24h": "$118",
+      "price": "$1.77",
+      "volume": "0.00%"
+    },
+    {
+      "id": "100",
+      "exchange": "BitFlip",
+      "pair": "XRP/UAH",
+      "volume24h": "$28",
+      "price": "$1.91",
+      "volume": "0.00%"
+    },
+    {
+      "id": "101",
+      "exchange": "BCEX",
+      "pair": "XRP/BTC",
+      "volume24h": "$0",
+      "price": "$1.86",
+      "volume": "0.00%"
+    }
+  ],
+  "bitcoin": [
+    {
+      "id": "1",
+      "exchange": "Upbit",
+      "pair": "BTC/KRW",
+      "volume24h": "$800,712,000",
+      "price": "$15592.30",
+      "volume": "6.83%"
+    },
+    {
+      "id": "2",
+      "exchange": "Bitfinex",
+      "pair": "BTC/USD",
+      "volume24h": "$605,520,000",
+      "price": "$12728.00",
+      "volume": "5.17%"
+    },
+    {
+      "id": "3",
+      "exchange": "OKEx",
+      "pair": "BTC/USDT",
+      "volume24h": "$431,378,000",
+      "price": "$12773.30",
+      "volume": "3.68%"
+    },
+    {
+      "id": "4",
+      "exchange": "Bithumb",
+      "pair": "BTC/KRW",
+      "volume24h": "$427,366,000",
+      "price": "$15617.60",
+      "volume": "3.65%"
+    },
+    {
+      "id": "5",
+      "exchange": "Binance",
+      "pair": "BTC/USDT",
+      "volume24h": "$358,161,000",
+      "price": "$12820.60",
+      "volume": "3.06%"
+    },
+    {
+      "id": "6",
+      "exchange": "bitFlyer",
+      "pair": "BTC/JPY",
+      "volume24h": "$266,939,000",
+      "price": "$12940.50",
+      "volume": "2.28%"
+    },
+    {
+      "id": "7",
+      "exchange": "HitBTC",
+      "pair": "BCH/BTC",
+      "volume24h": "$242,080,000",
+      "price": "$12905.60",
+      "volume": "2.07%"
+    },
+    {
+      "id": "8",
+      "exchange": "Binance",
+      "pair": "ETH/BTC",
+      "volume24h": "$239,657,000",
+      "price": "$12806.60",
+      "volume": "2.04%"
+    },
+    {
+      "id": "9",
+      "exchange": "GDAX",
+      "pair": "BTC/USD",
+      "volume24h": "$239,623,000",
+      "price": "$12732.20",
+      "volume": "2.04%"
+    },
+    {
+      "id": "10",
+      "exchange": "Binance",
+      "pair": "TRX/BTC",
+      "volume24h": "$216,011,000",
+      "price": "$12991.90",
+      "volume": "1.84%"
+    },
+    {
+      "id": "11",
+      "exchange": "BTCC",
+      "pair": "BTC/USD",
+      "volume24h": "$175,430,000",
+      "price": "$13245.00",
+      "volume": "1.50%"
+    },
+    {
+      "id": "12",
+      "exchange": "OKEx",
+      "pair": "ETH/BTC",
+      "volume24h": "$163,411,000",
+      "price": "$12805.80",
+      "volume": "1.39%"
+    },
+    {
+      "id": "13",
+      "exchange": "Binance",
+      "pair": "VEN/BTC",
+      "volume24h": "$136,872,000",
+      "price": "$12872.50",
+      "volume": "1.17%"
+    },
+    {
+      "id": "14",
+      "exchange": "Bitstamp",
+      "pair": "BTC/USD",
+      "volume24h": "$133,814,000",
+      "price": "$12774.10",
+      "volume": "1.14%"
+    },
+    {
+      "id": "15",
+      "exchange": "Binance",
+      "pair": "EOS/BTC",
+      "volume24h": "$128,078,000",
+      "price": "$12813.50",
+      "volume": "1.09%"
+    },
+    {
+      "id": "16",
+      "exchange": "Kraken",
+      "pair": "BTC/EUR",
+      "volume24h": "$126,041,000",
+      "price": "$12832.00",
+      "volume": "1.08%"
+    },
+    {
+      "id": "17",
+      "exchange": "OKEx",
+      "pair": "BCH/BTC",
+      "volume24h": "$119,541,000",
+      "price": "$12927.30",
+      "volume": "1.02%"
+    },
+    {
+      "id": "18",
+      "exchange": "Huobi",
+      "pair": "BTC/USDT",
+      "volume24h": "$116,799,000",
+      "price": "$12788.20",
+      "volume": "1.00%"
+    },
+    {
+      "id": "19",
+      "exchange": "OKEx",
+      "pair": "EOS/BTC",
+      "volume24h": "$113,768,000",
+      "price": "$12822.70",
+      "volume": "0.97%"
+    },
+    {
+      "id": "20",
+      "exchange": "HitBTC",
+      "pair": "XRP/BTC",
+      "volume24h": "$103,008,000",
+      "price": "$12893.70",
+      "volume": "0.88%"
+    },
+    {
+      "id": "21",
+      "exchange": "Binance",
+      "pair": "XRP/BTC",
+      "volume24h": "$95,861,500",
+      "price": "$12884.20",
+      "volume": "0.82%"
+    },
+    {
+      "id": "22",
+      "exchange": "Gemini",
+      "pair": "BTC/USD",
+      "volume24h": "$89,383,500",
+      "price": "$12742.70",
+      "volume": "0.76%"
+    },
+    {
+      "id": "23",
+      "exchange": "Bit-Z",
+      "pair": "ETH/BTC",
+      "volume24h": "$88,314,100",
+      "price": "$12807.40",
+      "volume": "0.75%"
+    },
+    {
+      "id": "24",
+      "exchange": "Poloniex",
+      "pair": "BTC/USDT",
+      "volume24h": "$88,015,600",
+      "price": "$12749.30",
+      "volume": "0.75%"
+    },
+    {
+      "id": "25",
+      "exchange": "Bittrex",
+      "pair": "BTC/USDT",
+      "volume24h": "$81,384,200",
+      "price": "$12751.00",
+      "volume": "0.69%"
+    },
+    {
+      "id": "26",
+      "exchange": "Binance",
+      "pair": "CND/BTC",
+      "volume24h": "$76,782,900",
+      "price": "$12666.80",
+      "volume": "0.66%"
+    },
+    {
+      "id": "27",
+      "exchange": "Binance",
+      "pair": "VIBE/BTC",
+      "volume24h": "$74,565,500",
+      "price": "$12773.20",
+      "volume": "0.64%"
+    },
+    {
+      "id": "28",
+      "exchange": "Binance",
+      "pair": "ICX/BTC",
+      "volume24h": "$73,929,500",
+      "price": "$12976.20",
+      "volume": "0.63%"
+    },
+    {
+      "id": "29",
+      "exchange": "Coinone",
+      "pair": "BTC/KRW",
+      "volume24h": "$72,723,300",
+      "price": "$15579.20",
+      "volume": "0.62%"
+    },
+    {
+      "id": "30",
+      "exchange": "Poloniex",
+      "pair": "XRP/BTC",
+      "volume24h": "$72,041,700",
+      "price": "$12886.30",
+      "volume": "0.61%"
+    },
+    {
+      "id": "31",
+      "exchange": "HitBTC",
+      "pair": "ETH/BTC",
+      "volume24h": "$69,758,700",
+      "price": "$12817.40",
+      "volume": "0.60%"
+    },
+    {
+      "id": "32",
+      "exchange": "Liqui",
+      "pair": "TRX/BTC",
+      "volume24h": "$69,016,600",
+      "price": "$13032.30",
+      "volume": "0.59%"
+    },
+    {
+      "id": "33",
+      "exchange": "HitBTC",
+      "pair": "BTC/USDT",
+      "volume24h": "$67,654,600",
+      "price": "$12730.30",
+      "volume": "0.58%"
+    },
+    {
+      "id": "34",
+      "exchange": "Binance",
+      "pair": "NEO/BTC",
+      "volume24h": "$67,541,900",
+      "price": "$12915.70",
+      "volume": "0.58%"
+    },
+    {
+      "id": "35",
+      "exchange": "Kraken",
+      "pair": "BTC/USD",
+      "volume24h": "$65,140,000",
+      "price": "$12765.00",
+      "volume": "0.56%"
+    },
+    {
+      "id": "36",
+      "exchange": "Korbit",
+      "pair": "BTC/KRW",
+      "volume24h": "$63,409,900",
+      "price": "$15632.60",
+      "volume": "0.54%"
+    },
+    {
+      "id": "37",
+      "exchange": "Bittrex",
+      "pair": "XRP/BTC",
+      "volume24h": "$60,304,700",
+      "price": "$12865.40",
+      "volume": "0.51%"
+    },
+    {
+      "id": "38",
+      "exchange": "Huobi",
+      "pair": "QTUM/BTC",
+      "volume24h": "$55,573,800",
+      "price": "$12735.70",
+      "volume": "0.47%"
+    },
+    {
+      "id": "39",
+      "exchange": "Binance",
+      "pair": "BNB/BTC",
+      "volume24h": "$51,012,700",
+      "price": "$12832.40",
+      "volume": "0.44%"
+    },
+    {
+      "id": "40",
+      "exchange": "Upbit",
+      "pair": "SC/BTC",
+      "volume24h": "$50,209,500",
+      "price": "$12776.80",
+      "volume": "0.43%"
+    },
+    {
+      "id": "41",
+      "exchange": "itBit",
+      "pair": "BTC/USD",
+      "volume24h": "$47,644,900",
+      "price": "$12735.00",
+      "volume": "0.41%"
+    },
+    {
+      "id": "42",
+      "exchange": "Bittrex",
+      "pair": "ETH/BTC",
+      "volume24h": "$46,588,700",
+      "price": "$12770.20",
+      "volume": "0.40%"
+    },
+    {
+      "id": "43",
+      "exchange": "Bittrex",
+      "pair": "SC/BTC",
+      "volume24h": "$46,369,900",
+      "price": "$12809.80",
+      "volume": "0.40%"
+    },
+    {
+      "id": "44",
+      "exchange": "EXX",
+      "pair": "ETH/BTC",
+      "volume24h": "$45,208,900",
+      "price": "$12868.90",
+      "volume": "0.39%"
+    },
+    {
+      "id": "45",
+      "exchange": "Binance",
+      "pair": "INS/BTC",
+      "volume24h": "$44,404,600",
+      "price": "$12836.10",
+      "volume": "0.38%"
+    },
+    {
+      "id": "46",
+      "exchange": "OKEx",
+      "pair": "ETC/BTC",
+      "volume24h": "$43,490,000",
+      "price": "$12836.00",
+      "volume": "0.37%"
+    },
+    {
+      "id": "47",
+      "exchange": "OKEx",
+      "pair": "LTC/BTC",
+      "volume24h": "$42,705,600",
+      "price": "$12812.00",
+      "volume": "0.36%"
+    },
+    {
+      "id": "48",
+      "exchange": "LakeBTC",
+      "pair": "BTC/USD",
+      "volume24h": "$42,449,200",
+      "price": "$13507.40",
+      "volume": "0.36%"
+    },
+    {
+      "id": "49",
+      "exchange": "Binance",
+      "pair": "APPC/BTC",
+      "volume24h": "$42,093,900",
+      "price": "$12819.10",
+      "volume": "0.36%"
+    },
+    {
+      "id": "50",
+      "exchange": "Poloniex",
+      "pair": "ETH/BTC",
+      "volume24h": "$41,556,000",
+      "price": "$12792.80",
+      "volume": "0.35%"
+    },
+    {
+      "id": "51",
+      "exchange": "Bittrex",
+      "pair": "ADA/BTC",
+      "volume24h": "$41,141,200",
+      "price": "$14997.70",
+      "volume": "0.35%"
+    },
+    {
+      "id": "52",
+      "exchange": "Bitfinex",
+      "pair": "ETH/BTC",
+      "volume24h": "$40,568,400",
+      "price": "$12818.40",
+      "volume": "0.35%"
+    },
+    {
+      "id": "53",
+      "exchange": "Binance",
+      "pair": "ADA/BTC",
+      "volume24h": "$39,498,700",
+      "price": "$14914.20",
+      "volume": "0.34%"
+    },
+    {
+      "id": "54",
+      "exchange": "Bitfinex",
+      "pair": "EOS/BTC",
+      "volume24h": "$39,324,200",
+      "price": "$12836.00",
+      "volume": "0.34%"
+    },
+    {
+      "id": "55",
+      "exchange": "GDAX",
+      "pair": "BTC/EUR",
+      "volume24h": "$39,151,400",
+      "price": "$12921.80",
+      "volume": "0.33%"
+    },
+    {
+      "id": "56",
+      "exchange": "Upbit",
+      "pair": "XRP/BTC",
+      "volume24h": "$38,189,100",
+      "price": "$12862.20",
+      "volume": "0.33%"
+    },
+    {
+      "id": "57",
+      "exchange": "Binance",
+      "pair": "AMB/BTC",
+      "volume24h": "$37,903,000",
+      "price": "$12814.70",
+      "volume": "0.32%"
+    },
+    {
+      "id": "58",
+      "exchange": "CoinEgg",
+      "pair": "ETH/BTC",
+      "volume24h": "$36,040,800",
+      "price": "$12901.20",
+      "volume": "0.31%"
+    },
+    {
+      "id": "59",
+      "exchange": "OKEx",
+      "pair": "INT/BTC",
+      "volume24h": "$35,902,000",
+      "price": "$12811.10",
+      "volume": "0.31%"
+    },
+    {
+      "id": "60",
+      "exchange": "Binance",
+      "pair": "WTC/BTC",
+      "volume24h": "$35,584,600",
+      "price": "$13058.90",
+      "volume": "0.30%"
+    },
+    {
+      "id": "61",
+      "exchange": "HitBTC",
+      "pair": "XMR/BTC",
+      "volume24h": "$35,402,800",
+      "price": "$12866.50",
+      "volume": "0.30%"
+    },
+    {
+      "id": "62",
+      "exchange": "Upbit",
+      "pair": "ADA/BTC",
+      "volume24h": "$34,727,300",
+      "price": "$14965.20",
+      "volume": "0.30%"
+    },
+    {
+      "id": "63",
+      "exchange": "HitBTC",
+      "pair": "DASH/BTC",
+      "volume24h": "$34,425,600",
+      "price": "$12946.60",
+      "volume": "0.29%"
+    },
+    {
+      "id": "64",
+      "exchange": "Bitfinex",
+      "pair": "BTC/EUR",
+      "volume24h": "$33,457,600",
+      "price": "$12725.70",
+      "volume": "0.29%"
+    },
+    {
+      "id": "65",
+      "exchange": "Bitstamp",
+      "pair": "BTC/EUR",
+      "volume24h": "$31,978,100",
+      "price": "$12855.80",
+      "volume": "0.27%"
+    },
+    {
+      "id": "66",
+      "exchange": "Poloniex",
+      "pair": "XMR/BTC",
+      "volume24h": "$31,775,400",
+      "price": "$12816.00",
+      "volume": "0.27%"
+    },
+    {
+      "id": "67",
+      "exchange": "Binance",
+      "pair": "POE/BTC",
+      "volume24h": "$31,421,300",
+      "price": "$12902.80",
+      "volume": "0.27%"
+    },
+    {
+      "id": "68",
+      "exchange": "Bitfinex",
+      "pair": "BCH/BTC",
+      "volume24h": "$31,211,300",
+      "price": "$12920.40",
+      "volume": "0.27%"
+    },
+    {
+      "id": "69",
+      "exchange": "CoinEgg",
+      "pair": "NEO/BTC",
+      "volume24h": "$30,833,900",
+      "price": "$12861.70",
+      "volume": "0.26%"
+    },
+    {
+      "id": "70",
+      "exchange": "Huobi",
+      "pair": "EOS/BTC",
+      "volume24h": "$28,248,600",
+      "price": "$12780.60",
+      "volume": "0.24%"
+    },
+    {
+      "id": "71",
+      "exchange": "Bittrex",
+      "pair": "NEO/BTC",
+      "volume24h": "$27,933,400",
+      "price": "$13014.80",
+      "volume": "0.24%"
+    },
+    {
+      "id": "72",
+      "exchange": "Binance",
+      "pair": "XVG/BTC",
+      "volume24h": "$27,881,600",
+      "price": "$12881.10",
+      "volume": "0.24%"
+    },
+    {
+      "id": "73",
+      "exchange": "Bittrex",
+      "pair": "XVG/BTC",
+      "volume24h": "$26,709,100",
+      "price": "$12926.40",
+      "volume": "0.23%"
+    },
+    {
+      "id": "74",
+      "exchange": "Bit-Z",
+      "pair": "LTC/BTC",
+      "volume24h": "$26,690,700",
+      "price": "$12858.90",
+      "volume": "0.23%"
+    },
+    {
+      "id": "75",
+      "exchange": "Binance",
+      "pair": "BCC/BTC",
+      "volume24h": "$25,808,800",
+      "price": "$12996.30",
+      "volume": "0.22%"
+    },
+    {
+      "id": "76",
+      "exchange": "CoinsBank",
+      "pair": "BTC/USD",
+      "volume24h": "$25,579,100",
+      "price": "$12615.60",
+      "volume": "0.22%"
+    },
+    {
+      "id": "77",
+      "exchange": "Huobi",
+      "pair": "ETH/BTC",
+      "volume24h": "$25,126,900",
+      "price": "$12800.30",
+      "volume": "0.21%"
+    },
+    {
+      "id": "78",
+      "exchange": "CoinEgg",
+      "pair": "TRX/BTC",
+      "volume24h": "$24,845,700",
+      "price": "$12576.60",
+      "volume": "0.21%"
+    },
+    {
+      "id": "79",
+      "exchange": "HitBTC",
+      "pair": "ZEC/BTC",
+      "volume24h": "$24,798,800",
+      "price": "$12928.10",
+      "volume": "0.21%"
+    },
+    {
+      "id": "80",
+      "exchange": "Bit-Z",
+      "pair": "TRX/BTC",
+      "volume24h": "$24,706,200",
+      "price": "$12951.70",
+      "volume": "0.21%"
+    },
+    {
+      "id": "81",
+      "exchange": "Binance",
+      "pair": "LTC/BTC",
+      "volume24h": "$24,699,800",
+      "price": "$12858.90",
+      "volume": "0.21%"
+    },
+    {
+      "id": "82",
+      "exchange": "Kucoin",
+      "pair": "TEL/BTC",
+      "volume24h": "$24,560,500",
+      "price": "$12728.50",
+      "volume": "0.21%"
+    },
+    {
+      "id": "83",
+      "exchange": "Binance",
+      "pair": "SNGLS/BTC",
+      "volume24h": "$24,437,800",
+      "price": "$12713.90",
+      "volume": "0.21%"
+    },
+    {
+      "id": "84",
+      "exchange": "Binance",
+      "pair": "BCPT/BTC",
+      "volume24h": "$24,353,700",
+      "price": "$12817.70",
+      "volume": "0.21%"
+    },
+    {
+      "id": "85",
+      "exchange": "EXX",
+      "pair": "INK/BTC",
+      "volume24h": "$23,025,300",
+      "price": "$12621.80",
+      "volume": "0.20%"
+    },
+    {
+      "id": "86",
+      "exchange": "CoinsBank",
+      "pair": "BTC/GBP",
+      "volume24h": "$22,336,600",
+      "price": "$12761.40",
+      "volume": "0.19%"
+    },
+    {
+      "id": "87",
+      "exchange": "Kraken",
+      "pair": "ETH/BTC",
+      "volume24h": "$22,239,400",
+      "price": "$12825.60",
+      "volume": "0.19%"
+    },
+    {
+      "id": "88",
+      "exchange": "Binance",
+      "pair": "XLM/BTC",
+      "volume24h": "$21,860,000",
+      "price": "$14448.10",
+      "volume": "0.19%"
+    },
+    {
+      "id": "89",
+      "exchange": "Upbit",
+      "pair": "QTUM/BTC",
+      "volume24h": "$21,822,200",
+      "price": "$12655.30",
+      "volume": "0.19%"
+    },
+    {
+      "id": "90",
+      "exchange": "CoinsBank",
+      "pair": "BTC/EUR",
+      "volume24h": "$21,798,100",
+      "price": "$12625.20",
+      "volume": "0.19%"
+    },
+    {
+      "id": "91",
+      "exchange": "Huobi",
+      "pair": "XRP/BTC",
+      "volume24h": "$21,649,300",
+      "price": "$12770.20",
+      "volume": "0.18%"
+    },
+    {
+      "id": "92",
+      "exchange": "Upbit",
+      "pair": "ETH/BTC",
+      "volume24h": "$21,252,900",
+      "price": "$12770.20",
+      "volume": "0.18%"
+    },
+    {
+      "id": "93",
+      "exchange": "Binance",
+      "pair": "LRC/BTC",
+      "volume24h": "$21,187,700",
+      "price": "$12918.30",
+      "volume": "0.18%"
+    },
+    {
+      "id": "94",
+      "exchange": "Upbit",
+      "pair": "XVG/BTC",
+      "volume24h": "$21,099,500",
+      "price": "$12911.30",
+      "volume": "0.18%"
+    },
+    {
+      "id": "95",
+      "exchange": "Livecoin",
+      "pair": "ETH/BTC",
+      "volume24h": "$21,082,800",
+      "price": "$12743.60",
+      "volume": "0.18%"
+    },
+    {
+      "id": "96",
+      "exchange": "Binance",
+      "pair": "ELF/BTC",
+      "volume24h": "$20,884,400",
+      "price": "$12893.70",
+      "volume": "0.18%"
+    },
+    {
+      "id": "97",
+      "exchange": "Bit-Z",
+      "pair": "BCH/BTC",
+      "volume24h": "$20,791,600",
+      "price": "$12919.20",
+      "volume": "0.18%"
+    },
+    {
+      "id": "98",
+      "exchange": "Bittrex",
+      "pair": "BCC/BTC",
+      "volume24h": "$20,186,600",
+      "price": "$12910.80",
+      "volume": "0.17%"
+    },
+    {
+      "id": "99",
+      "exchange": "Huobi",
+      "pair": "VEN/BTC",
+      "volume24h": "$20,177,700",
+      "price": "$13072.30",
+      "volume": "0.17%"
+    },
+    {
+      "id": "100",
+      "exchange": "Exmo",
+      "pair": "BTC/USD",
+      "volume24h": "$20,048,200",
+      "price": "$13994.90",
+      "volume": "0.17%"
+    },
+    {
+      "id": "101",
+      "exchange": "Bittrex",
+      "pair": "XLM/BTC",
+      "volume24h": "$19,963,800",
+      "price": "$14455.10",
+      "volume": "0.17%"
+    },
+    {
+      "id": "102",
+      "exchange": "Binance",
+      "pair": "IOTA/BTC",
+      "volume24h": "$19,539,900",
+      "price": "$12532.00",
+      "volume": "0.17%"
+    },
+    {
+      "id": "103",
+      "exchange": "Bittrex",
+      "pair": "QTUM/BTC",
+      "volume24h": "$19,312,600",
+      "price": "$12639.30",
+      "volume": "0.16%"
+    },
+    {
+      "id": "104",
+      "exchange": "Bitfinex",
+      "pair": "XRP/BTC",
+      "volume24h": "$19,127,900",
+      "price": "$12903.20",
+      "volume": "0.16%"
+    },
+    {
+      "id": "105",
+      "exchange": "Binance",
+      "pair": "QTUM/BTC",
+      "volume24h": "$19,063,800",
+      "price": "$12727.10",
+      "volume": "0.16%"
+    },
+    {
+      "id": "106",
+      "exchange": "Tidex",
+      "pair": "WAVES/BTC",
+      "volume24h": "$19,058,000",
+      "price": "$13519.30",
+      "volume": "0.16%"
+    },
+    {
+      "id": "107",
+      "exchange": "Bitfinex",
+      "pair": "NEO/BTC",
+      "volume24h": "$18,785,300",
+      "price": "$12885.90",
+      "volume": "0.16%"
+    },
+    {
+      "id": "108",
+      "exchange": "OKEx",
+      "pair": "MANA/BTC",
+      "volume24h": "$18,348,200",
+      "price": "$12890.40",
+      "volume": "0.16%"
+    },
+    {
+      "id": "109",
+      "exchange": "Upbit",
+      "pair": "NEO/BTC",
+      "volume24h": "$18,252,700",
+      "price": "$13014.80",
+      "volume": "0.16%"
+    },
+    {
+      "id": "110",
+      "exchange": "Kraken",
+      "pair": "EOS/BTC",
+      "volume24h": "$18,125,200",
+      "price": "$12721.70",
+      "volume": "0.15%"
+    },
+    {
+      "id": "111",
+      "exchange": "CEX.IO",
+      "pair": "BTC/USD",
+      "volume24h": "$17,655,600",
+      "price": "$13401.00",
+      "volume": "0.15%"
+    },
+    {
+      "id": "112",
+      "exchange": "Kraken",
+      "pair": "XRP/BTC",
+      "volume24h": "$17,118,800",
+      "price": "$12847.60",
+      "volume": "0.15%"
+    },
+    {
+      "id": "113",
+      "exchange": "Huobi",
+      "pair": "KNC/BTC",
+      "volume24h": "$16,479,700",
+      "price": "$12894.50",
+      "volume": "0.14%"
+    },
+    {
+      "id": "114",
+      "exchange": "Binance",
+      "pair": "ARN/BTC",
+      "volume24h": "$16,276,700",
+      "price": "$12921.60",
+      "volume": "0.14%"
+    },
+    {
+      "id": "115",
+      "exchange": "Huobi",
+      "pair": "ELF/BTC",
+      "volume24h": "$15,673,500",
+      "price": "$12943.20",
+      "volume": "0.13%"
+    },
+    {
+      "id": "116",
+      "exchange": "Bittrex",
+      "pair": "STEEM/BTC",
+      "volume24h": "$15,652,100",
+      "price": "$14964.00",
+      "volume": "0.13%"
+    },
+    {
+      "id": "117",
+      "exchange": "Poloniex",
+      "pair": "BCH/BTC",
+      "volume24h": "$15,441,900",
+      "price": "$12981.10",
+      "volume": "0.13%"
+    },
+    {
+      "id": "118",
+      "exchange": "ZB.COM",
+      "pair": "INK/BTC",
+      "volume24h": "$15,248,800",
+      "price": "$13505.30",
+      "volume": "0.13%"
+    },
+    {
+      "id": "119",
+      "exchange": "Binance",
+      "pair": "XMR/BTC",
+      "volume24h": "$15,246,800",
+      "price": "$12799.00",
+      "volume": "0.13%"
+    },
+    {
+      "id": "120",
+      "exchange": "OKEx",
+      "pair": "TOPC/BTC",
+      "volume24h": "$15,029,900",
+      "price": "$12839.80",
+      "volume": "0.13%"
+    },
+    {
+      "id": "121",
+      "exchange": "Bitfinex",
+      "pair": "XMR/BTC",
+      "volume24h": "$14,920,400",
+      "price": "$12824.70",
+      "volume": "0.13%"
+    },
+    {
+      "id": "122",
+      "exchange": "EXX",
+      "pair": "BCC/BTC",
+      "volume24h": "$14,671,300",
+      "price": "$13062.80",
+      "volume": "0.13%"
+    },
+    {
+      "id": "123",
+      "exchange": "Bittrex",
+      "pair": "ETC/BTC",
+      "volume24h": "$14,596,500",
+      "price": "$12851.00",
+      "volume": "0.12%"
+    },
+    {
+      "id": "124",
+      "exchange": "Gate.io",
+      "pair": "BTC/USDT",
+      "volume24h": "$14,366,100",
+      "price": "$12812.00",
+      "volume": "0.12%"
+    },
+    {
+      "id": "125",
+      "exchange": "Upbit",
+      "pair": "XLM/BTC",
+      "volume24h": "$14,274,100",
+      "price": "$14462.00",
+      "volume": "0.12%"
+    },
+    {
+      "id": "126",
+      "exchange": "Bittrex",
+      "pair": "XMR/BTC",
+      "volume24h": "$14,230,800",
+      "price": "$12790.70",
+      "volume": "0.12%"
+    },
+    {
+      "id": "127",
+      "exchange": "Binance",
+      "pair": "ETC/BTC",
+      "volume24h": "$14,159,000",
+      "price": "$12813.50",
+      "volume": "0.12%"
+    },
+    {
+      "id": "128",
+      "exchange": "Upbit",
+      "pair": "STEEM/BTC",
+      "volume24h": "$13,999,100",
+      "price": "$14964.00",
+      "volume": "0.12%"
+    },
+    {
+      "id": "129",
+      "exchange": "Upbit",
+      "pair": "XDN/BTC",
+      "volume24h": "$13,823,500",
+      "price": "$11911.20",
+      "volume": "0.12%"
+    },
+    {
+      "id": "130",
+      "exchange": "Paribu",
+      "pair": "BTC/TRY",
+      "volume24h": "$13,661,100",
+      "price": "$12967.30",
+      "volume": "0.12%"
+    },
+    {
+      "id": "131",
+      "exchange": "RightBTC",
+      "pair": "LTC/BTC",
+      "volume24h": "$13,410,300",
+      "price": "$12807.00",
+      "volume": "0.11%"
+    },
+    {
+      "id": "132",
+      "exchange": "Binance",
+      "pair": "DNT/BTC",
+      "volume24h": "$13,405,300",
+      "price": "$12741.60",
+      "volume": "0.11%"
+    },
+    {
+      "id": "133",
+      "exchange": "Bibox",
+      "pair": "BIX/BTC",
+      "volume24h": "$13,385,400",
+      "price": "$12906.40",
+      "volume": "0.11%"
+    },
+    {
+      "id": "134",
+      "exchange": "Luno",
+      "pair": "BTC/ZAR",
+      "volume24h": "$13,238,000",
+      "price": "$14306.50",
+      "volume": "0.11%"
+    },
+    {
+      "id": "135",
+      "exchange": "Bittrex",
+      "pair": "XEM/BTC",
+      "volume24h": "$13,179,200",
+      "price": "$14131.10",
+      "volume": "0.11%"
+    },
+    {
+      "id": "136",
+      "exchange": "Exmo",
+      "pair": "BTC/RUB",
+      "volume24h": "$13,112,100",
+      "price": "$13877.90",
+      "volume": "0.11%"
+    },
+    {
+      "id": "137",
+      "exchange": "Binance",
+      "pair": "OST/BTC",
+      "volume24h": "$13,066,600",
+      "price": "$12984.30",
+      "volume": "0.11%"
+    },
+    {
+      "id": "138",
+      "exchange": "Binance",
+      "pair": "MDA/BTC",
+      "volume24h": "$12,945,800",
+      "price": "$12950.50",
+      "volume": "0.11%"
+    },
+    {
+      "id": "139",
+      "exchange": "Poloniex",
+      "pair": "STR/BTC",
+      "volume24h": "$12,923,000",
+      "price": "$14521.50",
+      "volume": "0.11%"
+    },
+    {
+      "id": "140",
+      "exchange": "Kucoin",
+      "pair": "ETH/BTC",
+      "volume24h": "$12,859,200",
+      "price": "$12792.70",
+      "volume": "0.11%"
+    },
+    {
+      "id": "141",
+      "exchange": "Livecoin",
+      "pair": "BTC/USD",
+      "volume24h": "$12,826,700",
+      "price": "$13797.70",
+      "volume": "0.11%"
+    },
+    {
+      "id": "142",
+      "exchange": "Bitfinex",
+      "pair": "MIOTA/BTC",
+      "volume24h": "$12,787,600",
+      "price": "$12718.40",
+      "volume": "0.11%"
+    },
+    {
+      "id": "143",
+      "exchange": "OKEx",
+      "pair": "QTUM/BTC",
+      "volume24h": "$12,710,800",
+      "price": "$12698.80",
+      "volume": "0.11%"
+    },
+    {
+      "id": "144",
+      "exchange": "GDAX",
+      "pair": "ETH/BTC",
+      "volume24h": "$12,584,300",
+      "price": "$12795.60",
+      "volume": "0.11%"
+    },
+    {
+      "id": "145",
+      "exchange": "Binance",
+      "pair": "REQ/BTC",
+      "volume24h": "$12,427,600",
+      "price": "$12875.80",
+      "volume": "0.11%"
+    },
+    {
+      "id": "146",
+      "exchange": "Bitcoin Indonesia",
+      "pair": "BTC/IDR",
+      "volume24h": "$12,383,400",
+      "price": "$13288.50",
+      "volume": "0.11%"
+    },
+    {
+      "id": "147",
+      "exchange": "Bittrex",
+      "pair": "BTG/BTC",
+      "volume24h": "$12,260,900",
+      "price": "$12824.00",
+      "volume": "0.10%"
+    },
+    {
+      "id": "148",
+      "exchange": "Bit-Z",
+      "pair": "FCT/BTC",
+      "volume24h": "$12,017,100",
+      "price": "$12940.90",
+      "volume": "0.10%"
+    },
+    {
+      "id": "149",
+      "exchange": "Lbank",
+      "pair": "QTUM/BTC",
+      "volume24h": "$11,956,600",
+      "price": "$12634.10",
+      "volume": "0.10%"
+    },
+    {
+      "id": "150",
+      "exchange": "Bit-Z",
+      "pair": "LSK/BTC",
+      "volume24h": "$11,931,000",
+      "price": "$13190.60",
+      "volume": "0.10%"
+    },
+    {
+      "id": "151",
+      "exchange": "Upbit",
+      "pair": "SBD/BTC",
+      "volume24h": "$11,925,600",
+      "price": "$15277.20",
+      "volume": "0.10%"
+    },
+    {
+      "id": "152",
+      "exchange": "Binance",
+      "pair": "WABI/BTC",
+      "volume24h": "$11,861,900",
+      "price": "$13076.20",
+      "volume": "0.10%"
+    },
+    {
+      "id": "153",
+      "exchange": "Binance",
+      "pair": "BNT/BTC",
+      "volume24h": "$11,844,500",
+      "price": "$12923.60",
+      "volume": "0.10%"
+    },
+    {
+      "id": "154",
+      "exchange": "BitBay",
+      "pair": "BTC/PLN",
+      "volume24h": "$11,838,200",
+      "price": "$12851.70",
+      "volume": "0.10%"
+    },
+    {
+      "id": "155",
+      "exchange": "Bittrex",
+      "pair": "ZCL/BTC",
+      "volume24h": "$11,762,500",
+      "price": "$12932.00",
+      "volume": "0.10%"
+    },
+    {
+      "id": "156",
+      "exchange": "Binance",
+      "pair": "CDT/BTC",
+      "volume24h": "$11,752,300",
+      "price": "$12645.50",
+      "volume": "0.10%"
+    },
+    {
+      "id": "157",
+      "exchange": "RightBTC",
+      "pair": "BCC/BTC",
+      "volume24h": "$11,653,100",
+      "price": "$12781.30",
+      "volume": "0.10%"
+    },
+    {
+      "id": "158",
+      "exchange": "Cryptopia",
+      "pair": "ETN/BTC",
+      "volume24h": "$11,486,700",
+      "price": "$12823.40",
+      "volume": "0.10%"
+    },
+    {
+      "id": "159",
+      "exchange": "OKEx",
+      "pair": "BTG/BTC",
+      "volume24h": "$11,470,200",
+      "price": "$13020.20",
+      "volume": "0.10%"
+    },
+    {
+      "id": "160",
+      "exchange": "Binance",
+      "pair": "BRD/BTC",
+      "volume24h": "$11,445,400",
+      "price": "$12875.40",
+      "volume": "0.10%"
+    },
+    {
+      "id": "161",
+      "exchange": "Upbit",
+      "pair": "BCC/BTC",
+      "volume24h": "$11,437,100",
+      "price": "$12910.80",
+      "volume": "0.10%"
+    },
+    {
+      "id": "162",
+      "exchange": "Bit-Z",
+      "pair": "ETC/BTC",
+      "volume24h": "$11,432,200",
+      "price": "$12830.30",
+      "volume": "0.10%"
+    },
+    {
+      "id": "163",
+      "exchange": "Lbank",
+      "pair": "VEN/BTC",
+      "volume24h": "$11,387,600",
+      "price": "$12789.00",
+      "volume": "0.10%"
+    },
+    {
+      "id": "164",
+      "exchange": "Bittrex",
+      "pair": "STRAT/BTC",
+      "volume24h": "$11,062,300",
+      "price": "$14067.10",
+      "volume": "0.09%"
+    },
+    {
+      "id": "165",
+      "exchange": "Binance",
+      "pair": "HSR/BTC",
+      "volume24h": "$11,030,700",
+      "price": "$13964.90",
+      "volume": "0.09%"
+    },
+    {
+      "id": "166",
+      "exchange": "Binance",
+      "pair": "TNB/BTC",
+      "volume24h": "$10,976,400",
+      "price": "$12733.50",
+      "volume": "0.09%"
+    },
+    {
+      "id": "167",
+      "exchange": "Upbit",
+      "pair": "BAY/BTC",
+      "volume24h": "$10,647,800",
+      "price": "$12877.10",
+      "volume": "0.09%"
+    },
+    {
+      "id": "168",
+      "exchange": "Coinrail",
+      "pair": "DENT/BTC",
+      "volume24h": "$10,638,000",
+      "price": "$12759.30",
+      "volume": "0.09%"
+    },
+    {
+      "id": "169",
+      "exchange": "Bittrex",
+      "pair": "LTC/BTC",
+      "volume24h": "$10,598,000",
+      "price": "$12869.30",
+      "volume": "0.09%"
+    },
+    {
+      "id": "170",
+      "exchange": "Binance",
+      "pair": "KNC/BTC",
+      "volume24h": "$10,507,900",
+      "price": "$13017.50",
+      "volume": "0.09%"
+    },
+    {
+      "id": "171",
+      "exchange": "Binance",
+      "pair": "OMG/BTC",
+      "volume24h": "$10,388,000",
+      "price": "$12632.50",
+      "volume": "0.09%"
+    },
+    {
+      "id": "172",
+      "exchange": "Bitstamp",
+      "pair": "ETH/BTC",
+      "volume24h": "$10,382,900",
+      "price": "$12816.80",
+      "volume": "0.09%"
+    },
+    {
+      "id": "173",
+      "exchange": "CoinEgg",
+      "pair": "LSK/BTC",
+      "volume24h": "$10,316,200",
+      "price": "$12972.00",
+      "volume": "0.09%"
+    },
+    {
+      "id": "174",
+      "exchange": "Binance",
+      "pair": "BTS/BTC",
+      "volume24h": "$10,310,100",
+      "price": "$12702.90",
+      "volume": "0.09%"
+    },
+    {
+      "id": "175",
+      "exchange": "Binance",
+      "pair": "NEBL/BTC",
+      "volume24h": "$10,308,300",
+      "price": "$12892.10",
+      "volume": "0.09%"
+    },
+    {
+      "id": "176",
+      "exchange": "Bittrex",
+      "pair": "OMG/BTC",
+      "volume24h": "$10,275,600",
+      "price": "$12628.50",
+      "volume": "0.09%"
+    },
+    {
+      "id": "177",
+      "exchange": "Bittrex",
+      "pair": "SBD/BTC",
+      "volume24h": "$9,984,250",
+      "price": "$15277.20",
+      "volume": "0.09%"
+    },
+    {
+      "id": "178",
+      "exchange": "Upbit",
+      "pair": "VOX/BTC",
+      "volume24h": "$9,834,020",
+      "price": "$12928.50",
+      "volume": "0.08%"
+    },
+    {
+      "id": "179",
+      "exchange": "Poloniex",
+      "pair": "ETC/BTC",
+      "volume24h": "$9,796,260",
+      "price": "$12860.30",
+      "volume": "0.08%"
+    },
+    {
+      "id": "180",
+      "exchange": "Bitfinex",
+      "pair": "ETC/BTC",
+      "volume24h": "$9,730,090",
+      "price": "$12853.80",
+      "volume": "0.08%"
+    },
+    {
+      "id": "181",
+      "exchange": "QuadrigaCX",
+      "pair": "BTC/CAD",
+      "volume24h": "$9,718,590",
+      "price": "$12784.40",
+      "volume": "0.08%"
+    },
+    {
+      "id": "182",
+      "exchange": "Bittrex",
+      "pair": "MONA/BTC",
+      "volume24h": "$9,657,820",
+      "price": "$13059.50",
+      "volume": "0.08%"
+    },
+    {
+      "id": "183",
+      "exchange": "Upbit",
+      "pair": "BTG/BTC",
+      "volume24h": "$9,611,540",
+      "price": "$12824.10",
+      "volume": "0.08%"
+    },
+    {
+      "id": "184",
+      "exchange": "Huobi",
+      "pair": "IOST/BTC",
+      "volume24h": "$9,603,830",
+      "price": "$12774.80",
+      "volume": "0.08%"
+    },
+    {
+      "id": "185",
+      "exchange": "CoinEgg",
+      "pair": "QTUM/BTC",
+      "volume24h": "$9,504,390",
+      "price": "$12887.40",
+      "volume": "0.08%"
+    },
+    {
+      "id": "186",
+      "exchange": "CoinEgg",
+      "pair": "BCH/BTC",
+      "volume24h": "$9,458,620",
+      "price": "$12848.90",
+      "volume": "0.08%"
+    },
+    {
+      "id": "187",
+      "exchange": "Coinrail",
+      "pair": "MED/BTC",
+      "volume24h": "$9,390,780",
+      "price": "$13126.60",
+      "volume": "0.08%"
+    },
+    {
+      "id": "188",
+      "exchange": "Tidex",
+      "pair": "ETH/BTC",
+      "volume24h": "$9,342,490",
+      "price": "$12763.90",
+      "volume": "0.08%"
+    },
+    {
+      "id": "189",
+      "exchange": "Upbit",
+      "pair": "XEM/BTC",
+      "volume24h": "$9,341,040",
+      "price": "$14132.60",
+      "volume": "0.08%"
+    },
+    {
+      "id": "190",
+      "exchange": "Bittrex",
+      "pair": "XDN/BTC",
+      "volume24h": "$9,304,940",
+      "price": "$11911.20",
+      "volume": "0.08%"
+    },
+    {
+      "id": "191",
+      "exchange": "Huobi",
+      "pair": "ZEC/BTC",
+      "volume24h": "$9,243,640",
+      "price": "$12915.30",
+      "volume": "0.08%"
+    },
+    {
+      "id": "192",
+      "exchange": "WEX",
+      "pair": "BTC/USD",
+      "volume24h": "$9,234,470",
+      "price": "$13050.00",
+      "volume": "0.08%"
+    },
+    {
+      "id": "193",
+      "exchange": "Bitstamp",
+      "pair": "XRP/BTC",
+      "volume24h": "$9,177,260",
+      "price": "$12855.90",
+      "volume": "0.08%"
+    },
+    {
+      "id": "194",
+      "exchange": "Huobi",
+      "pair": "BCH/BTC",
+      "volume24h": "$9,161,140",
+      "price": "$12862.30",
+      "volume": "0.08%"
+    },
+    {
+      "id": "195",
+      "exchange": "Bittrex",
+      "pair": "EMC2/BTC",
+      "volume24h": "$9,147,560",
+      "price": "$15151.20",
+      "volume": "0.08%"
+    },
+    {
+      "id": "196",
+      "exchange": "Binance",
+      "pair": "LEND/BTC",
+      "volume24h": "$9,114,510",
+      "price": "$12939.00",
+      "volume": "0.08%"
+    },
+    {
+      "id": "197",
+      "exchange": "Bittrex",
+      "pair": "POWR/BTC",
+      "volume24h": "$9,060,490",
+      "price": "$14607.90",
+      "volume": "0.08%"
+    },
+    {
+      "id": "198",
+      "exchange": "Upbit",
+      "pair": "EMC2/BTC",
+      "volume24h": "$8,963,680",
+      "price": "$15151.20",
+      "volume": "0.08%"
+    },
+    {
+      "id": "199",
+      "exchange": "Bitfinex",
+      "pair": "LTC/BTC",
+      "volume24h": "$8,957,970",
+      "price": "$12834.60",
+      "volume": "0.08%"
+    },
+    {
+      "id": "200",
+      "exchange": "Bit-Z",
+      "pair": "EOS/BTC",
+      "volume24h": "$8,872,900",
+      "price": "$12833.30",
+      "volume": "0.08%"
+    },
+    {
+      "id": "201",
+      "exchange": "Kraken",
+      "pair": "BCH/BTC",
+      "volume24h": "$8,815,140",
+      "price": "$12901.60",
+      "volume": "0.08%"
+    },
+    {
+      "id": "202",
+      "exchange": "Binance",
+      "pair": "AION/BTC",
+      "volume24h": "$8,792,370",
+      "price": "$12913.20",
+      "volume": "0.08%"
+    },
+    {
+      "id": "203",
+      "exchange": "YoBit",
+      "pair": "ETH/BTC",
+      "volume24h": "$8,789,600",
+      "price": "$12852.60",
+      "volume": "0.07%"
+    },
+    {
+      "id": "204",
+      "exchange": "Kraken",
+      "pair": "XLM/BTC",
+      "volume24h": "$8,747,040",
+      "price": "$14396.10",
+      "volume": "0.07%"
+    },
+    {
+      "id": "205",
+      "exchange": "Huobi",
+      "pair": "CVC/BTC",
+      "volume24h": "$8,682,930",
+      "price": "$13067.20",
+      "volume": "0.07%"
+    },
+    {
+      "id": "206",
+      "exchange": "Binance",
+      "pair": "BTG/BTC",
+      "volume24h": "$8,656,220",
+      "price": "$12820.60",
+      "volume": "0.07%"
+    },
+    {
+      "id": "207",
+      "exchange": "Huobi",
+      "pair": "MDS/BTC",
+      "volume24h": "$8,600,140",
+      "price": "$12877.00",
+      "volume": "0.07%"
+    },
+    {
+      "id": "208",
+      "exchange": "Binance",
+      "pair": "FUN/BTC",
+      "volume24h": "$8,487,570",
+      "price": "$12681.20",
+      "volume": "0.07%"
+    },
+    {
+      "id": "209",
+      "exchange": "EXX",
+      "pair": "LTC/BTC",
+      "volume24h": "$8,479,460",
+      "price": "$12923.40",
+      "volume": "0.07%"
+    },
+    {
+      "id": "210",
+      "exchange": "Poloniex",
+      "pair": "SC/BTC",
+      "volume24h": "$8,382,210",
+      "price": "$13255.10",
+      "volume": "0.07%"
+    },
+    {
+      "id": "211",
+      "exchange": "Bittrex",
+      "pair": "BAY/BTC",
+      "volume24h": "$8,381,580",
+      "price": "$12877.10",
+      "volume": "0.07%"
+    },
+    {
+      "id": "212",
+      "exchange": "Poloniex",
+      "pair": "XEM/BTC",
+      "volume24h": "$8,125,280",
+      "price": "$14123.40",
+      "volume": "0.07%"
+    },
+    {
+      "id": "213",
+      "exchange": "BX Thailand",
+      "pair": "BTC/THB",
+      "volume24h": "$7,936,260",
+      "price": "$14257.60",
+      "volume": "0.07%"
+    },
+    {
+      "id": "214",
+      "exchange": "Gatecoin",
+      "pair": "TRX/BTC",
+      "volume24h": "$7,880,050",
+      "price": "$13238.20",
+      "volume": "0.07%"
+    },
+    {
+      "id": "215",
+      "exchange": "Bit-Z",
+      "pair": "ZEC/BTC",
+      "volume24h": "$7,877,260",
+      "price": "$12951.00",
+      "volume": "0.07%"
+    },
+    {
+      "id": "216",
+      "exchange": "Bitfinex",
+      "pair": "ZEC/BTC",
+      "volume24h": "$7,812,950",
+      "price": "$12938.20",
+      "volume": "0.07%"
+    },
+    {
+      "id": "217",
+      "exchange": "Bittrex",
+      "pair": "EDG/BTC",
+      "volume24h": "$7,800,450",
+      "price": "$12849.50",
+      "volume": "0.07%"
+    },
+    {
+      "id": "218",
+      "exchange": "Binance",
+      "pair": "ZRX/BTC",
+      "volume24h": "$7,731,790",
+      "price": "$12664.50",
+      "volume": "0.07%"
+    },
+    {
+      "id": "219",
+      "exchange": "Huobi",
+      "pair": "NEO/BTC",
+      "volume24h": "$7,722,000",
+      "price": "$12854.60",
+      "volume": "0.07%"
+    },
+    {
+      "id": "220",
+      "exchange": "Upbit",
+      "pair": "ETC/BTC",
+      "volume24h": "$7,721,980",
+      "price": "$12851.00",
+      "volume": "0.07%"
+    },
+    {
+      "id": "221",
+      "exchange": "CoinEgg",
+      "pair": "XRP/BTC",
+      "volume24h": "$7,620,990",
+      "price": "$12505.00",
+      "volume": "0.07%"
+    },
+    {
+      "id": "222",
+      "exchange": "Bittrex",
+      "pair": "DGB/BTC",
+      "volume24h": "$7,599,720",
+      "price": "$12668.30",
+      "volume": "0.06%"
+    },
+    {
+      "id": "223",
+      "exchange": "OKEx",
+      "pair": "SNC/BTC",
+      "volume24h": "$7,590,270",
+      "price": "$12211.10",
+      "volume": "0.06%"
+    },
+    {
+      "id": "224",
+      "exchange": "HitBTC",
+      "pair": "BTG/BTC",
+      "volume24h": "$7,566,720",
+      "price": "$12753.80",
+      "volume": "0.06%"
+    },
+    {
+      "id": "225",
+      "exchange": "HitBTC",
+      "pair": "EOS/BTC",
+      "volume24h": "$7,549,250",
+      "price": "$12824.70",
+      "volume": "0.06%"
+    },
+    {
+      "id": "226",
+      "exchange": "Poloniex",
+      "pair": "LTC/BTC",
+      "volume24h": "$7,537,070",
+      "price": "$12815.10",
+      "volume": "0.06%"
+    },
+    {
+      "id": "227",
+      "exchange": "Exmo",
+      "pair": "ETH/BTC",
+      "volume24h": "$7,515,580",
+      "price": "$12912.00",
+      "volume": "0.06%"
+    },
+    {
+      "id": "228",
+      "exchange": "Huobi",
+      "pair": "ICX/BTC",
+      "volume24h": "$7,502,760",
+      "price": "$12718.40",
+      "volume": "0.06%"
+    },
+    {
+      "id": "229",
+      "exchange": "Bittrex",
+      "pair": "DGD/BTC",
+      "volume24h": "$7,496,290",
+      "price": "$12739.20",
+      "volume": "0.00%"
+    },
+    {
+      "id": "230",
+      "exchange": "Binance",
+      "pair": "GTO/BTC",
+      "volume24h": "$7,493,460",
+      "price": "$12852.60",
+      "volume": "0.06%"
+    },
+    {
+      "id": "231",
+      "exchange": "BTC Markets",
+      "pair": "BTC/AUD",
+      "volume24h": "$7,466,680",
+      "price": "$13469.40",
+      "volume": "0.06%"
+    },
+    {
+      "id": "232",
+      "exchange": "Binance",
+      "pair": "SUB/BTC",
+      "volume24h": "$7,437,550",
+      "price": "$12778.50",
+      "volume": "0.06%"
+    },
+    {
+      "id": "233",
+      "exchange": "GetBTC",
+      "pair": "BTC/RUB",
+      "volume24h": "$7,415,470",
+      "price": "$13169.90",
+      "volume": "0.06%"
+    },
+    {
+      "id": "234",
+      "exchange": "Huobi",
+      "pair": "GAS/BTC",
+      "volume24h": "$7,393,100",
+      "price": "$12901.00",
+      "volume": "0.06%"
+    },
+    {
+      "id": "235",
+      "exchange": "HitBTC",
+      "pair": "XDN/BTC",
+      "volume24h": "$7,327,330",
+      "price": "$16577.60",
+      "volume": "0.06%"
+    },
+    {
+      "id": "236",
+      "exchange": "Upbit",
+      "pair": "MER/BTC",
+      "volume24h": "$7,294,820",
+      "price": "$15539.40",
+      "volume": "0.06%"
+    },
+    {
+      "id": "237",
+      "exchange": "GetBTC",
+      "pair": "BTC/EUR",
+      "volume24h": "$7,290,510",
+      "price": "$12948.00",
+      "volume": "0.06%"
+    },
+    {
+      "id": "238",
+      "exchange": "Huobi",
+      "pair": "GNX/BTC",
+      "volume24h": "$7,274,250",
+      "price": "$12967.10",
+      "volume": "0.06%"
+    },
+    {
+      "id": "239",
+      "exchange": "GetBTC",
+      "pair": "BTC/USD",
+      "volume24h": "$7,267,840",
+      "price": "$12907.80",
+      "volume": "0.06%"
+    },
+    {
+      "id": "240",
+      "exchange": "OKEx",
+      "pair": "SWFTC/BTC",
+      "volume24h": "$7,251,400",
+      "price": "$12854.70",
+      "volume": "0.06%"
+    },
+    {
+      "id": "241",
+      "exchange": "Poloniex",
+      "pair": "BTS/BTC",
+      "volume24h": "$7,238,960",
+      "price": "$13373.40",
+      "volume": "0.06%"
+    },
+    {
+      "id": "242",
+      "exchange": "Bittrex",
+      "pair": "REP/BTC",
+      "volume24h": "$7,218,570",
+      "price": "$13631.60",
+      "volume": "0.06%"
+    },
+    {
+      "id": "243",
+      "exchange": "Upbit",
+      "pair": "EDG/BTC",
+      "volume24h": "$7,189,790",
+      "price": "$12849.50",
+      "volume": "0.06%"
+    },
+    {
+      "id": "244",
+      "exchange": "OKEx",
+      "pair": "NEO/BTC",
+      "volume24h": "$7,159,160",
+      "price": "$12890.40",
+      "volume": "0.06%"
+    },
+    {
+      "id": "245",
+      "exchange": "YoBit",
+      "pair": "DASH/BTC",
+      "volume24h": "$7,117,320",
+      "price": "$12993.70",
+      "volume": "0.06%"
+    },
+    {
+      "id": "246",
+      "exchange": "Bitbank",
+      "pair": "BTC/JPY",
+      "volume24h": "$7,062,720",
+      "price": "$13060.10",
+      "volume": "0.06%"
+    },
+    {
+      "id": "247",
+      "exchange": "Bittrex",
+      "pair": "SPHR/BTC",
+      "volume24h": "$7,057,260",
+      "price": "$13019.20",
+      "volume": "0.06%"
+    },
+    {
+      "id": "248",
+      "exchange": "Bit-Z",
+      "pair": "QTUM/BTC",
+      "volume24h": "$7,002,030",
+      "price": "$12727.10",
+      "volume": "0.06%"
+    },
+    {
+      "id": "249",
+      "exchange": "OKEx",
+      "pair": "VIB/BTC",
+      "volume24h": "$6,912,410",
+      "price": "$12786.90",
+      "volume": "0.06%"
+    },
+    {
+      "id": "250",
+      "exchange": "Huobi",
+      "pair": "NAS/BTC",
+      "volume24h": "$6,905,790",
+      "price": "$12929.50",
+      "volume": "0.06%"
+    },
+    {
+      "id": "251",
+      "exchange": "OKEx",
+      "pair": "ELF/BTC",
+      "volume24h": "$6,850,620",
+      "price": "$12939.90",
+      "volume": "0.06%"
+    },
+    {
+      "id": "252",
+      "exchange": "Upbit",
+      "pair": "MONA/BTC",
+      "volume24h": "$6,833,650",
+      "price": "$13057.40",
+      "volume": "0.06%"
+    },
+    {
+      "id": "253",
+      "exchange": "Bittrex",
+      "pair": "KMD/BTC",
+      "volume24h": "$6,820,240",
+      "price": "$14538.80",
+      "volume": "0.06%"
+    },
+    {
+      "id": "254",
+      "exchange": "Binance",
+      "pair": "SALT/BTC",
+      "volume24h": "$6,767,960",
+      "price": "$12992.00",
+      "volume": "0.06%"
+    },
+    {
+      "id": "255",
+      "exchange": "Upbit",
+      "pair": "POWR/BTC",
+      "volume24h": "$6,723,110",
+      "price": "$14645.80",
+      "volume": "0.06%"
+    },
+    {
+      "id": "256",
+      "exchange": "Upbit",
+      "pair": "STRAT/BTC",
+      "volume24h": "$6,680,110",
+      "price": "$14067.10",
+      "volume": "0.06%"
+    },
+    {
+      "id": "257",
+      "exchange": "Negocie Coins",
+      "pair": "BTC/BRL",
+      "volume24h": "$6,669,520",
+      "price": "$13352.80",
+      "volume": "0.06%"
+    },
+    {
+      "id": "258",
+      "exchange": "Bittrex",
+      "pair": "RDD/BTC",
+      "volume24h": "$6,663,620",
+      "price": "$12751.50",
+      "volume": "0.06%"
+    },
+    {
+      "id": "259",
+      "exchange": "GDAX",
+      "pair": "LTC/BTC",
+      "volume24h": "$6,634,900",
+      "price": "$12797.30",
+      "volume": "0.06%"
+    },
+    {
+      "id": "260",
+      "exchange": "Upbit",
+      "pair": "ARDR/BTC",
+      "volume24h": "$6,597,060",
+      "price": "$15028.30",
+      "volume": "0.06%"
+    },
+    {
+      "id": "261",
+      "exchange": "CoinEgg",
+      "pair": "ACT/BTC",
+      "volume24h": "$6,595,340",
+      "price": "$12190.90",
+      "volume": "0.06%"
+    },
+    {
+      "id": "262",
+      "exchange": "Bit-Z",
+      "pair": "DASH/BTC",
+      "volume24h": "$6,554,740",
+      "price": "$12925.40",
+      "volume": "0.06%"
+    },
+    {
+      "id": "263",
+      "exchange": "Binance",
+      "pair": "RLC/BTC",
+      "volume24h": "$6,549,660",
+      "price": "$12870.00",
+      "volume": "0.06%"
+    },
+    {
+      "id": "264",
+      "exchange": "Bittrex",
+      "pair": "SALT/BTC",
+      "volume24h": "$6,547,130",
+      "price": "$12958.00",
+      "volume": "0.06%"
+    },
+    {
+      "id": "265",
+      "exchange": "CoolCoin",
+      "pair": "ETH/BTC",
+      "volume24h": "$6,529,530",
+      "price": "$12792.70",
+      "volume": "0.06%"
+    },
+    {
+      "id": "266",
+      "exchange": "Bittrex",
+      "pair": "DASH/BTC",
+      "volume24h": "$6,523,860",
+      "price": "$12993.70",
+      "volume": "0.06%"
+    },
+    {
+      "id": "267",
+      "exchange": "Bittrex",
+      "pair": "VOX/BTC",
+      "volume24h": "$6,445,220",
+      "price": "$12928.50",
+      "volume": "0.05%"
+    },
+    {
+      "id": "268",
+      "exchange": "Binance",
+      "pair": "QSP/BTC",
+      "volume24h": "$6,351,170",
+      "price": "$12902.00",
+      "volume": "0.05%"
+    },
+    {
+      "id": "269",
+      "exchange": "Binance",
+      "pair": "LINK/BTC",
+      "volume24h": "$6,306,640",
+      "price": "$12722.30",
+      "volume": "0.05%"
+    },
+    {
+      "id": "270",
+      "exchange": "Coinfloor",
+      "pair": "BTC/GBP",
+      "volume24h": "$6,272,520",
+      "price": "$12422.70",
+      "volume": "0.05%"
+    },
+    {
+      "id": "271",
+      "exchange": "RightBTC",
+      "pair": "ETH/BTC",
+      "volume24h": "$6,271,350",
+      "price": "$12821.70",
+      "volume": "0.05%"
+    },
+    {
+      "id": "272",
+      "exchange": "Huobi",
+      "pair": "BAT/BTC",
+      "volume24h": "$6,183,870",
+      "price": "$12896.70",
+      "volume": "0.05%"
+    },
+    {
+      "id": "273",
+      "exchange": "BtcTrade.im",
+      "pair": "ETH/BTC",
+      "volume24h": "$6,162,880",
+      "price": "$12997.70",
+      "volume": "0.05%"
+    },
+    {
+      "id": "274",
+      "exchange": "OKEx",
+      "pair": "XRP/BTC",
+      "volume24h": "$6,106,240",
+      "price": "$12525.80",
+      "volume": "0.05%"
+    },
+    {
+      "id": "275",
+      "exchange": "Binance",
+      "pair": "ICN/BTC",
+      "volume24h": "$6,098,620",
+      "price": "$12950.20",
+      "volume": "0.05%"
+    },
+    {
+      "id": "276",
+      "exchange": "CoolCoin",
+      "pair": "LTC/BTC",
+      "volume24h": "$6,045,870",
+      "price": "$13091.50",
+      "volume": "0.05%"
+    },
+    {
+      "id": "277",
+      "exchange": "Poloniex",
+      "pair": "STEEM/BTC",
+      "volume24h": "$6,017,510",
+      "price": "$15006.40",
+      "volume": "0.05%"
+    },
+    {
+      "id": "278",
+      "exchange": "Binance",
+      "pair": "POWR/BTC",
+      "volume24h": "$6,007,420",
+      "price": "$14728.20",
+      "volume": "0.05%"
+    },
+    {
+      "id": "279",
+      "exchange": "Bittrex",
+      "pair": "VTC/BTC",
+      "volume24h": "$5,990,980",
+      "price": "$13710.10",
+      "volume": "0.05%"
+    },
+    {
+      "id": "280",
+      "exchange": "Binance",
+      "pair": "AST/BTC",
+      "volume24h": "$5,978,190",
+      "price": "$12888.70",
+      "volume": "0.05%"
+    },
+    {
+      "id": "281",
+      "exchange": "EXX",
+      "pair": "BTC/USDT",
+      "volume24h": "$5,972,810",
+      "price": "$13569.30",
+      "volume": "0.05%"
+    },
+    {
+      "id": "282",
+      "exchange": "Bittrex",
+      "pair": "ZEC/BTC",
+      "volume24h": "$5,968,480",
+      "price": "$12916.80",
+      "volume": "0.05%"
+    },
+    {
+      "id": "283",
+      "exchange": "Bittrex",
+      "pair": "MER/BTC",
+      "volume24h": "$5,964,710",
+      "price": "$15382.80",
+      "volume": "0.05%"
+    },
+    {
+      "id": "284",
+      "exchange": "Upbit",
+      "pair": "SNT/BTC",
+      "volume24h": "$5,961,020",
+      "price": "$12867.40",
+      "volume": "0.05%"
+    },
+    {
+      "id": "285",
+      "exchange": "Binance",
+      "pair": "STRAT/BTC",
+      "volume24h": "$5,924,660",
+      "price": "$14083.60",
+      "volume": "0.05%"
+    },
+    {
+      "id": "286",
+      "exchange": "Bittrex",
+      "pair": "ARDR/BTC",
+      "volume24h": "$5,891,510",
+      "price": "$15009.50",
+      "volume": "0.05%"
+    },
+    {
+      "id": "287",
+      "exchange": "Coinsquare",
+      "pair": "BTC/CAD",
+      "volume24h": "$5,857,110",
+      "price": "$13349.00",
+      "volume": "0.05%"
+    },
+    {
+      "id": "288",
+      "exchange": "Upbit",
+      "pair": "KMD/BTC",
+      "volume24h": "$5,850,860",
+      "price": "$14538.80",
+      "volume": "0.05%"
+    },
+    {
+      "id": "289",
+      "exchange": "YoBit",
+      "pair": "WAVES/BTC",
+      "volume24h": "$5,806,500",
+      "price": "$13379.10",
+      "volume": "0.05%"
+    },
+    {
+      "id": "290",
+      "exchange": "xBTCe",
+      "pair": "BTC/USD",
+      "volume24h": "$5,799,070",
+      "price": "$12762.90",
+      "volume": "0.05%"
+    },
+    {
+      "id": "291",
+      "exchange": "Kucoin",
+      "pair": "KCS/BTC",
+      "volume24h": "$5,733,310",
+      "price": "$12741.60",
+      "volume": "0.05%"
+    },
+    {
+      "id": "292",
+      "exchange": "Binance",
+      "pair": "CMT/BTC",
+      "volume24h": "$5,725,480",
+      "price": "$12825.20",
+      "volume": "0.05%"
+    },
+    {
+      "id": "293",
+      "exchange": "Bitfinex",
+      "pair": "OMG/BTC",
+      "volume24h": "$5,705,140",
+      "price": "$12758.90",
+      "volume": "0.05%"
+    },
+    {
+      "id": "294",
+      "exchange": "CoinExchange",
+      "pair": "BCC/BTC",
+      "volume24h": "$5,700,440",
+      "price": "$9280.61",
+      "volume": "0.00%"
+    },
+    {
+      "id": "295",
+      "exchange": "Binance",
+      "pair": "ENJ/BTC",
+      "volume24h": "$5,670,790",
+      "price": "$12978.70",
+      "volume": "0.05%"
+    },
+    {
+      "id": "296",
+      "exchange": "Poloniex",
+      "pair": "DASH/BTC",
+      "volume24h": "$5,661,870",
+      "price": "$12968.30",
+      "volume": "0.05%"
+    },
+    {
+      "id": "297",
+      "exchange": "Poloniex",
+      "pair": "STRAT/BTC",
+      "volume24h": "$5,619,170",
+      "price": "$14034.20",
+      "volume": "0.05%"
+    },
+    {
+      "id": "298",
+      "exchange": "Binance",
+      "pair": "FUEL/BTC",
+      "volume24h": "$5,578,210",
+      "price": "$12935.50",
+      "volume": "0.05%"
+    },
+    {
+      "id": "299",
+      "exchange": "GDAX",
+      "pair": "BTC/GBP",
+      "volume24h": "$5,564,960",
+      "price": "$13042.30",
+      "volume": "0.05%"
+    },
+    {
+      "id": "300",
+      "exchange": "Binance",
+      "pair": "DASH/BTC",
+      "volume24h": "$5,496,670",
+      "price": "$12925.40",
+      "volume": "0.05%"
+    },
+    {
+      "id": "301",
+      "exchange": "OKEx",
+      "pair": "ACT/BTC",
+      "volume24h": "$5,427,270",
+      "price": "$12655.90",
+      "volume": "0.05%"
+    },
+    {
+      "id": "302",
+      "exchange": "Binance",
+      "pair": "ENG/BTC",
+      "volume24h": "$5,425,550",
+      "price": "$13098.80",
+      "volume": "0.05%"
+    },
+    {
+      "id": "303",
+      "exchange": "Bittrex",
+      "pair": "DOGE/BTC",
+      "volume24h": "$5,418,150",
+      "price": "$12900.60",
+      "volume": "0.05%"
+    },
+    {
+      "id": "304",
+      "exchange": "OKEx",
+      "pair": "SHOW/BTC",
+      "volume24h": "$5,376,270",
+      "price": "$12806.20",
+      "volume": "0.05%"
+    },
+    {
+      "id": "305",
+      "exchange": "Coinnest",
+      "pair": "BTC/KRW",
+      "volume24h": "$5,372,760",
+      "price": "$14473.70",
+      "volume": "0.05%"
+    },
+    {
+      "id": "306",
+      "exchange": "Kucoin",
+      "pair": "CAT/BTC",
+      "volume24h": "$5,349,660",
+      "price": "$12710.90",
+      "volume": "0.05%"
+    },
+    {
+      "id": "307",
+      "exchange": "HitBTC",
+      "pair": "BCN/BTC",
+      "volume24h": "$5,344,880",
+      "price": "$12675.70",
+      "volume": "0.05%"
+    },
+    {
+      "id": "308",
+      "exchange": "Kucoin",
+      "pair": "XRB/BTC",
+      "volume24h": "$5,291,010",
+      "price": "$13040.50",
+      "volume": "0.05%"
+    },
+    {
+      "id": "309",
+      "exchange": "Binance",
+      "pair": "WINGS/BTC",
+      "volume24h": "$5,259,510",
+      "price": "$12844.40",
+      "volume": "0.04%"
+    },
+    {
+      "id": "310",
+      "exchange": "Binance",
+      "pair": "GAS/BTC",
+      "volume24h": "$5,210,640",
+      "price": "$12892.70",
+      "volume": "0.04%"
+    },
+    {
+      "id": "311",
+      "exchange": "Binance",
+      "pair": "CTR/BTC",
+      "volume24h": "$5,202,390",
+      "price": "$12796.60",
+      "volume": "0.04%"
+    },
+    {
+      "id": "312",
+      "exchange": "Upbit",
+      "pair": "REP/BTC",
+      "volume24h": "$5,172,350",
+      "price": "$13631.60",
+      "volume": "0.04%"
+    },
+    {
+      "id": "313",
+      "exchange": "OKEx",
+      "pair": "LIGHT/BTC",
+      "volume24h": "$5,159,510",
+      "price": "$12978.40",
+      "volume": "0.04%"
+    },
+    {
+      "id": "314",
+      "exchange": "OKEx",
+      "pair": "IOTA/BTC",
+      "volume24h": "$5,076,960",
+      "price": "$12681.00",
+      "volume": "0.04%"
+    },
+    {
+      "id": "315",
+      "exchange": "AidosMarket",
+      "pair": "ADK/BTC",
+      "volume24h": "$5,055,910",
+      "price": "$12882.20",
+      "volume": "0.04%"
+    },
+    {
+      "id": "316",
+      "exchange": "OKEx",
+      "pair": "DASH/BTC",
+      "volume24h": "$5,044,210",
+      "price": "$12935.90",
+      "volume": "0.04%"
+    },
+    {
+      "id": "317",
+      "exchange": "Bittrex",
+      "pair": "FUN/BTC",
+      "volume24h": "$5,020,490",
+      "price": "$12746.90",
+      "volume": "0.04%"
+    },
+    {
+      "id": "318",
+      "exchange": "Poloniex",
+      "pair": "REP/BTC",
+      "volume24h": "$5,018,710",
+      "price": "$13686.10",
+      "volume": "0.04%"
+    },
+    {
+      "id": "319",
+      "exchange": "Kraken",
+      "pair": "XMR/BTC",
+      "volume24h": "$4,974,360",
+      "price": "$12715.30",
+      "volume": "0.04%"
+    },
+    {
+      "id": "320",
+      "exchange": "HitBTC",
+      "pair": "XEM/BTC",
+      "volume24h": "$4,970,090",
+      "price": "$14225.20",
+      "volume": "0.04%"
+    },
+    {
+      "id": "321",
+      "exchange": "Kraken",
+      "pair": "LTC/BTC",
+      "volume24h": "$4,949,810",
+      "price": "$12826.80",
+      "volume": "0.04%"
+    },
+    {
+      "id": "322",
+      "exchange": "Gemini",
+      "pair": "ETH/BTC",
+      "volume24h": "$4,932,050",
+      "price": "$12778.60",
+      "volume": "0.04%"
+    },
+    {
+      "id": "323",
+      "exchange": "Bitfinex",
+      "pair": "DASH/BTC",
+      "volume24h": "$4,904,050",
+      "price": "$12929.60",
+      "volume": "0.04%"
+    },
+    {
+      "id": "324",
+      "exchange": "Bittrex",
+      "pair": "RLC/BTC",
+      "volume24h": "$4,903,750",
+      "price": "$12958.30",
+      "volume": "0.04%"
+    },
+    {
+      "id": "325",
+      "exchange": "Bitfinex",
+      "pair": "QTUM/BTC",
+      "volume24h": "$4,878,570",
+      "price": "$12706.50",
+      "volume": "0.04%"
+    },
+    {
+      "id": "326",
+      "exchange": "Binance",
+      "pair": "LSK/BTC",
+      "volume24h": "$4,867,910",
+      "price": "$13236.60",
+      "volume": "0.04%"
+    },
+    {
+      "id": "327",
+      "exchange": "YoBit",
+      "pair": "LSK/BTC",
+      "volume24h": "$4,782,260",
+      "price": "$13317.50",
+      "volume": "0.04%"
+    },
+    {
+      "id": "328",
+      "exchange": "Exmo",
+      "pair": "BTC/EUR",
+      "volume24h": "$4,776,320",
+      "price": "$14031.60",
+      "volume": "0.04%"
+    },
+    {
+      "id": "329",
+      "exchange": "Huobi",
+      "pair": "HSR/BTC",
+      "volume24h": "$4,771,020",
+      "price": "$13958.70",
+      "volume": "0.04%"
+    },
+    {
+      "id": "330",
+      "exchange": "Upbit",
+      "pair": "RCN/BTC",
+      "volume24h": "$4,750,230",
+      "price": "$12930.40",
+      "volume": "0.04%"
+    },
+    {
+      "id": "331",
+      "exchange": "Bittrex",
+      "pair": "SNT/BTC",
+      "volume24h": "$4,748,190",
+      "price": "$12834.20",
+      "volume": "0.04%"
+    },
+    {
+      "id": "332",
+      "exchange": "Binance",
+      "pair": "NULS/BTC",
+      "volume24h": "$4,746,690",
+      "price": "$12821.80",
+      "volume": "0.04%"
+    },
+    {
+      "id": "333",
+      "exchange": "Upbit",
+      "pair": "OMG/BTC",
+      "volume24h": "$4,691,840",
+      "price": "$12771.50",
+      "volume": "0.04%"
+    },
+    {
+      "id": "334",
+      "exchange": "Bittrex",
+      "pair": "LSK/BTC",
+      "volume24h": "$4,674,030",
+      "price": "$13266.20",
+      "volume": "0.04%"
+    },
+    {
+      "id": "335",
+      "exchange": "Coinrail",
+      "pair": "BTC/KRW",
+      "volume24h": "$4,670,830",
+      "price": "$13331.30",
+      "volume": "0.04%"
+    },
+    {
+      "id": "336",
+      "exchange": "Bittrex",
+      "pair": "DNT/BTC",
+      "volume24h": "$4,603,000",
+      "price": "$12720.80",
+      "volume": "0.04%"
+    },
+    {
+      "id": "337",
+      "exchange": "Bittrex",
+      "pair": "RCN/BTC",
+      "volume24h": "$4,600,370",
+      "price": "$13030.00",
+      "volume": "0.04%"
+    },
+    {
+      "id": "338",
+      "exchange": "Bittrex",
+      "pair": "WAVES/BTC",
+      "volume24h": "$4,579,350",
+      "price": "$13462.40",
+      "volume": "0.04%"
+    },
+    {
+      "id": "339",
+      "exchange": "Binance",
+      "pair": "TRIG/BTC",
+      "volume24h": "$4,563,360",
+      "price": "$12863.80",
+      "volume": "0.04%"
+    },
+    {
+      "id": "340",
+      "exchange": "Bitonic",
+      "pair": "BTC/EUR",
+      "volume24h": "$4,534,370",
+      "price": "$12742.40",
+      "volume": "0.04%"
+    },
+    {
+      "id": "341",
+      "exchange": "Binance",
+      "pair": "RCN/BTC",
+      "volume24h": "$4,533,330",
+      "price": "$12808.10",
+      "volume": "0.04%"
+    },
+    {
+      "id": "342",
+      "exchange": "CoinEgg",
+      "pair": "INK/BTC",
+      "volume24h": "$4,469,860",
+      "price": "$12885.90",
+      "volume": "0.04%"
+    },
+    {
+      "id": "343",
+      "exchange": "OKEx",
+      "pair": "BCD/BTC",
+      "volume24h": "$4,426,050",
+      "price": "$16444.10",
+      "volume": "0.04%"
+    },
+    {
+      "id": "344",
+      "exchange": "Bittrex",
+      "pair": "NBT/BTC",
+      "volume24h": "$4,408,470",
+      "price": "$12849.50",
+      "volume": "0.04%"
+    },
+    {
+      "id": "345",
+      "exchange": "Binance",
+      "pair": "KMD/BTC",
+      "volume24h": "$4,403,040",
+      "price": "$14515.80",
+      "volume": "0.04%"
+    },
+    {
+      "id": "346",
+      "exchange": "Binance",
+      "pair": "MANA/BTC",
+      "volume24h": "$4,394,650",
+      "price": "$12890.40",
+      "volume": "0.04%"
+    },
+    {
+      "id": "347",
+      "exchange": "HitBTC",
+      "pair": "BCC/BTC",
+      "volume24h": "$4,365,160",
+      "price": "$12998.90",
+      "volume": "0.04%"
+    },
+    {
+      "id": "348",
+      "exchange": "BTCTurk",
+      "pair": "BTC/TRY",
+      "volume24h": "$4,350,960",
+      "price": "$13148.90",
+      "volume": "0.04%"
+    },
+    {
+      "id": "349",
+      "exchange": "Bitstamp",
+      "pair": "BCH/BTC",
+      "volume24h": "$4,336,290",
+      "price": "$12930.00",
+      "volume": "0.04%"
+    },
+    {
+      "id": "350",
+      "exchange": "Bibox",
+      "pair": "HPB/BTC",
+      "volume24h": "$4,312,940",
+      "price": "$13011.60",
+      "volume": "0.04%"
+    },
+    {
+      "id": "351",
+      "exchange": "Bitfinex",
+      "pair": "BTG/BTC",
+      "volume24h": "$4,272,680",
+      "price": "$12739.30",
+      "volume": "0.04%"
+    },
+    {
+      "id": "352",
+      "exchange": "Kucoin",
+      "pair": "DBC/BTC",
+      "volume24h": "$4,270,590",
+      "price": "$12814.90",
+      "volume": "0.04%"
+    },
+    {
+      "id": "353",
+      "exchange": "AEX",
+      "pair": "BTC/BITCNY",
+      "volume24h": "$4,186,720",
+      "price": "$12577.60",
+      "volume": "0.04%"
+    },
+    {
+      "id": "354",
+      "exchange": "Bit-Z",
+      "pair": "HSR/BTC",
+      "volume24h": "$4,170,490",
+      "price": "$13964.90",
+      "volume": "0.04%"
+    },
+    {
+      "id": "355",
+      "exchange": "Huobi",
+      "pair": "BTM/BTC",
+      "volume24h": "$4,138,850",
+      "price": "$12637.10",
+      "volume": "0.04%"
+    },
+    {
+      "id": "356",
+      "exchange": "Binance",
+      "pair": "MTL/BTC",
+      "volume24h": "$4,135,270",
+      "price": "$13638.00",
+      "volume": "0.04%"
+    },
+    {
+      "id": "357",
+      "exchange": "Huobi",
+      "pair": "CMT/BTC",
+      "volume24h": "$4,114,460",
+      "price": "$12740.00",
+      "volume": "0.04%"
+    },
+    {
+      "id": "358",
+      "exchange": "Binance",
+      "pair": "MOD/BTC",
+      "volume24h": "$4,110,320",
+      "price": "$12925.00",
+      "volume": "0.04%"
+    },
+    {
+      "id": "359",
+      "exchange": "BL3P",
+      "pair": "BTC/EUR",
+      "volume24h": "$4,107,210",
+      "price": "$12859.40",
+      "volume": "0.04%"
+    },
+    {
+      "id": "360",
+      "exchange": "Liqui",
+      "pair": "BTC/USDT",
+      "volume24h": "$4,107,040",
+      "price": "$12812.00",
+      "volume": "0.04%"
+    },
+    {
+      "id": "361",
+      "exchange": "HitBTC",
+      "pair": "LTC/BTC",
+      "volume24h": "$4,076,160",
+      "price": "$12828.40",
+      "volume": "0.03%"
+    },
+    {
+      "id": "362",
+      "exchange": "Livecoin",
+      "pair": "LSK/BTC",
+      "volume24h": "$4,060,160",
+      "price": "$13306.30",
+      "volume": "0.03%"
+    },
+    {
+      "id": "363",
+      "exchange": "Binance",
+      "pair": "MTH/BTC",
+      "volume24h": "$4,045,320",
+      "price": "$12990.80",
+      "volume": "0.03%"
+    },
+    {
+      "id": "364",
+      "exchange": "Huobi",
+      "pair": "RDN/BTC",
+      "volume24h": "$4,035,710",
+      "price": "$12881.60",
+      "volume": "0.03%"
+    },
+    {
+      "id": "365",
+      "exchange": "GDAX",
+      "pair": "BCH/BTC",
+      "volume24h": "$4,012,000",
+      "price": "$13087.90",
+      "volume": "0.03%"
+    },
+    {
+      "id": "366",
+      "exchange": "Binance",
+      "pair": "SNT/BTC",
+      "volume24h": "$4,001,870",
+      "price": "$12853.20",
+      "volume": "0.03%"
+    },
+    {
+      "id": "367",
+      "exchange": "Bit-Z",
+      "pair": "PUT/BTC",
+      "volume24h": "$3,990,150",
+      "price": "$13843.30",
+      "volume": "0.03%"
+    },
+    {
+      "id": "368",
+      "exchange": "CoinEgg",
+      "pair": "LTC/BTC",
+      "volume24h": "$3,961,680",
+      "price": "$12969.40",
+      "volume": "0.03%"
+    },
+    {
+      "id": "369",
+      "exchange": "Foxbit",
+      "pair": "BTC/BRL",
+      "volume24h": "$3,955,000",
+      "price": "$13093.40",
+      "volume": "0.03%"
+    },
+    {
+      "id": "370",
+      "exchange": "Kraken",
+      "pair": "REP/BTC",
+      "volume24h": "$3,926,520",
+      "price": "$13550.80",
+      "volume": "0.03%"
+    },
+    {
+      "id": "371",
+      "exchange": "OKEx",
+      "pair": "BCX/BTC",
+      "volume24h": "$3,915,940",
+      "price": "$12204.00",
+      "volume": "0.03%"
+    },
+    {
+      "id": "372",
+      "exchange": "Huobi",
+      "pair": "WICC/BTC",
+      "volume24h": "$3,856,710",
+      "price": "$13058.90",
+      "volume": "0.03%"
+    },
+    {
+      "id": "373",
+      "exchange": "HitBTC",
+      "pair": "BNT/BTC",
+      "volume24h": "$3,840,290",
+      "price": "$12846.50",
+      "volume": "0.03%"
+    },
+    {
+      "id": "374",
+      "exchange": "Gate.io",
+      "pair": "BCX/BTC",
+      "volume24h": "$3,818,610",
+      "price": "$13519.70",
+      "volume": "0.03%"
+    },
+    {
+      "id": "375",
+      "exchange": "Kucoin",
+      "pair": "NEO/BTC",
+      "volume24h": "$3,812,490",
+      "price": "$12897.30",
+      "volume": "0.03%"
+    },
+    {
+      "id": "376",
+      "exchange": "Cryptopia",
+      "pair": "ETH/BTC",
+      "volume24h": "$3,781,610",
+      "price": "$12776.30",
+      "volume": "0.03%"
+    },
+    {
+      "id": "377",
+      "exchange": "Binance",
+      "pair": "ZEC/BTC",
+      "volume24h": "$3,765,260",
+      "price": "$12951.00",
+      "volume": "0.03%"
+    },
+    {
+      "id": "378",
+      "exchange": "Poloniex",
+      "pair": "DOGE/BTC",
+      "volume24h": "$3,735,260",
+      "price": "$12900.60",
+      "volume": "0.03%"
+    },
+    {
+      "id": "379",
+      "exchange": "EXX",
+      "pair": "CHAT/BTC",
+      "volume24h": "$3,713,040",
+      "price": "$12689.20",
+      "volume": "0.03%"
+    },
+    {
+      "id": "380",
+      "exchange": "Bibox",
+      "pair": "RDN/BTC",
+      "volume24h": "$3,698,720",
+      "price": "$13163.10",
+      "volume": "0.03%"
+    },
+    {
+      "id": "381",
+      "exchange": "Bit-Z",
+      "pair": "BTX/BTC",
+      "volume24h": "$3,678,390",
+      "price": "$12998.30",
+      "volume": "0.03%"
+    },
+    {
+      "id": "382",
+      "exchange": "BitGrail",
+      "pair": "XRB/BTC",
+      "volume24h": "$3,668,270",
+      "price": "$12993.00",
+      "volume": "0.03%"
+    },
+    {
+      "id": "383",
+      "exchange": "CoinEgg",
+      "pair": "ETC/BTC",
+      "volume24h": "$3,662,490",
+      "price": "$12805.30",
+      "volume": "0.03%"
+    },
+    {
+      "id": "384",
+      "exchange": "Kucoin",
+      "pair": "BTC/USDT",
+      "volume24h": "$3,650,350",
+      "price": "$12910.10",
+      "volume": "0.03%"
+    },
+    {
+      "id": "385",
+      "exchange": "Bittrex",
+      "pair": "UBQ/BTC",
+      "volume24h": "$3,640,570",
+      "price": "$12827.10",
+      "volume": "0.03%"
+    },
+    {
+      "id": "386",
+      "exchange": "Upbit",
+      "pair": "RLC/BTC",
+      "volume24h": "$3,608,400",
+      "price": "$12958.30",
+      "volume": "0.03%"
+    },
+    {
+      "id": "387",
+      "exchange": "CoinFalcon",
+      "pair": "ETH/BTC",
+      "volume24h": "$3,595,530",
+      "price": "$12757.30",
+      "volume": "0.03%"
+    },
+    {
+      "id": "388",
+      "exchange": "Bit-Z",
+      "pair": "GXS/BTC",
+      "volume24h": "$3,583,280",
+      "price": "$13000.00",
+      "volume": "0.03%"
+    },
+    {
+      "id": "389",
+      "exchange": "Bittrex",
+      "pair": "NXT/BTC",
+      "volume24h": "$3,557,800",
+      "price": "$12987.50",
+      "volume": "0.03%"
+    },
+    {
+      "id": "390",
+      "exchange": "BitMEX",
+      "pair": "BTC/USD",
+      "volume24h": "$1,108,880,000",
+      "price": "$12751.00",
+      "volume": "0.00%"
+    },
+    {
+      "id": "391",
+      "exchange": "BTCBOX",
+      "pair": "BTC/JPY",
+      "volume24h": "$258,982,000",
+      "price": "$13018.90",
+      "volume": "0.00%"
+    },
+    {
+      "id": "392",
+      "exchange": "Quoine",
+      "pair": "BTC/JPY",
+      "volume24h": "$134,317,000",
+      "price": "$12990.30",
+      "volume": "0.00%"
+    },
+    {
+      "id": "393",
+      "exchange": "Fisco",
+      "pair": "BTC/JPY",
+      "volume24h": "$106,808,000",
+      "price": "$13023.40",
+      "volume": "0.00%"
+    },
+    {
+      "id": "394",
+      "exchange": "Zaif",
+      "pair": "BTC/JPY",
+      "volume24h": "$106,727,000",
+      "price": "$13014.30",
+      "volume": "0.00%"
+    },
+    {
+      "id": "395",
+      "exchange": "ZB.COM",
+      "pair": "BTC/USDT",
+      "volume24h": "$27,283,400",
+      "price": "$13490.70",
+      "volume": "0.00%"
+    },
+    {
+      "id": "396",
+      "exchange": "ACX",
+      "pair": "BTC/AUD",
+      "volume24h": "$15,437,000",
+      "price": "$13845.00",
+      "volume": "0.00%"
+    },
+    {
+      "id": "397",
+      "exchange": "GOPAX",
+      "pair": "BTC/KRW",
+      "volume24h": "$11,468,800",
+      "price": "$15599.80",
+      "volume": "0.00%"
+    },
+    {
+      "id": "398",
+      "exchange": "Quoine",
+      "pair": "BTC/USD",
+      "volume24h": "$9,523,860",
+      "price": "$12988.30",
+      "volume": "0.00%"
+    },
+    {
+      "id": "399",
+      "exchange": "bitFlyer",
+      "pair": "BTC/USD",
+      "volume24h": "$8,965,430",
+      "price": "$12763.10",
+      "volume": "0.00%"
+    },
+    {
+      "id": "400",
+      "exchange": "Binance",
+      "pair": "BCD/BTC",
+      "volume24h": "$13,876,400",
+      "price": "$3252.66",
+      "volume": "0.00%"
+    }
+  ],
+  "ethereum": [
+    {
+      "id": "1",
+      "exchange": "Bithumb",
+      "pair": "ETH/KRW",
+      "volume24h": "$248,689,000",
+      "price": "$1403.34",
+      "volume": "6.32%"
+    },
+    {
+      "id": "2",
+      "exchange": "Binance",
+      "pair": "ETH/BTC",
+      "volume24h": "$239,657,000",
+      "price": "$1153.19",
+      "volume": "6.09%"
+    },
+    {
+      "id": "3",
+      "exchange": "Upbit",
+      "pair": "ETH/KRW",
+      "volume24h": "$200,568,000",
+      "price": "$1406.62",
+      "volume": "5.10%"
+    },
+    {
+      "id": "4",
+      "exchange": "GDAX",
+      "pair": "ETH/USD",
+      "volume24h": "$197,353,000",
+      "price": "$1143.49",
+      "volume": "5.01%"
+    },
+    {
+      "id": "5",
+      "exchange": "Bitfinex",
+      "pair": "ETH/USD",
+      "volume24h": "$188,652,000",
+      "price": "$1140.80",
+      "volume": "4.79%"
+    },
+    {
+      "id": "6",
+      "exchange": "OKEx",
+      "pair": "ETH/BTC",
+      "volume24h": "$163,411,000",
+      "price": "$1153.27",
+      "volume": "4.15%"
+    },
+    {
+      "id": "7",
+      "exchange": "OKEx",
+      "pair": "ETH/USDT",
+      "volume24h": "$152,154,000",
+      "price": "$1147.30",
+      "volume": "3.87%"
+    },
+    {
+      "id": "8",
+      "exchange": "Binance",
+      "pair": "ETH/USDT",
+      "volume24h": "$139,972,000",
+      "price": "$1150.12",
+      "volume": "3.56%"
+    },
+    {
+      "id": "9",
+      "exchange": "Binance",
+      "pair": "TRX/ETH",
+      "volume24h": "$128,915,000",
+      "price": "$1164.66",
+      "volume": "3.27%"
+    },
+    {
+      "id": "10",
+      "exchange": "Huobi",
+      "pair": "IOST/ETH",
+      "volume24h": "$121,063,000",
+      "price": "$1153.65",
+      "volume": "3.08%"
+    },
+    {
+      "id": "11",
+      "exchange": "Bit-Z",
+      "pair": "ETH/BTC",
+      "volume24h": "$88,314,100",
+      "price": "$1153.12",
+      "volume": "2.24%"
+    },
+    {
+      "id": "12",
+      "exchange": "Coinone",
+      "pair": "ETH/KRW",
+      "volume24h": "$76,239,500",
+      "price": "$1403.44",
+      "volume": "1.94%"
+    },
+    {
+      "id": "13",
+      "exchange": "Kraken",
+      "pair": "ETH/EUR",
+      "volume24h": "$75,266,400",
+      "price": "$1155.86",
+      "volume": "1.91%"
+    },
+    {
+      "id": "14",
+      "exchange": "HitBTC",
+      "pair": "ETH/BTC",
+      "volume24h": "$69,758,700",
+      "price": "$1152.22",
+      "volume": "1.77%"
+    },
+    {
+      "id": "15",
+      "exchange": "Gemini",
+      "pair": "ETH/USD",
+      "volume24h": "$69,058,800",
+      "price": "$1143.04",
+      "volume": "1.75%"
+    },
+    {
+      "id": "16",
+      "exchange": "Binance",
+      "pair": "EOS/ETH",
+      "volume24h": "$66,310,700",
+      "price": "$1151.51",
+      "volume": "1.68%"
+    },
+    {
+      "id": "17",
+      "exchange": "Huobi",
+      "pair": "ETH/USDT",
+      "volume24h": "$62,826,800",
+      "price": "$1150.50",
+      "volume": "1.60%"
+    },
+    {
+      "id": "18",
+      "exchange": "Binance",
+      "pair": "VEN/ETH",
+      "volume24h": "$49,472,900",
+      "price": "$1157.22",
+      "volume": "1.26%"
+    },
+    {
+      "id": "19",
+      "exchange": "Bittrex",
+      "pair": "ETH/BTC",
+      "volume24h": "$46,588,700",
+      "price": "$1156.48",
+      "volume": "1.18%"
+    },
+    {
+      "id": "20",
+      "exchange": "EXX",
+      "pair": "ETH/BTC",
+      "volume24h": "$45,208,900",
+      "price": "$1147.61",
+      "volume": "1.15%"
+    },
+    {
+      "id": "21",
+      "exchange": "Kraken",
+      "pair": "ETH/USD",
+      "volume24h": "$42,584,500",
+      "price": "$1142.79",
+      "volume": "1.08%"
+    },
+    {
+      "id": "22",
+      "exchange": "Poloniex",
+      "pair": "ETH/BTC",
+      "volume24h": "$41,556,000",
+      "price": "$1154.44",
+      "volume": "1.06%"
+    },
+    {
+      "id": "23",
+      "exchange": "Bitfinex",
+      "pair": "ETH/BTC",
+      "volume24h": "$40,568,400",
+      "price": "$1152.13",
+      "volume": "1.03%"
+    },
+    {
+      "id": "24",
+      "exchange": "Bitstamp",
+      "pair": "ETH/USD",
+      "volume24h": "$37,873,500",
+      "price": "$1146.45",
+      "volume": "0.96%"
+    },
+    {
+      "id": "25",
+      "exchange": "CoinEgg",
+      "pair": "ETH/BTC",
+      "volume24h": "$36,040,800",
+      "price": "$1144.73",
+      "volume": "0.92%"
+    },
+    {
+      "id": "26",
+      "exchange": "Binance",
+      "pair": "XRP/ETH",
+      "volume24h": "$35,573,000",
+      "price": "$1156.42",
+      "volume": "0.90%"
+    },
+    {
+      "id": "27",
+      "exchange": "Korbit",
+      "pair": "ETH/KRW",
+      "volume24h": "$32,176,100",
+      "price": "$1403.72",
+      "volume": "0.82%"
+    },
+    {
+      "id": "28",
+      "exchange": "Binance",
+      "pair": "ICX/ETH",
+      "volume24h": "$28,085,000",
+      "price": "$1165.25",
+      "volume": "0.71%"
+    },
+    {
+      "id": "29",
+      "exchange": "Liqui",
+      "pair": "TRX/ETH",
+      "volume24h": "$27,381,900",
+      "price": "$1167.59",
+      "volume": "0.70%"
+    },
+    {
+      "id": "30",
+      "exchange": "Huobi",
+      "pair": "ETH/BTC",
+      "volume24h": "$25,126,900",
+      "price": "$1153.76",
+      "volume": "0.64%"
+    },
+    {
+      "id": "31",
+      "exchange": "Binance",
+      "pair": "NEO/ETH",
+      "volume24h": "$22,899,200",
+      "price": "$1160.64",
+      "volume": "0.58%"
+    },
+    {
+      "id": "32",
+      "exchange": "Kraken",
+      "pair": "ETH/BTC",
+      "volume24h": "$22,239,400",
+      "price": "$1151.49",
+      "volume": "0.56%"
+    },
+    {
+      "id": "33",
+      "exchange": "Upbit",
+      "pair": "ETH/BTC",
+      "volume24h": "$21,252,900",
+      "price": "$1156.48",
+      "volume": "0.54%"
+    },
+    {
+      "id": "34",
+      "exchange": "Livecoin",
+      "pair": "ETH/BTC",
+      "volume24h": "$21,082,800",
+      "price": "$1158.89",
+      "volume": "0.54%"
+    },
+    {
+      "id": "35",
+      "exchange": "GDAX",
+      "pair": "ETH/EUR",
+      "volume24h": "$19,411,100",
+      "price": "$1157.12",
+      "volume": "0.49%"
+    },
+    {
+      "id": "36",
+      "exchange": "ZB.COM",
+      "pair": "ETH/USDT",
+      "volume24h": "$19,280,900",
+      "price": "$1209.48",
+      "volume": "0.49%"
+    },
+    {
+      "id": "37",
+      "exchange": "OKEx",
+      "pair": "TOPC/ETH",
+      "volume24h": "$19,071,600",
+      "price": "$1155.94",
+      "volume": "0.48%"
+    },
+    {
+      "id": "38",
+      "exchange": "Binance",
+      "pair": "ADA/ETH",
+      "volume24h": "$19,012,300",
+      "price": "$1342.53",
+      "volume": "0.48%"
+    },
+    {
+      "id": "39",
+      "exchange": "Binance",
+      "pair": "CND/ETH",
+      "volume24h": "$17,554,900",
+      "price": "$1134.88",
+      "volume": "0.45%"
+    },
+    {
+      "id": "40",
+      "exchange": "OKEx",
+      "pair": "SHOW/ETH",
+      "volume24h": "$17,346,400",
+      "price": "$1148.54",
+      "volume": "0.44%"
+    },
+    {
+      "id": "41",
+      "exchange": "Bitstamp",
+      "pair": "ETH/EUR",
+      "volume24h": "$17,210,800",
+      "price": "$1154.88",
+      "volume": "0.44%"
+    },
+    {
+      "id": "42",
+      "exchange": "Binance",
+      "pair": "VIBE/ETH",
+      "volume24h": "$16,520,300",
+      "price": "$1152.24",
+      "volume": "0.42%"
+    },
+    {
+      "id": "43",
+      "exchange": "Poloniex",
+      "pair": "ETH/USDT",
+      "volume24h": "$16,024,500",
+      "price": "$1148.08",
+      "volume": "0.41%"
+    },
+    {
+      "id": "44",
+      "exchange": "Gate.io",
+      "pair": "ETH/USDT",
+      "volume24h": "$15,896,400",
+      "price": "$1153.08",
+      "volume": "0.40%"
+    },
+    {
+      "id": "45",
+      "exchange": "Bitfinex",
+      "pair": "EOS/ETH",
+      "volume24h": "$14,815,700",
+      "price": "$1150.96",
+      "volume": "0.38%"
+    },
+    {
+      "id": "46",
+      "exchange": "Binance",
+      "pair": "APPC/ETH",
+      "volume24h": "$14,804,900",
+      "price": "$1156.02",
+      "volume": "0.38%"
+    },
+    {
+      "id": "47",
+      "exchange": "Bibox",
+      "pair": "BIX/ETH",
+      "volume24h": "$13,515,600",
+      "price": "$1127.58",
+      "volume": "0.34%"
+    },
+    {
+      "id": "48",
+      "exchange": "Bittrex",
+      "pair": "ETH/USDT",
+      "volume24h": "$12,905,400",
+      "price": "$1143.67",
+      "volume": "0.33%"
+    },
+    {
+      "id": "49",
+      "exchange": "Kucoin",
+      "pair": "ETH/BTC",
+      "volume24h": "$12,859,200",
+      "price": "$1154.44",
+      "volume": "0.33%"
+    },
+    {
+      "id": "50",
+      "exchange": "GDAX",
+      "pair": "ETH/BTC",
+      "volume24h": "$12,584,300",
+      "price": "$1154.18",
+      "volume": "0.32%"
+    },
+    {
+      "id": "51",
+      "exchange": "HitBTC",
+      "pair": "ETH/USDT",
+      "volume24h": "$12,437,600",
+      "price": "$1141.90",
+      "volume": "0.32%"
+    },
+    {
+      "id": "52",
+      "exchange": "Binance",
+      "pair": "BNB/ETH",
+      "volume24h": "$11,757,900",
+      "price": "$1153.59",
+      "volume": "0.30%"
+    },
+    {
+      "id": "53",
+      "exchange": "Kucoin",
+      "pair": "TEL/ETH",
+      "volume24h": "$11,339,000",
+      "price": "$1216.28",
+      "volume": "0.29%"
+    },
+    {
+      "id": "54",
+      "exchange": "Binance",
+      "pair": "POE/ETH",
+      "volume24h": "$10,724,400",
+      "price": "$1152.31",
+      "volume": "0.27%"
+    },
+    {
+      "id": "55",
+      "exchange": "OKEx",
+      "pair": "ETC/ETH",
+      "volume24h": "$10,524,900",
+      "price": "$1152.53",
+      "volume": "0.27%"
+    },
+    {
+      "id": "56",
+      "exchange": "Bitstamp",
+      "pair": "ETH/BTC",
+      "volume24h": "$10,382,900",
+      "price": "$1152.27",
+      "volume": "0.26%"
+    },
+    {
+      "id": "57",
+      "exchange": "Binance",
+      "pair": "AMB/ETH",
+      "volume24h": "$9,958,310",
+      "price": "$1152.90",
+      "volume": "0.25%"
+    },
+    {
+      "id": "58",
+      "exchange": "Binance",
+      "pair": "XLM/ETH",
+      "volume24h": "$9,859,950",
+      "price": "$1298.24",
+      "volume": "0.25%"
+    },
+    {
+      "id": "59",
+      "exchange": "Kraken",
+      "pair": "EOS/ETH",
+      "volume24h": "$9,394,900",
+      "price": "$1150.87",
+      "volume": "0.24%"
+    },
+    {
+      "id": "60",
+      "exchange": "Tidex",
+      "pair": "ETH/BTC",
+      "volume24h": "$9,342,490",
+      "price": "$1157.05",
+      "volume": "0.24%"
+    },
+    {
+      "id": "61",
+      "exchange": "Binance",
+      "pair": "INS/ETH",
+      "volume24h": "$9,102,020",
+      "price": "$1154.98",
+      "volume": "0.23%"
+    },
+    {
+      "id": "62",
+      "exchange": "Binance",
+      "pair": "IOTA/ETH",
+      "volume24h": "$8,941,060",
+      "price": "$1126.78",
+      "volume": "0.23%"
+    },
+    {
+      "id": "63",
+      "exchange": "YoBit",
+      "pair": "ETH/BTC",
+      "volume24h": "$8,789,600",
+      "price": "$1149.07",
+      "volume": "0.22%"
+    },
+    {
+      "id": "64",
+      "exchange": "OKEx",
+      "pair": "INT/ETH",
+      "volume24h": "$8,468,590",
+      "price": "$1153.60",
+      "volume": "0.22%"
+    },
+    {
+      "id": "65",
+      "exchange": "Tidex",
+      "pair": "AGI/ETH",
+      "volume24h": "$8,144,830",
+      "price": "$1159.27",
+      "volume": "0.21%"
+    },
+    {
+      "id": "66",
+      "exchange": "Binance",
+      "pair": "LRC/ETH",
+      "volume24h": "$7,917,800",
+      "price": "$1158.75",
+      "volume": "0.20%"
+    },
+    {
+      "id": "67",
+      "exchange": "Gatecoin",
+      "pair": "TRX/ETH",
+      "volume24h": "$7,698,070",
+      "price": "$1175.94",
+      "volume": "0.20%"
+    },
+    {
+      "id": "68",
+      "exchange": "Exmo",
+      "pair": "ETH/BTC",
+      "volume24h": "$7,515,580",
+      "price": "$1143.78",
+      "volume": "0.19%"
+    },
+    {
+      "id": "69",
+      "exchange": "HitBTC",
+      "pair": "BCH/ETH",
+      "volume24h": "$7,505,910",
+      "price": "$1154.71",
+      "volume": "0.19%"
+    },
+    {
+      "id": "70",
+      "exchange": "Binance",
+      "pair": "SNGLS/ETH",
+      "volume24h": "$7,417,030",
+      "price": "$1140.43",
+      "volume": "0.19%"
+    },
+    {
+      "id": "71",
+      "exchange": "Binance",
+      "pair": "LTC/ETH",
+      "volume24h": "$7,209,370",
+      "price": "$1154.93",
+      "volume": "0.18%"
+    },
+    {
+      "id": "72",
+      "exchange": "Huobi",
+      "pair": "EOS/ETH",
+      "volume24h": "$7,010,080",
+      "price": "$1145.39",
+      "volume": "0.18%"
+    },
+    {
+      "id": "73",
+      "exchange": "Binance",
+      "pair": "REQ/ETH",
+      "volume24h": "$6,856,370",
+      "price": "$1155.36",
+      "volume": "0.17%"
+    },
+    {
+      "id": "74",
+      "exchange": "CEX.IO",
+      "pair": "ETH/USD",
+      "volume24h": "$6,787,880",
+      "price": "$1227.00",
+      "volume": "0.17%"
+    },
+    {
+      "id": "75",
+      "exchange": "Exmo",
+      "pair": "ETH/USD",
+      "volume24h": "$6,747,140",
+      "price": "$1245.50",
+      "volume": "0.17%"
+    },
+    {
+      "id": "76",
+      "exchange": "Binance",
+      "pair": "XVG/ETH",
+      "volume24h": "$6,634,870",
+      "price": "$1157.73",
+      "volume": "0.17%"
+    },
+    {
+      "id": "77",
+      "exchange": "CoolCoin",
+      "pair": "ETH/BTC",
+      "volume24h": "$6,529,530",
+      "price": "$1154.44",
+      "volume": "0.17%"
+    },
+    {
+      "id": "78",
+      "exchange": "Binance",
+      "pair": "QTUM/ETH",
+      "volume24h": "$6,504,170",
+      "price": "$1141.74",
+      "volume": "0.17%"
+    },
+    {
+      "id": "79",
+      "exchange": "RightBTC",
+      "pair": "ETH/BTC",
+      "volume24h": "$6,271,350",
+      "price": "$1151.83",
+      "volume": "0.16%"
+    },
+    {
+      "id": "80",
+      "exchange": "BtcTrade.im",
+      "pair": "ETH/BTC",
+      "volume24h": "$6,162,880",
+      "price": "$1136.24",
+      "volume": "0.16%"
+    },
+    {
+      "id": "81",
+      "exchange": "Liqui",
+      "pair": "SRN/ETH",
+      "volume24h": "$6,051,400",
+      "price": "$1149.90",
+      "volume": "0.15%"
+    },
+    {
+      "id": "82",
+      "exchange": "OKEx",
+      "pair": "SWFTC/ETH",
+      "volume24h": "$6,005,140",
+      "price": "$1156.84",
+      "volume": "0.15%"
+    },
+    {
+      "id": "83",
+      "exchange": "EtherDelta",
+      "pair": "0x8eb2/ETH",
+      "volume24h": "$5,443,660",
+      "price": "$1173.83",
+      "volume": "0.14%"
+    },
+    {
+      "id": "84",
+      "exchange": "Bittrex",
+      "pair": "XRP/ETH",
+      "volume24h": "$5,211,670",
+      "price": "$1161.94",
+      "volume": "0.13%"
+    },
+    {
+      "id": "85",
+      "exchange": "BTC Markets",
+      "pair": "ETH/AUD",
+      "volume24h": "$5,159,590",
+      "price": "$1202.99",
+      "volume": "0.13%"
+    },
+    {
+      "id": "86",
+      "exchange": "Binance",
+      "pair": "BCPT/ETH",
+      "volume24h": "$5,124,840",
+      "price": "$1139.27",
+      "volume": "0.13%"
+    },
+    {
+      "id": "87",
+      "exchange": "EXX",
+      "pair": "ETH/USDT",
+      "volume24h": "$5,105,060",
+      "price": "$1219.94",
+      "volume": "0.13%"
+    },
+    {
+      "id": "88",
+      "exchange": "Binance",
+      "pair": "ELF/ETH",
+      "volume24h": "$5,050,610",
+      "price": "$1163.26",
+      "volume": "0.13%"
+    },
+    {
+      "id": "89",
+      "exchange": "Gemini",
+      "pair": "ETH/BTC",
+      "volume24h": "$4,932,050",
+      "price": "$1155.72",
+      "volume": "0.13%"
+    },
+    {
+      "id": "90",
+      "exchange": "Binance",
+      "pair": "BCC/ETH",
+      "volume24h": "$4,825,340",
+      "price": "$1158.55",
+      "volume": "0.12%"
+    },
+    {
+      "id": "91",
+      "exchange": "Binance",
+      "pair": "BNT/ETH",
+      "volume24h": "$4,639,740",
+      "price": "$1158.30",
+      "volume": "0.12%"
+    },
+    {
+      "id": "92",
+      "exchange": "Coinnest",
+      "pair": "ETH/KRW",
+      "volume24h": "$4,500,450",
+      "price": "$1301.23",
+      "volume": "0.11%"
+    },
+    {
+      "id": "93",
+      "exchange": "OKEx",
+      "pair": "EOS/ETH",
+      "volume24h": "$4,475,830",
+      "price": "$1151.23",
+      "volume": "0.11%"
+    },
+    {
+      "id": "94",
+      "exchange": "Binance",
+      "pair": "OMG/ETH",
+      "volume24h": "$4,360,710",
+      "price": "$1136.59",
+      "volume": "0.11%"
+    },
+    {
+      "id": "95",
+      "exchange": "Binance",
+      "pair": "OST/ETH",
+      "volume24h": "$4,338,030",
+      "price": "$1167.08",
+      "volume": "0.11%"
+    },
+    {
+      "id": "96",
+      "exchange": "BTCTurk",
+      "pair": "ETH/TRY",
+      "volume24h": "$4,303,480",
+      "price": "$1158.57",
+      "volume": "0.11%"
+    },
+    {
+      "id": "97",
+      "exchange": "Binance",
+      "pair": "WTC/ETH",
+      "volume24h": "$4,158,200",
+      "price": "$1174.88",
+      "volume": "0.11%"
+    },
+    {
+      "id": "98",
+      "exchange": "Binance",
+      "pair": "XMR/ETH",
+      "volume24h": "$4,131,260",
+      "price": "$1149.93",
+      "volume": "0.10%"
+    },
+    {
+      "id": "99",
+      "exchange": "Binance",
+      "pair": "ZRX/ETH",
+      "volume24h": "$4,116,160",
+      "price": "$1141.88",
+      "volume": "0.10%"
+    },
+    {
+      "id": "100",
+      "exchange": "Binance",
+      "pair": "KNC/ETH",
+      "volume24h": "$4,101,970",
+      "price": "$1168.35",
+      "volume": "0.10%"
+    },
+    {
+      "id": "101",
+      "exchange": "WEX",
+      "pair": "ETH/USD",
+      "volume24h": "$4,097,020",
+      "price": "$1172.27",
+      "volume": "0.10%"
+    },
+    {
+      "id": "102",
+      "exchange": "Bitfinex",
+      "pair": "MIOTA/ETH",
+      "volume24h": "$4,048,510",
+      "price": "$1143.61",
+      "volume": "0.10%"
+    },
+    {
+      "id": "103",
+      "exchange": "BX Thailand",
+      "pair": "ETH/THB",
+      "volume24h": "$3,925,250",
+      "price": "$1285.41",
+      "volume": "0.10%"
+    },
+    {
+      "id": "104",
+      "exchange": "Bibox",
+      "pair": "RDN/ETH",
+      "volume24h": "$3,920,390",
+      "price": "$1167.29",
+      "volume": "0.10%"
+    },
+    {
+      "id": "105",
+      "exchange": "Binance",
+      "pair": "TNB/ETH",
+      "volume24h": "$3,896,980",
+      "price": "$1146.22",
+      "volume": "0.10%"
+    },
+    {
+      "id": "106",
+      "exchange": "Cryptopia",
+      "pair": "ETH/BTC",
+      "volume24h": "$3,781,610",
+      "price": "$1155.93",
+      "volume": "0.10%"
+    },
+    {
+      "id": "107",
+      "exchange": "Liqui",
+      "pair": "ETH/USDT",
+      "volume24h": "$3,645,130",
+      "price": "$1159.22",
+      "volume": "0.09%"
+    },
+    {
+      "id": "108",
+      "exchange": "Koinex",
+      "pair": "ETH/INR",
+      "volume24h": "$3,602,770",
+      "price": "$1328.98",
+      "volume": "0.09%"
+    },
+    {
+      "id": "109",
+      "exchange": "CoinFalcon",
+      "pair": "ETH/BTC",
+      "volume24h": "$3,595,530",
+      "price": "$1157.65",
+      "volume": "0.09%"
+    },
+    {
+      "id": "110",
+      "exchange": "Bibox",
+      "pair": "BTM/ETH",
+      "volume24h": "$3,549,540",
+      "price": "$1176.03",
+      "volume": "0.09%"
+    },
+    {
+      "id": "111",
+      "exchange": "Mr. Exchange",
+      "pair": "BTC/ETH",
+      "volume24h": "$3,549,280",
+      "price": "$1150.14",
+      "volume": "0.09%"
+    },
+    {
+      "id": "112",
+      "exchange": "Binance",
+      "pair": "ETC/ETH",
+      "volume24h": "$3,497,900",
+      "price": "$1149.78",
+      "volume": "0.09%"
+    },
+    {
+      "id": "113",
+      "exchange": "Binance",
+      "pair": "CDT/ETH",
+      "volume24h": "$3,442,810",
+      "price": "$1137.16",
+      "volume": "0.09%"
+    },
+    {
+      "id": "114",
+      "exchange": "Binance",
+      "pair": "DNT/ETH",
+      "volume24h": "$3,404,770",
+      "price": "$1165.66",
+      "volume": "0.09%"
+    },
+    {
+      "id": "115",
+      "exchange": "QuadrigaCX",
+      "pair": "ETH/CAD",
+      "volume24h": "$3,330,630",
+      "price": "$1167.59",
+      "volume": "0.08%"
+    },
+    {
+      "id": "116",
+      "exchange": "WEX",
+      "pair": "ETH/BTC",
+      "volume24h": "$3,321,470",
+      "price": "$1150.07",
+      "volume": "0.08%"
+    },
+    {
+      "id": "117",
+      "exchange": "Bittrex",
+      "pair": "ADA/ETH",
+      "volume24h": "$3,317,920",
+      "price": "$1342.35",
+      "volume": "0.08%"
+    },
+    {
+      "id": "118",
+      "exchange": "Binance",
+      "pair": "LEND/ETH",
+      "volume24h": "$3,287,190",
+      "price": "$1161.90",
+      "volume": "0.08%"
+    },
+    {
+      "id": "119",
+      "exchange": "Binance",
+      "pair": "AION/ETH",
+      "volume24h": "$3,264,740",
+      "price": "$1157.97",
+      "volume": "0.08%"
+    },
+    {
+      "id": "120",
+      "exchange": "Coinbene",
+      "pair": "ETH/USDT",
+      "volume24h": "$3,201,240",
+      "price": "$1155.27",
+      "volume": "0.08%"
+    },
+    {
+      "id": "121",
+      "exchange": "Bibox",
+      "pair": "CAG/ETH",
+      "volume24h": "$3,162,900",
+      "price": "$1166.36",
+      "volume": "0.08%"
+    },
+    {
+      "id": "122",
+      "exchange": "Kucoin",
+      "pair": "AGI/ETH",
+      "volume24h": "$3,156,860",
+      "price": "$1148.30",
+      "volume": "0.08%"
+    },
+    {
+      "id": "123",
+      "exchange": "Binance",
+      "pair": "ARN/ETH",
+      "volume24h": "$3,138,330",
+      "price": "$1167.09",
+      "volume": "0.08%"
+    },
+    {
+      "id": "124",
+      "exchange": "Binance",
+      "pair": "WABI/ETH",
+      "volume24h": "$3,106,020",
+      "price": "$1178.69",
+      "volume": "0.08%"
+    },
+    {
+      "id": "125",
+      "exchange": "Bit-Z",
+      "pair": "PUT/ETH",
+      "volume24h": "$3,038,200",
+      "price": "$1112.56",
+      "volume": "0.08%"
+    },
+    {
+      "id": "126",
+      "exchange": "Binance",
+      "pair": "NEBL/ETH",
+      "volume24h": "$3,037,750",
+      "price": "$1159.70",
+      "volume": "0.08%"
+    },
+    {
+      "id": "127",
+      "exchange": "Binance",
+      "pair": "BTS/ETH",
+      "volume24h": "$3,031,800",
+      "price": "$1145.03",
+      "volume": "0.08%"
+    },
+    {
+      "id": "128",
+      "exchange": "Binance",
+      "pair": "FUN/ETH",
+      "volume24h": "$2,928,610",
+      "price": "$1138.01",
+      "volume": "0.07%"
+    },
+    {
+      "id": "129",
+      "exchange": "Binance",
+      "pair": "AST/ETH",
+      "volume24h": "$2,794,820",
+      "price": "$1155.09",
+      "volume": "0.07%"
+    },
+    {
+      "id": "130",
+      "exchange": "Huobi",
+      "pair": "VEN/ETH",
+      "volume24h": "$2,771,150",
+      "price": "$1155.79",
+      "volume": "0.07%"
+    },
+    {
+      "id": "131",
+      "exchange": "Bibox",
+      "pair": "HPB/ETH",
+      "volume24h": "$2,751,950",
+      "price": "$1142.62",
+      "volume": "0.07%"
+    },
+    {
+      "id": "132",
+      "exchange": "Bittrex",
+      "pair": "NEO/ETH",
+      "volume24h": "$2,734,990",
+      "price": "$1168.91",
+      "volume": "0.07%"
+    },
+    {
+      "id": "133",
+      "exchange": "Bancor Network",
+      "pair": "BNT/ETH",
+      "volume24h": "$2,677,620",
+      "price": "$1152.10",
+      "volume": "0.07%"
+    },
+    {
+      "id": "134",
+      "exchange": "Bibox",
+      "pair": "ITC/ETH",
+      "volume24h": "$2,643,880",
+      "price": "$1146.97",
+      "volume": "0.07%"
+    },
+    {
+      "id": "135",
+      "exchange": "HitBTC",
+      "pair": "SNC/ETH",
+      "volume24h": "$2,512,090",
+      "price": "$1371.04",
+      "volume": "0.06%"
+    },
+    {
+      "id": "136",
+      "exchange": "Binance",
+      "pair": "LINK/ETH",
+      "volume24h": "$2,508,460",
+      "price": "$1141.90",
+      "volume": "0.06%"
+    },
+    {
+      "id": "137",
+      "exchange": "Binance",
+      "pair": "ENG/ETH",
+      "volume24h": "$2,501,400",
+      "price": "$1178.79",
+      "volume": "0.06%"
+    },
+    {
+      "id": "138",
+      "exchange": "BigONE",
+      "pair": "ETH/EOS",
+      "volume24h": "$2,469,790",
+      "price": "$1172.79",
+      "volume": "0.06%"
+    },
+    {
+      "id": "139",
+      "exchange": "Binance",
+      "pair": "MDA/ETH",
+      "volume24h": "$2,469,400",
+      "price": "$1158.93",
+      "volume": "0.06%"
+    },
+    {
+      "id": "140",
+      "exchange": "Binance",
+      "pair": "SUB/ETH",
+      "volume24h": "$2,464,480",
+      "price": "$1137.19",
+      "volume": "0.06%"
+    },
+    {
+      "id": "141",
+      "exchange": "Bitfinex",
+      "pair": "NEO/ETH",
+      "volume24h": "$2,462,700",
+      "price": "$1157.62",
+      "volume": "0.06%"
+    },
+    {
+      "id": "142",
+      "exchange": "Binance",
+      "pair": "GTO/ETH",
+      "volume24h": "$2,453,430",
+      "price": "$1158.15",
+      "volume": "0.06%"
+    },
+    {
+      "id": "143",
+      "exchange": "EXX",
+      "pair": "SEXC/ETH",
+      "volume24h": "$2,358,450",
+      "price": "$1153.03",
+      "volume": "0.06%"
+    },
+    {
+      "id": "144",
+      "exchange": "Huobi",
+      "pair": "NAS/ETH",
+      "volume24h": "$2,290,030",
+      "price": "$1160.49",
+      "volume": "0.06%"
+    },
+    {
+      "id": "145",
+      "exchange": "Kucoin",
+      "pair": "DBC/ETH",
+      "volume24h": "$2,243,560",
+      "price": "$1147.68",
+      "volume": "0.06%"
+    },
+    {
+      "id": "146",
+      "exchange": "Gate.io",
+      "pair": "MED/ETH",
+      "volume24h": "$2,223,490",
+      "price": "$1111.73",
+      "volume": "0.06%"
+    },
+    {
+      "id": "147",
+      "exchange": "BigONE",
+      "pair": "ETH/BTC",
+      "volume24h": "$2,174,790",
+      "price": "$1156.46",
+      "volume": "0.06%"
+    },
+    {
+      "id": "148",
+      "exchange": "Binance",
+      "pair": "QSP/ETH",
+      "volume24h": "$2,140,860",
+      "price": "$1159.30",
+      "volume": "0.05%"
+    },
+    {
+      "id": "149",
+      "exchange": "Liqui",
+      "pair": "ETH/BTC",
+      "volume24h": "$2,125,750",
+      "price": "$1151.82",
+      "volume": "0.05%"
+    },
+    {
+      "id": "150",
+      "exchange": "Kucoin",
+      "pair": "XRB/ETH",
+      "volume24h": "$2,108,050",
+      "price": "$1172.41",
+      "volume": "0.05%"
+    },
+    {
+      "id": "151",
+      "exchange": "Bibox",
+      "pair": "LEND/ETH",
+      "volume24h": "$2,102,840",
+      "price": "$1098.32",
+      "volume": "0.05%"
+    },
+    {
+      "id": "152",
+      "exchange": "TOPBTC",
+      "pair": "ETH/BTC",
+      "volume24h": "$2,042,040",
+      "price": "$1142.42",
+      "volume": "0.05%"
+    },
+    {
+      "id": "153",
+      "exchange": "Bittrex",
+      "pair": "SC/ETH",
+      "volume24h": "$2,039,750",
+      "price": "$1152.88",
+      "volume": "0.05%"
+    },
+    {
+      "id": "154",
+      "exchange": "HitBTC",
+      "pair": "XMR/ETH",
+      "volume24h": "$2,022,610",
+      "price": "$1153.20",
+      "volume": "0.05%"
+    },
+    {
+      "id": "155",
+      "exchange": "Binance",
+      "pair": "SALT/ETH",
+      "volume24h": "$2,009,070",
+      "price": "$1165.95",
+      "volume": "0.05%"
+    },
+    {
+      "id": "156",
+      "exchange": "Kucoin",
+      "pair": "NEO/ETH",
+      "volume24h": "$2,003,780",
+      "price": "$1157.79",
+      "volume": "0.05%"
+    },
+    {
+      "id": "157",
+      "exchange": "Kraken",
+      "pair": "REP/ETH",
+      "volume24h": "$1,997,960",
+      "price": "$1218.30",
+      "volume": "0.05%"
+    },
+    {
+      "id": "158",
+      "exchange": "Binance",
+      "pair": "HSR/ETH",
+      "volume24h": "$1,985,610",
+      "price": "$1235.49",
+      "volume": "0.05%"
+    },
+    {
+      "id": "159",
+      "exchange": "Liqui",
+      "pair": "BMC/ETH",
+      "volume24h": "$1,942,290",
+      "price": "$1159.88",
+      "volume": "0.05%"
+    },
+    {
+      "id": "160",
+      "exchange": "Independent Reserve",
+      "pair": "ETH/AUD",
+      "volume24h": "$1,940,960",
+      "price": "$1199.05",
+      "volume": "0.05%"
+    },
+    {
+      "id": "161",
+      "exchange": "Binance",
+      "pair": "CMT/ETH",
+      "volume24h": "$1,885,850",
+      "price": "$1154.35",
+      "volume": "0.05%"
+    },
+    {
+      "id": "162",
+      "exchange": "OEX",
+      "pair": "ETH/CNY",
+      "volume24h": "$1,883,310",
+      "price": "$1233.66",
+      "volume": "0.05%"
+    },
+    {
+      "id": "163",
+      "exchange": "Bitcoin Indonesia",
+      "pair": "ETH/IDR",
+      "volume24h": "$1,879,370",
+      "price": "$1200.68",
+      "volume": "0.05%"
+    },
+    {
+      "id": "164",
+      "exchange": "Quoine",
+      "pair": "ETH/JPY",
+      "volume24h": "$1,875,450",
+      "price": "$1168.80",
+      "volume": "0.05%"
+    },
+    {
+      "id": "165",
+      "exchange": "Kucoin",
+      "pair": "KCS/ETH",
+      "volume24h": "$1,868,420",
+      "price": "$1140.39",
+      "volume": "0.05%"
+    },
+    {
+      "id": "166",
+      "exchange": "Binance",
+      "pair": "FUEL/ETH",
+      "volume24h": "$1,857,380",
+      "price": "$1150.80",
+      "volume": "0.05%"
+    },
+    {
+      "id": "167",
+      "exchange": "Bibox",
+      "pair": "MOT/ETH",
+      "volume24h": "$1,856,610",
+      "price": "$1107.44",
+      "volume": "0.05%"
+    },
+    {
+      "id": "168",
+      "exchange": "Binance",
+      "pair": "POWR/ETH",
+      "volume24h": "$1,826,590",
+      "price": "$1314.74",
+      "volume": "0.05%"
+    },
+    {
+      "id": "169",
+      "exchange": "Upbit",
+      "pair": "NEO/ETH",
+      "volume24h": "$1,820,600",
+      "price": "$1168.91",
+      "volume": "0.05%"
+    },
+    {
+      "id": "170",
+      "exchange": "Binance",
+      "pair": "CTR/ETH",
+      "volume24h": "$1,819,040",
+      "price": "$1147.73",
+      "volume": "0.05%"
+    },
+    {
+      "id": "171",
+      "exchange": "Gate.io",
+      "pair": "VEN/ETH",
+      "volume24h": "$1,786,430",
+      "price": "$1163.16",
+      "volume": "0.05%"
+    },
+    {
+      "id": "172",
+      "exchange": "Bibox",
+      "pair": "ETH/BTC",
+      "volume24h": "$1,769,340",
+      "price": "$1142.25",
+      "volume": "0.04%"
+    },
+    {
+      "id": "173",
+      "exchange": "Binance",
+      "pair": "ENJ/ETH",
+      "volume24h": "$1,757,300",
+      "price": "$1163.63",
+      "volume": "0.04%"
+    },
+    {
+      "id": "174",
+      "exchange": "Binance",
+      "pair": "DASH/ETH",
+      "volume24h": "$1,732,170",
+      "price": "$1163.27",
+      "volume": "0.04%"
+    },
+    {
+      "id": "175",
+      "exchange": "OKEx",
+      "pair": "RCT/ETH",
+      "volume24h": "$1,728,170",
+      "price": "$1167.43",
+      "volume": "0.04%"
+    },
+    {
+      "id": "176",
+      "exchange": "Huobi",
+      "pair": "TNB/ETH",
+      "volume24h": "$1,718,240",
+      "price": "$1149.83",
+      "volume": "0.04%"
+    },
+    {
+      "id": "177",
+      "exchange": "Upbit",
+      "pair": "XRP/ETH",
+      "volume24h": "$1,701,780",
+      "price": "$1161.94",
+      "volume": "0.04%"
+    },
+    {
+      "id": "178",
+      "exchange": "Exmo",
+      "pair": "ETH/RUB",
+      "volume24h": "$1,689,010",
+      "price": "$1233.59",
+      "volume": "0.04%"
+    },
+    {
+      "id": "179",
+      "exchange": "Binance",
+      "pair": "SNT/ETH",
+      "volume24h": "$1,688,180",
+      "price": "$1153.19",
+      "volume": "0.04%"
+    },
+    {
+      "id": "180",
+      "exchange": "Gate.io",
+      "pair": "ETH/BTC",
+      "volume24h": "$1,673,310",
+      "price": "$1157.03",
+      "volume": "0.04%"
+    },
+    {
+      "id": "181",
+      "exchange": "bitFlyer",
+      "pair": "ETH/BTC",
+      "volume24h": "$1,665,800",
+      "price": "$1159.19",
+      "volume": "0.04%"
+    },
+    {
+      "id": "182",
+      "exchange": "Bitinka",
+      "pair": "BTC/ETH",
+      "volume24h": "$1,639,550",
+      "price": "$1113.81",
+      "volume": "0.04%"
+    },
+    {
+      "id": "183",
+      "exchange": "Bittrex",
+      "pair": "OMG/ETH",
+      "volume24h": "$1,611,010",
+      "price": "$1138.10",
+      "volume": "0.04%"
+    },
+    {
+      "id": "184",
+      "exchange": "Coinsquare",
+      "pair": "ETH/BTC",
+      "volume24h": "$1,591,210",
+      "price": "$1162.92",
+      "volume": "0.04%"
+    },
+    {
+      "id": "185",
+      "exchange": "xBTCe",
+      "pair": "ETH/BTC",
+      "volume24h": "$1,573,550",
+      "price": "$1122.59",
+      "volume": "0.04%"
+    },
+    {
+      "id": "186",
+      "exchange": "Binance",
+      "pair": "NULS/ETH",
+      "volume24h": "$1,545,400",
+      "price": "$1147.63",
+      "volume": "0.04%"
+    },
+    {
+      "id": "187",
+      "exchange": "YoBit",
+      "pair": "ETH/USD",
+      "volume24h": "$1,518,850",
+      "price": "$1257.00",
+      "volume": "0.04%"
+    },
+    {
+      "id": "188",
+      "exchange": "Binance",
+      "pair": "BTG/ETH",
+      "volume24h": "$1,517,460",
+      "price": "$1157.25",
+      "volume": "0.04%"
+    },
+    {
+      "id": "189",
+      "exchange": "Gate.io",
+      "pair": "BTO/ETH",
+      "volume24h": "$1,512,890",
+      "price": "$1160.41",
+      "volume": "0.04%"
+    },
+    {
+      "id": "190",
+      "exchange": "Kraken",
+      "pair": "ICN/ETH",
+      "volume24h": "$1,503,560",
+      "price": "$1149.21",
+      "volume": "0.04%"
+    },
+    {
+      "id": "191",
+      "exchange": "Exmo",
+      "pair": "ETH/EUR",
+      "volume24h": "$1,492,300",
+      "price": "$1245.32",
+      "volume": "0.04%"
+    },
+    {
+      "id": "192",
+      "exchange": "Coinrail",
+      "pair": "ETH/BTC",
+      "volume24h": "$1,490,910",
+      "price": "$1152.99",
+      "volume": "0.04%"
+    },
+    {
+      "id": "193",
+      "exchange": "Upbit",
+      "pair": "SC/ETH",
+      "volume24h": "$1,488,680",
+      "price": "$1152.88",
+      "volume": "0.04%"
+    },
+    {
+      "id": "194",
+      "exchange": "Liqui",
+      "pair": "ADX/ETH",
+      "volume24h": "$1,484,340",
+      "price": "$1146.74",
+      "volume": "0.04%"
+    },
+    {
+      "id": "195",
+      "exchange": "HitBTC",
+      "pair": "EDO/ETH",
+      "volume24h": "$1,478,130",
+      "price": "$1107.10",
+      "volume": "0.04%"
+    },
+    {
+      "id": "196",
+      "exchange": "Kucoin",
+      "pair": "KEY/ETH",
+      "volume24h": "$1,466,540",
+      "price": "$1161.63",
+      "volume": "0.04%"
+    },
+    {
+      "id": "197",
+      "exchange": "Huobi",
+      "pair": "TOPC/ETH",
+      "volume24h": "$1,447,570",
+      "price": "$1152.30",
+      "volume": "0.04%"
+    },
+    {
+      "id": "198",
+      "exchange": "OKEx",
+      "pair": "IOST/ETH",
+      "volume24h": "$1,445,530",
+      "price": "$1151.49",
+      "volume": "0.04%"
+    },
+    {
+      "id": "199",
+      "exchange": "Gate.io",
+      "pair": "NAS/ETH",
+      "volume24h": "$1,432,940",
+      "price": "$1173.03",
+      "volume": "0.04%"
+    },
+    {
+      "id": "200",
+      "exchange": "Gatehub",
+      "pair": "XRP/ETH",
+      "volume24h": "$1,421,080",
+      "price": "$1104.14",
+      "volume": "0.04%"
+    },
+    {
+      "id": "201",
+      "exchange": "Huobi",
+      "pair": "QUN/ETH",
+      "volume24h": "$1,400,140",
+      "price": "$1131.96",
+      "volume": "0.04%"
+    },
+    {
+      "id": "202",
+      "exchange": "Binance",
+      "pair": "BAT/ETH",
+      "volume24h": "$1,389,480",
+      "price": "$1160.24",
+      "volume": "0.04%"
+    },
+    {
+      "id": "203",
+      "exchange": "Binance",
+      "pair": "ICN/ETH",
+      "volume24h": "$1,380,030",
+      "price": "$1166.62",
+      "volume": "0.04%"
+    },
+    {
+      "id": "204",
+      "exchange": "Kucoin",
+      "pair": "DRGN/ETH",
+      "volume24h": "$1,370,560",
+      "price": "$1168.86",
+      "volume": "0.03%"
+    },
+    {
+      "id": "205",
+      "exchange": "CEX.IO",
+      "pair": "ETH/BTC",
+      "volume24h": "$1,367,760",
+      "price": "$1159.06",
+      "volume": "0.03%"
+    },
+    {
+      "id": "206",
+      "exchange": "Liqui",
+      "pair": "GUP/ETH",
+      "volume24h": "$1,367,320",
+      "price": "$1153.80",
+      "volume": "0.03%"
+    },
+    {
+      "id": "207",
+      "exchange": "Binance",
+      "pair": "LSK/ETH",
+      "volume24h": "$1,351,840",
+      "price": "$1180.52",
+      "volume": "0.03%"
+    },
+    {
+      "id": "208",
+      "exchange": "Bittrex",
+      "pair": "QTUM/ETH",
+      "volume24h": "$1,346,180",
+      "price": "$1127.24",
+      "volume": "0.03%"
+    },
+    {
+      "id": "209",
+      "exchange": "Bibox",
+      "pair": "ETH/USDT",
+      "volume24h": "$1,345,280",
+      "price": "$1181.11",
+      "volume": "0.03%"
+    },
+    {
+      "id": "210",
+      "exchange": "Poloniex",
+      "pair": "BCH/ETH",
+      "volume24h": "$1,343,490",
+      "price": "$1155.37",
+      "volume": "0.03%"
+    },
+    {
+      "id": "211",
+      "exchange": "Binance",
+      "pair": "RLC/ETH",
+      "volume24h": "$1,335,820",
+      "price": "$1155.54",
+      "volume": "0.03%"
+    },
+    {
+      "id": "212",
+      "exchange": "xBTCe",
+      "pair": "ETH/EUR",
+      "volume24h": "$1,312,880",
+      "price": "$1194.18",
+      "volume": "0.03%"
+    },
+    {
+      "id": "213",
+      "exchange": "EXX",
+      "pair": "QBT/ETH",
+      "volume24h": "$1,304,610",
+      "price": "$1166.80",
+      "volume": "0.03%"
+    },
+    {
+      "id": "214",
+      "exchange": "Huobi",
+      "pair": "THETA/ETH",
+      "volume24h": "$1,302,930",
+      "price": "$1167.90",
+      "volume": "0.03%"
+    },
+    {
+      "id": "215",
+      "exchange": "Bittrex",
+      "pair": "XLM/ETH",
+      "volume24h": "$1,292,740",
+      "price": "$1290.70",
+      "volume": "0.03%"
+    },
+    {
+      "id": "216",
+      "exchange": "Kucoin",
+      "pair": "ETH/USDT",
+      "volume24h": "$1,277,460",
+      "price": "$1146.08",
+      "volume": "0.03%"
+    },
+    {
+      "id": "217",
+      "exchange": "OKEx",
+      "pair": "NEO/ETH",
+      "volume24h": "$1,273,490",
+      "price": "$1151.96",
+      "volume": "0.03%"
+    },
+    {
+      "id": "218",
+      "exchange": "HitBTC",
+      "pair": "EBTCNEW/ETH",
+      "volume24h": "$1,249,870",
+      "price": "$1165.41",
+      "volume": "0.03%"
+    },
+    {
+      "id": "219",
+      "exchange": "xBTCe",
+      "pair": "ETH/USD",
+      "volume24h": "$1,245,750",
+      "price": "$1144.80",
+      "volume": "0.03%"
+    },
+    {
+      "id": "220",
+      "exchange": "CoinExchange",
+      "pair": "ETH/BTC",
+      "volume24h": "$1,244,550",
+      "price": "$1162.93",
+      "volume": "0.00%"
+    },
+    {
+      "id": "221",
+      "exchange": "Binance",
+      "pair": "RCN/ETH",
+      "volume24h": "$1,239,760",
+      "price": "$1158.67",
+      "volume": "0.03%"
+    },
+    {
+      "id": "222",
+      "exchange": "OKEx",
+      "pair": "AAC/ETH",
+      "volume24h": "$1,237,120",
+      "price": "$1158.52",
+      "volume": "0.03%"
+    },
+    {
+      "id": "223",
+      "exchange": "Upbit",
+      "pair": "QTUM/ETH",
+      "volume24h": "$1,206,860",
+      "price": "$1128.96",
+      "volume": "0.03%"
+    },
+    {
+      "id": "224",
+      "exchange": "Binance",
+      "pair": "MANA/ETH",
+      "volume24h": "$1,199,310",
+      "price": "$1159.52",
+      "volume": "0.03%"
+    },
+    {
+      "id": "225",
+      "exchange": "Binance",
+      "pair": "MOD/ETH",
+      "volume24h": "$1,186,600",
+      "price": "$1165.97",
+      "volume": "0.03%"
+    },
+    {
+      "id": "226",
+      "exchange": "OKEx",
+      "pair": "IOTA/ETH",
+      "volume24h": "$1,186,320",
+      "price": "$1141.98",
+      "volume": "0.03%"
+    },
+    {
+      "id": "227",
+      "exchange": "TOPBTC",
+      "pair": "SNT/ETH",
+      "volume24h": "$1,184,150",
+      "price": "$1233.89",
+      "volume": "0.03%"
+    },
+    {
+      "id": "228",
+      "exchange": "Bitso",
+      "pair": "ETH/MXN",
+      "volume24h": "$1,150,710",
+      "price": "$1196.51",
+      "volume": "0.03%"
+    },
+    {
+      "id": "229",
+      "exchange": "Bittrex",
+      "pair": "FUN/ETH",
+      "volume24h": "$1,150,010",
+      "price": "$1142.77",
+      "volume": "0.03%"
+    },
+    {
+      "id": "230",
+      "exchange": "Bibox",
+      "pair": "TNB/ETH",
+      "volume24h": "$1,141,800",
+      "price": "$1178.77",
+      "volume": "0.03%"
+    },
+    {
+      "id": "231",
+      "exchange": "Bibox",
+      "pair": "BTO/ETH",
+      "volume24h": "$1,132,940",
+      "price": "$1154.64",
+      "volume": "0.03%"
+    },
+    {
+      "id": "232",
+      "exchange": "Binance",
+      "pair": "GXS/ETH",
+      "volume24h": "$1,111,480",
+      "price": "$1177.63",
+      "volume": "0.03%"
+    },
+    {
+      "id": "233",
+      "exchange": "Binance",
+      "pair": "BQX/ETH",
+      "volume24h": "$1,076,680",
+      "price": "$1151.30",
+      "volume": "0.03%"
+    },
+    {
+      "id": "234",
+      "exchange": "HitBTC",
+      "pair": "IXT/ETH",
+      "volume24h": "$1,071,980",
+      "price": "$1150.58",
+      "volume": "0.03%"
+    },
+    {
+      "id": "235",
+      "exchange": "Livecoin",
+      "pair": "IPL/ETH",
+      "volume24h": "$1,071,100",
+      "price": "$1163.84",
+      "volume": "0.03%"
+    },
+    {
+      "id": "236",
+      "exchange": "Binance",
+      "pair": "KMD/ETH",
+      "volume24h": "$1,069,740",
+      "price": "$1303.84",
+      "volume": "0.03%"
+    },
+    {
+      "id": "237",
+      "exchange": "Binance",
+      "pair": "RDN/ETH",
+      "volume24h": "$1,063,730",
+      "price": "$1164.39",
+      "volume": "0.03%"
+    },
+    {
+      "id": "238",
+      "exchange": "Binance",
+      "pair": "STRAT/ETH",
+      "volume24h": "$1,057,840",
+      "price": "$1264.37",
+      "volume": "0.03%"
+    },
+    {
+      "id": "239",
+      "exchange": "Binance",
+      "pair": "PPT/ETH",
+      "volume24h": "$1,046,730",
+      "price": "$1143.67",
+      "volume": "0.03%"
+    },
+    {
+      "id": "240",
+      "exchange": "The Rock Trading",
+      "pair": "ETH/EUR",
+      "volume24h": "$1,044,190",
+      "price": "$1160.04",
+      "volume": "0.03%"
+    },
+    {
+      "id": "241",
+      "exchange": "ChaoEX",
+      "pair": "ETH/BTC",
+      "volume24h": "$1,036,350",
+      "price": "$1171.13",
+      "volume": "0.03%"
+    },
+    {
+      "id": "242",
+      "exchange": "Bit-Z",
+      "pair": "ZSC/ETH",
+      "volume24h": "$1,031,860",
+      "price": "$1293.62",
+      "volume": "0.03%"
+    },
+    {
+      "id": "243",
+      "exchange": "Allcoin",
+      "pair": "UGT/ETH",
+      "volume24h": "$1,019,500",
+      "price": "$1292.71",
+      "volume": "0.03%"
+    },
+    {
+      "id": "244",
+      "exchange": "BitBay",
+      "pair": "ETH/PLN",
+      "volume24h": "$1,018,430",
+      "price": "$1146.91",
+      "volume": "0.03%"
+    },
+    {
+      "id": "245",
+      "exchange": "OKEx",
+      "pair": "LIGHT/ETH",
+      "volume24h": "$1,002,640",
+      "price": "$1142.10",
+      "volume": "0.03%"
+    },
+    {
+      "id": "246",
+      "exchange": "Kucoin",
+      "pair": "LA/ETH",
+      "volume24h": "$1,000,740",
+      "price": "$1165.50",
+      "volume": "0.03%"
+    },
+    {
+      "id": "247",
+      "exchange": "Gate.io",
+      "pair": "BTM/ETH",
+      "volume24h": "$998,906",
+      "price": "$1145.34",
+      "volume": "0.03%"
+    },
+    {
+      "id": "248",
+      "exchange": "EtherDelta",
+      "pair": "VERI/ETH",
+      "volume24h": "$996,382",
+      "price": "$1186.14",
+      "volume": "0.03%"
+    },
+    {
+      "id": "249",
+      "exchange": "Bitfinex",
+      "pair": "BCH/ETH",
+      "volume24h": "$993,764",
+      "price": "$1158.47",
+      "volume": "0.03%"
+    },
+    {
+      "id": "250",
+      "exchange": "HitBTC",
+      "pair": "EOS/ETH",
+      "volume24h": "$986,058",
+      "price": "$1149.05",
+      "volume": "0.03%"
+    },
+    {
+      "id": "251",
+      "exchange": "Kucoin",
+      "pair": "DENT/ETH",
+      "volume24h": "$985,050",
+      "price": "$1140.56",
+      "volume": "0.03%"
+    },
+    {
+      "id": "252",
+      "exchange": "COSS",
+      "pair": "COSS/ETH",
+      "volume24h": "$980,025",
+      "price": "$1168.06",
+      "volume": "0.02%"
+    },
+    {
+      "id": "253",
+      "exchange": "Binance",
+      "pair": "ZEC/ETH",
+      "volume24h": "$977,378",
+      "price": "$1165.58",
+      "volume": "0.02%"
+    },
+    {
+      "id": "254",
+      "exchange": "Bibox",
+      "pair": "GTC/ETH",
+      "volume24h": "$967,298",
+      "price": "$1192.75",
+      "volume": "0.02%"
+    },
+    {
+      "id": "255",
+      "exchange": "Huobi",
+      "pair": "QASH/ETH",
+      "volume24h": "$965,039",
+      "price": "$1148.59",
+      "volume": "0.02%"
+    },
+    {
+      "id": "256",
+      "exchange": "xBTCe",
+      "pair": "ETH/RUB",
+      "volume24h": "$949,646",
+      "price": "$1098.82",
+      "volume": "0.02%"
+    },
+    {
+      "id": "257",
+      "exchange": "Exmo",
+      "pair": "ETH/UAH",
+      "volume24h": "$943,842",
+      "price": "$1223.64",
+      "volume": "0.02%"
+    },
+    {
+      "id": "258",
+      "exchange": "Huobi",
+      "pair": "SMT/ETH",
+      "volume24h": "$937,813",
+      "price": "$1153.16",
+      "volume": "0.02%"
+    },
+    {
+      "id": "259",
+      "exchange": "IDEX",
+      "pair": "BAR/ETH",
+      "volume24h": "$921,809",
+      "price": "$1152.97",
+      "volume": "0.02%"
+    },
+    {
+      "id": "260",
+      "exchange": "Kucoin",
+      "pair": "RPX/ETH",
+      "volume24h": "$915,597",
+      "price": "$1168.31",
+      "volume": "0.02%"
+    },
+    {
+      "id": "261",
+      "exchange": "Bibox",
+      "pair": "CAT/ETH",
+      "volume24h": "$911,089",
+      "price": "$1219.34",
+      "volume": "0.02%"
+    },
+    {
+      "id": "262",
+      "exchange": "Binance",
+      "pair": "DLT/ETH",
+      "volume24h": "$902,033",
+      "price": "$1151.82",
+      "volume": "0.02%"
+    },
+    {
+      "id": "263",
+      "exchange": "Binance",
+      "pair": "ADX/ETH",
+      "volume24h": "$898,796",
+      "price": "$1174.59",
+      "volume": "0.02%"
+    },
+    {
+      "id": "264",
+      "exchange": "EXX",
+      "pair": "ETH/HSR",
+      "volume24h": "$887,054",
+      "price": "$1355.82",
+      "volume": "0.02%"
+    },
+    {
+      "id": "265",
+      "exchange": "Kucoin",
+      "pair": "LTC/ETH",
+      "volume24h": "$885,922",
+      "price": "$1160.26",
+      "volume": "0.02%"
+    },
+    {
+      "id": "266",
+      "exchange": "Binance",
+      "pair": "ARK/ETH",
+      "volume24h": "$883,156",
+      "price": "$1260.45",
+      "volume": "0.02%"
+    },
+    {
+      "id": "267",
+      "exchange": "Binance",
+      "pair": "TNT/ETH",
+      "volume24h": "$870,680",
+      "price": "$1160.94",
+      "volume": "0.02%"
+    },
+    {
+      "id": "268",
+      "exchange": "Binance",
+      "pair": "TRIG/ETH",
+      "volume24h": "$867,874",
+      "price": "$1157.67",
+      "volume": "0.02%"
+    },
+    {
+      "id": "269",
+      "exchange": "Bibox",
+      "pair": "EOS/ETH",
+      "volume24h": "$862,638",
+      "price": "$1136.04",
+      "volume": "0.02%"
+    },
+    {
+      "id": "270",
+      "exchange": "OKEx",
+      "pair": "ACT/ETH",
+      "volume24h": "$851,428",
+      "price": "$1139.24",
+      "volume": "0.02%"
+    },
+    {
+      "id": "271",
+      "exchange": "Bittrex",
+      "pair": "XMR/ETH",
+      "volume24h": "$846,522",
+      "price": "$1149.94",
+      "volume": "0.02%"
+    },
+    {
+      "id": "272",
+      "exchange": "Gate.io",
+      "pair": "ZSC/ETH",
+      "volume24h": "$844,292",
+      "price": "$1108.81",
+      "volume": "0.02%"
+    },
+    {
+      "id": "273",
+      "exchange": "Binance",
+      "pair": "BRD/ETH",
+      "volume24h": "$838,506",
+      "price": "$1148.53",
+      "volume": "0.02%"
+    },
+    {
+      "id": "274",
+      "exchange": "Poloniex",
+      "pair": "ZRX/ETH",
+      "volume24h": "$834,045",
+      "price": "$1147.81",
+      "volume": "0.02%"
+    },
+    {
+      "id": "275",
+      "exchange": "Bittrex",
+      "pair": "DGD/ETH",
+      "volume24h": "$825,631",
+      "price": "$1151.51",
+      "volume": "0.00%"
+    },
+    {
+      "id": "276",
+      "exchange": "Livecoin",
+      "pair": "ETH/USD",
+      "volume24h": "$799,704",
+      "price": "$1250.00",
+      "volume": "0.02%"
+    },
+    {
+      "id": "277",
+      "exchange": "Bibox",
+      "pair": "ETC/ETH",
+      "volume24h": "$798,258",
+      "price": "$1130.24",
+      "volume": "0.02%"
+    },
+    {
+      "id": "278",
+      "exchange": "Bibox",
+      "pair": "LTC/ETH",
+      "volume24h": "$786,748",
+      "price": "$1163.68",
+      "volume": "0.02%"
+    },
+    {
+      "id": "279",
+      "exchange": "Gate.io",
+      "pair": "EOS/ETH",
+      "volume24h": "$776,656",
+      "price": "$1148.96",
+      "volume": "0.02%"
+    },
+    {
+      "id": "280",
+      "exchange": "Huobi",
+      "pair": "OMG/ETH",
+      "volume24h": "$770,838",
+      "price": "$1140.25",
+      "volume": "0.02%"
+    },
+    {
+      "id": "281",
+      "exchange": "EXX",
+      "pair": "QTUM/ETH",
+      "volume24h": "$760,948",
+      "price": "$1162.70",
+      "volume": "0.02%"
+    },
+    {
+      "id": "282",
+      "exchange": "Binance",
+      "pair": "MTH/ETH",
+      "volume24h": "$760,513",
+      "price": "$1159.59",
+      "volume": "0.02%"
+    },
+    {
+      "id": "283",
+      "exchange": "EtherDelta",
+      "pair": "0x85e0/ETH",
+      "volume24h": "$741,662",
+      "price": "$1149.12",
+      "volume": "0.02%"
+    },
+    {
+      "id": "284",
+      "exchange": "Upbit",
+      "pair": "XLM/ETH",
+      "volume24h": "$741,185",
+      "price": "$1296.83",
+      "volume": "0.02%"
+    },
+    {
+      "id": "285",
+      "exchange": "OKEx",
+      "pair": "VEE/ETH",
+      "volume24h": "$740,698",
+      "price": "$1082.46",
+      "volume": "0.02%"
+    },
+    {
+      "id": "286",
+      "exchange": "Upbit",
+      "pair": "ETH/USDT",
+      "volume24h": "$728,571",
+      "price": "$1144.07",
+      "volume": "0.02%"
+    },
+    {
+      "id": "287",
+      "exchange": "HitBTC",
+      "pair": "LA/ETH",
+      "volume24h": "$720,138",
+      "price": "$1122.21",
+      "volume": "0.02%"
+    },
+    {
+      "id": "288",
+      "exchange": "Kraken",
+      "pair": "ETC/ETH",
+      "volume24h": "$712,640",
+      "price": "$1154.36",
+      "volume": "0.02%"
+    },
+    {
+      "id": "289",
+      "exchange": "OKEx",
+      "pair": "QTUM/ETH",
+      "volume24h": "$709,966",
+      "price": "$1141.46",
+      "volume": "0.02%"
+    },
+    {
+      "id": "290",
+      "exchange": "OKEx",
+      "pair": "ICX/ETH",
+      "volume24h": "$709,576",
+      "price": "$1200.46",
+      "volume": "0.02%"
+    },
+    {
+      "id": "291",
+      "exchange": "OKEx",
+      "pair": "KNC/ETH",
+      "volume24h": "$709,357",
+      "price": "$1167.47",
+      "volume": "0.02%"
+    },
+    {
+      "id": "292",
+      "exchange": "Huobi",
+      "pair": "ELF/ETH",
+      "volume24h": "$705,898",
+      "price": "$1159.37",
+      "volume": "0.02%"
+    },
+    {
+      "id": "293",
+      "exchange": "Huobi",
+      "pair": "ITC/ETH",
+      "volume24h": "$702,131",
+      "price": "$1155.41",
+      "volume": "0.02%"
+    },
+    {
+      "id": "294",
+      "exchange": "Upbit",
+      "pair": "OMG/ETH",
+      "volume24h": "$700,344",
+      "price": "$1153.49",
+      "volume": "0.02%"
+    },
+    {
+      "id": "295",
+      "exchange": "Kucoin",
+      "pair": "BNTY/ETH",
+      "volume24h": "$688,756",
+      "price": "$1174.49",
+      "volume": "0.02%"
+    },
+    {
+      "id": "296",
+      "exchange": "OKEx",
+      "pair": "LA/ETH",
+      "volume24h": "$685,464",
+      "price": "$1140.22",
+      "volume": "0.02%"
+    },
+    {
+      "id": "297",
+      "exchange": "Binance",
+      "pair": "MTL/ETH",
+      "volume24h": "$683,636",
+      "price": "$1227.94",
+      "volume": "0.02%"
+    },
+    {
+      "id": "298",
+      "exchange": "Bittrex",
+      "pair": "BCC/ETH",
+      "volume24h": "$678,365",
+      "price": "$1159.83",
+      "volume": "0.02%"
+    },
+    {
+      "id": "299",
+      "exchange": "CEX.IO",
+      "pair": "ETH/EUR",
+      "volume24h": "$670,958",
+      "price": "$1163.28",
+      "volume": "0.02%"
+    },
+    {
+      "id": "300",
+      "exchange": "OKEx",
+      "pair": "HOT/ETH",
+      "volume24h": "$670,233",
+      "price": "$1161.49",
+      "volume": "0.02%"
+    },
+    {
+      "id": "301",
+      "exchange": "OKEx",
+      "pair": "TIO/ETH",
+      "volume24h": "$668,843",
+      "price": "$1130.07",
+      "volume": "0.02%"
+    },
+    {
+      "id": "302",
+      "exchange": "Binance",
+      "pair": "YOYO/ETH",
+      "volume24h": "$663,438",
+      "price": "$1152.09",
+      "volume": "0.02%"
+    },
+    {
+      "id": "303",
+      "exchange": "Binance",
+      "pair": "EDO/ETH",
+      "volume24h": "$660,707",
+      "price": "$1199.62",
+      "volume": "0.02%"
+    },
+    {
+      "id": "304",
+      "exchange": "Huobi",
+      "pair": "BTM/ETH",
+      "volume24h": "$660,051",
+      "price": "$1136.15",
+      "volume": "0.02%"
+    },
+    {
+      "id": "305",
+      "exchange": "HitBTC",
+      "pair": "XTZ/ETH",
+      "volume24h": "$656,104",
+      "price": "$1162.86",
+      "volume": "0.02%"
+    },
+    {
+      "id": "306",
+      "exchange": "Binance",
+      "pair": "OAX/ETH",
+      "volume24h": "$654,284",
+      "price": "$1168.62",
+      "volume": "0.02%"
+    },
+    {
+      "id": "307",
+      "exchange": "Cobinhood",
+      "pair": "COB/ETH",
+      "volume24h": "$650,031",
+      "price": "$1181.07",
+      "volume": "0.02%"
+    },
+    {
+      "id": "308",
+      "exchange": "Zaif",
+      "pair": "ETH/BTC",
+      "volume24h": "$649,834",
+      "price": "$1160.86",
+      "volume": "0.02%"
+    },
+    {
+      "id": "309",
+      "exchange": "IDEX",
+      "pair": "AGI/ETH",
+      "volume24h": "$648,397",
+      "price": "$1112.11",
+      "volume": "0.02%"
+    },
+    {
+      "id": "310",
+      "exchange": "Binance",
+      "pair": "STORJ/ETH",
+      "volume24h": "$643,861",
+      "price": "$1288.35",
+      "volume": "0.02%"
+    },
+    {
+      "id": "311",
+      "exchange": "HitBTC",
+      "pair": "SNT/ETH",
+      "volume24h": "$640,691",
+      "price": "$1150.83",
+      "volume": "0.02%"
+    },
+    {
+      "id": "312",
+      "exchange": "Kraken",
+      "pair": "ETH/CAD",
+      "volume24h": "$639,220",
+      "price": "$1190.34",
+      "volume": "0.02%"
+    },
+    {
+      "id": "313",
+      "exchange": "HitBTC",
+      "pair": "DCN/ETH",
+      "volume24h": "$638,220",
+      "price": "$1160.32",
+      "volume": "0.02%"
+    },
+    {
+      "id": "314",
+      "exchange": "Cryptopia",
+      "pair": "ETH/USDT",
+      "volume24h": "$633,229",
+      "price": "$1151.18",
+      "volume": "0.02%"
+    },
+    {
+      "id": "315",
+      "exchange": "Bittrex",
+      "pair": "POWR/ETH",
+      "volume24h": "$630,656",
+      "price": "$1308.85",
+      "volume": "0.02%"
+    },
+    {
+      "id": "316",
+      "exchange": "Bittrex",
+      "pair": "LTC/ETH",
+      "volume24h": "$624,897",
+      "price": "$1152.59",
+      "volume": "0.02%"
+    },
+    {
+      "id": "317",
+      "exchange": "Bitbank",
+      "pair": "ETH/BTC",
+      "volume24h": "$623,695",
+      "price": "$1142.88",
+      "volume": "0.02%"
+    },
+    {
+      "id": "318",
+      "exchange": "Qryptos",
+      "pair": "FDX/ETH",
+      "volume24h": "$617,238",
+      "price": "$1129.86",
+      "volume": "0.02%"
+    },
+    {
+      "id": "319",
+      "exchange": "Bibox",
+      "pair": "AIDOC/ETH",
+      "volume24h": "$614,511",
+      "price": "$1190.94",
+      "volume": "0.02%"
+    },
+    {
+      "id": "320",
+      "exchange": "Binance",
+      "pair": "EVX/ETH",
+      "volume24h": "$612,137",
+      "price": "$1182.37",
+      "volume": "0.02%"
+    },
+    {
+      "id": "321",
+      "exchange": "Qryptos",
+      "pair": "QASH/ETH",
+      "volume24h": "$611,659",
+      "price": "$1108.69",
+      "volume": "0.02%"
+    },
+    {
+      "id": "322",
+      "exchange": "HitBTC",
+      "pair": "ADX/ETH",
+      "volume24h": "$609,142",
+      "price": "$1045.80",
+      "volume": "0.02%"
+    },
+    {
+      "id": "323",
+      "exchange": "Binance",
+      "pair": "DGD/ETH",
+      "volume24h": "$607,854",
+      "price": "$1139.53",
+      "volume": "0.02%"
+    },
+    {
+      "id": "324",
+      "exchange": "CoinFalcon",
+      "pair": "ETH/EUR",
+      "volume24h": "$605,910",
+      "price": "$1099.68",
+      "volume": "0.00%"
+    },
+    {
+      "id": "325",
+      "exchange": "Binance",
+      "pair": "LUN/ETH",
+      "volume24h": "$604,617",
+      "price": "$1155.05",
+      "volume": "0.02%"
+    },
+    {
+      "id": "326",
+      "exchange": "Bitfinex",
+      "pair": "OMG/ETH",
+      "volume24h": "$604,266",
+      "price": "$1158.92",
+      "volume": "0.02%"
+    },
+    {
+      "id": "327",
+      "exchange": "Bittrex",
+      "pair": "REP/ETH",
+      "volume24h": "$601,202",
+      "price": "$1235.92",
+      "volume": "0.02%"
+    },
+    {
+      "id": "328",
+      "exchange": "Bibox",
+      "pair": "MKR/ETH",
+      "volume24h": "$598,099",
+      "price": "$1159.86",
+      "volume": "0.02%"
+    },
+    {
+      "id": "329",
+      "exchange": "Huobi",
+      "pair": "QTUM/ETH",
+      "volume24h": "$592,339",
+      "price": "$1143.38",
+      "volume": "0.02%"
+    },
+    {
+      "id": "330",
+      "exchange": "COSS",
+      "pair": "GAT/ETH",
+      "volume24h": "$588,542",
+      "price": "$1202.25",
+      "volume": "0.01%"
+    },
+    {
+      "id": "331",
+      "exchange": "Liqui",
+      "pair": "VEN/ETH",
+      "volume24h": "$585,670",
+      "price": "$1161.52",
+      "volume": "0.01%"
+    },
+    {
+      "id": "332",
+      "exchange": "AEX",
+      "pair": "ETH/BITCNY",
+      "volume24h": "$583,923",
+      "price": "$1146.76",
+      "volume": "0.01%"
+    },
+    {
+      "id": "333",
+      "exchange": "Huobi",
+      "pair": "MDS/ETH",
+      "volume24h": "$579,996",
+      "price": "$1166.57",
+      "volume": "0.01%"
+    },
+    {
+      "id": "334",
+      "exchange": "Huobi",
+      "pair": "AIDOC/ETH",
+      "volume24h": "$579,623",
+      "price": "$1137.80",
+      "volume": "0.01%"
+    },
+    {
+      "id": "335",
+      "exchange": "IDEX",
+      "pair": "AURA/ETH",
+      "volume24h": "$573,691",
+      "price": "$1111.85",
+      "volume": "0.01%"
+    },
+    {
+      "id": "336",
+      "exchange": "Kucoin",
+      "pair": "UTK/ETH",
+      "volume24h": "$573,148",
+      "price": "$1198.44",
+      "volume": "0.01%"
+    },
+    {
+      "id": "337",
+      "exchange": "Liqui",
+      "pair": "AST/ETH",
+      "volume24h": "$571,340",
+      "price": "$1159.91",
+      "volume": "0.01%"
+    },
+    {
+      "id": "338",
+      "exchange": "HitBTC",
+      "pair": "VEN/ETH",
+      "volume24h": "$570,228",
+      "price": "$1129.93",
+      "volume": "0.01%"
+    },
+    {
+      "id": "339",
+      "exchange": "IDEX",
+      "pair": "HORSE/ETH",
+      "volume24h": "$566,411",
+      "price": "$1150.48",
+      "volume": "0.01%"
+    },
+    {
+      "id": "340",
+      "exchange": "Binance",
+      "pair": "WAVES/ETH",
+      "volume24h": "$564,864",
+      "price": "$1207.38",
+      "volume": "0.01%"
+    },
+    {
+      "id": "341",
+      "exchange": "Bittrex",
+      "pair": "XEM/ETH",
+      "volume24h": "$558,109",
+      "price": "$1289.89",
+      "volume": "0.01%"
+    },
+    {
+      "id": "342",
+      "exchange": "Kucoin",
+      "pair": "ACT/ETH",
+      "volume24h": "$553,908",
+      "price": "$1126.10",
+      "volume": "0.01%"
+    },
+    {
+      "id": "343",
+      "exchange": "ZB.COM",
+      "pair": "ETH/BTC",
+      "volume24h": "$552,729",
+      "price": "$1158.43",
+      "volume": "0.01%"
+    },
+    {
+      "id": "344",
+      "exchange": "Bittrex",
+      "pair": "SALT/ETH",
+      "volume24h": "$547,036",
+      "price": "$1153.13",
+      "volume": "0.01%"
+    },
+    {
+      "id": "345",
+      "exchange": "QuadrigaCX",
+      "pair": "ETH/BTC",
+      "volume24h": "$542,710",
+      "price": "$1163.94",
+      "volume": "0.01%"
+    },
+    {
+      "id": "346",
+      "exchange": "Kraken",
+      "pair": "GNO/ETH",
+      "volume24h": "$537,048",
+      "price": "$1141.94",
+      "volume": "0.01%"
+    },
+    {
+      "id": "347",
+      "exchange": "OKEx",
+      "pair": "YEE/ETH",
+      "volume24h": "$535,945",
+      "price": "$1158.92",
+      "volume": "0.01%"
+    },
+    {
+      "id": "348",
+      "exchange": "Bibox",
+      "pair": "AMM/ETH",
+      "volume24h": "$531,109",
+      "price": "$1251.30",
+      "volume": "0.01%"
+    },
+    {
+      "id": "349",
+      "exchange": "Kucoin",
+      "pair": "PRL/ETH",
+      "volume24h": "$530,997",
+      "price": "$1141.25",
+      "volume": "0.01%"
+    },
+    {
+      "id": "350",
+      "exchange": "Tidebit",
+      "pair": "XPA/ETH",
+      "volume24h": "$524,426",
+      "price": "$1153.03",
+      "volume": "0.01%"
+    },
+    {
+      "id": "351",
+      "exchange": "Binance",
+      "pair": "MCO/ETH",
+      "volume24h": "$520,318",
+      "price": "$1153.80",
+      "volume": "0.01%"
+    },
+    {
+      "id": "352",
+      "exchange": "WEX",
+      "pair": "ETH/RUR",
+      "volume24h": "$518,479",
+      "price": "$1201.87",
+      "volume": "0.01%"
+    },
+    {
+      "id": "353",
+      "exchange": "DSX",
+      "pair": "ETH/USD",
+      "volume24h": "$515,096",
+      "price": "$1184.00",
+      "volume": "0.01%"
+    },
+    {
+      "id": "354",
+      "exchange": "Bittrex",
+      "pair": "BNT/ETH",
+      "volume24h": "$513,504",
+      "price": "$1160.76",
+      "volume": "0.01%"
+    },
+    {
+      "id": "355",
+      "exchange": "Quoine",
+      "pair": "ETH/BTC",
+      "volume24h": "$513,295",
+      "price": "$1148.02",
+      "volume": "0.01%"
+    },
+    {
+      "id": "356",
+      "exchange": "Binance",
+      "pair": "VIB/ETH",
+      "volume24h": "$508,140",
+      "price": "$1180.61",
+      "volume": "0.01%"
+    },
+    {
+      "id": "357",
+      "exchange": "EtherDelta",
+      "pair": "EDT/ETH",
+      "volume24h": "$503,144",
+      "price": "$1153.03",
+      "volume": "0.01%"
+    },
+    {
+      "id": "358",
+      "exchange": "Bibox",
+      "pair": "AWR/ETH",
+      "volume24h": "$501,101",
+      "price": "$1127.09",
+      "volume": "0.01%"
+    },
+    {
+      "id": "359",
+      "exchange": "HitBTC",
+      "pair": "HGT/ETH",
+      "volume24h": "$499,867",
+      "price": "$729.22",
+      "volume": "0.01%"
+    },
+    {
+      "id": "360",
+      "exchange": "OKEx",
+      "pair": "WRC/ETH",
+      "volume24h": "$490,311",
+      "price": "$1161.26",
+      "volume": "0.01%"
+    },
+    {
+      "id": "361",
+      "exchange": "Exmo",
+      "pair": "BCH/ETH",
+      "volume24h": "$489,484",
+      "price": "$1115.26",
+      "volume": "0.01%"
+    },
+    {
+      "id": "362",
+      "exchange": "Koineks",
+      "pair": "ETH/TRY",
+      "volume24h": "$489,022",
+      "price": "$1171.42",
+      "volume": "0.01%"
+    },
+    {
+      "id": "363",
+      "exchange": "AEX",
+      "pair": "ETH/BTC",
+      "volume24h": "$487,996",
+      "price": "$1169.85",
+      "volume": "0.01%"
+    },
+    {
+      "id": "364",
+      "exchange": "HitBTC",
+      "pair": "TRX/ETH",
+      "volume24h": "$482,687",
+      "price": "$1144.78",
+      "volume": "0.01%"
+    },
+    {
+      "id": "365",
+      "exchange": "Coinut",
+      "pair": "ETH/BTC",
+      "volume24h": "$480,945",
+      "price": "$1152.13",
+      "volume": "0.01%"
+    },
+    {
+      "id": "366",
+      "exchange": "Liqui",
+      "pair": "LTC/ETH",
+      "volume24h": "$478,364",
+      "price": "$1154.59",
+      "volume": "0.01%"
+    },
+    {
+      "id": "367",
+      "exchange": "Bittrex",
+      "pair": "BTG/ETH",
+      "volume24h": "$477,811",
+      "price": "$1138.84",
+      "volume": "0.01%"
+    },
+    {
+      "id": "368",
+      "exchange": "Liqui",
+      "pair": "SNM/ETH",
+      "volume24h": "$477,302",
+      "price": "$1156.60",
+      "volume": "0.01%"
+    },
+    {
+      "id": "369",
+      "exchange": "Binance",
+      "pair": "SNM/ETH",
+      "volume24h": "$471,659",
+      "price": "$1133.34",
+      "volume": "0.01%"
+    },
+    {
+      "id": "370",
+      "exchange": "Liqui",
+      "pair": "SNT/ETH",
+      "volume24h": "$466,494",
+      "price": "$1157.34",
+      "volume": "0.01%"
+    },
+    {
+      "id": "371",
+      "exchange": "Kucoin",
+      "pair": "QLC/ETH",
+      "volume24h": "$462,578",
+      "price": "$1162.72",
+      "volume": "0.01%"
+    },
+    {
+      "id": "372",
+      "exchange": "OKEx",
+      "pair": "BCH/ETH",
+      "volume24h": "$460,028",
+      "price": "$1158.53",
+      "volume": "0.01%"
+    },
+    {
+      "id": "373",
+      "exchange": "HitBTC",
+      "pair": "XRP/ETH",
+      "volume24h": "$457,870",
+      "price": "$1153.47",
+      "volume": "0.01%"
+    },
+    {
+      "id": "374",
+      "exchange": "OKEx",
+      "pair": "MOT/ETH",
+      "volume24h": "$456,140",
+      "price": "$1311.81",
+      "volume": "0.01%"
+    },
+    {
+      "id": "375",
+      "exchange": "Bitfinex",
+      "pair": "QSH/ETH",
+      "volume24h": "$448,796",
+      "price": "$1148.37",
+      "volume": "0.01%"
+    },
+    {
+      "id": "376",
+      "exchange": "HitBTC",
+      "pair": "MAID/ETH",
+      "volume24h": "$448,646",
+      "price": "$1160.32",
+      "volume": "0.01%"
+    },
+    {
+      "id": "377",
+      "exchange": "HitBTC",
+      "pair": "EKO/ETH",
+      "volume24h": "$448,531",
+      "price": "$1151.37",
+      "volume": "0.01%"
+    },
+    {
+      "id": "378",
+      "exchange": "WEX",
+      "pair": "ETH/LTC",
+      "volume24h": "$440,034",
+      "price": "$1153.83",
+      "volume": "0.01%"
+    },
+    {
+      "id": "379",
+      "exchange": "WEX",
+      "pair": "DSH/ETH",
+      "volume24h": "$439,544",
+      "price": "$1160.43",
+      "volume": "0.01%"
+    },
+    {
+      "id": "380",
+      "exchange": "Binance",
+      "pair": "NAV/ETH",
+      "volume24h": "$438,905",
+      "price": "$1180.11",
+      "volume": "0.01%"
+    },
+    {
+      "id": "381",
+      "exchange": "Gate.io",
+      "pair": "QTUM/ETH",
+      "volume24h": "$438,897",
+      "price": "$1142.38",
+      "volume": "0.01%"
+    },
+    {
+      "id": "382",
+      "exchange": "Bitcoin Indonesia",
+      "pair": "ETH/BTC",
+      "volume24h": "$435,774",
+      "price": "$1158.29",
+      "volume": "0.01%"
+    },
+    {
+      "id": "383",
+      "exchange": "EtherDelta",
+      "pair": "KIN/ETH",
+      "volume24h": "$433,781",
+      "price": "$1188.55",
+      "volume": "0.01%"
+    },
+    {
+      "id": "384",
+      "exchange": "BitGrail",
+      "pair": "ETH/XRB",
+      "volume24h": "$431,626",
+      "price": "$1125.39",
+      "volume": "0.01%"
+    },
+    {
+      "id": "385",
+      "exchange": "Bittrex",
+      "pair": "STRAT/ETH",
+      "volume24h": "$430,325",
+      "price": "$1262.21",
+      "volume": "0.01%"
+    },
+    {
+      "id": "386",
+      "exchange": "Exmo",
+      "pair": "ETH/PLN",
+      "volume24h": "$418,294",
+      "price": "$1192.33",
+      "volume": "0.01%"
+    },
+    {
+      "id": "387",
+      "exchange": "Poloniex",
+      "pair": "REP/ETH",
+      "volume24h": "$416,716",
+      "price": "$1225.75",
+      "volume": "0.01%"
+    },
+    {
+      "id": "388",
+      "exchange": "Quoine",
+      "pair": "ETH/USD",
+      "volume24h": "$414,178",
+      "price": "$1188.70",
+      "volume": "0.01%"
+    },
+    {
+      "id": "389",
+      "exchange": "Poloniex",
+      "pair": "ETC/ETH",
+      "volume24h": "$410,490",
+      "price": "$1153.10",
+      "volume": "0.01%"
+    },
+    {
+      "id": "390",
+      "exchange": "OKEx",
+      "pair": "ITC/ETH",
+      "volume24h": "$410,110",
+      "price": "$1152.54",
+      "volume": "0.01%"
+    },
+    {
+      "id": "391",
+      "exchange": "HitBTC",
+      "pair": "BCC/ETH",
+      "volume24h": "$409,560",
+      "price": "$1150.17",
+      "volume": "0.01%"
+    },
+    {
+      "id": "392",
+      "exchange": "Upbit",
+      "pair": "REP/ETH",
+      "volume24h": "$407,792",
+      "price": "$1273.91",
+      "volume": "0.01%"
+    },
+    {
+      "id": "393",
+      "exchange": "OKEx",
+      "pair": "ELF/ETH",
+      "volume24h": "$407,712",
+      "price": "$1144.89",
+      "volume": "0.01%"
+    },
+    {
+      "id": "394",
+      "exchange": "Huobi",
+      "pair": "ACT/ETH",
+      "volume24h": "$401,787",
+      "price": "$1249.18",
+      "volume": "0.01%"
+    },
+    {
+      "id": "395",
+      "exchange": "LiteBit.eu",
+      "pair": "ETH/EUR",
+      "volume24h": "$394,202",
+      "price": "$1155.51",
+      "volume": "0.01%"
+    },
+    {
+      "id": "396",
+      "exchange": "Kucoin",
+      "pair": "EOS/ETH",
+      "volume24h": "$392,651",
+      "price": "$1154.15",
+      "volume": "0.01%"
+    },
+    {
+      "id": "397",
+      "exchange": "GOPAX",
+      "pair": "ETH/KRW",
+      "volume24h": "$38,637,700",
+      "price": "$1398.71",
+      "volume": "0.00%"
+    },
+    {
+      "id": "398",
+      "exchange": "Kucoin",
+      "pair": "VEN/ETH",
+      "volume24h": "$1,174,990",
+      "price": "$1153.66",
+      "volume": "0.00%"
+    },
+    {
+      "id": "399",
+      "exchange": "ACX",
+      "pair": "ETH/AUD",
+      "volume24h": "$431,391",
+      "price": "$1223.84",
+      "volume": "0.00%"
+    },
+    {
+      "id": "400",
+      "exchange": "Binance",
+      "pair": "BCD/ETH",
+      "volume24h": "$3,627,740",
+      "price": "$292.80",
+      "volume": "0.00%"
+    }
+  ]
+}
