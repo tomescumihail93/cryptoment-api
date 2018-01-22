@@ -1,0 +1,247 @@
+{
+  "name": "coinmarketcap_coin_model",
+  "base": "PersistedModel",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "_id": {
+      "type": "number",
+      "id": true,
+      "generated": true,
+      "required": false,
+      "isArray": false,
+      "updateResource": {
+        "id": "common.coinmarketcap_coin_model._id",
+        "modelId": "common.coinmarketcap_coin_model",
+        "facetName": "common",
+        "name": "_id",
+        "type": "number",
+        "isId": true,
+        "required": false,
+        "isArray": false
+      }
+    },
+    "availableSupply": {
+      "type": [
+        "string"
+      ],
+      "required": false,
+      "isArray": true,
+      "updateResource": {
+        "id": "common.coinmarketcap_coin_model.availableSupply",
+        "modelId": "common.coinmarketcap_coin_model",
+        "facetName": "common",
+        "name": "availableSupply",
+        "type": [
+          "string"
+        ],
+        "required": false,
+        "isArray": true
+      }
+    },
+    "lastUpdated": {
+      "type": [
+        "string"
+      ],
+      "required": false,
+      "isArray": true,
+      "updateResource": {
+        "id": "common.coinmarketcap_coin_model.lastUpdated",
+        "modelId": "common.coinmarketcap_coin_model",
+        "facetName": "common",
+        "name": "lastUpdated",
+        "type": [
+          "string"
+        ],
+        "required": false,
+        "isArray": true
+      }
+    },
+    "marketCapUSD": {
+      "type": [
+        "string"
+      ],
+      "required": false,
+      "isArray": true,
+      "updateResource": {
+        "id": "common.coinmarketcap_coin_model.marketCapUSD",
+        "modelId": "common.coinmarketcap_coin_model",
+        "facetName": "common",
+        "name": "marketCapUSD",
+        "type": [
+          "string"
+        ],
+        "required": false,
+        "isArray": true
+      }
+    },
+    "maxSupply": {
+      "type": [
+        "string"
+      ],
+      "required": false,
+      "isArray": true,
+      "updateResource": {
+        "id": "common.coinmarketcap_coin_model.maxSupply",
+        "modelId": "common.coinmarketcap_coin_model",
+        "facetName": "common",
+        "name": "maxSupply",
+        "type": [
+          "string"
+        ],
+        "required": false,
+        "isArray": true
+      }
+    },
+    "name": {
+      "type": "string",
+      "required": false,
+      "updateResource": {
+        "id": "common.coinmarketcap_coin_model.name",
+        "modelId": "common.coinmarketcap_coin_model",
+        "facetName": "common",
+        "name": "name",
+        "type": "string",
+        "required": false
+      }
+    },
+    "percentChange1h": {
+      "type": "string",
+      "required": false,
+      "updateResource": {
+        "id": "common.coinmarketcap_coin_model.percentChange1h",
+        "modelId": "common.coinmarketcap_coin_model",
+        "facetName": "common",
+        "name": "percentChange1h",
+        "type": "string",
+        "required": false
+      }
+    },
+    "percentChange24h": {
+      "type": "string",
+      "required": false,
+      "updateResource": {
+        "id": "common.coinmarketcap_coin_model.percentChange24h",
+        "modelId": "common.coinmarketcap_coin_model",
+        "facetName": "common",
+        "name": "percentChange24h",
+        "type": "string",
+        "required": false
+      }
+    },
+    "percentChange7d": {
+      "type": "string",
+      "required": false,
+      "updateResource": {
+        "id": "common.coinmarketcap_coin_model.percentChange7d",
+        "modelId": "common.coinmarketcap_coin_model",
+        "facetName": "common",
+        "name": "percentChange7d",
+        "type": "string",
+        "required": false
+      }
+    },
+    "priceBTC": {
+      "type": [
+        "string"
+      ],
+      "required": false,
+      "isArray": true,
+      "updateResource": {
+        "id": "common.coinmarketcap_coin_model.priceBTC",
+        "modelId": "common.coinmarketcap_coin_model",
+        "facetName": "common",
+        "name": "priceBTC",
+        "type": [
+          "string"
+        ],
+        "required": false,
+        "isArray": true
+      }
+    },
+    "priceUSD": {
+      "type": [
+        "string"
+      ],
+      "required": false,
+      "isArray": true,
+      "updateResource": {
+        "id": "common.coinmarketcap_coin_model.priceUSD",
+        "modelId": "common.coinmarketcap_coin_model",
+        "facetName": "common",
+        "name": "priceUSD",
+        "type": [
+          "string"
+        ],
+        "required": false,
+        "isArray": true
+      }
+    },
+    "rank": {
+      "type": "string",
+      "required": false,
+      "updateResource": {
+        "id": "common.coinmarketcap_coin_model.rank",
+        "modelId": "common.coinmarketcap_coin_model",
+        "facetName": "common",
+        "name": "rank",
+        "type": "string",
+        "required": false
+      }
+    },
+    "symbol": {
+      "type": "string",
+      "required": false,
+      "updateResource": {
+        "id": "common.coinmarketcap_coin_model.symbol",
+        "modelId": "common.coinmarketcap_coin_model",
+        "facetName": "common",
+        "name": "symbol",
+        "type": "string",
+        "required": false
+      }
+    },
+    "totalSupply": {
+      "type": [
+        "string"
+      ],
+      "required": false,
+      "isArray": true,
+      "updateResource": {
+        "id": "common.coinmarketcap_coin_model.totalSupply",
+        "modelId": "common.coinmarketcap_coin_model",
+        "facetName": "common",
+        "name": "totalSupply",
+        "type": [
+          "string"
+        ],
+        "required": false,
+        "isArray": true
+      }
+    },
+    "volume24h": {
+      "type": [
+        "string"
+      ],
+      "required": false,
+      "isArray": true,
+      "updateResource": {
+        "id": "common.coinmarketcap_coin_model.volume24h",
+        "modelId": "common.coinmarketcap_coin_model",
+        "facetName": "common",
+        "name": "volume24h",
+        "type": [
+          "string"
+        ],
+        "required": false,
+        "isArray": true
+      }
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

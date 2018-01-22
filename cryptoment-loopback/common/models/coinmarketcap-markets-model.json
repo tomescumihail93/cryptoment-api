@@ -1,0 +1,91 @@
+{
+  "name": "coinmarketcap_markets_model",
+  "base": "PersistedModel",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "exchange": {
+      "type": "string",
+      "required": false,
+      "updateResource": {
+        "id": "common.coinmarketcap_markets_model.exchange",
+        "modelId": "common.coinmarketcap_markets_model",
+        "facetName": "common",
+        "name": "exchange",
+        "type": "string",
+        "required": false
+      }
+    },
+    "id": {
+      "type": "number",
+      "id": true,
+      "generated": true,
+      "required": false,
+      "isArray": false,
+      "updateResource": {
+        "id": "common.coinmarketcap_markets_model.id",
+        "modelId": "common.coinmarketcap_markets_model",
+        "facetName": "common",
+        "name": "id",
+        "type": "string",
+        "isId": true,
+        "required": false,
+        "isArray": false
+      }
+    },
+    "pair": {
+      "type": "string",
+      "required": false,
+      "updateResource": {
+        "id": "common.coinmarketcap_markets_model.pair",
+        "modelId": "common.coinmarketcap_markets_model",
+        "facetName": "common",
+        "name": "pair",
+        "type": "string",
+        "required": false
+      }
+    },
+    "price": {
+      "type": "string",
+      "required": false,
+      "updateResource": {
+        "id": "common.coinmarketcap_markets_model.price",
+        "modelId": "common.coinmarketcap_markets_model",
+        "facetName": "common",
+        "name": "price",
+        "type": "string",
+        "required": false
+      }
+    },
+    "volume": {
+      "type": "string",
+      "required": false,
+      "updateResource": {
+        "id": "common.coinmarketcap_markets_model.volume",
+        "modelId": "common.coinmarketcap_markets_model",
+        "facetName": "common",
+        "name": "volume",
+        "type": "string",
+        "required": false
+      }
+    },
+    "volume24h": {
+      "type": "string",
+      "required": false,
+      "updateResource": {
+        "id": "common.coinmarketcap_markets_model.volume24h",
+        "modelId": "common.coinmarketcap_markets_model",
+        "facetName": "common",
+        "name": "volume24h",
+        "type": "string",
+        "required": false
+      }
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

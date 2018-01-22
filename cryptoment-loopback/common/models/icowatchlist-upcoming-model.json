@@ -1,0 +1,71 @@
+{
+  "name": "icowatchlist_upcoming_model",
+  "base": "PersistedModel",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": false
+    },
+    "logo": {
+      "type": "string",
+      "required": false
+    },
+    "id": {
+      "type": "number",
+      "id": true,
+      "generated": true,
+      "required": false,
+      "isArray": false
+    },
+    "market": {
+      "type": "string",
+      "required": false
+    },
+    "endsOn": {
+      "type": "string",
+      "required": false
+    },
+    "startsOn": {
+      "type": "string",
+      "required": false
+    },
+    "founders": {
+      "type": [
+        "string"
+      ],
+      "required": false,
+      "isArray": true
+    },
+    "platform": {
+      "type": "string",
+      "required": false
+    },
+    "channels": {
+      "type": [
+        "string"
+      ],
+      "required": false,
+      "isArray": true
+    },
+    "homePage": {
+      "type": "string",
+      "required": false
+    },
+    "whitePaper": {
+      "type": "string",
+      "required": false
+    },
+    "crowdsale": {
+      "type": "string",
+      "required": false
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

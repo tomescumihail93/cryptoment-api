@@ -1,0 +1,70 @@
+{
+  "name": "masternodespro_statistics_model",
+  "base": "PersistedModel",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "number",
+      "id": true,
+      "generated": true,
+      "required": false,
+      "isArray": false
+    },
+    "name": {
+      "type": "string",
+      "required": false
+    },
+    "roi": {
+      "type": "string",
+      "required": false
+    },
+    "roi30days": {
+      "type": "string",
+      "required": false
+    },
+    "price": {
+      "type": "string",
+      "required": false
+    },
+    "change": {
+      "type": "string",
+      "required": false
+    },
+    "noOfMasternodes": {
+      "type": "string",
+      "required": false
+    },
+    "noOfRequiredCoins": {
+      "type": "string",
+      "required": false
+    },
+    "masternodeWorth": {
+      "type": "string",
+      "required": false
+    },
+    "monthlyReturn": {
+      "type": "string",
+      "required": false
+    },
+    "yearlyReturn": {
+      "type": "string",
+      "required": false
+    },
+    "info": {
+      "type": "string",
+      "required": false,
+      "isArray": false
+    },
+    "link": {
+      "type": "string",
+      "required": false
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

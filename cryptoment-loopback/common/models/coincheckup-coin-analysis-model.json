@@ -1,0 +1,69 @@
+{
+  "name": "coincheckup_coin_analysis_model",
+  "base": "PersistedModel",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "number",
+      "id": true,
+      "generated": true,
+      "required": false,
+      "isArray": false
+    },
+    "rank": {
+      "type": "string",
+      "required": false
+    },
+    "totalScore": {
+      "type": "string",
+      "required": false
+    },
+    "team": {
+      "type": "string",
+      "required": false
+    },
+    "advisors": {
+      "type": "string",
+      "required": false
+    },
+    "community": {
+      "type": "string",
+      "required": false
+    },
+    "product": {
+      "type": "string",
+      "required": false
+    },
+    "coin": {
+      "type": "string",
+      "required": false
+    },
+    "socialMedia": {
+      "type": "string",
+      "required": false
+    },
+    "communication": {
+      "type": "string",
+      "required": false
+    },
+    "business": {
+      "type": "string",
+      "required": false
+    },
+    "github": {
+      "type": "string",
+      "required": false
+    },
+    "name": {
+      "type": "string",
+      "required": false
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

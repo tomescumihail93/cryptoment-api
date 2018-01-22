@@ -1,0 +1,2987 @@
+paths:
+  /icowatchlist_live_models:
+    post:
+      tags:
+        - icowatchlist_live_model
+      summary: Create a new instance of the model and persist it into the data source.
+      operationId: icowatchlist_live_model.create
+      parameters:
+        - name: data
+          in: body
+          description: Model instance data
+          required: false
+          schema:
+            description: Model instance data
+            $ref: '#/definitions/icowatchlist_live_model'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/icowatchlist_live_model'
+      deprecated: false
+    put:
+      tags:
+        - icowatchlist_live_model
+      summary: >-
+        Patch an existing model instance or insert a new one into the data
+        source.
+      operationId: icowatchlist_live_model.upsert__put_icowatchlist_live_models
+      parameters:
+        - name: data
+          in: body
+          description: Model instance data
+          required: false
+          schema:
+            description: Model instance data
+            $ref: '#/definitions/icowatchlist_live_model'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/icowatchlist_live_model'
+      deprecated: false
+    patch:
+      tags:
+        - icowatchlist_live_model
+      summary: >-
+        Patch an existing model instance or insert a new one into the data
+        source.
+      operationId: icowatchlist_live_model.upsert__patch_icowatchlist_live_models
+      parameters:
+        - name: data
+          in: body
+          description: Model instance data
+          required: false
+          schema:
+            description: Model instance data
+            $ref: '#/definitions/icowatchlist_live_model'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/icowatchlist_live_model'
+      deprecated: false
+    get:
+      tags:
+        - icowatchlist_live_model
+      summary: Find all instances of the model matched by filter from the data source.
+      operationId: icowatchlist_live_model.find
+      parameters:
+        - name: filter
+          in: query
+          description: >-
+            Filter defining fields, where, include, order, offset, and limit -
+            must be a JSON-encoded string ({"something":"value"})
+          required: false
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/icowatchlist_live_model'
+      deprecated: false
+  /icowatchlist_live_models/replaceOrCreate:
+    post:
+      tags:
+        - icowatchlist_live_model
+      summary: >-
+        Replace an existing model instance or insert a new one into the data
+        source.
+      operationId: icowatchlist_live_model.replaceOrCreate
+      parameters:
+        - name: data
+          in: body
+          description: Model instance data
+          required: false
+          schema:
+            description: Model instance data
+            $ref: '#/definitions/icowatchlist_live_model'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/icowatchlist_live_model'
+      deprecated: false
+  /icowatchlist_live_models/upsertWithWhere:
+    post:
+      tags:
+        - icowatchlist_live_model
+      summary: >-
+        Update an existing model instance or insert a new one into the data
+        source based on the where criteria.
+      operationId: icowatchlist_live_model.upsertWithWhere
+      parameters:
+        - name: where
+          in: query
+          description: Criteria to match model instances
+          required: false
+          type: string
+          format: JSON
+        - name: data
+          in: body
+          description: An object of model property name/value pairs
+          required: false
+          schema:
+            description: An object of model property name/value pairs
+            $ref: '#/definitions/icowatchlist_live_model'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/icowatchlist_live_model'
+      deprecated: false
+  '/icowatchlist_live_models/{id}/exists':
+    get:
+      tags:
+        - icowatchlist_live_model
+      summary: Check whether a model instance exists in the data source.
+      operationId: 'icowatchlist_live_model.exists__get_icowatchlist_live_models_{id}_exists'
+      parameters:
+        - name: id
+          in: path
+          description: Model id
+          required: true
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            type: object
+            properties:
+              exists:
+                type: boolean
+      deprecated: false
+  '/icowatchlist_live_models/{id}':
+    head:
+      tags:
+        - icowatchlist_live_model
+      summary: Check whether a model instance exists in the data source.
+      operationId: 'icowatchlist_live_model.exists__head_icowatchlist_live_models_{id}'
+      parameters:
+        - name: id
+          in: path
+          description: Model id
+          required: true
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            type: object
+            properties:
+              exists:
+                type: boolean
+      deprecated: false
+    get:
+      tags:
+        - icowatchlist_live_model
+      summary: 'Find a model instance by {{id}} from the data source.'
+      operationId: icowatchlist_live_model.findById
+      parameters:
+        - name: id
+          in: path
+          description: Model id
+          required: true
+          type: string
+          format: JSON
+        - name: filter
+          in: query
+          description: >-
+            Filter defining fields and include - must be a JSON-encoded string
+            ({"something":"value"})
+          required: false
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/icowatchlist_live_model'
+      deprecated: false
+    delete:
+      tags:
+        - icowatchlist_live_model
+      summary: 'Delete a model instance by {{id}} from the data source.'
+      operationId: icowatchlist_live_model.deleteById
+      parameters:
+        - name: id
+          in: path
+          description: Model id
+          required: true
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            type: object
+      deprecated: false
+    put:
+      tags:
+        - icowatchlist_live_model
+      summary: >-
+        Patch attributes for a model instance and persist it into the data
+        source.
+      operationId: >-
+        icowatchlist_live_model.prototype.updateAttributes__put_icowatchlist_live_models_{id}
+      parameters:
+        - name: data
+          in: body
+          description: An object of model property name/value pairs
+          required: false
+          schema:
+            description: An object of model property name/value pairs
+            $ref: '#/definitions/icowatchlist_live_model'
+        - name: id
+          in: path
+          description: icowatchlist_live_model id
+          required: true
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/icowatchlist_live_model'
+      deprecated: false
+    patch:
+      tags:
+        - icowatchlist_live_model
+      summary: >-
+        Patch attributes for a model instance and persist it into the data
+        source.
+      operationId: >-
+        icowatchlist_live_model.prototype.updateAttributes__patch_icowatchlist_live_models_{id}
+      parameters:
+        - name: data
+          in: body
+          description: An object of model property name/value pairs
+          required: false
+          schema:
+            description: An object of model property name/value pairs
+            $ref: '#/definitions/icowatchlist_live_model'
+        - name: id
+          in: path
+          description: icowatchlist_live_model id
+          required: true
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/icowatchlist_live_model'
+      deprecated: false
+  '/icowatchlist_live_models/{id}/replace':
+    post:
+      tags:
+        - icowatchlist_live_model
+      summary: >-
+        Replace attributes for a model instance and persist it into the data
+        source.
+      operationId: icowatchlist_live_model.replaceById
+      parameters:
+        - name: id
+          in: path
+          description: Model id
+          required: true
+          type: string
+          format: JSON
+        - name: data
+          in: body
+          description: Model instance data
+          required: false
+          schema:
+            description: Model instance data
+            $ref: '#/definitions/icowatchlist_live_model'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/icowatchlist_live_model'
+      deprecated: false
+  /icowatchlist_live_models/findOne:
+    get:
+      tags:
+        - icowatchlist_live_model
+      summary: Find first instance of the model matched by filter from the data source.
+      operationId: icowatchlist_live_model.findOne
+      parameters:
+        - name: filter
+          in: query
+          description: >-
+            Filter defining fields, where, include, order, offset, and limit -
+            must be a JSON-encoded string ({"something":"value"})
+          required: false
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/icowatchlist_live_model'
+      deprecated: false
+  /icowatchlist_live_models/update:
+    post:
+      tags:
+        - icowatchlist_live_model
+      summary: 'Update instances of the model matched by {{where}} from the data source.'
+      operationId: icowatchlist_live_model.updateAll
+      parameters:
+        - name: where
+          in: query
+          description: Criteria to match model instances
+          required: false
+          type: string
+          format: JSON
+        - name: data
+          in: body
+          description: An object of model property name/value pairs
+          required: false
+          schema:
+            description: An object of model property name/value pairs
+            $ref: '#/definitions/icowatchlist_live_model'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            description: Information related to the outcome of the operation
+            type: object
+            properties:
+              count:
+                description: The number of instances updated
+                type: number
+                format: double
+      deprecated: false
+  /icowatchlist_live_models/count:
+    get:
+      tags:
+        - icowatchlist_live_model
+      summary: Count instances of the model matched by where from the data source.
+      operationId: icowatchlist_live_model.count
+      parameters:
+        - name: where
+          in: query
+          description: Criteria to match model instances
+          required: false
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            type: object
+            properties:
+              count:
+                type: number
+                format: double
+      deprecated: false
+  /icowatchlist_upcoming_models:
+    post:
+      tags:
+        - icowatchlist_upcoming_model
+      summary: Create a new instance of the model and persist it into the data source.
+      operationId: icowatchlist_upcoming_model.create
+      parameters:
+        - name: data
+          in: body
+          description: Model instance data
+          required: false
+          schema:
+            description: Model instance data
+            $ref: '#/definitions/icowatchlist_upcoming_model'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/icowatchlist_upcoming_model'
+      deprecated: false
+    put:
+      tags:
+        - icowatchlist_upcoming_model
+      summary: >-
+        Patch an existing model instance or insert a new one into the data
+        source.
+      operationId: icowatchlist_upcoming_model.upsert__put_icowatchlist_upcoming_models
+      parameters:
+        - name: data
+          in: body
+          description: Model instance data
+          required: false
+          schema:
+            description: Model instance data
+            $ref: '#/definitions/icowatchlist_upcoming_model'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/icowatchlist_upcoming_model'
+      deprecated: false
+    patch:
+      tags:
+        - icowatchlist_upcoming_model
+      summary: >-
+        Patch an existing model instance or insert a new one into the data
+        source.
+      operationId: icowatchlist_upcoming_model.upsert__patch_icowatchlist_upcoming_models
+      parameters:
+        - name: data
+          in: body
+          description: Model instance data
+          required: false
+          schema:
+            description: Model instance data
+            $ref: '#/definitions/icowatchlist_upcoming_model'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/icowatchlist_upcoming_model'
+      deprecated: false
+    get:
+      tags:
+        - icowatchlist_upcoming_model
+      summary: Find all instances of the model matched by filter from the data source.
+      operationId: icowatchlist_upcoming_model.find
+      parameters:
+        - name: filter
+          in: query
+          description: >-
+            Filter defining fields, where, include, order, offset, and limit -
+            must be a JSON-encoded string ({"something":"value"})
+          required: false
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/icowatchlist_upcoming_model'
+      deprecated: false
+  /icowatchlist_upcoming_models/replaceOrCreate:
+    post:
+      tags:
+        - icowatchlist_upcoming_model
+      summary: >-
+        Replace an existing model instance or insert a new one into the data
+        source.
+      operationId: icowatchlist_upcoming_model.replaceOrCreate
+      parameters:
+        - name: data
+          in: body
+          description: Model instance data
+          required: false
+          schema:
+            description: Model instance data
+            $ref: '#/definitions/icowatchlist_upcoming_model'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/icowatchlist_upcoming_model'
+      deprecated: false
+  /icowatchlist_upcoming_models/upsertWithWhere:
+    post:
+      tags:
+        - icowatchlist_upcoming_model
+      summary: >-
+        Update an existing model instance or insert a new one into the data
+        source based on the where criteria.
+      operationId: icowatchlist_upcoming_model.upsertWithWhere
+      parameters:
+        - name: where
+          in: query
+          description: Criteria to match model instances
+          required: false
+          type: string
+          format: JSON
+        - name: data
+          in: body
+          description: An object of model property name/value pairs
+          required: false
+          schema:
+            description: An object of model property name/value pairs
+            $ref: '#/definitions/icowatchlist_upcoming_model'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/icowatchlist_upcoming_model'
+      deprecated: false
+  '/icowatchlist_upcoming_models/{id}/exists':
+    get:
+      tags:
+        - icowatchlist_upcoming_model
+      summary: Check whether a model instance exists in the data source.
+      operationId: >-
+        icowatchlist_upcoming_model.exists__get_icowatchlist_upcoming_models_{id}_exists
+      parameters:
+        - name: id
+          in: path
+          description: Model id
+          required: true
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            type: object
+            properties:
+              exists:
+                type: boolean
+      deprecated: false
+  '/icowatchlist_upcoming_models/{id}':
+    head:
+      tags:
+        - icowatchlist_upcoming_model
+      summary: Check whether a model instance exists in the data source.
+      operationId: >-
+        icowatchlist_upcoming_model.exists__head_icowatchlist_upcoming_models_{id}
+      parameters:
+        - name: id
+          in: path
+          description: Model id
+          required: true
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            type: object
+            properties:
+              exists:
+                type: boolean
+      deprecated: false
+    get:
+      tags:
+        - icowatchlist_upcoming_model
+      summary: 'Find a model instance by {{id}} from the data source.'
+      operationId: icowatchlist_upcoming_model.findById
+      parameters:
+        - name: id
+          in: path
+          description: Model id
+          required: true
+          type: string
+          format: JSON
+        - name: filter
+          in: query
+          description: >-
+            Filter defining fields and include - must be a JSON-encoded string
+            ({"something":"value"})
+          required: false
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/icowatchlist_upcoming_model'
+      deprecated: false
+    delete:
+      tags:
+        - icowatchlist_upcoming_model
+      summary: 'Delete a model instance by {{id}} from the data source.'
+      operationId: icowatchlist_upcoming_model.deleteById
+      parameters:
+        - name: id
+          in: path
+          description: Model id
+          required: true
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            type: object
+      deprecated: false
+    put:
+      tags:
+        - icowatchlist_upcoming_model
+      summary: >-
+        Patch attributes for a model instance and persist it into the data
+        source.
+      operationId: >-
+        icowatchlist_upcoming_model.prototype.updateAttributes__put_icowatchlist_upcoming_models_{id}
+      parameters:
+        - name: data
+          in: body
+          description: An object of model property name/value pairs
+          required: false
+          schema:
+            description: An object of model property name/value pairs
+            $ref: '#/definitions/icowatchlist_upcoming_model'
+        - name: id
+          in: path
+          description: icowatchlist_upcoming_model id
+          required: true
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/icowatchlist_upcoming_model'
+      deprecated: false
+    patch:
+      tags:
+        - icowatchlist_upcoming_model
+      summary: >-
+        Patch attributes for a model instance and persist it into the data
+        source.
+      operationId: >-
+        icowatchlist_upcoming_model.prototype.updateAttributes__patch_icowatchlist_upcoming_models_{id}
+      parameters:
+        - name: data
+          in: body
+          description: An object of model property name/value pairs
+          required: false
+          schema:
+            description: An object of model property name/value pairs
+            $ref: '#/definitions/icowatchlist_upcoming_model'
+        - name: id
+          in: path
+          description: icowatchlist_upcoming_model id
+          required: true
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/icowatchlist_upcoming_model'
+      deprecated: false
+  '/icowatchlist_upcoming_models/{id}/replace':
+    post:
+      tags:
+        - icowatchlist_upcoming_model
+      summary: >-
+        Replace attributes for a model instance and persist it into the data
+        source.
+      operationId: icowatchlist_upcoming_model.replaceById
+      parameters:
+        - name: id
+          in: path
+          description: Model id
+          required: true
+          type: string
+          format: JSON
+        - name: data
+          in: body
+          description: Model instance data
+          required: false
+          schema:
+            description: Model instance data
+            $ref: '#/definitions/icowatchlist_upcoming_model'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/icowatchlist_upcoming_model'
+      deprecated: false
+  /icowatchlist_upcoming_models/findOne:
+    get:
+      tags:
+        - icowatchlist_upcoming_model
+      summary: Find first instance of the model matched by filter from the data source.
+      operationId: icowatchlist_upcoming_model.findOne
+      parameters:
+        - name: filter
+          in: query
+          description: >-
+            Filter defining fields, where, include, order, offset, and limit -
+            must be a JSON-encoded string ({"something":"value"})
+          required: false
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/icowatchlist_upcoming_model'
+      deprecated: false
+  /icowatchlist_upcoming_models/update:
+    post:
+      tags:
+        - icowatchlist_upcoming_model
+      summary: 'Update instances of the model matched by {{where}} from the data source.'
+      operationId: icowatchlist_upcoming_model.updateAll
+      parameters:
+        - name: where
+          in: query
+          description: Criteria to match model instances
+          required: false
+          type: string
+          format: JSON
+        - name: data
+          in: body
+          description: An object of model property name/value pairs
+          required: false
+          schema:
+            description: An object of model property name/value pairs
+            $ref: '#/definitions/icowatchlist_upcoming_model'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            description: Information related to the outcome of the operation
+            type: object
+            properties:
+              count:
+                description: The number of instances updated
+                type: number
+                format: double
+      deprecated: false
+  /icowatchlist_upcoming_models/count:
+    get:
+      tags:
+        - icowatchlist_upcoming_model
+      summary: Count instances of the model matched by where from the data source.
+      operationId: icowatchlist_upcoming_model.count
+      parameters:
+        - name: where
+          in: query
+          description: Criteria to match model instances
+          required: false
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            type: object
+            properties:
+              count:
+                type: number
+                format: double
+      deprecated: false
+  /icowatchlist_finished_models:
+    post:
+      tags:
+        - icowatchlist_finished_model
+      summary: Create a new instance of the model and persist it into the data source.
+      operationId: icowatchlist_finished_model.create
+      parameters:
+        - name: data
+          in: body
+          description: Model instance data
+          required: false
+          schema:
+            description: Model instance data
+            $ref: '#/definitions/icowatchlist_finished_model'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/icowatchlist_finished_model'
+      deprecated: false
+    put:
+      tags:
+        - icowatchlist_finished_model
+      summary: >-
+        Patch an existing model instance or insert a new one into the data
+        source.
+      operationId: icowatchlist_finished_model.upsert__put_icowatchlist_finished_models
+      parameters:
+        - name: data
+          in: body
+          description: Model instance data
+          required: false
+          schema:
+            description: Model instance data
+            $ref: '#/definitions/icowatchlist_finished_model'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/icowatchlist_finished_model'
+      deprecated: false
+    patch:
+      tags:
+        - icowatchlist_finished_model
+      summary: >-
+        Patch an existing model instance or insert a new one into the data
+        source.
+      operationId: icowatchlist_finished_model.upsert__patch_icowatchlist_finished_models
+      parameters:
+        - name: data
+          in: body
+          description: Model instance data
+          required: false
+          schema:
+            description: Model instance data
+            $ref: '#/definitions/icowatchlist_finished_model'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/icowatchlist_finished_model'
+      deprecated: false
+    get:
+      tags:
+        - icowatchlist_finished_model
+      summary: Find all instances of the model matched by filter from the data source.
+      operationId: icowatchlist_finished_model.find
+      parameters:
+        - name: filter
+          in: query
+          description: >-
+            Filter defining fields, where, include, order, offset, and limit -
+            must be a JSON-encoded string ({"something":"value"})
+          required: false
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/icowatchlist_finished_model'
+      deprecated: false
+  /icowatchlist_finished_models/replaceOrCreate:
+    post:
+      tags:
+        - icowatchlist_finished_model
+      summary: >-
+        Replace an existing model instance or insert a new one into the data
+        source.
+      operationId: icowatchlist_finished_model.replaceOrCreate
+      parameters:
+        - name: data
+          in: body
+          description: Model instance data
+          required: false
+          schema:
+            description: Model instance data
+            $ref: '#/definitions/icowatchlist_finished_model'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/icowatchlist_finished_model'
+      deprecated: false
+  /icowatchlist_finished_models/upsertWithWhere:
+    post:
+      tags:
+        - icowatchlist_finished_model
+      summary: >-
+        Update an existing model instance or insert a new one into the data
+        source based on the where criteria.
+      operationId: icowatchlist_finished_model.upsertWithWhere
+      parameters:
+        - name: where
+          in: query
+          description: Criteria to match model instances
+          required: false
+          type: string
+          format: JSON
+        - name: data
+          in: body
+          description: An object of model property name/value pairs
+          required: false
+          schema:
+            description: An object of model property name/value pairs
+            $ref: '#/definitions/icowatchlist_finished_model'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/icowatchlist_finished_model'
+      deprecated: false
+  '/icowatchlist_finished_models/{id}/exists':
+    get:
+      tags:
+        - icowatchlist_finished_model
+      summary: Check whether a model instance exists in the data source.
+      operationId: >-
+        icowatchlist_finished_model.exists__get_icowatchlist_finished_models_{id}_exists
+      parameters:
+        - name: id
+          in: path
+          description: Model id
+          required: true
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            type: object
+            properties:
+              exists:
+                type: boolean
+      deprecated: false
+  '/icowatchlist_finished_models/{id}':
+    head:
+      tags:
+        - icowatchlist_finished_model
+      summary: Check whether a model instance exists in the data source.
+      operationId: >-
+        icowatchlist_finished_model.exists__head_icowatchlist_finished_models_{id}
+      parameters:
+        - name: id
+          in: path
+          description: Model id
+          required: true
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            type: object
+            properties:
+              exists:
+                type: boolean
+      deprecated: false
+    get:
+      tags:
+        - icowatchlist_finished_model
+      summary: 'Find a model instance by {{id}} from the data source.'
+      operationId: icowatchlist_finished_model.findById
+      parameters:
+        - name: id
+          in: path
+          description: Model id
+          required: true
+          type: string
+          format: JSON
+        - name: filter
+          in: query
+          description: >-
+            Filter defining fields and include - must be a JSON-encoded string
+            ({"something":"value"})
+          required: false
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/icowatchlist_finished_model'
+      deprecated: false
+    delete:
+      tags:
+        - icowatchlist_finished_model
+      summary: 'Delete a model instance by {{id}} from the data source.'
+      operationId: icowatchlist_finished_model.deleteById
+      parameters:
+        - name: id
+          in: path
+          description: Model id
+          required: true
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            type: object
+      deprecated: false
+    put:
+      tags:
+        - icowatchlist_finished_model
+      summary: >-
+        Patch attributes for a model instance and persist it into the data
+        source.
+      operationId: >-
+        icowatchlist_finished_model.prototype.updateAttributes__put_icowatchlist_finished_models_{id}
+      parameters:
+        - name: data
+          in: body
+          description: An object of model property name/value pairs
+          required: false
+          schema:
+            description: An object of model property name/value pairs
+            $ref: '#/definitions/icowatchlist_finished_model'
+        - name: id
+          in: path
+          description: icowatchlist_finished_model id
+          required: true
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/icowatchlist_finished_model'
+      deprecated: false
+    patch:
+      tags:
+        - icowatchlist_finished_model
+      summary: >-
+        Patch attributes for a model instance and persist it into the data
+        source.
+      operationId: >-
+        icowatchlist_finished_model.prototype.updateAttributes__patch_icowatchlist_finished_models_{id}
+      parameters:
+        - name: data
+          in: body
+          description: An object of model property name/value pairs
+          required: false
+          schema:
+            description: An object of model property name/value pairs
+            $ref: '#/definitions/icowatchlist_finished_model'
+        - name: id
+          in: path
+          description: icowatchlist_finished_model id
+          required: true
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/icowatchlist_finished_model'
+      deprecated: false
+  '/icowatchlist_finished_models/{id}/replace':
+    post:
+      tags:
+        - icowatchlist_finished_model
+      summary: >-
+        Replace attributes for a model instance and persist it into the data
+        source.
+      operationId: icowatchlist_finished_model.replaceById
+      parameters:
+        - name: id
+          in: path
+          description: Model id
+          required: true
+          type: string
+          format: JSON
+        - name: data
+          in: body
+          description: Model instance data
+          required: false
+          schema:
+            description: Model instance data
+            $ref: '#/definitions/icowatchlist_finished_model'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/icowatchlist_finished_model'
+      deprecated: false
+  /icowatchlist_finished_models/findOne:
+    get:
+      tags:
+        - icowatchlist_finished_model
+      summary: Find first instance of the model matched by filter from the data source.
+      operationId: icowatchlist_finished_model.findOne
+      parameters:
+        - name: filter
+          in: query
+          description: >-
+            Filter defining fields, where, include, order, offset, and limit -
+            must be a JSON-encoded string ({"something":"value"})
+          required: false
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/icowatchlist_finished_model'
+      deprecated: false
+  /icowatchlist_finished_models/update:
+    post:
+      tags:
+        - icowatchlist_finished_model
+      summary: 'Update instances of the model matched by {{where}} from the data source.'
+      operationId: icowatchlist_finished_model.updateAll
+      parameters:
+        - name: where
+          in: query
+          description: Criteria to match model instances
+          required: false
+          type: string
+          format: JSON
+        - name: data
+          in: body
+          description: An object of model property name/value pairs
+          required: false
+          schema:
+            description: An object of model property name/value pairs
+            $ref: '#/definitions/icowatchlist_finished_model'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            description: Information related to the outcome of the operation
+            type: object
+            properties:
+              count:
+                description: The number of instances updated
+                type: number
+                format: double
+      deprecated: false
+  /icowatchlist_finished_models/count:
+    get:
+      tags:
+        - icowatchlist_finished_model
+      summary: Count instances of the model matched by where from the data source.
+      operationId: icowatchlist_finished_model.count
+      parameters:
+        - name: where
+          in: query
+          description: Criteria to match model instances
+          required: false
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            type: object
+            properties:
+              count:
+                type: number
+                format: double
+      deprecated: false
+  /coinmarketcap_coin_models:
+    post:
+      tags:
+        - coinmarketcap_coin_model
+      summary: Create a new instance of the model and persist it into the data source.
+      operationId: coinmarketcap_coin_model.create
+      parameters:
+        - name: data
+          in: body
+          description: Model instance data
+          required: false
+          schema:
+            description: Model instance data
+            $ref: '#/definitions/coinmarketcap_coin_model'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/coinmarketcap_coin_model'
+      deprecated: false
+    put:
+      tags:
+        - coinmarketcap_coin_model
+      summary: >-
+        Patch an existing model instance or insert a new one into the data
+        source.
+      operationId: coinmarketcap_coin_model.upsert__put_coinmarketcap_coin_models
+      parameters:
+        - name: data
+          in: body
+          description: Model instance data
+          required: false
+          schema:
+            description: Model instance data
+            $ref: '#/definitions/coinmarketcap_coin_model'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/coinmarketcap_coin_model'
+      deprecated: false
+    patch:
+      tags:
+        - coinmarketcap_coin_model
+      summary: >-
+        Patch an existing model instance or insert a new one into the data
+        source.
+      operationId: coinmarketcap_coin_model.upsert__patch_coinmarketcap_coin_models
+      parameters:
+        - name: data
+          in: body
+          description: Model instance data
+          required: false
+          schema:
+            description: Model instance data
+            $ref: '#/definitions/coinmarketcap_coin_model'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/coinmarketcap_coin_model'
+      deprecated: false
+    get:
+      tags:
+        - coinmarketcap_coin_model
+      summary: Find all instances of the model matched by filter from the data source.
+      operationId: coinmarketcap_coin_model.find
+      parameters:
+        - name: filter
+          in: query
+          description: >-
+            Filter defining fields, where, include, order, offset, and limit -
+            must be a JSON-encoded string ({"something":"value"})
+          required: false
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/coinmarketcap_coin_model'
+      deprecated: false
+  /coinmarketcap_coin_models/replaceOrCreate:
+    post:
+      tags:
+        - coinmarketcap_coin_model
+      summary: >-
+        Replace an existing model instance or insert a new one into the data
+        source.
+      operationId: coinmarketcap_coin_model.replaceOrCreate
+      parameters:
+        - name: data
+          in: body
+          description: Model instance data
+          required: false
+          schema:
+            description: Model instance data
+            $ref: '#/definitions/coinmarketcap_coin_model'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/coinmarketcap_coin_model'
+      deprecated: false
+  /coinmarketcap_coin_models/upsertWithWhere:
+    post:
+      tags:
+        - coinmarketcap_coin_model
+      summary: >-
+        Update an existing model instance or insert a new one into the data
+        source based on the where criteria.
+      operationId: coinmarketcap_coin_model.upsertWithWhere
+      parameters:
+        - name: where
+          in: query
+          description: Criteria to match model instances
+          required: false
+          type: string
+          format: JSON
+        - name: data
+          in: body
+          description: An object of model property name/value pairs
+          required: false
+          schema:
+            description: An object of model property name/value pairs
+            $ref: '#/definitions/coinmarketcap_coin_model'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/coinmarketcap_coin_model'
+      deprecated: false
+  '/coinmarketcap_coin_models/{id}/exists':
+    get:
+      tags:
+        - coinmarketcap_coin_model
+      summary: Check whether a model instance exists in the data source.
+      operationId: >-
+        coinmarketcap_coin_model.exists__get_coinmarketcap_coin_models_{id}_exists
+      parameters:
+        - name: id
+          in: path
+          description: Model id
+          required: true
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            type: object
+            properties:
+              exists:
+                type: boolean
+      deprecated: false
+  '/coinmarketcap_coin_models/{id}':
+    head:
+      tags:
+        - coinmarketcap_coin_model
+      summary: Check whether a model instance exists in the data source.
+      operationId: 'coinmarketcap_coin_model.exists__head_coinmarketcap_coin_models_{id}'
+      parameters:
+        - name: id
+          in: path
+          description: Model id
+          required: true
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            type: object
+            properties:
+              exists:
+                type: boolean
+      deprecated: false
+    get:
+      tags:
+        - coinmarketcap_coin_model
+      summary: 'Find a model instance by {{id}} from the data source.'
+      operationId: coinmarketcap_coin_model.findById
+      parameters:
+        - name: id
+          in: path
+          description: Model id
+          required: true
+          type: string
+          format: JSON
+        - name: filter
+          in: query
+          description: >-
+            Filter defining fields and include - must be a JSON-encoded string
+            ({"something":"value"})
+          required: false
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/coinmarketcap_coin_model'
+      deprecated: false
+    delete:
+      tags:
+        - coinmarketcap_coin_model
+      summary: 'Delete a model instance by {{id}} from the data source.'
+      operationId: coinmarketcap_coin_model.deleteById
+      parameters:
+        - name: id
+          in: path
+          description: Model id
+          required: true
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            type: object
+      deprecated: false
+    put:
+      tags:
+        - coinmarketcap_coin_model
+      summary: >-
+        Patch attributes for a model instance and persist it into the data
+        source.
+      operationId: >-
+        coinmarketcap_coin_model.prototype.updateAttributes__put_coinmarketcap_coin_models_{id}
+      parameters:
+        - name: data
+          in: body
+          description: An object of model property name/value pairs
+          required: false
+          schema:
+            description: An object of model property name/value pairs
+            $ref: '#/definitions/coinmarketcap_coin_model'
+        - name: id
+          in: path
+          description: coinmarketcap_coin_model id
+          required: true
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/coinmarketcap_coin_model'
+      deprecated: false
+    patch:
+      tags:
+        - coinmarketcap_coin_model
+      summary: >-
+        Patch attributes for a model instance and persist it into the data
+        source.
+      operationId: >-
+        coinmarketcap_coin_model.prototype.updateAttributes__patch_coinmarketcap_coin_models_{id}
+      parameters:
+        - name: data
+          in: body
+          description: An object of model property name/value pairs
+          required: false
+          schema:
+            description: An object of model property name/value pairs
+            $ref: '#/definitions/coinmarketcap_coin_model'
+        - name: id
+          in: path
+          description: coinmarketcap_coin_model id
+          required: true
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/coinmarketcap_coin_model'
+      deprecated: false
+  '/coinmarketcap_coin_models/{id}/replace':
+    post:
+      tags:
+        - coinmarketcap_coin_model
+      summary: >-
+        Replace attributes for a model instance and persist it into the data
+        source.
+      operationId: coinmarketcap_coin_model.replaceById
+      parameters:
+        - name: id
+          in: path
+          description: Model id
+          required: true
+          type: string
+          format: JSON
+        - name: data
+          in: body
+          description: Model instance data
+          required: false
+          schema:
+            description: Model instance data
+            $ref: '#/definitions/coinmarketcap_coin_model'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/coinmarketcap_coin_model'
+      deprecated: false
+  /coinmarketcap_coin_models/findOne:
+    get:
+      tags:
+        - coinmarketcap_coin_model
+      summary: Find first instance of the model matched by filter from the data source.
+      operationId: coinmarketcap_coin_model.findOne
+      parameters:
+        - name: filter
+          in: query
+          description: >-
+            Filter defining fields, where, include, order, offset, and limit -
+            must be a JSON-encoded string ({"something":"value"})
+          required: false
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/coinmarketcap_coin_model'
+      deprecated: false
+  /coinmarketcap_coin_models/update:
+    post:
+      tags:
+        - coinmarketcap_coin_model
+      summary: 'Update instances of the model matched by {{where}} from the data source.'
+      operationId: coinmarketcap_coin_model.updateAll
+      parameters:
+        - name: where
+          in: query
+          description: Criteria to match model instances
+          required: false
+          type: string
+          format: JSON
+        - name: data
+          in: body
+          description: An object of model property name/value pairs
+          required: false
+          schema:
+            description: An object of model property name/value pairs
+            $ref: '#/definitions/coinmarketcap_coin_model'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            description: Information related to the outcome of the operation
+            type: object
+            properties:
+              count:
+                description: The number of instances updated
+                type: number
+                format: double
+      deprecated: false
+  /coinmarketcap_coin_models/count:
+    get:
+      tags:
+        - coinmarketcap_coin_model
+      summary: Count instances of the model matched by where from the data source.
+      operationId: coinmarketcap_coin_model.count
+      parameters:
+        - name: where
+          in: query
+          description: Criteria to match model instances
+          required: false
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            type: object
+            properties:
+              count:
+                type: number
+                format: double
+      deprecated: false
+  /coinmarketcap_markets_models:
+    post:
+      tags:
+        - coinmarketcap_markets_model
+      summary: Create a new instance of the model and persist it into the data source.
+      operationId: coinmarketcap_markets_model.create
+      parameters:
+        - name: data
+          in: body
+          description: Model instance data
+          required: false
+          schema:
+            description: Model instance data
+            $ref: '#/definitions/coinmarketcap_markets_model'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/coinmarketcap_markets_model'
+      deprecated: false
+    put:
+      tags:
+        - coinmarketcap_markets_model
+      summary: >-
+        Patch an existing model instance or insert a new one into the data
+        source.
+      operationId: coinmarketcap_markets_model.upsert__put_coinmarketcap_markets_models
+      parameters:
+        - name: data
+          in: body
+          description: Model instance data
+          required: false
+          schema:
+            description: Model instance data
+            $ref: '#/definitions/coinmarketcap_markets_model'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/coinmarketcap_markets_model'
+      deprecated: false
+    patch:
+      tags:
+        - coinmarketcap_markets_model
+      summary: >-
+        Patch an existing model instance or insert a new one into the data
+        source.
+      operationId: coinmarketcap_markets_model.upsert__patch_coinmarketcap_markets_models
+      parameters:
+        - name: data
+          in: body
+          description: Model instance data
+          required: false
+          schema:
+            description: Model instance data
+            $ref: '#/definitions/coinmarketcap_markets_model'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/coinmarketcap_markets_model'
+      deprecated: false
+    get:
+      tags:
+        - coinmarketcap_markets_model
+      summary: Find all instances of the model matched by filter from the data source.
+      operationId: coinmarketcap_markets_model.find
+      parameters:
+        - name: filter
+          in: query
+          description: >-
+            Filter defining fields, where, include, order, offset, and limit -
+            must be a JSON-encoded string ({"something":"value"})
+          required: false
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/coinmarketcap_markets_model'
+      deprecated: false
+  /coinmarketcap_markets_models/replaceOrCreate:
+    post:
+      tags:
+        - coinmarketcap_markets_model
+      summary: >-
+        Replace an existing model instance or insert a new one into the data
+        source.
+      operationId: coinmarketcap_markets_model.replaceOrCreate
+      parameters:
+        - name: data
+          in: body
+          description: Model instance data
+          required: false
+          schema:
+            description: Model instance data
+            $ref: '#/definitions/coinmarketcap_markets_model'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/coinmarketcap_markets_model'
+      deprecated: false
+  /coinmarketcap_markets_models/upsertWithWhere:
+    post:
+      tags:
+        - coinmarketcap_markets_model
+      summary: >-
+        Update an existing model instance or insert a new one into the data
+        source based on the where criteria.
+      operationId: coinmarketcap_markets_model.upsertWithWhere
+      parameters:
+        - name: where
+          in: query
+          description: Criteria to match model instances
+          required: false
+          type: string
+          format: JSON
+        - name: data
+          in: body
+          description: An object of model property name/value pairs
+          required: false
+          schema:
+            description: An object of model property name/value pairs
+            $ref: '#/definitions/coinmarketcap_markets_model'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/coinmarketcap_markets_model'
+      deprecated: false
+  '/coinmarketcap_markets_models/{id}/exists':
+    get:
+      tags:
+        - coinmarketcap_markets_model
+      summary: Check whether a model instance exists in the data source.
+      operationId: >-
+        coinmarketcap_markets_model.exists__get_coinmarketcap_markets_models_{id}_exists
+      parameters:
+        - name: id
+          in: path
+          description: Model id
+          required: true
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            type: object
+            properties:
+              exists:
+                type: boolean
+      deprecated: false
+  '/coinmarketcap_markets_models/{id}':
+    head:
+      tags:
+        - coinmarketcap_markets_model
+      summary: Check whether a model instance exists in the data source.
+      operationId: >-
+        coinmarketcap_markets_model.exists__head_coinmarketcap_markets_models_{id}
+      parameters:
+        - name: id
+          in: path
+          description: Model id
+          required: true
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            type: object
+            properties:
+              exists:
+                type: boolean
+      deprecated: false
+    get:
+      tags:
+        - coinmarketcap_markets_model
+      summary: 'Find a model instance by {{id}} from the data source.'
+      operationId: coinmarketcap_markets_model.findById
+      parameters:
+        - name: id
+          in: path
+          description: Model id
+          required: true
+          type: string
+          format: JSON
+        - name: filter
+          in: query
+          description: >-
+            Filter defining fields and include - must be a JSON-encoded string
+            ({"something":"value"})
+          required: false
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/coinmarketcap_markets_model'
+      deprecated: false
+    delete:
+      tags:
+        - coinmarketcap_markets_model
+      summary: 'Delete a model instance by {{id}} from the data source.'
+      operationId: coinmarketcap_markets_model.deleteById
+      parameters:
+        - name: id
+          in: path
+          description: Model id
+          required: true
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            type: object
+      deprecated: false
+    put:
+      tags:
+        - coinmarketcap_markets_model
+      summary: >-
+        Patch attributes for a model instance and persist it into the data
+        source.
+      operationId: >-
+        coinmarketcap_markets_model.prototype.updateAttributes__put_coinmarketcap_markets_models_{id}
+      parameters:
+        - name: data
+          in: body
+          description: An object of model property name/value pairs
+          required: false
+          schema:
+            description: An object of model property name/value pairs
+            $ref: '#/definitions/coinmarketcap_markets_model'
+        - name: id
+          in: path
+          description: coinmarketcap_markets_model id
+          required: true
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/coinmarketcap_markets_model'
+      deprecated: false
+    patch:
+      tags:
+        - coinmarketcap_markets_model
+      summary: >-
+        Patch attributes for a model instance and persist it into the data
+        source.
+      operationId: >-
+        coinmarketcap_markets_model.prototype.updateAttributes__patch_coinmarketcap_markets_models_{id}
+      parameters:
+        - name: data
+          in: body
+          description: An object of model property name/value pairs
+          required: false
+          schema:
+            description: An object of model property name/value pairs
+            $ref: '#/definitions/coinmarketcap_markets_model'
+        - name: id
+          in: path
+          description: coinmarketcap_markets_model id
+          required: true
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/coinmarketcap_markets_model'
+      deprecated: false
+  '/coinmarketcap_markets_models/{id}/replace':
+    post:
+      tags:
+        - coinmarketcap_markets_model
+      summary: >-
+        Replace attributes for a model instance and persist it into the data
+        source.
+      operationId: coinmarketcap_markets_model.replaceById
+      parameters:
+        - name: id
+          in: path
+          description: Model id
+          required: true
+          type: string
+          format: JSON
+        - name: data
+          in: body
+          description: Model instance data
+          required: false
+          schema:
+            description: Model instance data
+            $ref: '#/definitions/coinmarketcap_markets_model'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/coinmarketcap_markets_model'
+      deprecated: false
+  /coinmarketcap_markets_models/findOne:
+    get:
+      tags:
+        - coinmarketcap_markets_model
+      summary: Find first instance of the model matched by filter from the data source.
+      operationId: coinmarketcap_markets_model.findOne
+      parameters:
+        - name: filter
+          in: query
+          description: >-
+            Filter defining fields, where, include, order, offset, and limit -
+            must be a JSON-encoded string ({"something":"value"})
+          required: false
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/coinmarketcap_markets_model'
+      deprecated: false
+  /coinmarketcap_markets_models/update:
+    post:
+      tags:
+        - coinmarketcap_markets_model
+      summary: 'Update instances of the model matched by {{where}} from the data source.'
+      operationId: coinmarketcap_markets_model.updateAll
+      parameters:
+        - name: where
+          in: query
+          description: Criteria to match model instances
+          required: false
+          type: string
+          format: JSON
+        - name: data
+          in: body
+          description: An object of model property name/value pairs
+          required: false
+          schema:
+            description: An object of model property name/value pairs
+            $ref: '#/definitions/coinmarketcap_markets_model'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            description: Information related to the outcome of the operation
+            type: object
+            properties:
+              count:
+                description: The number of instances updated
+                type: number
+                format: double
+      deprecated: false
+  /coinmarketcap_markets_models/count:
+    get:
+      tags:
+        - coinmarketcap_markets_model
+      summary: Count instances of the model matched by where from the data source.
+      operationId: coinmarketcap_markets_model.count
+      parameters:
+        - name: where
+          in: query
+          description: Criteria to match model instances
+          required: false
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            type: object
+            properties:
+              count:
+                type: number
+                format: double
+      deprecated: false
+  /coincheckup_coin_analysis_models:
+    post:
+      tags:
+        - coincheckup_coin_analysis_model
+      summary: Create a new instance of the model and persist it into the data source.
+      operationId: coincheckup_coin_analysis_model.create
+      parameters:
+        - name: data
+          in: body
+          description: Model instance data
+          required: false
+          schema:
+            description: Model instance data
+            $ref: '#/definitions/coincheckup_coin_analysis_model'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/coincheckup_coin_analysis_model'
+      deprecated: false
+    put:
+      tags:
+        - coincheckup_coin_analysis_model
+      summary: >-
+        Patch an existing model instance or insert a new one into the data
+        source.
+      operationId: >-
+        coincheckup_coin_analysis_model.upsert__put_coincheckup_coin_analysis_models
+      parameters:
+        - name: data
+          in: body
+          description: Model instance data
+          required: false
+          schema:
+            description: Model instance data
+            $ref: '#/definitions/coincheckup_coin_analysis_model'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/coincheckup_coin_analysis_model'
+      deprecated: false
+    patch:
+      tags:
+        - coincheckup_coin_analysis_model
+      summary: >-
+        Patch an existing model instance or insert a new one into the data
+        source.
+      operationId: >-
+        coincheckup_coin_analysis_model.upsert__patch_coincheckup_coin_analysis_models
+      parameters:
+        - name: data
+          in: body
+          description: Model instance data
+          required: false
+          schema:
+            description: Model instance data
+            $ref: '#/definitions/coincheckup_coin_analysis_model'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/coincheckup_coin_analysis_model'
+      deprecated: false
+    get:
+      tags:
+        - coincheckup_coin_analysis_model
+      summary: Find all instances of the model matched by filter from the data source.
+      operationId: coincheckup_coin_analysis_model.find
+      parameters:
+        - name: filter
+          in: query
+          description: >-
+            Filter defining fields, where, include, order, offset, and limit -
+            must be a JSON-encoded string ({"something":"value"})
+          required: false
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/coincheckup_coin_analysis_model'
+      deprecated: false
+  /coincheckup_coin_analysis_models/replaceOrCreate:
+    post:
+      tags:
+        - coincheckup_coin_analysis_model
+      summary: >-
+        Replace an existing model instance or insert a new one into the data
+        source.
+      operationId: coincheckup_coin_analysis_model.replaceOrCreate
+      parameters:
+        - name: data
+          in: body
+          description: Model instance data
+          required: false
+          schema:
+            description: Model instance data
+            $ref: '#/definitions/coincheckup_coin_analysis_model'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/coincheckup_coin_analysis_model'
+      deprecated: false
+  /coincheckup_coin_analysis_models/upsertWithWhere:
+    post:
+      tags:
+        - coincheckup_coin_analysis_model
+      summary: >-
+        Update an existing model instance or insert a new one into the data
+        source based on the where criteria.
+      operationId: coincheckup_coin_analysis_model.upsertWithWhere
+      parameters:
+        - name: where
+          in: query
+          description: Criteria to match model instances
+          required: false
+          type: string
+          format: JSON
+        - name: data
+          in: body
+          description: An object of model property name/value pairs
+          required: false
+          schema:
+            description: An object of model property name/value pairs
+            $ref: '#/definitions/coincheckup_coin_analysis_model'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/coincheckup_coin_analysis_model'
+      deprecated: false
+  '/coincheckup_coin_analysis_models/{id}/exists':
+    get:
+      tags:
+        - coincheckup_coin_analysis_model
+      summary: Check whether a model instance exists in the data source.
+      operationId: >-
+        coincheckup_coin_analysis_model.exists__get_coincheckup_coin_analysis_models_{id}_exists
+      parameters:
+        - name: id
+          in: path
+          description: Model id
+          required: true
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            type: object
+            properties:
+              exists:
+                type: boolean
+      deprecated: false
+  '/coincheckup_coin_analysis_models/{id}':
+    head:
+      tags:
+        - coincheckup_coin_analysis_model
+      summary: Check whether a model instance exists in the data source.
+      operationId: >-
+        coincheckup_coin_analysis_model.exists__head_coincheckup_coin_analysis_models_{id}
+      parameters:
+        - name: id
+          in: path
+          description: Model id
+          required: true
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            type: object
+            properties:
+              exists:
+                type: boolean
+      deprecated: false
+    get:
+      tags:
+        - coincheckup_coin_analysis_model
+      summary: 'Find a model instance by {{id}} from the data source.'
+      operationId: coincheckup_coin_analysis_model.findById
+      parameters:
+        - name: id
+          in: path
+          description: Model id
+          required: true
+          type: string
+          format: JSON
+        - name: filter
+          in: query
+          description: >-
+            Filter defining fields and include - must be a JSON-encoded string
+            ({"something":"value"})
+          required: false
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/coincheckup_coin_analysis_model'
+      deprecated: false
+    delete:
+      tags:
+        - coincheckup_coin_analysis_model
+      summary: 'Delete a model instance by {{id}} from the data source.'
+      operationId: coincheckup_coin_analysis_model.deleteById
+      parameters:
+        - name: id
+          in: path
+          description: Model id
+          required: true
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            type: object
+      deprecated: false
+    put:
+      tags:
+        - coincheckup_coin_analysis_model
+      summary: >-
+        Patch attributes for a model instance and persist it into the data
+        source.
+      operationId: >-
+        coincheckup_coin_analysis_model.prototype.updateAttributes__put_coincheckup_coin_analysis_models_{id}
+      parameters:
+        - name: data
+          in: body
+          description: An object of model property name/value pairs
+          required: false
+          schema:
+            description: An object of model property name/value pairs
+            $ref: '#/definitions/coincheckup_coin_analysis_model'
+        - name: id
+          in: path
+          description: coincheckup_coin_analysis_model id
+          required: true
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/coincheckup_coin_analysis_model'
+      deprecated: false
+    patch:
+      tags:
+        - coincheckup_coin_analysis_model
+      summary: >-
+        Patch attributes for a model instance and persist it into the data
+        source.
+      operationId: >-
+        coincheckup_coin_analysis_model.prototype.updateAttributes__patch_coincheckup_coin_analysis_models_{id}
+      parameters:
+        - name: data
+          in: body
+          description: An object of model property name/value pairs
+          required: false
+          schema:
+            description: An object of model property name/value pairs
+            $ref: '#/definitions/coincheckup_coin_analysis_model'
+        - name: id
+          in: path
+          description: coincheckup_coin_analysis_model id
+          required: true
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/coincheckup_coin_analysis_model'
+      deprecated: false
+  '/coincheckup_coin_analysis_models/{id}/replace':
+    post:
+      tags:
+        - coincheckup_coin_analysis_model
+      summary: >-
+        Replace attributes for a model instance and persist it into the data
+        source.
+      operationId: coincheckup_coin_analysis_model.replaceById
+      parameters:
+        - name: id
+          in: path
+          description: Model id
+          required: true
+          type: string
+          format: JSON
+        - name: data
+          in: body
+          description: Model instance data
+          required: false
+          schema:
+            description: Model instance data
+            $ref: '#/definitions/coincheckup_coin_analysis_model'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/coincheckup_coin_analysis_model'
+      deprecated: false
+  /coincheckup_coin_analysis_models/findOne:
+    get:
+      tags:
+        - coincheckup_coin_analysis_model
+      summary: Find first instance of the model matched by filter from the data source.
+      operationId: coincheckup_coin_analysis_model.findOne
+      parameters:
+        - name: filter
+          in: query
+          description: >-
+            Filter defining fields, where, include, order, offset, and limit -
+            must be a JSON-encoded string ({"something":"value"})
+          required: false
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/coincheckup_coin_analysis_model'
+      deprecated: false
+  /coincheckup_coin_analysis_models/update:
+    post:
+      tags:
+        - coincheckup_coin_analysis_model
+      summary: 'Update instances of the model matched by {{where}} from the data source.'
+      operationId: coincheckup_coin_analysis_model.updateAll
+      parameters:
+        - name: where
+          in: query
+          description: Criteria to match model instances
+          required: false
+          type: string
+          format: JSON
+        - name: data
+          in: body
+          description: An object of model property name/value pairs
+          required: false
+          schema:
+            description: An object of model property name/value pairs
+            $ref: '#/definitions/coincheckup_coin_analysis_model'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            description: Information related to the outcome of the operation
+            type: object
+            properties:
+              count:
+                description: The number of instances updated
+                type: number
+                format: double
+      deprecated: false
+  /coincheckup_coin_analysis_models/count:
+    get:
+      tags:
+        - coincheckup_coin_analysis_model
+      summary: Count instances of the model matched by where from the data source.
+      operationId: coincheckup_coin_analysis_model.count
+      parameters:
+        - name: where
+          in: query
+          description: Criteria to match model instances
+          required: false
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            type: object
+            properties:
+              count:
+                type: number
+                format: double
+      deprecated: false
+  /masternodespro_statistics_models:
+    post:
+      tags:
+        - masternodespro_statistics_model
+      summary: Create a new instance of the model and persist it into the data source.
+      operationId: masternodespro_statistics_model.create
+      parameters:
+        - name: data
+          in: body
+          description: Model instance data
+          required: false
+          schema:
+            description: Model instance data
+            $ref: '#/definitions/masternodespro_statistics_model'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/masternodespro_statistics_model'
+      deprecated: false
+    put:
+      tags:
+        - masternodespro_statistics_model
+      summary: >-
+        Patch an existing model instance or insert a new one into the data
+        source.
+      operationId: >-
+        masternodespro_statistics_model.upsert__put_masternodespro_statistics_models
+      parameters:
+        - name: data
+          in: body
+          description: Model instance data
+          required: false
+          schema:
+            description: Model instance data
+            $ref: '#/definitions/masternodespro_statistics_model'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/masternodespro_statistics_model'
+      deprecated: false
+    patch:
+      tags:
+        - masternodespro_statistics_model
+      summary: >-
+        Patch an existing model instance or insert a new one into the data
+        source.
+      operationId: >-
+        masternodespro_statistics_model.upsert__patch_masternodespro_statistics_models
+      parameters:
+        - name: data
+          in: body
+          description: Model instance data
+          required: false
+          schema:
+            description: Model instance data
+            $ref: '#/definitions/masternodespro_statistics_model'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/masternodespro_statistics_model'
+      deprecated: false
+    get:
+      tags:
+        - masternodespro_statistics_model
+      summary: Find all instances of the model matched by filter from the data source.
+      operationId: masternodespro_statistics_model.find
+      parameters:
+        - name: filter
+          in: query
+          description: >-
+            Filter defining fields, where, include, order, offset, and limit -
+            must be a JSON-encoded string ({"something":"value"})
+          required: false
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/masternodespro_statistics_model'
+      deprecated: false
+  /masternodespro_statistics_models/replaceOrCreate:
+    post:
+      tags:
+        - masternodespro_statistics_model
+      summary: >-
+        Replace an existing model instance or insert a new one into the data
+        source.
+      operationId: masternodespro_statistics_model.replaceOrCreate
+      parameters:
+        - name: data
+          in: body
+          description: Model instance data
+          required: false
+          schema:
+            description: Model instance data
+            $ref: '#/definitions/masternodespro_statistics_model'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/masternodespro_statistics_model'
+      deprecated: false
+  /masternodespro_statistics_models/upsertWithWhere:
+    post:
+      tags:
+        - masternodespro_statistics_model
+      summary: >-
+        Update an existing model instance or insert a new one into the data
+        source based on the where criteria.
+      operationId: masternodespro_statistics_model.upsertWithWhere
+      parameters:
+        - name: where
+          in: query
+          description: Criteria to match model instances
+          required: false
+          type: string
+          format: JSON
+        - name: data
+          in: body
+          description: An object of model property name/value pairs
+          required: false
+          schema:
+            description: An object of model property name/value pairs
+            $ref: '#/definitions/masternodespro_statistics_model'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/masternodespro_statistics_model'
+      deprecated: false
+  '/masternodespro_statistics_models/{id}/exists':
+    get:
+      tags:
+        - masternodespro_statistics_model
+      summary: Check whether a model instance exists in the data source.
+      operationId: >-
+        masternodespro_statistics_model.exists__get_masternodespro_statistics_models_{id}_exists
+      parameters:
+        - name: id
+          in: path
+          description: Model id
+          required: true
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            type: object
+            properties:
+              exists:
+                type: boolean
+      deprecated: false
+  '/masternodespro_statistics_models/{id}':
+    head:
+      tags:
+        - masternodespro_statistics_model
+      summary: Check whether a model instance exists in the data source.
+      operationId: >-
+        masternodespro_statistics_model.exists__head_masternodespro_statistics_models_{id}
+      parameters:
+        - name: id
+          in: path
+          description: Model id
+          required: true
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            type: object
+            properties:
+              exists:
+                type: boolean
+      deprecated: false
+    get:
+      tags:
+        - masternodespro_statistics_model
+      summary: 'Find a model instance by {{id}} from the data source.'
+      operationId: masternodespro_statistics_model.findById
+      parameters:
+        - name: id
+          in: path
+          description: Model id
+          required: true
+          type: string
+          format: JSON
+        - name: filter
+          in: query
+          description: >-
+            Filter defining fields and include - must be a JSON-encoded string
+            ({"something":"value"})
+          required: false
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/masternodespro_statistics_model'
+      deprecated: false
+    delete:
+      tags:
+        - masternodespro_statistics_model
+      summary: 'Delete a model instance by {{id}} from the data source.'
+      operationId: masternodespro_statistics_model.deleteById
+      parameters:
+        - name: id
+          in: path
+          description: Model id
+          required: true
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            type: object
+      deprecated: false
+    put:
+      tags:
+        - masternodespro_statistics_model
+      summary: >-
+        Patch attributes for a model instance and persist it into the data
+        source.
+      operationId: >-
+        masternodespro_statistics_model.prototype.updateAttributes__put_masternodespro_statistics_models_{id}
+      parameters:
+        - name: data
+          in: body
+          description: An object of model property name/value pairs
+          required: false
+          schema:
+            description: An object of model property name/value pairs
+            $ref: '#/definitions/masternodespro_statistics_model'
+        - name: id
+          in: path
+          description: masternodespro_statistics_model id
+          required: true
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/masternodespro_statistics_model'
+      deprecated: false
+    patch:
+      tags:
+        - masternodespro_statistics_model
+      summary: >-
+        Patch attributes for a model instance and persist it into the data
+        source.
+      operationId: >-
+        masternodespro_statistics_model.prototype.updateAttributes__patch_masternodespro_statistics_models_{id}
+      parameters:
+        - name: data
+          in: body
+          description: An object of model property name/value pairs
+          required: false
+          schema:
+            description: An object of model property name/value pairs
+            $ref: '#/definitions/masternodespro_statistics_model'
+        - name: id
+          in: path
+          description: masternodespro_statistics_model id
+          required: true
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/masternodespro_statistics_model'
+      deprecated: false
+  '/masternodespro_statistics_models/{id}/replace':
+    post:
+      tags:
+        - masternodespro_statistics_model
+      summary: >-
+        Replace attributes for a model instance and persist it into the data
+        source.
+      operationId: masternodespro_statistics_model.replaceById
+      parameters:
+        - name: id
+          in: path
+          description: Model id
+          required: true
+          type: string
+          format: JSON
+        - name: data
+          in: body
+          description: Model instance data
+          required: false
+          schema:
+            description: Model instance data
+            $ref: '#/definitions/masternodespro_statistics_model'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/masternodespro_statistics_model'
+      deprecated: false
+  /masternodespro_statistics_models/findOne:
+    get:
+      tags:
+        - masternodespro_statistics_model
+      summary: Find first instance of the model matched by filter from the data source.
+      operationId: masternodespro_statistics_model.findOne
+      parameters:
+        - name: filter
+          in: query
+          description: >-
+            Filter defining fields, where, include, order, offset, and limit -
+            must be a JSON-encoded string ({"something":"value"})
+          required: false
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/masternodespro_statistics_model'
+      deprecated: false
+  /masternodespro_statistics_models/update:
+    post:
+      tags:
+        - masternodespro_statistics_model
+      summary: 'Update instances of the model matched by {{where}} from the data source.'
+      operationId: masternodespro_statistics_model.updateAll
+      parameters:
+        - name: where
+          in: query
+          description: Criteria to match model instances
+          required: false
+          type: string
+          format: JSON
+        - name: data
+          in: body
+          description: An object of model property name/value pairs
+          required: false
+          schema:
+            description: An object of model property name/value pairs
+            $ref: '#/definitions/masternodespro_statistics_model'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            description: Information related to the outcome of the operation
+            type: object
+            properties:
+              count:
+                description: The number of instances updated
+                type: number
+                format: double
+      deprecated: false
+  /masternodespro_statistics_models/count:
+    get:
+      tags:
+        - masternodespro_statistics_model
+      summary: Count instances of the model matched by where from the data source.
+      operationId: masternodespro_statistics_model.count
+      parameters:
+        - name: where
+          in: query
+          description: Criteria to match model instances
+          required: false
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            type: object
+            properties:
+              count:
+                type: number
+                format: double
+      deprecated: false
+definitions:
+  icowatchlist_live_model:
+    properties:
+      channels:
+        type: array
+        items:
+          type: string
+      endsOn:
+        type: string
+      founders:
+        type: array
+        items:
+          type: string
+      homePage:
+        type: string
+      id:
+        type: string
+      logo:
+        type: string
+      market:
+        type: string
+      name:
+        type: string
+      platform:
+        type: string
+      progress:
+        type: number
+        format: double
+      startsOn:
+        type: string
+      whitePaper:
+        type: string
+    required:
+      - id
+    additionalProperties: false
+  x-any:
+    properties: {}
+  icowatchlist_upcoming_model:
+    properties:
+      name:
+        type: string
+      logo:
+        type: string
+      id:
+        type: number
+        format: double
+      market:
+        type: string
+      endsOn:
+        type: string
+      startsOn:
+        type: string
+      founders:
+        type: array
+        items:
+          type: string
+      platform:
+        type: string
+      channels:
+        type: array
+        items:
+          type: string
+      homePage:
+        type: string
+      whitePaper:
+        type: string
+      crowdsale:
+        type: string
+    required:
+      - id
+    additionalProperties: false
+  icowatchlist_finished_model:
+    properties:
+      name:
+        type: string
+      id:
+        type: number
+        format: double
+      logo:
+        type: string
+      market:
+        type: string
+      endsOn:
+        type: string
+      startsOn:
+        type: string
+      founders:
+        type: array
+        items:
+          type: string
+      platform:
+        type: string
+      channels:
+        type: array
+        items:
+          type: string
+      country:
+        type: string
+      homePage:
+        type: string
+      whitePaper:
+        type: string
+    required:
+      - id
+    additionalProperties: false
+  coinmarketcap_coin_model:
+    properties:
+      _id:
+        type: string
+      availableSupply:
+        type: array
+        items:
+          type: string
+      lastUpdated:
+        type: array
+        items:
+          type: string
+      marketCapUSD:
+        type: array
+        items:
+          type: string
+      maxSupply:
+        type: array
+        items:
+          type: string
+      name:
+        type: string
+      percentChange1h:
+        type: string
+      percentChange24h:
+        type: string
+      percentChange7d:
+        type: string
+      priceBTC:
+        type: array
+        items:
+          type: string
+      priceUSD:
+        type: array
+        items:
+          type: string
+      rank:
+        type: string
+      symbol:
+        type: string
+      totalSupply:
+        type: array
+        items:
+          type: string
+      volume24h:
+        type: array
+        items:
+          type: string
+    required:
+      - _id
+    additionalProperties: false
+  coinmarketcap_markets_model:
+    properties:
+      exchange:
+        type: string
+      id:
+        type: string
+      pair:
+        type: string
+      price:
+        type: string
+      volume:
+        type: string
+      volume24h:
+        type: string
+    required:
+      - id
+    additionalProperties: false
+  coincheckup_coin_analysis_model:
+    properties:
+      id:
+        type: number
+        format: double
+      rank:
+        type: string
+      totalScore:
+        type: string
+      team:
+        type: string
+      advisors:
+        type: string
+      community:
+        type: string
+      product:
+        type: string
+      coin:
+        type: string
+      socialMedia:
+        type: string
+      communication:
+        type: string
+      business:
+        type: string
+      github:
+        type: string
+      name:
+        type: string
+    required:
+      - id
+    additionalProperties: false
+  masternodespro_statistics_model:
+    properties:
+      id:
+        type: number
+        format: double
+      name:
+        type: string
+      roi:
+        type: string
+      roi30days:
+        type: string
+      price:
+        type: string
+      change:
+        type: string
+      noOfMasternodes:
+        type: string
+      noOfRequiredCoins:
+        type: string
+      masternodeWorth:
+        type: string
+      monthlyReturn:
+        type: string
+      yearlyReturn:
+        type: string
+      info:
+        type: string
+      link:
+        type: string
+    required:
+      - id
+    additionalProperties: false
+basePath: /api
+swagger: '2.0'
+info:
+  x-ibm-name: cryptoment-loopback
+  version: 1.0.0
+  title: cryptoment-loopback
+schemes:
+  - https
+host: $(catalog.host)
+consumes:
+  - application/json
+produces:
+  - application/json
+securityDefinitions:
+  clientIdHeader:
+    type: apiKey
+    in: header
+    name: X-IBM-Client-Id
+  clientSecretHeader:
+    in: header
+    name: X-IBM-Client-Secret
+    type: apiKey
+security:
+  - clientIdHeader: []
+    clientSecretHeader: []
+x-ibm-configuration:
+  testable: true
+  enforced: true
+  cors:
+    enabled: true
+  catalogs:
+    apic-dev:
+      properties:
+        runtime-url: $(TARGET_URL)
+    sb:
+      properties:
+        runtime-url: >-
+          https://apiconnect-adc90bb4-6aa4-4277-a348-fc83c8ff5f55.cryptoment-cryptomentussouth.apic.mybluemix.net
+        invoke-tls-profile: 'client:Loopback-client'
+  assembly:
+    execute:
+      - invoke:
+          target-url: $(runtime-url)$(request.path)$(request.search)
+          timeout: 60
+          verb: GET
+          username: oftenterwayseldisholeass
+          password: 0fbbe1e579b6515ce6f50b4b9c91c638cfd9a154
+          cache-response: time-to-live
+          title: loopback-cloudant_connection
+          tls-profile: $(invoke-tls-profile)
+  gateway: datapower-gateway
+  properties:
+    runtime-url:
+      value: ''
+      description: ''
+      encoded: false
+    invoke-tls-profile:
+      value: ''
+      description: ''
+      encoded: false

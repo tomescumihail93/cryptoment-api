@@ -1,0 +1,44 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "icowatchlist_live_model": {
+    "dataSource": "icowatchlist-datasource",
+    "public": true
+  },
+  "icowatchlist_upcoming_model": {
+    "dataSource": "icowatchlist-datasource",
+    "public": true
+  },
+  "icowatchlist_finished_model": {
+    "dataSource": "icowatchlist-datasource",
+    "public": true
+  },
+  "coinmarketcap_coin_model": {
+    "dataSource": "coinmarketcap-datasource",
+    "public": true
+  },
+  "coinmarketcap_markets_model": {
+    "dataSource": "coinmarketcap-datasource",
+    "public": true
+  },
+  "coincheckup_coin_analysis_model": {
+    "dataSource": "coincheckup-datasource",
+    "public": true
+  },
+  "masternodespro_statistics_model": {
+    "dataSource": "masternodespro-datasource",
+    "public": true
+  }
+}

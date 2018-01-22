@@ -1,0 +1,149 @@
+type: bluemix
+server:
+  displayName: US South
+  name: us-south
+  host: us.apiconnect.ibmcloud.com
+org:
+  id: 5a5f2f340cf27bf1440bfd5b
+  name: cryptoment-cryptomentussouth
+  displayName: Cryptoment (Cryptoment_US_South)
+  orgType: apiProvider
+  status: active
+  advPortalOverride: true
+  extUaaAuthenticated: false
+  requiresSSLClientCertCheck: false
+  dormant: false
+  url: 'https://us.apiconnect.ibmcloud.com/v1/orgs/5a5f2f340cf27bf1440bfd5b'
+  externalOrgId: db6416e4-505e-4a1a-9b45-4aeee2775ca4
+  externalInviteOverride: 'https://console.bluemix.net/apis/catalog/invitation?env_id=ibm:yp:us-south'
+  externalSpaceId: db6416e4-505e-4a1a-9b45-4aeee2775ca4
+  externalNativeOrgId: 1bfff481-877a-4c2d-a1a2-c304aafdc8de
+  bluemix:
+    inviteUri: 'https://console.bluemix.net/apis/catalog/invitation?env_id=ibm:yp:us-south'
+    organization: 1bfff481-877a-4c2d-a1a2-c304aafdc8de
+    space: db6416e4-505e-4a1a-9b45-4aeee2775ca4
+catalog:
+  id: 5a5f2f340cf27bf1440bfd67
+  orgId: 5a5f2f340cf27bf1440bfd5b
+  name: Sandbox
+  shortName: sb
+  owner:
+    id: 5a58c94b0cf2649b7c5f63ca
+    username: tomescumihail93@gmail.com
+    context: apimanager
+    idpId: 58341db4e63b1219f0f068d1
+    email: tomescumihail93@gmail.com
+    firstName: ''
+    lastName: ''
+    status: ACTIVE
+    lastLoginTime: '2018-01-17T13:18:17.744+0000'
+    url: 'https://us.apiconnect.ibmcloud.com/v1/users/5a58c94b0cf2649b7c5f63ca'
+  apiCenter: false
+  portalType: ADVANCED
+  portalUrl: 'https://developer.us.apiconnect.ibmcloud.com/cryptoment-cryptomentussouth/sb'
+  customPortalUrl: 'https://developer.us.apiconnect.ibmcloud.com/cryptoment-cryptomentussouth/sb'
+  advPortalUrl: 'https://sb-cryptoment-cryptomentussouth.developer.us.apiconnect.ibmcloud.com'
+  gatewayType: DataPowerGateway
+  gwServices:
+    - id: PRODAPIC_APIMGMT_GATEWAY
+      endpointUrl: 'https://api.us.apiconnect.ibmcloud.com/cryptoment-cryptomentussouth/sb'
+  idp: 5a5f2f360cf27bf1440bfd68
+  idps:
+    - 5a5f2f360cf27bf1440bfd68
+  availableRoles:
+    - viewer
+    - developer
+  default: false
+  autoDeploy: true
+  restrictedDeployment: false
+  invitationEnabled: true
+  selfSignUpEnabled: true
+  spaceEnabled: false
+  spaceIds:
+    - 5a5f2f360cf27bf1440bfd70
+  testAppEnabled: true
+  testAppCredentials:
+    clientId: 9b992105-cbdd-4255-9d66-84203c011814
+    clientSecret: rM0pC1lI8jB6aC5cC0fN8rN2tT7yP0xC1mH2lO2cK7kN5eU6eY
+  createdAt: '2018-01-17T11:10:46.197+0000'
+  updatedAt: '2018-01-17T11:13:40.226+0000'
+  createdBy: apim-ops@wwpdl.vnet.ibm.com
+  updatedBy: m.cojocaru@student.vu.nl
+  url: >-
+    https://us.apiconnect.ibmcloud.com/v1/orgs/5a5f2f340cf27bf1440bfd5b/environments/5a5f2f340cf27bf1440bfd67
+  applicationLifecycleEnabled: false
+  productDeploymentApprovalRequiredStates: []
+  orgName: cryptoment-cryptomentussouth
+space:
+  none: true
+app:
+  metadata:
+    guid: adc90bb4-6aa4-4277-a348-fc83c8ff5f55
+  entity:
+    guid: adc90bb4-6aa4-4277-a348-fc83c8ff5f55
+    name: icowatchlist-api
+    routes:
+      - guid: d89d14c9-e82f-4296-bbba-0f6b7bc6cbf8
+        host: apiconnect-adc90bb4-6aa4-4277-a348-fc83c8ff5f55
+        port: null
+        path: ''
+        domain:
+          guid: 1589125a-b9a9-4d91-a5ef-e5a62ea372ff
+          name: cryptoment-cryptomentussouth.apic.mybluemix.net
+    running_instances: 0
+    services: []
+    available_domains:
+      - guid: e2b65d17-e992-4cfd-8869-15a1e7387215
+        name: cryptoment.net
+        owning_organization_guid: 1bfff481-877a-4c2d-a1a2-c304aafdc8de
+      - guid: 1589125a-b9a9-4d91-a5ef-e5a62ea372ff
+        name: cryptoment-cryptomentussouth.apic.mybluemix.net
+        owning_organization_guid: 1bfff481-877a-4c2d-a1a2-c304aafdc8de
+      - guid: f4b90d7e-2cd3-4d30-b200-f28bbaf6be20
+        name: mybluemix.net
+        router_group_guid: null
+        router_group_type: null
+    production: false
+    space_guid: db6416e4-505e-4a1a-9b45-4aeee2775ca4
+    stack_guid: ac91d31a-86a3-453b-babf-8d49c9d763fc
+    buildpack: null
+    detected_buildpack: null
+    detected_buildpack_guid: null
+    environment_json: {}
+    memory: 256
+    instances: 1
+    disk_quota: 1024
+    state: STOPPED
+    version: 39672aff-0811-4f01-a64c-cef65d623c18
+    command: null
+    console: false
+    debug: null
+    staging_task_id: null
+    package_state: PENDING
+    health_check_type: port
+    health_check_timeout: null
+    health_check_http_endpoint: null
+    staging_failed_reason: null
+    staging_failed_description: null
+    diego: true
+    docker_image: null
+    package_updated_at: '2018-01-22T19:27:28Z'
+    detected_start_command: ''
+    enable_ssh: true
+    ports: null
+id: e5cabe21-cd8b-45fa-9bb0-27c733f8a2b6
+target: 1.0.0
+versionOptions:
+  inplaceUpdate: false
+  newName: cryptoment-api
+publishApp: true
+publishProducts: true
+productStageOnly: true
+specificProducts: true
+workspaceDir:
+  name: cryptoment-loopback
+  path: /Users/michelcojocaru/cryptoment-api/cryptoment-loopback
+  id: 6
+  displayName: cryptoment-loopback
+  type: project
+  projectType: loopback

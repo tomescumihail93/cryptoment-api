@@ -1,0 +1,86 @@
+{
+  "name": "icowatchlist_live_model",
+  "base": "PersistedModel",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "channels": {
+      "type": [
+        "string"
+      ],
+      "required": false,
+      "isArray": true,
+      "updateResource": {
+        "id": "common.icowatchlist_live_model.channels",
+        "modelId": "common.icowatchlist_live_model",
+        "facetName": "common",
+        "name": "channels",
+        "type": [
+          "string"
+        ],
+        "required": false,
+        "isArray": true
+      }
+    },
+    "endsOn": {
+      "type": "string",
+      "required": false
+    },
+    "founders": {
+      "type": [
+        "string"
+      ],
+      "required": false,
+      "isArray": true
+    },
+    "homePage": {
+      "type": "string",
+      "required": false,
+      "isArray": false
+    },
+    "id": {
+      "type": "number",
+      "id": true,
+      "generated": true,
+      "required": false,
+      "isArray": false
+    },
+    "logo": {
+      "type": "string",
+      "required": false
+    },
+    "market": {
+      "type": "string",
+      "required": false
+    },
+    "name": {
+      "type": "string",
+      "id": false,
+      "required": false,
+      "index": false,
+      "isArray": false
+    },
+    "platform": {
+      "type": "string",
+      "required": false
+    },
+    "progress": {
+      "type": "number",
+      "required": false
+    },
+    "startsOn": {
+      "type": "string",
+      "required": false
+    },
+    "whitePaper": {
+      "type": "string",
+      "required": false
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
