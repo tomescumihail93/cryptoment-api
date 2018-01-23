@@ -2695,6 +2695,8 @@ definitions:
         type: array
         items:
           type: string
+      country:
+        type: string
       endsOn:
         type: string
       founders:
@@ -2714,8 +2716,7 @@ definitions:
       platform:
         type: string
       progress:
-        type: number
-        format: double
+        type: string
       startsOn:
         type: string
       whitePaper:
@@ -2732,8 +2733,7 @@ definitions:
       logo:
         type: string
       id:
-        type: number
-        format: double
+        type: string
       market:
         type: string
       endsOn:
@@ -2756,16 +2756,13 @@ definitions:
         type: string
       crowdsale:
         type: string
-    required:
-      - id
     additionalProperties: false
   icowatchlist_finished_model:
     properties:
       name:
         type: string
       id:
-        type: number
-        format: double
+        type: string
       logo:
         type: string
       market:
@@ -2790,8 +2787,6 @@ definitions:
         type: string
       whitePaper:
         type: string
-    required:
-      - id
     additionalProperties: false
   coinmarketcap_coin_model:
     properties:
@@ -2841,8 +2836,6 @@ definitions:
         type: array
         items:
           type: string
-    required:
-      - _id
     additionalProperties: false
   coinmarketcap_markets_model:
     properties:
@@ -2858,14 +2851,11 @@ definitions:
         type: string
       volume24h:
         type: string
-    required:
-      - id
     additionalProperties: false
   coincheckup_coin_analysis_model:
     properties:
       id:
-        type: number
-        format: double
+        type: string
       rank:
         type: string
       totalScore:
@@ -2890,14 +2880,11 @@ definitions:
         type: string
       name:
         type: string
-    required:
-      - id
     additionalProperties: false
   masternodespro_statistics_model:
     properties:
       id:
-        type: number
-        format: double
+        type: string
       name:
         type: string
       roi:
@@ -2922,8 +2909,6 @@ definitions:
         type: string
       link:
         type: string
-    required:
-      - id
     additionalProperties: false
 basePath: /api
 swagger: '2.0'
@@ -2962,7 +2947,7 @@ x-ibm-configuration:
     sb:
       properties:
         runtime-url: >-
-          https://apiconnect-adc90bb4-6aa4-4277-a348-fc83c8ff5f55.cryptoment-cryptomentussouth.apic.mybluemix.net
+          https://apiconnect-8326575d-f795-49a8-82be-f24b76d4a452.cryptoment-cryptomentussouth.apic.mybluemix.net
         invoke-tls-profile: 'client:Loopback-client'
   assembly:
     execute:

@@ -7,8 +7,10 @@ const request = require('request');
 const fs = require('fs');
 
 //careful about changing the next two variables standard 300 & 0.15
-const samplingInterval = 300;//seconds
+const samplingInterval = 3600;//seconds
 const depositDataInterval = 0.15;//seconds
+
+//base url + limit to control the flux from coinmarketcap
 const noLimit = "0";
 const limit100 = "100";
 
@@ -18,7 +20,10 @@ var coinList = [];
 
 //toggler for database initital population process
 var wasLoadedIntoDB = false;
+
+//first digit is "1" for coinmarketcap coin model
 var initial_id = 1913112091000832;
+
 //coin entity
 class Coin{
 
@@ -159,7 +164,6 @@ request("https://api.coinmarketcap.com/v1/ticker/?limit=" + noLimit, function (e
     if(!error && response.statusCode == 200) {
 
         var res = JSON.parse(body);
-        //console.log(res)
         res.delayedForEach(function (coin) {
 
             initial_id++;
@@ -182,8 +186,6 @@ request("https://api.coinmarketcap.com/v1/ticker/?limit=" + noLimit, function (e
                 coin["percent_change_7d"],
                 coin["last_updated"]
             ));
-
-
 
             var options = {
                 method: 'POST',

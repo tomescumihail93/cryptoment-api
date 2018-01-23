@@ -24,6 +24,10 @@
         "isArray": true
       }
     },
+    "country": {
+      "type": "string",
+      "required": false
+    },
     "endsOn": {
       "type": "string",
       "required": false
@@ -41,10 +45,10 @@
       "isArray": false
     },
     "id": {
-      "type": "number",
+      "type": "string",
       "id": true,
       "generated": true,
-      "required": false,
+      "required": true,
       "isArray": false
     },
     "logo": {
@@ -67,7 +71,7 @@
       "required": false
     },
     "progress": {
-      "type": "number",
+      "type": "string",
       "required": false
     },
     "startsOn": {
