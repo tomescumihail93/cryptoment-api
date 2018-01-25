@@ -1,0 +1,26 @@
+{
+  "name": "cryptoment-api",
+  "version": "1.0.0",
+  "description": "Cryptoment backend",
+  "main": "./cryptoment-loopback/server/server.js",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "fs": "0.0.1-security",
+    "request-then": "^1.1.0",
+    "throttled-request": "^0.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomescumihail93/cryptoment-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tomescumihail93/cryptoment-api/issues"
+  },
+  "homepage": "https://github.com/tomescumihail93/cryptoment-api#readme"
+}

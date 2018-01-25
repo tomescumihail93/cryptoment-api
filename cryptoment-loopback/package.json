@@ -11,6 +11,7 @@
     "posttest": "npm run lint && nsp check"
   },
   "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
     "compression": "^1.0.3",
     "cors": "^2.5.2",
     "delayed-request": "^1.0.0",
@@ -19,6 +20,8 @@
     "loopback-boot": "^2.6.5",
     "loopback-connector-cloudant": "^2.0.4",
     "loopback-datasource-juggler": "^2.39.0",
+    "request": "^2.83.0",
+    "request-then": "^1.1.0",
     "serve-favicon": "^2.0.1",
     "strong-error-handler": "^2.0.0",
     "throttled-request": "^0.1.1"

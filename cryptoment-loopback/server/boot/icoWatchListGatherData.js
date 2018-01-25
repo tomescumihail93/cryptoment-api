@@ -3,7 +3,7 @@
  * company: Cryptoment
  * */
 
-var cheerio = require("cheerio");
+var cheerio = require('cheerio');
 var request = require('request')
 var throttledRequest = require('throttled-request')(request)
 var updateDataInterval = 60;//24 * 60 * 60; //once per day
