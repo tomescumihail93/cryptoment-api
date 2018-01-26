@@ -8,7 +8,7 @@ const samplingInterval = 3600;//seconds
 //const waitAfterDBinit = 30;//seconds
 const depositDataInterval = 0.2;//seconds
 
-const fs = require('fs');
+
 //const thenRequest = require('request-then');
 const request = require('request');
 var throttledRequest = require('throttled-request')(request)
@@ -145,6 +145,17 @@ class Coin{
 
 }
 
+Array.prototype.delayedForEach = function(callback, timeout, thisArg){
+    var i = 0,
+        l = this.length,
+        self = this,
+        caller = function(){
+            callback.call(thisArg || self, self[i], i, self);
+            (++i < l) && setTimeout(caller, timeout);
+        };
+    caller();
+};
+
 function getCoinBySymbol(symbol,coinList){
     var ret_coin = null;
 
@@ -185,17 +196,6 @@ function run() {
         });
     }, samplingInterval * 1000);//
 }
-
-Array.prototype.delayedForEach = function(callback, timeout, thisArg){
-    var i = 0,
-        l = this.length,
-        self = this,
-        caller = function(){
-            callback.call(thisArg || self, self[i], i, self);
-            (++i < l) && setTimeout(caller, timeout);
-        };
-    caller();
-};
 
 var initializeDB = function() {
     request("https://api.coinmarketcap.com/v1/ticker/?limit=" + limit, function (error, response, body) {
@@ -317,9 +317,7 @@ var mergeAndSend = function(coinList) {
                             coinHistory.maxSupply = mergeHistoricalWithCurrent(coinHistory["maxSupply"],freshCoin["max_supply"],keepDuplicateData);//keepDuplicateData
                             coinHistory.availableSupply = mergeHistoricalWithCurrent(coinHistory["availableSupply"],freshCoin["available_supply"],keepDuplicateData);
                             coinHistory.totalSupply = mergeHistoricalWithCurrent(coinHistory["totalSupply"],freshCoin["total_supply"],keepDuplicateData);
-
-                            //console.log("id: " + coinHistory.id + "|" + "_id: " + coinHistory._id);
-
+                            
                             //update data to remote db
                             var options = {
                                 method: 'PUT',
@@ -368,4 +366,5 @@ var mergeAndSend = function(coinList) {
 };
 
 
-run();
+//run();
+

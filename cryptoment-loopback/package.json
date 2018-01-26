@@ -21,9 +21,9 @@
     "loopback-connector-cloudant": "^2.0.4",
     "loopback-datasource-juggler": "^2.39.0",
     "request": "^2.83.0",
-    "request-then": "^1.1.0",
     "serve-favicon": "^2.0.1",
     "strong-error-handler": "^2.0.0",
+    "then-request": "^4.1.0",
     "throttled-request": "^0.1.1"
   },
   "devDependencies": {

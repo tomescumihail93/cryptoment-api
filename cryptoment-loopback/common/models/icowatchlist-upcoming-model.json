@@ -6,30 +6,18 @@
     "validateUpsert": true
   },
   "properties": {
-    "name": {
-      "type": "string",
-      "required": false
-    },
-    "logo": {
-      "type": "string",
-      "required": false
-    },
-    "id": {
-      "type": "number",
-      "id": true,
-      "generated": true,
+    "channels": {
+      "type": [
+        "string"
+      ],
       "required": false,
-      "isArray": false
+      "isArray": true
     },
-    "market": {
+    "crowdsale": {
       "type": "string",
       "required": false
     },
     "endsOn": {
-      "type": "string",
-      "required": false
-    },
-    "startsOn": {
       "type": "string",
       "required": false
     },
@@ -40,26 +28,38 @@
       "required": false,
       "isArray": true
     },
-    "platform": {
-      "type": "string",
-      "required": false
-    },
-    "channels": {
-      "type": [
-        "string"
-      ],
-      "required": false,
-      "isArray": true
-    },
     "homePage": {
       "type": "string",
       "required": false
     },
-    "whitePaper": {
+    "id": {
+      "type": "number",
+      "id": true,
+      "generated": true,
+      "required": true,
+      "isArray": false
+    },
+    "logo": {
       "type": "string",
       "required": false
     },
-    "crowdsale": {
+    "market": {
+      "type": "string",
+      "required": false
+    },
+    "name": {
+      "type": "string",
+      "required": false
+    },
+    "platform": {
+      "type": "string",
+      "required": false
+    },
+    "startsOn": {
+      "type": "string",
+      "required": false
+    },
+    "whitePaper": {
       "type": "string",
       "required": false
     }

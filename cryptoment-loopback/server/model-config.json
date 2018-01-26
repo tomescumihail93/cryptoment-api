@@ -14,15 +14,15 @@
     ]
   },
   "icowatchlist_live_model": {
-    "dataSource": "icowatchlist-datasource",
+    "dataSource": "icowatchlist-live-datasource",
     "public": true
   },
   "icowatchlist_upcoming_model": {
-    "dataSource": "icowatchlist-datasource",
+    "dataSource": "icowatchlist-upcoming-datasource",
     "public": true
   },
   "icowatchlist_finished_model": {
-    "dataSource": "icowatchlist-datasource",
+    "dataSource": "icowatchlist-finished-datasource",
     "public": true
   },
   "coinmarketcap_coin_model": {

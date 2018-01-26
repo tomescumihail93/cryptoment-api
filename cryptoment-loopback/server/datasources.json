@@ -30,5 +30,29 @@
     "password": "e399a9e4ba39d2941cb14875f7545e418a96ca905c7b7915f6199b87adde9467",
     "name": "masternodespro-datasource",
     "connector": "cloudant"
+  },
+  "icowatchlist-live-datasource": {
+    "url": "https://62384ebd-6575-4fa6-b4ef-b1886c6c7d26-bluemix:e399a9e4ba39d2941cb14875f7545e418a96ca905c7b7915f6199b87adde9467@62384ebd-6575-4fa6-b4ef-b1886c6c7d26-bluemix.cloudant.com",
+    "database": "icowatchlist_live_db",
+    "username": "62384ebd-6575-4fa6-b4ef-b1886c6c7d26-bluemix",
+    "password": "e399a9e4ba39d2941cb14875f7545e418a96ca905c7b7915f6199b87adde9467",
+    "name": "icowatchlist-live-datasource",
+    "connector": "cloudant"
+  },
+  "icowatchlist-upcoming-datasource": {
+    "url": "https://62384ebd-6575-4fa6-b4ef-b1886c6c7d26-bluemix:e399a9e4ba39d2941cb14875f7545e418a96ca905c7b7915f6199b87adde9467@62384ebd-6575-4fa6-b4ef-b1886c6c7d26-bluemix.cloudant.com",
+    "database": "icowatchlist_upcoming_db",
+    "username": "62384ebd-6575-4fa6-b4ef-b1886c6c7d26-bluemix",
+    "password": "e399a9e4ba39d2941cb14875f7545e418a96ca905c7b7915f6199b87adde9467",
+    "name": "icowatchlist-upcoming-datasource",
+    "connector": "cloudant"
+  },
+  "icowatchlist-finished-datasource": {
+    "url": "https://62384ebd-6575-4fa6-b4ef-b1886c6c7d26-bluemix:e399a9e4ba39d2941cb14875f7545e418a96ca905c7b7915f6199b87adde9467@62384ebd-6575-4fa6-b4ef-b1886c6c7d26-bluemix.cloudant.com",
+    "database": "icowatchlist_finished_db",
+    "username": "62384ebd-6575-4fa6-b4ef-b1886c6c7d26-bluemix",
+    "password": "e399a9e4ba39d2941cb14875f7545e418a96ca905c7b7915f6199b87adde9467",
+    "name": "icowatchlist-finished-datasource",
+    "connector": "cloudant"
   }
 }

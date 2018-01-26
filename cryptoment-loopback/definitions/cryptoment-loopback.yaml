@@ -2728,65 +2728,69 @@ definitions:
     properties: {}
   icowatchlist_upcoming_model:
     properties:
-      name:
-        type: string
-      logo:
-        type: string
-      id:
-        type: string
-      market:
-        type: string
-      endsOn:
-        type: string
-      startsOn:
-        type: string
-      founders:
+      channels:
         type: array
         items:
           type: string
-      platform:
+      crowdsale:
         type: string
-      channels:
+      endsOn:
+        type: string
+      founders:
         type: array
         items:
           type: string
       homePage:
         type: string
-      whitePaper:
-        type: string
-      crowdsale:
-        type: string
-    additionalProperties: false
-  icowatchlist_finished_model:
-    properties:
-      name:
-        type: string
       id:
         type: string
       logo:
         type: string
       market:
         type: string
-      endsOn:
+      name:
+        type: string
+      platform:
         type: string
       startsOn:
         type: string
-      founders:
-        type: array
-        items:
-          type: string
-      platform:
+      whitePaper:
         type: string
+    required:
+      - id
+    additionalProperties: false
+  icowatchlist_finished_model:
+    properties:
       channels:
         type: array
         items:
           type: string
       country:
         type: string
+      endsOn:
+        type: string
+      founders:
+        type: array
+        items:
+          type: string
       homePage:
+        type: string
+      id:
+        type: string
+      logo:
+        type: string
+      market:
+        type: string
+      name:
+        type: string
+      platform:
+        type: string
+      startsOn:
         type: string
       whitePaper:
         type: string
+    required:
+      - id
     additionalProperties: false
   coinmarketcap_coin_model:
     properties:
@@ -2947,7 +2951,7 @@ x-ibm-configuration:
     sb:
       properties:
         runtime-url: >-
-          https://apiconnect-66bb433f-c335-4d5d-8cfb-6fde90bf19d5.cryptoment-cryptomentussouth.apic.mybluemix.net
+          https://apiconnect-73daeb16-aa0a-48f6-ad03-ee1ede824f21.cryptoment-cryptomentussouth.apic.mybluemix.net
         invoke-tls-profile: 'client:Loopback-client'
   assembly:
     execute:
