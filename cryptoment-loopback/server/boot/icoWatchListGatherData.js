@@ -278,4 +278,4 @@ function run() {
 //}, updateDataInterval * 1000);
 }
 
-run();
+//run();

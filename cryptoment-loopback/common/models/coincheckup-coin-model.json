@@ -1,0 +1,104 @@
+{
+  "name": "coincheckup_coin_model",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "availableSupply": {
+      "type": [
+        "string"
+      ],
+      "required": false,
+      "isArray": true
+    },
+    "id": {
+      "type": "number",
+      "id": true,
+      "required": true,
+      "isArray": false
+    },
+    "lastUpdated": {
+      "type": [
+        "string"
+      ],
+      "required": false,
+      "isArray": true
+    },
+    "marketCapUSD": {
+      "type": [
+        "string"
+      ],
+      "required": false,
+      "isArray": true
+    },
+    "maxSupply": {
+      "type": [
+        "string"
+      ],
+      "required": false,
+      "isArray": true
+    },
+    "name": {
+      "type": "string",
+      "required": false
+    },
+    "percentChange1h": {
+      "type": "string",
+      "required": false
+    },
+    "percentChange24h": {
+      "type": "string",
+      "required": false
+    },
+    "percentChange7d": {
+      "type": "string",
+      "required": false
+    },
+    "priceBTC": {
+      "type": [
+        "string"
+      ],
+      "required": false,
+      "isArray": true
+    },
+    "priceUSD": {
+      "type": [
+        "string"
+      ],
+      "required": false,
+      "isArray": true
+    },
+    "proofType": {
+      "type": "string",
+      "required": false
+    },
+    "rank": {
+      "type": "string",
+      "required": false
+    },
+    "symbol": {
+      "type": "string",
+      "required": false
+    },
+    "totalSupply": {
+      "type": [
+        "string"
+      ],
+      "required": false,
+      "isArray": true
+    },
+    "volume24h": {
+      "type": [
+        "string"
+      ],
+      "required": false,
+      "isArray": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

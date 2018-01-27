@@ -1916,392 +1916,6 @@ paths:
                 type: number
                 format: double
       deprecated: false
-  /coincheckup_coin_analysis_models:
-    post:
-      tags:
-        - coincheckup_coin_analysis_model
-      summary: Create a new instance of the model and persist it into the data source.
-      operationId: coincheckup_coin_analysis_model.create
-      parameters:
-        - name: data
-          in: body
-          description: Model instance data
-          required: false
-          schema:
-            description: Model instance data
-            $ref: '#/definitions/coincheckup_coin_analysis_model'
-      responses:
-        '200':
-          description: Request was successful
-          schema:
-            $ref: '#/definitions/coincheckup_coin_analysis_model'
-      deprecated: false
-    put:
-      tags:
-        - coincheckup_coin_analysis_model
-      summary: >-
-        Patch an existing model instance or insert a new one into the data
-        source.
-      operationId: >-
-        coincheckup_coin_analysis_model.upsert__put_coincheckup_coin_analysis_models
-      parameters:
-        - name: data
-          in: body
-          description: Model instance data
-          required: false
-          schema:
-            description: Model instance data
-            $ref: '#/definitions/coincheckup_coin_analysis_model'
-      responses:
-        '200':
-          description: Request was successful
-          schema:
-            $ref: '#/definitions/coincheckup_coin_analysis_model'
-      deprecated: false
-    patch:
-      tags:
-        - coincheckup_coin_analysis_model
-      summary: >-
-        Patch an existing model instance or insert a new one into the data
-        source.
-      operationId: >-
-        coincheckup_coin_analysis_model.upsert__patch_coincheckup_coin_analysis_models
-      parameters:
-        - name: data
-          in: body
-          description: Model instance data
-          required: false
-          schema:
-            description: Model instance data
-            $ref: '#/definitions/coincheckup_coin_analysis_model'
-      responses:
-        '200':
-          description: Request was successful
-          schema:
-            $ref: '#/definitions/coincheckup_coin_analysis_model'
-      deprecated: false
-    get:
-      tags:
-        - coincheckup_coin_analysis_model
-      summary: Find all instances of the model matched by filter from the data source.
-      operationId: coincheckup_coin_analysis_model.find
-      parameters:
-        - name: filter
-          in: query
-          description: >-
-            Filter defining fields, where, include, order, offset, and limit -
-            must be a JSON-encoded string ({"something":"value"})
-          required: false
-          type: string
-          format: JSON
-      responses:
-        '200':
-          description: Request was successful
-          schema:
-            type: array
-            items:
-              $ref: '#/definitions/coincheckup_coin_analysis_model'
-      deprecated: false
-  /coincheckup_coin_analysis_models/replaceOrCreate:
-    post:
-      tags:
-        - coincheckup_coin_analysis_model
-      summary: >-
-        Replace an existing model instance or insert a new one into the data
-        source.
-      operationId: coincheckup_coin_analysis_model.replaceOrCreate
-      parameters:
-        - name: data
-          in: body
-          description: Model instance data
-          required: false
-          schema:
-            description: Model instance data
-            $ref: '#/definitions/coincheckup_coin_analysis_model'
-      responses:
-        '200':
-          description: Request was successful
-          schema:
-            $ref: '#/definitions/coincheckup_coin_analysis_model'
-      deprecated: false
-  /coincheckup_coin_analysis_models/upsertWithWhere:
-    post:
-      tags:
-        - coincheckup_coin_analysis_model
-      summary: >-
-        Update an existing model instance or insert a new one into the data
-        source based on the where criteria.
-      operationId: coincheckup_coin_analysis_model.upsertWithWhere
-      parameters:
-        - name: where
-          in: query
-          description: Criteria to match model instances
-          required: false
-          type: string
-          format: JSON
-        - name: data
-          in: body
-          description: An object of model property name/value pairs
-          required: false
-          schema:
-            description: An object of model property name/value pairs
-            $ref: '#/definitions/coincheckup_coin_analysis_model'
-      responses:
-        '200':
-          description: Request was successful
-          schema:
-            $ref: '#/definitions/coincheckup_coin_analysis_model'
-      deprecated: false
-  '/coincheckup_coin_analysis_models/{id}/exists':
-    get:
-      tags:
-        - coincheckup_coin_analysis_model
-      summary: Check whether a model instance exists in the data source.
-      operationId: >-
-        coincheckup_coin_analysis_model.exists__get_coincheckup_coin_analysis_models_{id}_exists
-      parameters:
-        - name: id
-          in: path
-          description: Model id
-          required: true
-          type: string
-          format: JSON
-      responses:
-        '200':
-          description: Request was successful
-          schema:
-            type: object
-            properties:
-              exists:
-                type: boolean
-      deprecated: false
-  '/coincheckup_coin_analysis_models/{id}':
-    head:
-      tags:
-        - coincheckup_coin_analysis_model
-      summary: Check whether a model instance exists in the data source.
-      operationId: >-
-        coincheckup_coin_analysis_model.exists__head_coincheckup_coin_analysis_models_{id}
-      parameters:
-        - name: id
-          in: path
-          description: Model id
-          required: true
-          type: string
-          format: JSON
-      responses:
-        '200':
-          description: Request was successful
-          schema:
-            type: object
-            properties:
-              exists:
-                type: boolean
-      deprecated: false
-    get:
-      tags:
-        - coincheckup_coin_analysis_model
-      summary: 'Find a model instance by {{id}} from the data source.'
-      operationId: coincheckup_coin_analysis_model.findById
-      parameters:
-        - name: id
-          in: path
-          description: Model id
-          required: true
-          type: string
-          format: JSON
-        - name: filter
-          in: query
-          description: >-
-            Filter defining fields and include - must be a JSON-encoded string
-            ({"something":"value"})
-          required: false
-          type: string
-          format: JSON
-      responses:
-        '200':
-          description: Request was successful
-          schema:
-            $ref: '#/definitions/coincheckup_coin_analysis_model'
-      deprecated: false
-    delete:
-      tags:
-        - coincheckup_coin_analysis_model
-      summary: 'Delete a model instance by {{id}} from the data source.'
-      operationId: coincheckup_coin_analysis_model.deleteById
-      parameters:
-        - name: id
-          in: path
-          description: Model id
-          required: true
-          type: string
-          format: JSON
-      responses:
-        '200':
-          description: Request was successful
-          schema:
-            type: object
-      deprecated: false
-    put:
-      tags:
-        - coincheckup_coin_analysis_model
-      summary: >-
-        Patch attributes for a model instance and persist it into the data
-        source.
-      operationId: >-
-        coincheckup_coin_analysis_model.prototype.updateAttributes__put_coincheckup_coin_analysis_models_{id}
-      parameters:
-        - name: data
-          in: body
-          description: An object of model property name/value pairs
-          required: false
-          schema:
-            description: An object of model property name/value pairs
-            $ref: '#/definitions/coincheckup_coin_analysis_model'
-        - name: id
-          in: path
-          description: coincheckup_coin_analysis_model id
-          required: true
-          type: string
-          format: JSON
-      responses:
-        '200':
-          description: Request was successful
-          schema:
-            $ref: '#/definitions/coincheckup_coin_analysis_model'
-      deprecated: false
-    patch:
-      tags:
-        - coincheckup_coin_analysis_model
-      summary: >-
-        Patch attributes for a model instance and persist it into the data
-        source.
-      operationId: >-
-        coincheckup_coin_analysis_model.prototype.updateAttributes__patch_coincheckup_coin_analysis_models_{id}
-      parameters:
-        - name: data
-          in: body
-          description: An object of model property name/value pairs
-          required: false
-          schema:
-            description: An object of model property name/value pairs
-            $ref: '#/definitions/coincheckup_coin_analysis_model'
-        - name: id
-          in: path
-          description: coincheckup_coin_analysis_model id
-          required: true
-          type: string
-          format: JSON
-      responses:
-        '200':
-          description: Request was successful
-          schema:
-            $ref: '#/definitions/coincheckup_coin_analysis_model'
-      deprecated: false
-  '/coincheckup_coin_analysis_models/{id}/replace':
-    post:
-      tags:
-        - coincheckup_coin_analysis_model
-      summary: >-
-        Replace attributes for a model instance and persist it into the data
-        source.
-      operationId: coincheckup_coin_analysis_model.replaceById
-      parameters:
-        - name: id
-          in: path
-          description: Model id
-          required: true
-          type: string
-          format: JSON
-        - name: data
-          in: body
-          description: Model instance data
-          required: false
-          schema:
-            description: Model instance data
-            $ref: '#/definitions/coincheckup_coin_analysis_model'
-      responses:
-        '200':
-          description: Request was successful
-          schema:
-            $ref: '#/definitions/coincheckup_coin_analysis_model'
-      deprecated: false
-  /coincheckup_coin_analysis_models/findOne:
-    get:
-      tags:
-        - coincheckup_coin_analysis_model
-      summary: Find first instance of the model matched by filter from the data source.
-      operationId: coincheckup_coin_analysis_model.findOne
-      parameters:
-        - name: filter
-          in: query
-          description: >-
-            Filter defining fields, where, include, order, offset, and limit -
-            must be a JSON-encoded string ({"something":"value"})
-          required: false
-          type: string
-          format: JSON
-      responses:
-        '200':
-          description: Request was successful
-          schema:
-            $ref: '#/definitions/coincheckup_coin_analysis_model'
-      deprecated: false
-  /coincheckup_coin_analysis_models/update:
-    post:
-      tags:
-        - coincheckup_coin_analysis_model
-      summary: 'Update instances of the model matched by {{where}} from the data source.'
-      operationId: coincheckup_coin_analysis_model.updateAll
-      parameters:
-        - name: where
-          in: query
-          description: Criteria to match model instances
-          required: false
-          type: string
-          format: JSON
-        - name: data
-          in: body
-          description: An object of model property name/value pairs
-          required: false
-          schema:
-            description: An object of model property name/value pairs
-            $ref: '#/definitions/coincheckup_coin_analysis_model'
-      responses:
-        '200':
-          description: Request was successful
-          schema:
-            description: Information related to the outcome of the operation
-            type: object
-            properties:
-              count:
-                description: The number of instances updated
-                type: number
-                format: double
-      deprecated: false
-  /coincheckup_coin_analysis_models/count:
-    get:
-      tags:
-        - coincheckup_coin_analysis_model
-      summary: Count instances of the model matched by where from the data source.
-      operationId: coincheckup_coin_analysis_model.count
-      parameters:
-        - name: where
-          in: query
-          description: Criteria to match model instances
-          required: false
-          type: string
-          format: JSON
-      responses:
-        '200':
-          description: Request was successful
-          schema:
-            type: object
-            properties:
-              count:
-                type: number
-                format: double
-      deprecated: false
   /masternodespro_statistics_models:
     post:
       tags:
@@ -2688,6 +2302,1538 @@ paths:
                 type: number
                 format: double
       deprecated: false
+  /coincheckup_investment_models:
+    post:
+      tags:
+        - coincheckup_investment_model
+      summary: Create a new instance of the model and persist it into the data source.
+      operationId: coincheckup_investment_model.create
+      parameters:
+        - name: data
+          in: body
+          description: Model instance data
+          required: false
+          schema:
+            description: Model instance data
+            $ref: '#/definitions/coincheckup_investment_model'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/coincheckup_investment_model'
+      deprecated: false
+    put:
+      tags:
+        - coincheckup_investment_model
+      summary: >-
+        Patch an existing model instance or insert a new one into the data
+        source.
+      operationId: coincheckup_investment_model.upsert__put_coincheckup_investment_models
+      parameters:
+        - name: data
+          in: body
+          description: Model instance data
+          required: false
+          schema:
+            description: Model instance data
+            $ref: '#/definitions/coincheckup_investment_model'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/coincheckup_investment_model'
+      deprecated: false
+    patch:
+      tags:
+        - coincheckup_investment_model
+      summary: >-
+        Patch an existing model instance or insert a new one into the data
+        source.
+      operationId: coincheckup_investment_model.upsert__patch_coincheckup_investment_models
+      parameters:
+        - name: data
+          in: body
+          description: Model instance data
+          required: false
+          schema:
+            description: Model instance data
+            $ref: '#/definitions/coincheckup_investment_model'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/coincheckup_investment_model'
+      deprecated: false
+    get:
+      tags:
+        - coincheckup_investment_model
+      summary: Find all instances of the model matched by filter from the data source.
+      operationId: coincheckup_investment_model.find
+      parameters:
+        - name: filter
+          in: query
+          description: >-
+            Filter defining fields, where, include, order, offset, and limit -
+            must be a JSON-encoded string ({"something":"value"})
+          required: false
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/coincheckup_investment_model'
+      deprecated: false
+  /coincheckup_investment_models/replaceOrCreate:
+    post:
+      tags:
+        - coincheckup_investment_model
+      summary: >-
+        Replace an existing model instance or insert a new one into the data
+        source.
+      operationId: coincheckup_investment_model.replaceOrCreate
+      parameters:
+        - name: data
+          in: body
+          description: Model instance data
+          required: false
+          schema:
+            description: Model instance data
+            $ref: '#/definitions/coincheckup_investment_model'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/coincheckup_investment_model'
+      deprecated: false
+  /coincheckup_investment_models/upsertWithWhere:
+    post:
+      tags:
+        - coincheckup_investment_model
+      summary: >-
+        Update an existing model instance or insert a new one into the data
+        source based on the where criteria.
+      operationId: coincheckup_investment_model.upsertWithWhere
+      parameters:
+        - name: where
+          in: query
+          description: Criteria to match model instances
+          required: false
+          type: string
+          format: JSON
+        - name: data
+          in: body
+          description: An object of model property name/value pairs
+          required: false
+          schema:
+            description: An object of model property name/value pairs
+            $ref: '#/definitions/coincheckup_investment_model'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/coincheckup_investment_model'
+      deprecated: false
+  '/coincheckup_investment_models/{id}/exists':
+    get:
+      tags:
+        - coincheckup_investment_model
+      summary: Check whether a model instance exists in the data source.
+      operationId: >-
+        coincheckup_investment_model.exists__get_coincheckup_investment_models_{id}_exists
+      parameters:
+        - name: id
+          in: path
+          description: Model id
+          required: true
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            type: object
+            properties:
+              exists:
+                type: boolean
+      deprecated: false
+  '/coincheckup_investment_models/{id}':
+    head:
+      tags:
+        - coincheckup_investment_model
+      summary: Check whether a model instance exists in the data source.
+      operationId: >-
+        coincheckup_investment_model.exists__head_coincheckup_investment_models_{id}
+      parameters:
+        - name: id
+          in: path
+          description: Model id
+          required: true
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            type: object
+            properties:
+              exists:
+                type: boolean
+      deprecated: false
+    get:
+      tags:
+        - coincheckup_investment_model
+      summary: 'Find a model instance by {{id}} from the data source.'
+      operationId: coincheckup_investment_model.findById
+      parameters:
+        - name: id
+          in: path
+          description: Model id
+          required: true
+          type: string
+          format: JSON
+        - name: filter
+          in: query
+          description: >-
+            Filter defining fields and include - must be a JSON-encoded string
+            ({"something":"value"})
+          required: false
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/coincheckup_investment_model'
+      deprecated: false
+    delete:
+      tags:
+        - coincheckup_investment_model
+      summary: 'Delete a model instance by {{id}} from the data source.'
+      operationId: coincheckup_investment_model.deleteById
+      parameters:
+        - name: id
+          in: path
+          description: Model id
+          required: true
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            type: object
+      deprecated: false
+    put:
+      tags:
+        - coincheckup_investment_model
+      summary: >-
+        Patch attributes for a model instance and persist it into the data
+        source.
+      operationId: >-
+        coincheckup_investment_model.prototype.updateAttributes__put_coincheckup_investment_models_{id}
+      parameters:
+        - name: data
+          in: body
+          description: An object of model property name/value pairs
+          required: false
+          schema:
+            description: An object of model property name/value pairs
+            $ref: '#/definitions/coincheckup_investment_model'
+        - name: id
+          in: path
+          description: coincheckup_investment_model id
+          required: true
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/coincheckup_investment_model'
+      deprecated: false
+    patch:
+      tags:
+        - coincheckup_investment_model
+      summary: >-
+        Patch attributes for a model instance and persist it into the data
+        source.
+      operationId: >-
+        coincheckup_investment_model.prototype.updateAttributes__patch_coincheckup_investment_models_{id}
+      parameters:
+        - name: data
+          in: body
+          description: An object of model property name/value pairs
+          required: false
+          schema:
+            description: An object of model property name/value pairs
+            $ref: '#/definitions/coincheckup_investment_model'
+        - name: id
+          in: path
+          description: coincheckup_investment_model id
+          required: true
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/coincheckup_investment_model'
+      deprecated: false
+  '/coincheckup_investment_models/{id}/replace':
+    post:
+      tags:
+        - coincheckup_investment_model
+      summary: >-
+        Replace attributes for a model instance and persist it into the data
+        source.
+      operationId: coincheckup_investment_model.replaceById
+      parameters:
+        - name: id
+          in: path
+          description: Model id
+          required: true
+          type: string
+          format: JSON
+        - name: data
+          in: body
+          description: Model instance data
+          required: false
+          schema:
+            description: Model instance data
+            $ref: '#/definitions/coincheckup_investment_model'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/coincheckup_investment_model'
+      deprecated: false
+  /coincheckup_investment_models/findOne:
+    get:
+      tags:
+        - coincheckup_investment_model
+      summary: Find first instance of the model matched by filter from the data source.
+      operationId: coincheckup_investment_model.findOne
+      parameters:
+        - name: filter
+          in: query
+          description: >-
+            Filter defining fields, where, include, order, offset, and limit -
+            must be a JSON-encoded string ({"something":"value"})
+          required: false
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/coincheckup_investment_model'
+      deprecated: false
+  /coincheckup_investment_models/update:
+    post:
+      tags:
+        - coincheckup_investment_model
+      summary: 'Update instances of the model matched by {{where}} from the data source.'
+      operationId: coincheckup_investment_model.updateAll
+      parameters:
+        - name: where
+          in: query
+          description: Criteria to match model instances
+          required: false
+          type: string
+          format: JSON
+        - name: data
+          in: body
+          description: An object of model property name/value pairs
+          required: false
+          schema:
+            description: An object of model property name/value pairs
+            $ref: '#/definitions/coincheckup_investment_model'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            description: Information related to the outcome of the operation
+            type: object
+            properties:
+              count:
+                description: The number of instances updated
+                type: number
+                format: double
+      deprecated: false
+  /coincheckup_investment_models/count:
+    get:
+      tags:
+        - coincheckup_investment_model
+      summary: Count instances of the model matched by where from the data source.
+      operationId: coincheckup_investment_model.count
+      parameters:
+        - name: where
+          in: query
+          description: Criteria to match model instances
+          required: false
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            type: object
+            properties:
+              count:
+                type: number
+                format: double
+      deprecated: false
+  /coincheckup_score_models:
+    post:
+      tags:
+        - coincheckup_score_model
+      summary: Create a new instance of the model and persist it into the data source.
+      operationId: coincheckup_score_model.create
+      parameters:
+        - name: data
+          in: body
+          description: Model instance data
+          required: false
+          schema:
+            description: Model instance data
+            $ref: '#/definitions/coincheckup_score_model'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/coincheckup_score_model'
+      deprecated: false
+    put:
+      tags:
+        - coincheckup_score_model
+      summary: >-
+        Patch an existing model instance or insert a new one into the data
+        source.
+      operationId: coincheckup_score_model.upsert__put_coincheckup_score_models
+      parameters:
+        - name: data
+          in: body
+          description: Model instance data
+          required: false
+          schema:
+            description: Model instance data
+            $ref: '#/definitions/coincheckup_score_model'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/coincheckup_score_model'
+      deprecated: false
+    patch:
+      tags:
+        - coincheckup_score_model
+      summary: >-
+        Patch an existing model instance or insert a new one into the data
+        source.
+      operationId: coincheckup_score_model.upsert__patch_coincheckup_score_models
+      parameters:
+        - name: data
+          in: body
+          description: Model instance data
+          required: false
+          schema:
+            description: Model instance data
+            $ref: '#/definitions/coincheckup_score_model'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/coincheckup_score_model'
+      deprecated: false
+    get:
+      tags:
+        - coincheckup_score_model
+      summary: Find all instances of the model matched by filter from the data source.
+      operationId: coincheckup_score_model.find
+      parameters:
+        - name: filter
+          in: query
+          description: >-
+            Filter defining fields, where, include, order, offset, and limit -
+            must be a JSON-encoded string ({"something":"value"})
+          required: false
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/coincheckup_score_model'
+      deprecated: false
+  /coincheckup_score_models/replaceOrCreate:
+    post:
+      tags:
+        - coincheckup_score_model
+      summary: >-
+        Replace an existing model instance or insert a new one into the data
+        source.
+      operationId: coincheckup_score_model.replaceOrCreate
+      parameters:
+        - name: data
+          in: body
+          description: Model instance data
+          required: false
+          schema:
+            description: Model instance data
+            $ref: '#/definitions/coincheckup_score_model'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/coincheckup_score_model'
+      deprecated: false
+  /coincheckup_score_models/upsertWithWhere:
+    post:
+      tags:
+        - coincheckup_score_model
+      summary: >-
+        Update an existing model instance or insert a new one into the data
+        source based on the where criteria.
+      operationId: coincheckup_score_model.upsertWithWhere
+      parameters:
+        - name: where
+          in: query
+          description: Criteria to match model instances
+          required: false
+          type: string
+          format: JSON
+        - name: data
+          in: body
+          description: An object of model property name/value pairs
+          required: false
+          schema:
+            description: An object of model property name/value pairs
+            $ref: '#/definitions/coincheckup_score_model'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/coincheckup_score_model'
+      deprecated: false
+  '/coincheckup_score_models/{id}/exists':
+    get:
+      tags:
+        - coincheckup_score_model
+      summary: Check whether a model instance exists in the data source.
+      operationId: 'coincheckup_score_model.exists__get_coincheckup_score_models_{id}_exists'
+      parameters:
+        - name: id
+          in: path
+          description: Model id
+          required: true
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            type: object
+            properties:
+              exists:
+                type: boolean
+      deprecated: false
+  '/coincheckup_score_models/{id}':
+    head:
+      tags:
+        - coincheckup_score_model
+      summary: Check whether a model instance exists in the data source.
+      operationId: 'coincheckup_score_model.exists__head_coincheckup_score_models_{id}'
+      parameters:
+        - name: id
+          in: path
+          description: Model id
+          required: true
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            type: object
+            properties:
+              exists:
+                type: boolean
+      deprecated: false
+    get:
+      tags:
+        - coincheckup_score_model
+      summary: 'Find a model instance by {{id}} from the data source.'
+      operationId: coincheckup_score_model.findById
+      parameters:
+        - name: id
+          in: path
+          description: Model id
+          required: true
+          type: string
+          format: JSON
+        - name: filter
+          in: query
+          description: >-
+            Filter defining fields and include - must be a JSON-encoded string
+            ({"something":"value"})
+          required: false
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/coincheckup_score_model'
+      deprecated: false
+    delete:
+      tags:
+        - coincheckup_score_model
+      summary: 'Delete a model instance by {{id}} from the data source.'
+      operationId: coincheckup_score_model.deleteById
+      parameters:
+        - name: id
+          in: path
+          description: Model id
+          required: true
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            type: object
+      deprecated: false
+    put:
+      tags:
+        - coincheckup_score_model
+      summary: >-
+        Patch attributes for a model instance and persist it into the data
+        source.
+      operationId: >-
+        coincheckup_score_model.prototype.updateAttributes__put_coincheckup_score_models_{id}
+      parameters:
+        - name: data
+          in: body
+          description: An object of model property name/value pairs
+          required: false
+          schema:
+            description: An object of model property name/value pairs
+            $ref: '#/definitions/coincheckup_score_model'
+        - name: id
+          in: path
+          description: coincheckup_score_model id
+          required: true
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/coincheckup_score_model'
+      deprecated: false
+    patch:
+      tags:
+        - coincheckup_score_model
+      summary: >-
+        Patch attributes for a model instance and persist it into the data
+        source.
+      operationId: >-
+        coincheckup_score_model.prototype.updateAttributes__patch_coincheckup_score_models_{id}
+      parameters:
+        - name: data
+          in: body
+          description: An object of model property name/value pairs
+          required: false
+          schema:
+            description: An object of model property name/value pairs
+            $ref: '#/definitions/coincheckup_score_model'
+        - name: id
+          in: path
+          description: coincheckup_score_model id
+          required: true
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/coincheckup_score_model'
+      deprecated: false
+  '/coincheckup_score_models/{id}/replace':
+    post:
+      tags:
+        - coincheckup_score_model
+      summary: >-
+        Replace attributes for a model instance and persist it into the data
+        source.
+      operationId: coincheckup_score_model.replaceById
+      parameters:
+        - name: id
+          in: path
+          description: Model id
+          required: true
+          type: string
+          format: JSON
+        - name: data
+          in: body
+          description: Model instance data
+          required: false
+          schema:
+            description: Model instance data
+            $ref: '#/definitions/coincheckup_score_model'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/coincheckup_score_model'
+      deprecated: false
+  /coincheckup_score_models/findOne:
+    get:
+      tags:
+        - coincheckup_score_model
+      summary: Find first instance of the model matched by filter from the data source.
+      operationId: coincheckup_score_model.findOne
+      parameters:
+        - name: filter
+          in: query
+          description: >-
+            Filter defining fields, where, include, order, offset, and limit -
+            must be a JSON-encoded string ({"something":"value"})
+          required: false
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/coincheckup_score_model'
+      deprecated: false
+  /coincheckup_score_models/update:
+    post:
+      tags:
+        - coincheckup_score_model
+      summary: 'Update instances of the model matched by {{where}} from the data source.'
+      operationId: coincheckup_score_model.updateAll
+      parameters:
+        - name: where
+          in: query
+          description: Criteria to match model instances
+          required: false
+          type: string
+          format: JSON
+        - name: data
+          in: body
+          description: An object of model property name/value pairs
+          required: false
+          schema:
+            description: An object of model property name/value pairs
+            $ref: '#/definitions/coincheckup_score_model'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            description: Information related to the outcome of the operation
+            type: object
+            properties:
+              count:
+                description: The number of instances updated
+                type: number
+                format: double
+      deprecated: false
+  /coincheckup_score_models/count:
+    get:
+      tags:
+        - coincheckup_score_model
+      summary: Count instances of the model matched by where from the data source.
+      operationId: coincheckup_score_model.count
+      parameters:
+        - name: where
+          in: query
+          description: Criteria to match model instances
+          required: false
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            type: object
+            properties:
+              count:
+                type: number
+                format: double
+      deprecated: false
+  /coincheckup_prediction_models:
+    post:
+      tags:
+        - coincheckup_prediction_model
+      summary: Create a new instance of the model and persist it into the data source.
+      operationId: coincheckup_prediction_model.create
+      parameters:
+        - name: data
+          in: body
+          description: Model instance data
+          required: false
+          schema:
+            description: Model instance data
+            $ref: '#/definitions/coincheckup_prediction_model'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/coincheckup_prediction_model'
+      deprecated: false
+    put:
+      tags:
+        - coincheckup_prediction_model
+      summary: >-
+        Patch an existing model instance or insert a new one into the data
+        source.
+      operationId: coincheckup_prediction_model.upsert__put_coincheckup_prediction_models
+      parameters:
+        - name: data
+          in: body
+          description: Model instance data
+          required: false
+          schema:
+            description: Model instance data
+            $ref: '#/definitions/coincheckup_prediction_model'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/coincheckup_prediction_model'
+      deprecated: false
+    patch:
+      tags:
+        - coincheckup_prediction_model
+      summary: >-
+        Patch an existing model instance or insert a new one into the data
+        source.
+      operationId: coincheckup_prediction_model.upsert__patch_coincheckup_prediction_models
+      parameters:
+        - name: data
+          in: body
+          description: Model instance data
+          required: false
+          schema:
+            description: Model instance data
+            $ref: '#/definitions/coincheckup_prediction_model'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/coincheckup_prediction_model'
+      deprecated: false
+    get:
+      tags:
+        - coincheckup_prediction_model
+      summary: Find all instances of the model matched by filter from the data source.
+      operationId: coincheckup_prediction_model.find
+      parameters:
+        - name: filter
+          in: query
+          description: >-
+            Filter defining fields, where, include, order, offset, and limit -
+            must be a JSON-encoded string ({"something":"value"})
+          required: false
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/coincheckup_prediction_model'
+      deprecated: false
+  /coincheckup_prediction_models/replaceOrCreate:
+    post:
+      tags:
+        - coincheckup_prediction_model
+      summary: >-
+        Replace an existing model instance or insert a new one into the data
+        source.
+      operationId: coincheckup_prediction_model.replaceOrCreate
+      parameters:
+        - name: data
+          in: body
+          description: Model instance data
+          required: false
+          schema:
+            description: Model instance data
+            $ref: '#/definitions/coincheckup_prediction_model'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/coincheckup_prediction_model'
+      deprecated: false
+  /coincheckup_prediction_models/upsertWithWhere:
+    post:
+      tags:
+        - coincheckup_prediction_model
+      summary: >-
+        Update an existing model instance or insert a new one into the data
+        source based on the where criteria.
+      operationId: coincheckup_prediction_model.upsertWithWhere
+      parameters:
+        - name: where
+          in: query
+          description: Criteria to match model instances
+          required: false
+          type: string
+          format: JSON
+        - name: data
+          in: body
+          description: An object of model property name/value pairs
+          required: false
+          schema:
+            description: An object of model property name/value pairs
+            $ref: '#/definitions/coincheckup_prediction_model'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/coincheckup_prediction_model'
+      deprecated: false
+  '/coincheckup_prediction_models/{id}/exists':
+    get:
+      tags:
+        - coincheckup_prediction_model
+      summary: Check whether a model instance exists in the data source.
+      operationId: >-
+        coincheckup_prediction_model.exists__get_coincheckup_prediction_models_{id}_exists
+      parameters:
+        - name: id
+          in: path
+          description: Model id
+          required: true
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            type: object
+            properties:
+              exists:
+                type: boolean
+      deprecated: false
+  '/coincheckup_prediction_models/{id}':
+    head:
+      tags:
+        - coincheckup_prediction_model
+      summary: Check whether a model instance exists in the data source.
+      operationId: >-
+        coincheckup_prediction_model.exists__head_coincheckup_prediction_models_{id}
+      parameters:
+        - name: id
+          in: path
+          description: Model id
+          required: true
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            type: object
+            properties:
+              exists:
+                type: boolean
+      deprecated: false
+    get:
+      tags:
+        - coincheckup_prediction_model
+      summary: 'Find a model instance by {{id}} from the data source.'
+      operationId: coincheckup_prediction_model.findById
+      parameters:
+        - name: id
+          in: path
+          description: Model id
+          required: true
+          type: string
+          format: JSON
+        - name: filter
+          in: query
+          description: >-
+            Filter defining fields and include - must be a JSON-encoded string
+            ({"something":"value"})
+          required: false
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/coincheckup_prediction_model'
+      deprecated: false
+    delete:
+      tags:
+        - coincheckup_prediction_model
+      summary: 'Delete a model instance by {{id}} from the data source.'
+      operationId: coincheckup_prediction_model.deleteById
+      parameters:
+        - name: id
+          in: path
+          description: Model id
+          required: true
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            type: object
+      deprecated: false
+    put:
+      tags:
+        - coincheckup_prediction_model
+      summary: >-
+        Patch attributes for a model instance and persist it into the data
+        source.
+      operationId: >-
+        coincheckup_prediction_model.prototype.updateAttributes__put_coincheckup_prediction_models_{id}
+      parameters:
+        - name: data
+          in: body
+          description: An object of model property name/value pairs
+          required: false
+          schema:
+            description: An object of model property name/value pairs
+            $ref: '#/definitions/coincheckup_prediction_model'
+        - name: id
+          in: path
+          description: coincheckup_prediction_model id
+          required: true
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/coincheckup_prediction_model'
+      deprecated: false
+    patch:
+      tags:
+        - coincheckup_prediction_model
+      summary: >-
+        Patch attributes for a model instance and persist it into the data
+        source.
+      operationId: >-
+        coincheckup_prediction_model.prototype.updateAttributes__patch_coincheckup_prediction_models_{id}
+      parameters:
+        - name: data
+          in: body
+          description: An object of model property name/value pairs
+          required: false
+          schema:
+            description: An object of model property name/value pairs
+            $ref: '#/definitions/coincheckup_prediction_model'
+        - name: id
+          in: path
+          description: coincheckup_prediction_model id
+          required: true
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/coincheckup_prediction_model'
+      deprecated: false
+  '/coincheckup_prediction_models/{id}/replace':
+    post:
+      tags:
+        - coincheckup_prediction_model
+      summary: >-
+        Replace attributes for a model instance and persist it into the data
+        source.
+      operationId: coincheckup_prediction_model.replaceById
+      parameters:
+        - name: id
+          in: path
+          description: Model id
+          required: true
+          type: string
+          format: JSON
+        - name: data
+          in: body
+          description: Model instance data
+          required: false
+          schema:
+            description: Model instance data
+            $ref: '#/definitions/coincheckup_prediction_model'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/coincheckup_prediction_model'
+      deprecated: false
+  /coincheckup_prediction_models/findOne:
+    get:
+      tags:
+        - coincheckup_prediction_model
+      summary: Find first instance of the model matched by filter from the data source.
+      operationId: coincheckup_prediction_model.findOne
+      parameters:
+        - name: filter
+          in: query
+          description: >-
+            Filter defining fields, where, include, order, offset, and limit -
+            must be a JSON-encoded string ({"something":"value"})
+          required: false
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/coincheckup_prediction_model'
+      deprecated: false
+  /coincheckup_prediction_models/update:
+    post:
+      tags:
+        - coincheckup_prediction_model
+      summary: 'Update instances of the model matched by {{where}} from the data source.'
+      operationId: coincheckup_prediction_model.updateAll
+      parameters:
+        - name: where
+          in: query
+          description: Criteria to match model instances
+          required: false
+          type: string
+          format: JSON
+        - name: data
+          in: body
+          description: An object of model property name/value pairs
+          required: false
+          schema:
+            description: An object of model property name/value pairs
+            $ref: '#/definitions/coincheckup_prediction_model'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            description: Information related to the outcome of the operation
+            type: object
+            properties:
+              count:
+                description: The number of instances updated
+                type: number
+                format: double
+      deprecated: false
+  /coincheckup_prediction_models/count:
+    get:
+      tags:
+        - coincheckup_prediction_model
+      summary: Count instances of the model matched by where from the data source.
+      operationId: coincheckup_prediction_model.count
+      parameters:
+        - name: where
+          in: query
+          description: Criteria to match model instances
+          required: false
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            type: object
+            properties:
+              count:
+                type: number
+                format: double
+      deprecated: false
+  /coincheckup_coin_models:
+    post:
+      tags:
+        - coincheckup_coin_model
+      summary: Create a new instance of the model and persist it into the data source.
+      operationId: coincheckup_coin_model.create
+      parameters:
+        - name: data
+          in: body
+          description: Model instance data
+          required: false
+          schema:
+            description: Model instance data
+            $ref: '#/definitions/coincheckup_coin_model'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/coincheckup_coin_model'
+      deprecated: false
+    put:
+      tags:
+        - coincheckup_coin_model
+      summary: >-
+        Patch an existing model instance or insert a new one into the data
+        source.
+      operationId: coincheckup_coin_model.upsert__put_coincheckup_coin_models
+      parameters:
+        - name: data
+          in: body
+          description: Model instance data
+          required: false
+          schema:
+            description: Model instance data
+            $ref: '#/definitions/coincheckup_coin_model'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/coincheckup_coin_model'
+      deprecated: false
+    patch:
+      tags:
+        - coincheckup_coin_model
+      summary: >-
+        Patch an existing model instance or insert a new one into the data
+        source.
+      operationId: coincheckup_coin_model.upsert__patch_coincheckup_coin_models
+      parameters:
+        - name: data
+          in: body
+          description: Model instance data
+          required: false
+          schema:
+            description: Model instance data
+            $ref: '#/definitions/coincheckup_coin_model'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/coincheckup_coin_model'
+      deprecated: false
+    get:
+      tags:
+        - coincheckup_coin_model
+      summary: Find all instances of the model matched by filter from the data source.
+      operationId: coincheckup_coin_model.find
+      parameters:
+        - name: filter
+          in: query
+          description: >-
+            Filter defining fields, where, include, order, offset, and limit -
+            must be a JSON-encoded string ({"something":"value"})
+          required: false
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/coincheckup_coin_model'
+      deprecated: false
+  /coincheckup_coin_models/replaceOrCreate:
+    post:
+      tags:
+        - coincheckup_coin_model
+      summary: >-
+        Replace an existing model instance or insert a new one into the data
+        source.
+      operationId: coincheckup_coin_model.replaceOrCreate
+      parameters:
+        - name: data
+          in: body
+          description: Model instance data
+          required: false
+          schema:
+            description: Model instance data
+            $ref: '#/definitions/coincheckup_coin_model'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/coincheckup_coin_model'
+      deprecated: false
+  /coincheckup_coin_models/upsertWithWhere:
+    post:
+      tags:
+        - coincheckup_coin_model
+      summary: >-
+        Update an existing model instance or insert a new one into the data
+        source based on the where criteria.
+      operationId: coincheckup_coin_model.upsertWithWhere
+      parameters:
+        - name: where
+          in: query
+          description: Criteria to match model instances
+          required: false
+          type: string
+          format: JSON
+        - name: data
+          in: body
+          description: An object of model property name/value pairs
+          required: false
+          schema:
+            description: An object of model property name/value pairs
+            $ref: '#/definitions/coincheckup_coin_model'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/coincheckup_coin_model'
+      deprecated: false
+  '/coincheckup_coin_models/{id}/exists':
+    get:
+      tags:
+        - coincheckup_coin_model
+      summary: Check whether a model instance exists in the data source.
+      operationId: 'coincheckup_coin_model.exists__get_coincheckup_coin_models_{id}_exists'
+      parameters:
+        - name: id
+          in: path
+          description: Model id
+          required: true
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            type: object
+            properties:
+              exists:
+                type: boolean
+      deprecated: false
+  '/coincheckup_coin_models/{id}':
+    head:
+      tags:
+        - coincheckup_coin_model
+      summary: Check whether a model instance exists in the data source.
+      operationId: 'coincheckup_coin_model.exists__head_coincheckup_coin_models_{id}'
+      parameters:
+        - name: id
+          in: path
+          description: Model id
+          required: true
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            type: object
+            properties:
+              exists:
+                type: boolean
+      deprecated: false
+    get:
+      tags:
+        - coincheckup_coin_model
+      summary: 'Find a model instance by {{id}} from the data source.'
+      operationId: coincheckup_coin_model.findById
+      parameters:
+        - name: id
+          in: path
+          description: Model id
+          required: true
+          type: string
+          format: JSON
+        - name: filter
+          in: query
+          description: >-
+            Filter defining fields and include - must be a JSON-encoded string
+            ({"something":"value"})
+          required: false
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/coincheckup_coin_model'
+      deprecated: false
+    delete:
+      tags:
+        - coincheckup_coin_model
+      summary: 'Delete a model instance by {{id}} from the data source.'
+      operationId: coincheckup_coin_model.deleteById
+      parameters:
+        - name: id
+          in: path
+          description: Model id
+          required: true
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            type: object
+      deprecated: false
+    put:
+      tags:
+        - coincheckup_coin_model
+      summary: >-
+        Patch attributes for a model instance and persist it into the data
+        source.
+      operationId: >-
+        coincheckup_coin_model.prototype.updateAttributes__put_coincheckup_coin_models_{id}
+      parameters:
+        - name: data
+          in: body
+          description: An object of model property name/value pairs
+          required: false
+          schema:
+            description: An object of model property name/value pairs
+            $ref: '#/definitions/coincheckup_coin_model'
+        - name: id
+          in: path
+          description: coincheckup_coin_model id
+          required: true
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/coincheckup_coin_model'
+      deprecated: false
+    patch:
+      tags:
+        - coincheckup_coin_model
+      summary: >-
+        Patch attributes for a model instance and persist it into the data
+        source.
+      operationId: >-
+        coincheckup_coin_model.prototype.updateAttributes__patch_coincheckup_coin_models_{id}
+      parameters:
+        - name: data
+          in: body
+          description: An object of model property name/value pairs
+          required: false
+          schema:
+            description: An object of model property name/value pairs
+            $ref: '#/definitions/coincheckup_coin_model'
+        - name: id
+          in: path
+          description: coincheckup_coin_model id
+          required: true
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/coincheckup_coin_model'
+      deprecated: false
+  '/coincheckup_coin_models/{id}/replace':
+    post:
+      tags:
+        - coincheckup_coin_model
+      summary: >-
+        Replace attributes for a model instance and persist it into the data
+        source.
+      operationId: coincheckup_coin_model.replaceById
+      parameters:
+        - name: id
+          in: path
+          description: Model id
+          required: true
+          type: string
+          format: JSON
+        - name: data
+          in: body
+          description: Model instance data
+          required: false
+          schema:
+            description: Model instance data
+            $ref: '#/definitions/coincheckup_coin_model'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/coincheckup_coin_model'
+      deprecated: false
+  /coincheckup_coin_models/findOne:
+    get:
+      tags:
+        - coincheckup_coin_model
+      summary: Find first instance of the model matched by filter from the data source.
+      operationId: coincheckup_coin_model.findOne
+      parameters:
+        - name: filter
+          in: query
+          description: >-
+            Filter defining fields, where, include, order, offset, and limit -
+            must be a JSON-encoded string ({"something":"value"})
+          required: false
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/coincheckup_coin_model'
+      deprecated: false
+  /coincheckup_coin_models/update:
+    post:
+      tags:
+        - coincheckup_coin_model
+      summary: 'Update instances of the model matched by {{where}} from the data source.'
+      operationId: coincheckup_coin_model.updateAll
+      parameters:
+        - name: where
+          in: query
+          description: Criteria to match model instances
+          required: false
+          type: string
+          format: JSON
+        - name: data
+          in: body
+          description: An object of model property name/value pairs
+          required: false
+          schema:
+            description: An object of model property name/value pairs
+            $ref: '#/definitions/coincheckup_coin_model'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            description: Information related to the outcome of the operation
+            type: object
+            properties:
+              count:
+                description: The number of instances updated
+                type: number
+                format: double
+      deprecated: false
+  /coincheckup_coin_models/count:
+    get:
+      tags:
+        - coincheckup_coin_model
+      summary: Count instances of the model matched by where from the data source.
+      operationId: coincheckup_coin_model.count
+      parameters:
+        - name: where
+          in: query
+          description: Criteria to match model instances
+          required: false
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            type: object
+            properties:
+              count:
+                type: number
+                format: double
+      deprecated: false
 definitions:
   icowatchlist_live_model:
     properties:
@@ -2856,35 +4002,6 @@ definitions:
       volume24h:
         type: string
     additionalProperties: false
-  coincheckup_coin_analysis_model:
-    properties:
-      id:
-        type: string
-      rank:
-        type: string
-      totalScore:
-        type: string
-      team:
-        type: string
-      advisors:
-        type: string
-      community:
-        type: string
-      product:
-        type: string
-      coin:
-        type: string
-      socialMedia:
-        type: string
-      communication:
-        type: string
-      business:
-        type: string
-      github:
-        type: string
-      name:
-        type: string
-    additionalProperties: false
   masternodespro_statistics_model:
     properties:
       id:
@@ -2913,6 +4030,163 @@ definitions:
         type: string
       link:
         type: string
+    additionalProperties: false
+  coincheckup_investment_model:
+    properties:
+      averageMarketCap1m:
+        type: string
+      averageMothlyRoi1y:
+        type: string
+      averageVolume1m:
+        type: string
+      cmgr:
+        type: string
+      coinAge:
+        type: string
+      dailyPrice7d:
+        type: array
+        items:
+          type: string
+      firstPriceUsd:
+        type: string
+      growthAllTime:
+        type: string
+      historical14d:
+        type: string
+      historical200d:
+        type: string
+      historical30d:
+        type: string
+      historical45d:
+        type: string
+      historical90d:
+        type: string
+      id:
+        type: number
+        format: double
+      volatility1w:
+        type: string
+      volatility30d:
+        type: string
+      winningMonths12m:
+        type: string
+      name:
+        type: string
+      rank:
+        type: string
+      symbol:
+        type: number
+        format: double
+    required:
+      - id
+    additionalProperties: false
+  coincheckup_score_model:
+    properties:
+      advisorsScore:
+        type: string
+      businessScore:
+        type: string
+      coinScore:
+        type: string
+      communicationScore:
+        type: string
+      communityScore:
+        type: string
+      githubScore:
+        type: string
+      id:
+        type: number
+        format: double
+      productScore:
+        type: string
+      socialMediaScore:
+        type: string
+      teamScore:
+        type: string
+      totalScore:
+        type: string
+      name:
+        type: string
+      symbol:
+        type: string
+      rank:
+        type: string
+    required:
+      - id
+    additionalProperties: false
+  coincheckup_prediction_model:
+    properties:
+      growthBtc:
+        type: object
+      growthOthers:
+        type: object
+      id:
+        type: number
+        format: double
+      worldMoney:
+        type: object
+      name:
+        type: string
+      symbol:
+        type: string
+      rank:
+        type: string
+    required:
+      - id
+    additionalProperties: false
+  coincheckup_coin_model:
+    properties:
+      availableSupply:
+        type: array
+        items:
+          type: string
+      id:
+        type: number
+        format: double
+      lastUpdated:
+        type: array
+        items:
+          type: string
+      marketCapUSD:
+        type: array
+        items:
+          type: string
+      maxSupply:
+        type: array
+        items:
+          type: string
+      name:
+        type: string
+      percentChange1h:
+        type: string
+      percentChange24h:
+        type: string
+      percentChange7d:
+        type: string
+      priceBTC:
+        type: array
+        items:
+          type: string
+      priceUSD:
+        type: array
+        items:
+          type: string
+      proofType:
+        type: string
+      rank:
+        type: string
+      symbol:
+        type: string
+      totalSupply:
+        type: array
+        items:
+          type: string
+      volume24h:
+        type: array
+        items:
+          type: string
+    required:
+      - id
     additionalProperties: false
 basePath: /api
 swagger: '2.0'
@@ -2951,7 +4225,7 @@ x-ibm-configuration:
     sb:
       properties:
         runtime-url: >-
-          https://apiconnect-73daeb16-aa0a-48f6-ad03-ee1ede824f21.cryptoment-cryptomentussouth.apic.mybluemix.net
+          https://apiconnect-8a1d894a-719e-48d5-956a-3928bc8b6bdf.cryptoment-cryptomentussouth.apic.mybluemix.net
         invoke-tls-profile: 'client:Loopback-client'
   assembly:
     execute:

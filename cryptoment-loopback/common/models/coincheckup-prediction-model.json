@@ -1,0 +1,44 @@
+{
+  "name": "coincheckup_prediction_model",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "growthBtc": {
+      "type": "object",
+      "required": false
+    },
+    "growthOthers": {
+      "type": "object",
+      "required": false
+    },
+    "id": {
+      "type": "number",
+      "id": true,
+      "required": true,
+      "isArray": false
+    },
+    "worldMoney": {
+      "type": "object",
+      "required": false
+    },
+    "name": {
+      "type": "string",
+      "required": false
+    },
+    "symbol": {
+      "type": "string",
+      "required": false
+    },
+    "rank": {
+      "type": "string",
+      "required": false
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

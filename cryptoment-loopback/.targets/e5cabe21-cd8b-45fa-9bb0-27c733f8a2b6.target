@@ -78,13 +78,13 @@ space:
   none: true
 app:
   metadata:
-    guid: 73daeb16-aa0a-48f6-ad03-ee1ede824f21
+    guid: 8a1d894a-719e-48d5-956a-3928bc8b6bdf
   entity:
-    guid: 73daeb16-aa0a-48f6-ad03-ee1ede824f21
+    guid: 8a1d894a-719e-48d5-956a-3928bc8b6bdf
     name: icowatchlist-api
     routes:
-      - guid: e0b3aeb6-56c8-49e4-90c6-722e5b83aa85
-        host: apiconnect-73daeb16-aa0a-48f6-ad03-ee1ede824f21
+      - guid: a37dd5a2-72d5-4c35-9d9f-51c450734863
+        host: apiconnect-8a1d894a-719e-48d5-956a-3928bc8b6bdf
         port: null
         path: ''
         domain:
@@ -114,7 +114,7 @@ app:
     instances: 1
     disk_quota: 1024
     state: STOPPED
-    version: e56d7e53-4112-42b6-8782-90cc002b86f7
+    version: 6dd6c93b-a7b3-4213-ac59-c0114448ba1c
     command: null
     console: false
     debug: null
@@ -127,7 +127,7 @@ app:
     staging_failed_description: null
     diego: true
     docker_image: null
-    package_updated_at: '2018-01-26T14:26:54Z'
+    package_updated_at: '2018-01-27T14:16:52Z'
     detected_start_command: ''
     enable_ssh: true
     ports: null

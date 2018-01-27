@@ -1,26 +1,10 @@
 {
-  "icowatchlist-datasource": {
-    "url": "https://62384ebd-6575-4fa6-b4ef-b1886c6c7d26-bluemix:e399a9e4ba39d2941cb14875f7545e418a96ca905c7b7915f6199b87adde9467@62384ebd-6575-4fa6-b4ef-b1886c6c7d26-bluemix.cloudant.com",
-    "database": "icowatchlist_db",
-    "username": "62384ebd-6575-4fa6-b4ef-b1886c6c7d26-bluemix",
-    "password": "e399a9e4ba39d2941cb14875f7545e418a96ca905c7b7915f6199b87adde9467",
-    "name": "icowatchlist-datasource",
-    "connector": "cloudant"
-  },
   "coinmarketcap-datasource": {
     "url": "https://62384ebd-6575-4fa6-b4ef-b1886c6c7d26-bluemix:e399a9e4ba39d2941cb14875f7545e418a96ca905c7b7915f6199b87adde9467@62384ebd-6575-4fa6-b4ef-b1886c6c7d26-bluemix.cloudant.com",
     "database": "coinmarketcap_db",
     "username": "62384ebd-6575-4fa6-b4ef-b1886c6c7d26-bluemix",
     "password": "e399a9e4ba39d2941cb14875f7545e418a96ca905c7b7915f6199b87adde9467",
     "name": "coinmarketcap-datasource",
-    "connector": "cloudant"
-  },
-  "coincheckup-datasource": {
-    "url": "https://62384ebd-6575-4fa6-b4ef-b1886c6c7d26-bluemix:e399a9e4ba39d2941cb14875f7545e418a96ca905c7b7915f6199b87adde9467@62384ebd-6575-4fa6-b4ef-b1886c6c7d26-bluemix.cloudant.com",
-    "database": "coincheckup_db",
-    "username": "62384ebd-6575-4fa6-b4ef-b1886c6c7d26-bluemix",
-    "password": "e399a9e4ba39d2941cb14875f7545e418a96ca905c7b7915f6199b87adde9467",
-    "name": "coincheckup-datasource",
     "connector": "cloudant"
   },
   "masternodespro-datasource": {
@@ -53,6 +37,38 @@
     "username": "62384ebd-6575-4fa6-b4ef-b1886c6c7d26-bluemix",
     "password": "e399a9e4ba39d2941cb14875f7545e418a96ca905c7b7915f6199b87adde9467",
     "name": "icowatchlist-finished-datasource",
+    "connector": "cloudant"
+  },
+  "coincheckup-investments-datasource": {
+    "url": "https://62384ebd-6575-4fa6-b4ef-b1886c6c7d26-bluemix:e399a9e4ba39d2941cb14875f7545e418a96ca905c7b7915f6199b87adde9467@62384ebd-6575-4fa6-b4ef-b1886c6c7d26-bluemix.cloudant.com",
+    "database": "coincheckup_investments_db",
+    "username": "62384ebd-6575-4fa6-b4ef-b1886c6c7d26-bluemix",
+    "password": "e399a9e4ba39d2941cb14875f7545e418a96ca905c7b7915f6199b87adde9467",
+    "name": "coincheckup-investments-datasource",
+    "connector": "cloudant"
+  },
+  "coincheckup-coins-datasource": {
+    "url": "https://62384ebd-6575-4fa6-b4ef-b1886c6c7d26-bluemix:e399a9e4ba39d2941cb14875f7545e418a96ca905c7b7915f6199b87adde9467@62384ebd-6575-4fa6-b4ef-b1886c6c7d26-bluemix.cloudant.com",
+    "database": "coincheckup_coins_db",
+    "username": "62384ebd-6575-4fa6-b4ef-b1886c6c7d26-bluemix",
+    "password": "e399a9e4ba39d2941cb14875f7545e418a96ca905c7b7915f6199b87adde9467",
+    "name": "coincheckup-coins-datasource",
+    "connector": "cloudant"
+  },
+  "coincheckup-scores-datasource": {
+    "url": "https://62384ebd-6575-4fa6-b4ef-b1886c6c7d26-bluemix:e399a9e4ba39d2941cb14875f7545e418a96ca905c7b7915f6199b87adde9467@62384ebd-6575-4fa6-b4ef-b1886c6c7d26-bluemix.cloudant.com",
+    "database": "coincheckup_scores_db",
+    "username": "62384ebd-6575-4fa6-b4ef-b1886c6c7d26-bluemix",
+    "password": "e399a9e4ba39d2941cb14875f7545e418a96ca905c7b7915f6199b87adde9467",
+    "name": "coincheckup-scores-datasource",
+    "connector": "cloudant"
+  },
+  "coincheckup-predictions-datasource": {
+    "url": "https://62384ebd-6575-4fa6-b4ef-b1886c6c7d26-bluemix:e399a9e4ba39d2941cb14875f7545e418a96ca905c7b7915f6199b87adde9467@62384ebd-6575-4fa6-b4ef-b1886c6c7d26-bluemix.cloudant.com",
+    "database": "coincheckup_predictions_db",
+    "username": "62384ebd-6575-4fa6-b4ef-b1886c6c7d26-bluemix",
+    "password": "e399a9e4ba39d2941cb14875f7545e418a96ca905c7b7915f6199b87adde9467",
+    "name": "coincheckup-predictions-datasource",
     "connector": "cloudant"
   }
 }

@@ -33,12 +33,24 @@
     "dataSource": "coinmarketcap-datasource",
     "public": true
   },
-  "coincheckup_coin_analysis_model": {
-    "dataSource": "coincheckup-datasource",
-    "public": true
-  },
   "masternodespro_statistics_model": {
     "dataSource": "masternodespro-datasource",
+    "public": true
+  },
+  "coincheckup_investment_model": {
+    "dataSource": "coincheckup-investments-datasource",
+    "public": true
+  },
+  "coincheckup_score_model": {
+    "dataSource": "coincheckup-scores-datasource",
+    "public": true
+  },
+  "coincheckup_prediction_model": {
+    "dataSource": "coincheckup-predictions-datasource",
+    "public": true
+  },
+  "coincheckup_coin_model": {
+    "dataSource": "coincheckup-coins-datasource",
     "public": true
   }
 }

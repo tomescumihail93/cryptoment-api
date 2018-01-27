@@ -1,19 +1,50 @@
 {
-  "name": "coincheckup_coin_analysis_model",
+  "name": "coincheckup_score_model",
   "base": "PersistedModel",
-  "idInjection": false,
+  "idInjection": true,
   "options": {
     "validateUpsert": true
   },
   "properties": {
+    "advisorsScore": {
+      "type": "string",
+      "required": false
+    },
+    "businessScore": {
+      "type": "string",
+      "required": false
+    },
+    "coinScore": {
+      "type": "string",
+      "required": false
+    },
+    "communicationScore": {
+      "type": "string",
+      "required": false
+    },
+    "communityScore": {
+      "type": "string",
+      "required": false
+    },
+    "githubScore": {
+      "type": "string",
+      "required": false
+    },
     "id": {
       "type": "number",
       "id": true,
-      "generated": true,
-      "required": false,
+      "required": true,
       "isArray": false
     },
-    "rank": {
+    "productScore": {
+      "type": "string",
+      "required": false
+    },
+    "socialMediaScore": {
+      "type": "string",
+      "required": false
+    },
+    "teamScore": {
       "type": "string",
       "required": false
     },
@@ -21,43 +52,15 @@
       "type": "string",
       "required": false
     },
-    "team": {
-      "type": "string",
-      "required": false
-    },
-    "advisors": {
-      "type": "string",
-      "required": false
-    },
-    "community": {
-      "type": "string",
-      "required": false
-    },
-    "product": {
-      "type": "string",
-      "required": false
-    },
-    "coin": {
-      "type": "string",
-      "required": false
-    },
-    "socialMedia": {
-      "type": "string",
-      "required": false
-    },
-    "communication": {
-      "type": "string",
-      "required": false
-    },
-    "business": {
-      "type": "string",
-      "required": false
-    },
-    "github": {
-      "type": "string",
-      "required": false
-    },
     "name": {
+      "type": "string",
+      "required": false
+    },
+    "symbol": {
+      "type": "string",
+      "required": false
+    },
+    "rank": {
       "type": "string",
       "required": false
     }

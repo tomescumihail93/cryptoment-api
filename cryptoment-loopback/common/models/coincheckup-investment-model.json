@@ -1,0 +1,109 @@
+{
+  "name": "coincheckup_investment_model",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "averageMarketCap1m": {
+      "type": "string",
+      "required": false
+    },
+    "averageMothlyRoi1y": {
+      "type": "string",
+      "required": false
+    },
+    "averageVolume1m": {
+      "type": "string",
+      "required": false
+    },
+    "cmgr": {
+      "type": "string",
+      "required": false
+    },
+    "coinAge": {
+      "type": "string",
+      "required": false
+    },
+    "dailyPrice7d": {
+      "type": [
+        "string"
+      ],
+      "required": false,
+      "isArray": true
+    },
+    "firstPriceUsd": {
+      "type": "string",
+      "required": false
+    },
+    "growthAllTime": {
+      "type": "string",
+      "required": false
+    },
+    "historical14d": {
+      "type": "string",
+      "required": false
+    },
+    "historical200d": {
+      "type": "string",
+      "required": false
+    },
+    "historical30d": {
+      "type": "string",
+      "required": false
+    },
+    "historical45d": {
+      "type": "string",
+      "required": false
+    },
+    "historical90d": {
+      "type": "string",
+      "required": false
+    },
+    "id": {
+      "type": "number",
+      "id": true,
+      "required": true,
+      "isArray": false,
+      "updateResource": {
+        "id": "common.coincheckup_investment_model.id",
+        "modelId": "common.coincheckup_investment_model",
+        "facetName": "common",
+        "name": "id",
+        "type": "number",
+        "isId": true,
+        "required": true,
+        "isArray": false
+      }
+    },
+    "volatility1w": {
+      "type": "string",
+      "required": false
+    },
+    "volatility30d": {
+      "type": "string",
+      "required": false
+    },
+    "winningMonths12m": {
+      "type": "string",
+      "required": false
+    },
+    "name": {
+      "type": "string",
+      "required": false
+    },
+    "rank": {
+      "type": "string",
+      "required": false
+    },
+    "symbol": {
+      "type": "number",
+      "required": false
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
