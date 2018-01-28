@@ -78,13 +78,13 @@ space:
   none: true
 app:
   metadata:
-    guid: 5198348c-843e-4e00-99d6-f1f8cf37f407
+    guid: 4ae64311-ab8c-45c5-96ca-a0919853766c
   entity:
-    guid: 5198348c-843e-4e00-99d6-f1f8cf37f407
+    guid: 4ae64311-ab8c-45c5-96ca-a0919853766c
     name: icowatchlist-api
     routes:
-      - guid: fa5e7f47-2818-4eb2-b600-e62141fdf3dc
-        host: apiconnect-5198348c-843e-4e00-99d6-f1f8cf37f407
+      - guid: 24785896-681f-4750-b778-0a2be134ba45
+        host: apiconnect-4ae64311-ab8c-45c5-96ca-a0919853766c
         port: null
         path: ''
         domain:
@@ -114,7 +114,7 @@ app:
     instances: 1
     disk_quota: 1024
     state: STOPPED
-    version: 91d3a819-f63b-422a-9fab-15e665c626b4
+    version: 8269d2b1-dab3-47e1-a4fa-ce34e2afb37d
     command: null
     console: false
     debug: null
@@ -127,18 +127,22 @@ app:
     staging_failed_description: null
     diego: true
     docker_image: null
-    package_updated_at: '2018-01-28T14:08:39Z'
+    package_updated_at: '2018-01-28T15:49:44Z'
     detected_start_command: ''
     enable_ssh: true
     ports: null
 id: e5cabe21-cd8b-45fa-9bb0-27c733f8a2b6
 target: 1.0.0
 versionOptions:
-  inplaceUpdate: false
-  newName: cryptoment-api
+  inplaceUpdate: true
 publishApp: true
 publishProducts: true
 productStageOnly: true
 specificProducts: true
 workspaceDir:
+  name: cryptoment-loopback
   path: /Users/michelcojocaru/cryptoment-api/cryptoment-loopback
+  id: 6
+  displayName: cryptoment-loopback
+  type: project
+  projectType: loopback

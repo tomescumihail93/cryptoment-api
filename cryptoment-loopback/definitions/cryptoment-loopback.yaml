@@ -3989,18 +3989,20 @@ definitions:
     additionalProperties: false
   coinmarketcap_markets_model:
     properties:
-      exchange:
-        type: string
+      exchanges:
+        type: array
+        items:
+          type: object
       id:
         type: string
-      pair:
+      name:
         type: string
-      price:
+      rank:
         type: string
-      volume:
+      symbol:
         type: string
-      volume24h:
-        type: string
+    required:
+      - id
     additionalProperties: false
   masternodespro_statistics_model:
     properties:
@@ -4077,8 +4079,6 @@ definitions:
         type: string
       winningMonths12m:
         type: string
-    required:
-      - id
     additionalProperties: false
   coincheckup_score_model:
     properties:
@@ -4220,7 +4220,7 @@ x-ibm-configuration:
     sb:
       properties:
         runtime-url: >-
-          https://apiconnect-5198348c-843e-4e00-99d6-f1f8cf37f407.cryptoment-cryptomentussouth.apic.mybluemix.net
+          https://apiconnect-4ae64311-ab8c-45c5-96ca-a0919853766c.cryptoment-cryptomentussouth.apic.mybluemix.net
         invoke-tls-profile: 'client:Loopback-client'
   assembly:
     execute:

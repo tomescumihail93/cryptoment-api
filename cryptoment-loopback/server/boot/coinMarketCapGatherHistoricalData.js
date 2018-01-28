@@ -25,10 +25,13 @@ const hasLimit = false;
 //if this is false supply only updates if it has a new value different from null
 const keepDuplicateData = false;
 
+//date object to be used for current time acquisition
+var date = new Date();
+
+var limit = "0";
+
 if(hasLimit){
-    var limit = "100";
-}else{
-    var limit =  "0";
+    limit = "100";
 }
 
 
@@ -208,6 +211,8 @@ var initializeDB = function() {
 
                 reserve_id++;
 
+                date = new Date();
+
                 var options = {
                     method: 'PUT',
                     url: 'https://cryptoment-api.mybluemix.net/api/coinmarketcap_coin_models',
@@ -221,7 +226,7 @@ var initializeDB = function() {
                         _id: reserve_id.toString(),
                         id: reserve_id.toString(),
                         availableSupply: [coin["available_supply"]],
-                        lastUpdated: [coin["last_updated"]],
+                        lastUpdated: [date.getTime().toString()],
                         marketCapUSD: [coin["market_cap_usd"]],
                         maxSupply: [coin["max_supply"]],
                         name: coin["name"],
@@ -251,22 +256,21 @@ var initializeDB = function() {
 };
 
 function mergeHistoricalWithCurrent(oldData,currentData,keepNulls){
-
     var list = oldData;
 
-    if(oldData == null){
+    if (oldData == null) {
         list = [];
     }
 
-    if(typeof(oldData) == "string"){
+    if (typeof(oldData) == "string") {
         list = JSON.parse(oldData);
     }
 
-    if(keepNulls){
+    if (keepNulls) {
         list.push(currentData);
     } else {
 
-        if(String(currentData) != "null" && String(currentData) != String(list[list.length-1])){
+        if (String(currentData) != "null" && String(currentData) != String(list[list.length-1])) {
             list.push(currentData);
         }
     }
@@ -288,19 +292,13 @@ var mergeAndSend = function(coinList) {
 
                     var coinHistory = null;
                     for (var i = 0; i < coinList.length ; i++){
-
                         if(String(coinList[i]["symbol"]) == freshCoin["symbol"]){
                             coinHistory = coinList[i];
                             break;
                         }
-
                     }
-
                     //retrieve coin from local copy
-
                     if (coinHistory != null && coinHistory != undefined) {
-
-                        //coinHistory.id = freshCoin["id"];
                         coinHistory._id = coinHistory.id;
                         coinHistory.name = freshCoin["name"];
                         coinHistory.percentChange1h = freshCoin["percent_change_1h"];
@@ -311,7 +309,7 @@ var mergeAndSend = function(coinList) {
 
                         coinHistory.priceUSD = mergeHistoricalWithCurrent(coinHistory["priceUSD"],freshCoin["price_usd"],true);
                         coinHistory.priceBTC = mergeHistoricalWithCurrent(coinHistory["priceBTC"],freshCoin["price_btc"],true);
-                        coinHistory.lastUpdated = mergeHistoricalWithCurrent(coinHistory["lastUpdated"],freshCoin["last_updated"],true);
+                        coinHistory.lastUpdated = mergeHistoricalWithCurrent(coinHistory["lastUpdated"],date.getTime().toString(),true);
                         coinHistory.marketCapUSD = mergeHistoricalWithCurrent(coinHistory["marketCapUSD"],freshCoin["market_cap_usd"],true);
                         coinHistory.volume24h = mergeHistoricalWithCurrent(coinHistory["volume24h"],freshCoin["24h_volume_usd"],true);
                         coinHistory.maxSupply = mergeHistoricalWithCurrent(coinHistory["maxSupply"],freshCoin["max_supply"],keepDuplicateData);//keepDuplicateData

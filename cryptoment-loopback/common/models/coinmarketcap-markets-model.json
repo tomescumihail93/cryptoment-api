@@ -6,8 +6,10 @@
     "validateUpsert": true
   },
   "properties": {
-    "exchange": {
-      "type": "string",
+    "exchanges": {
+      "type": [
+        "object"
+      ],
       "required": false,
       "updateResource": {
         "id": "common.coinmarketcap_markets_model.exchange",
@@ -16,13 +18,14 @@
         "name": "exchange",
         "type": "string",
         "required": false
-      }
+      },
+      "isArray": true
     },
     "id": {
       "type": "number",
       "id": true,
       "generated": true,
-      "required": false,
+      "required": true,
       "isArray": false,
       "updateResource": {
         "id": "common.coinmarketcap_markets_model.id",
@@ -35,7 +38,7 @@
         "isArray": false
       }
     },
-    "pair": {
+    "name": {
       "type": "string",
       "required": false,
       "updateResource": {
@@ -47,7 +50,7 @@
         "required": false
       }
     },
-    "price": {
+    "rank": {
       "type": "string",
       "required": false,
       "updateResource": {
@@ -59,19 +62,7 @@
         "required": false
       }
     },
-    "volume": {
-      "type": "string",
-      "required": false,
-      "updateResource": {
-        "id": "common.coinmarketcap_markets_model.volume",
-        "modelId": "common.coinmarketcap_markets_model",
-        "facetName": "common",
-        "name": "volume",
-        "type": "string",
-        "required": false
-      }
-    },
-    "volume24h": {
+    "symbol": {
       "type": "string",
       "required": false,
       "updateResource": {

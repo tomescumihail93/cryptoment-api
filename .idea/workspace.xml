@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4373b8d-6f27-47fa-b07f-700d54088773" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cryptoment-loopback/server/boot/coinMarketCapGatherMarkets.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cryptoment-loopback/.targets/e5cabe21-cd8b-45fa-9bb0-27c733f8a2b6.target" afterPath="$PROJECT_DIR$/cryptoment-loopback/.targets/e5cabe21-cd8b-45fa-9bb0-27c733f8a2b6.target" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cryptoment-loopback/common/models/coincheckup-coin-model.json" afterPath="$PROJECT_DIR$/cryptoment-loopback/common/models/coincheckup-coin-model.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cryptoment-loopback/common/models/coincheckup-investment-model.json" afterPath="$PROJECT_DIR$/cryptoment-loopback/common/models/coincheckup-investment-model.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cryptoment-loopback/common/models/coincheckup-prediction-model.json" afterPath="$PROJECT_DIR$/cryptoment-loopback/common/models/coincheckup-prediction-model.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cryptoment-loopback/common/models/coincheckup-score-model.json" afterPath="$PROJECT_DIR$/cryptoment-loopback/common/models/coincheckup-score-model.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cryptoment-loopback/common/models/coinmarketcap-markets-model.json" afterPath="$PROJECT_DIR$/cryptoment-loopback/common/models/coinmarketcap-markets-model.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cryptoment-loopback/definitions/cryptoment-loopback.yaml" afterPath="$PROJECT_DIR$/cryptoment-loopback/definitions/cryptoment-loopback.yaml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cryptoment-loopback/server/boot/coinMarketCapGatherHistoricalData.js" afterPath="$PROJECT_DIR$/cryptoment-loopback/server/boot/coinMarketCapGatherHistoricalData.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cryptoment-loopback/server/boot/coincheckupGatherData.js" afterPath="$PROJECT_DIR$/cryptoment-loopback/server/boot/coincheckupGatherData.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cryptoment-loopback/server/datasources.json" afterPath="$PROJECT_DIR$/cryptoment-loopback/server/datasources.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cryptoment-loopback/server/model-config.json" afterPath="$PROJECT_DIR$/cryptoment-loopback/server/model-config.json" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,11 +28,61 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="coincheckupGatherData.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="coinMarketCapGatherHistoricalData.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cryptoment-loopback/server/boot/coinMarketCapGatherHistoricalData.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="641">
+              <caret line="320" column="42" lean-forward="true" selection-start-line="320" selection-start-column="42" selection-end-line="320" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="icoWatchListGatherData.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cryptoment-loopback/server/boot/icoWatchListGatherData.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-229">
+              <caret line="140" column="74" lean-forward="true" selection-start-line="140" selection-start-column="16" selection-end-line="140" selection-end-column="74" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/coinmarketcap-api/marketsCoinMarketCap/server.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="960">
+              <caret line="73" column="3" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="73" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="coinMarketCapGatherMarkets.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cryptoment-loopback/server/boot/coinMarketCapGatherMarkets.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="794">
+              <caret line="141" column="6" lean-forward="false" selection-start-line="141" selection-start-column="6" selection-end-line="141" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="availableMarketsCoinMarketCap.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/coinmarketcap-api/availableMarketsCoinMarketCap.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="15" lean-forward="true" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="coincheckupGatherData.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cryptoment-loopback/server/boot/coincheckupGatherData.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="472" column="1" lean-forward="true" selection-start-line="472" selection-start-column="1" selection-end-line="472" selection-end-column="1" />
+            <state relative-caret-position="783">
+              <caret line="308" column="2" lean-forward="false" selection-start-line="308" selection-start-column="2" selection-end-line="308" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -62,16 +113,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
               <caret line="19" column="24" lean-forward="false" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="coincheckup-investment-model.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cryptoment-loopback/common/models/coincheckup-investment-model.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="67" column="23" lean-forward="false" selection-start-line="67" selection-start-column="23" selection-end-line="67" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -112,6 +153,8 @@
       <find>limit</find>
       <find>error</find>
       <find>models</find>
+      <find>marketsJsonList</find>
+      <find>allMarketsJson</find>
     </findStrings>
     <replaceStrings>
       <replace>mainPage</replace>
@@ -132,14 +175,17 @@
         <option value="$PROJECT_DIR$/cryptoment-loopback/server/boot/test.js" />
         <option value="$PROJECT_DIR$/cryptoment-loopback/server/boot/icoWatchListGatherData.js" />
         <option value="$PROJECT_DIR$/cryptoment-loopback/server/boot/coinchekupGatherData.js" />
-        <option value="$PROJECT_DIR$/cryptoment-loopback/server/boot/coinMarketCapGatherHistoricalData.js" />
         <option value="$PROJECT_DIR$/cryptoment-loopback/common/models/icowatchlist-live-model.json" />
         <option value="$PROJECT_DIR$/cryptoment-loopback/server/resources/mockCoincheckupDB.json" />
         <option value="$PROJECT_DIR$/cryptoment-loopback/common/models/coincheckup-prediction-model.json" />
         <option value="$PROJECT_DIR$/cryptoment-loopback/common/models/coincheckup-score-model.json" />
         <option value="$PROJECT_DIR$/cryptoment-loopback/common/models/coincheckup-coin-model.json" />
         <option value="$PROJECT_DIR$/cryptoment-loopback/common/models/coincheckup-investment-model.json" />
+        <option value="$PROJECT_DIR$/cryptoment-loopback/server/boot/coinMarketCapGatherHistoricalData.js" />
+        <option value="$PROJECT_DIR$/coinmarketcap-api/historicalDataCoinMarketCap/gatherHistoricalData.js" />
+        <option value="$PROJECT_DIR$/cryptoment-loopback/common/models/coinmarketcap-markets-model.json" />
         <option value="$PROJECT_DIR$/cryptoment-loopback/server/boot/coincheckupGatherData.js" />
+        <option value="$PROJECT_DIR$/cryptoment-loopback/server/boot/coinMarketCapGatherMarkets.js" />
       </list>
     </option>
   </component>
@@ -285,6 +331,38 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cryptoment-api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cryptoment-api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="coinmarketcap-api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cryptoment-api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cryptoment-api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="coinmarketcap-api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="marketsCoinMarketCap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -308,7 +386,7 @@
       <recent name="$PROJECT_DIR$/cryptoment-loopback/server/boot/helpers" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.coincheckup_run">
+  <component name="RunManager" selected="Node.js.markets_coinmarketcap_db">
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <method />
     </configuration>
@@ -396,7 +474,35 @@
       </EXTENSION>
       <method />
     </configuration>
-    <configuration default="false" name="coincheckup_run" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" path-to-js-file="$PROJECT_DIR$/cryptoment-loopback/server/boot/coincheckupGatherData.js" working-dir="$PROJECT_DIR$">
+    <configuration default="false" name="coincheckup_run" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" path-to-js-file="cryptoment-loopback/server/boot/coincheckupGatherData.js" working-dir="$PROJECT_DIR$">
+      <profiling v8-profiler-path="" />
+      <EXTENSION ID="com.jetbrains.nodejs.remote.docker.NodeJSDockerRunConfigurationExtension">
+        <option name="envVars">
+          <list />
+        </option>
+        <option name="extraHosts">
+          <list />
+        </option>
+        <option name="links">
+          <list />
+        </option>
+        <option name="networkDisabled" value="false" />
+        <option name="networkMode" value="bridge" />
+        <option name="portBindings">
+          <list />
+        </option>
+        <option name="publishAllPorts" value="false" />
+        <option name="version" value="1" />
+        <option name="volumeBindings">
+          <list />
+        </option>
+      </EXTENSION>
+      <EXTENSION ID="com.jetbrains.nodejs.run.NodeJSProfilingRunConfigurationExtension">
+        <profiling v8-profiler-path="" />
+      </EXTENSION>
+      <method />
+    </configuration>
+    <configuration default="false" name="markets_coinmarketcap_db" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" path-to-js-file="cryptoment-loopback/server/boot/coinMarketCapGatherMarkets.js" working-dir="$PROJECT_DIR$">
       <profiling v8-profiler-path="" />
       <EXTENSION ID="com.jetbrains.nodejs.remote.docker.NodeJSDockerRunConfigurationExtension">
         <option name="envVars">
@@ -452,10 +558,11 @@
       </EXTENSION>
       <method />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Node.js.icowatchlist_crawl" />
       <item index="1" class="java.lang.String" itemvalue="Node.js.coincheckup_run" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.coinmarketcap_run" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.markets_coinmarketcap_db" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.coinmarketcap_run" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -473,12 +580,12 @@
       <workItem from="1516986539465" duration="257000" />
       <workItem from="1516987629032" duration="23252000" />
       <workItem from="1517075326564" duration="12950000" />
-      <workItem from="1517098426297" duration="9708000" />
+      <workItem from="1517098426297" duration="17486000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="150924000" />
+    <option name="totallyTimeSpent" value="158702000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="-139" width="1920" height="1080" extended-state="0" />
@@ -513,38 +620,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cryptoment-loopback/server/boot/coincheckupGatherData.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cryptoment-loopback/server/boot/root.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cryptoment-loopback/server/boot/coinMarketCapGatherHistoricalData.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2820">
-          <caret line="188" column="59" lean-forward="false" selection-start-line="188" selection-start-column="8" selection-end-line="188" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cryptoment-loopback/server/boot/icoWatchListGatherData.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3510">
-          <caret line="234" column="123" lean-forward="false" selection-start-line="234" selection-start-column="37" selection-end-line="234" selection-end-column="123" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cryptoment-loopback/server/boot/coincheckupGatherData.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6135">
@@ -757,14 +832,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/coinmarketcap-api/historicalDataCoinMarketCap/gatherHistoricalData.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2475">
-          <caret line="165" column="35" lean-forward="true" selection-start-line="165" selection-start-column="35" selection-end-line="165" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cryptoment-loopback/node_modules/then-request/lib/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="241">
@@ -825,22 +892,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cryptoment-loopback/server/boot/coinMarketCapGatherHistoricalData.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1834">
-          <caret line="188" column="59" lean-forward="false" selection-start-line="188" selection-start-column="8" selection-end-line="188" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cryptoment-loopback/server/boot/icoWatchListGatherData.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1901">
-          <caret line="234" column="123" lean-forward="false" selection-start-line="234" selection-start-column="37" selection-end-line="234" selection-end-column="123" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cryptoment-loopback/server/boot/root.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -881,10 +932,66 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/coinmarketcap-api/historicalDataCoinMarketCap/gatherHistoricalData.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1226">
+          <caret line="191" column="0" lean-forward="true" selection-start-line="191" selection-start-column="0" selection-end-line="191" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coinmarketcap-api/marketsCoinMarketCap/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="73" column="3" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="73" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coinmarketcap-api/availableMarketsCoinMarketCap.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="15" lean-forward="true" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cryptoment-loopback/common/models/coinmarketcap-markets-model.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="27" column="23" lean-forward="false" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/cryptoment-loopback/server/boot/coincheckupGatherData.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="472" column="1" lean-forward="true" selection-start-line="472" selection-start-column="1" selection-end-line="472" selection-end-column="1" />
+        <state relative-caret-position="783">
+          <caret line="308" column="2" lean-forward="false" selection-start-line="308" selection-start-column="2" selection-end-line="308" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cryptoment-loopback/server/boot/icoWatchListGatherData.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-229">
+          <caret line="140" column="74" lean-forward="true" selection-start-line="140" selection-start-column="16" selection-end-line="140" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cryptoment-loopback/server/boot/coinMarketCapGatherMarkets.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="794">
+          <caret line="141" column="6" lean-forward="false" selection-start-line="141" selection-start-column="6" selection-end-line="141" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cryptoment-loopback/server/boot/coinMarketCapGatherHistoricalData.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="641">
+          <caret line="320" column="42" lean-forward="true" selection-start-line="320" selection-start-column="42" selection-end-line="320" selection-end-column="42" />
           <folding />
         </state>
       </provider>

@@ -30,7 +30,7 @@
     "public": true
   },
   "coinmarketcap_markets_model": {
-    "dataSource": "coinmarketcap-datasource",
+    "dataSource": "coinmarketcap-markets-datasource",
     "public": true
   },
   "masternodespro_statistics_model": {

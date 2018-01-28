@@ -4,7 +4,7 @@
  * */
 
 //careful about changing the next two variables standard 3600 & 0.2
-const samplingInterval = 120;//seconds
+const samplingInterval = 1800;//seconds
 //const waitAfterDBinit = 30;//seconds
 const depositDataInterval = 0.2;//seconds
 
@@ -26,227 +26,24 @@ var models = {
 
 };
 
-//limit the amount of entities populating/updating the DBs
-var hasLimit = true;
-//how many entities populating/updating the DBs
-var limit = 100;
-
 //date object to be used for current time acquisition
 var date = new Date();
 
 //if this is false supply only updates if it has a new value different from null
 const keepDuplicateData = false;
 
-
 //toggler for database initital population process (beware it overwrites all data in db)
-var isDbPopulated = true;
+var isDbPopulated = false;
+
+//limit the amount of entities populating/updating the DBs
+const hasLimit = false;
+
+//how many entities populating/updating the DBs
+var limit = 100;
 
 //first digit is "5" , "6" , "7" , "8" for coincheckup coin, investment, prediction, score model in this order.
 var initial_id = 913112091000832;
-/*
-//investment entity
-class Investment{
 
-    constructor(
-        id,
-        firstPriceUsd,
-        cmgr,
-        growthAllTime,
-        averageMarketCap1m,
-        averageVolume1m,
-        coinAge,
-        winningMonths12m,
-        averageMothlyRoi1y,
-        dailyPrice7d,
-        historical200d,
-        historical90d,
-        historical45d,
-        historical30d,
-        historical14d,
-        volatility30d,
-        volatility1w
-    ){
-        this.id = id;
-        this.firstPriceUsd = firstPriceUsd;
-        this.cmgr = cmgr;
-        this.growthAllTime = growthAllTime;
-        this.averageMarketCap1m = averageMarketCap1m;
-        this.averageVolume1m = averageVolume1m;
-        this.coinAge = coinAge;
-        this.winningMonths12m = winningMonths12m;
-        this.averageMothlyRoi1y = averageMothlyRoi1y;
-        this.dailyPrice7d = dailyPrice7d;
-        this.historical200d = historical200d;
-        this.historical90d = historical90d;
-        this.historical45d = historical45d;
-        this.historical30d = historical30d;
-        this.historical14d = historical14d;
-        this.volatility30d = volatility30d;
-        this.volatility1w = volatility1w;
-    }
-}
-
-//prediction entity
-class Prediction{
-
-    constructor(
-        id,
-        growthBtc,
-        growthOthers,
-        worldMoney
-    ){
-        this.id = id;
-        this.growthBtc = growthBtc;
-        this.growthOthers = growthOthers;
-        this.worldMoney = worldMoney;
-    }
-}
-
-class Score{
-
-    constructor(
-        id,
-        totalScore,
-        teamScore,
-        advisorsScore,
-        communityScore,
-        productScore,
-        coinScore,
-        socialMediaScore,
-        communicationScore,
-        businessScore,
-        githubScore
-    ){
-        this.id = id;
-        this.totalScore = totalScore;
-        this.teamScore = teamScore;
-        this.advisorsScore = advisorsScore;
-        this.communityScore = communityScore;
-        this.productScore = productScore;
-        this.coinScore = coinScore;
-        this.socialMediaScore = socialMediaScore;
-        this.communicationScore = communicationScore;
-        this.businessScore = businessScore;
-        this.githubScore = githubScore;
-    }
-}
-
-//coin entity
-class Coin{
-
-    constructor(
-        _id,
-        id,
-        name,
-        symbol,
-        rank,
-        priceUSD,
-        priceBTC,
-        volume24h,
-        marketCapUSD,
-        availableSupply,
-        totalSupply,
-        maxSupply,
-        percentChange1h,
-        percentChange24h,
-        percentChange7d,
-        lastUpdated,
-        proofType
-    ){
-
-        this._id = _id;
-        this.id = id;
-        this.name = name;
-        this.symbol = symbol;
-        this.rank = rank;
-        this.priceUSD = [];
-        this.priceUSD.push(priceUSD);
-
-        this.priceBTC = [];
-        this.priceBTC.push(priceBTC);
-
-        this.volume24h = [];
-        this.volume24h.push(volume24h);
-
-        this.marketCapUSD = [];
-        this.marketCapUSD.push(marketCapUSD);
-
-        this.availableSupply = [];
-        this.availableSupply.push(availableSupply);
-
-        this.totalSupply = [];
-        this.totalSupply.push(totalSupply);
-
-        this.maxSupply = [];
-        this.maxSupply.push(maxSupply);
-
-        this.percentChange1h = percentChange1h;
-        this.percentChange24h = percentChange24h;
-        this.percentChange7d = percentChange7d;
-
-        this.lastUpdated = [];
-        this.lastUpdated.push(lastUpdated);
-
-        this.proofType = proofType;
-
-
-
-    }
-
-    pushToPriceUSDList(price){
-        if(price != null) {
-            this.priceUSD.push(price);
-        }
-    }
-
-    pushToPriceBTCList(price){
-        if(price != null) {
-            this.priceBTC.push(price);
-        }
-    }
-
-    pushToMarketCapList(cap){
-        if(cap != null) {
-            this.marketCapUSD.push(cap);
-        }
-    }
-
-    pushToVolume24hList(volume){
-        if(volume != null) {
-            this.volume24h.push(volume);
-        }
-    }
-
-    pushToAvailableSupplyList(supply){
-        if(supply != null) {
-            if (this.availableSupply[this.availableSupply.length - 1] != supply) {
-                this.availableSupply.push(supply);
-            }
-        }
-    }
-
-    pushToTotalSupplyList(supply){
-        if(supply != null) {
-            if (this.totalSupply[this.totalSupply.length - 1] != supply) {
-                this.totalSupply.push(supply);
-            }
-        }
-    }
-
-    pushToMaxSupplyList(supply){
-        if(supply != null) {
-            if (this.maxSupply[this.maxSupply.length - 1] != supply) {
-                this.maxSupply.push(supply);
-            }
-        }
-    }
-
-    pushToLastUpdatedList(timestamp){
-        this.lastUpdated.push(timestamp);
-    }
-
-}
-*/
 Array.prototype.delayedForEach = function(callback, timeout, thisArg){
     var i = 0,
         l = this.length,
@@ -485,7 +282,6 @@ var mergeAndSend = function(coinList) {
                 if(hasLimit && (index >= limit)){
                     return;
                 }
-
                 reserve_id++;
 
                 var coinHistory = null;
@@ -510,5 +306,5 @@ var mergeAndSend = function(coinList) {
 };
 
 
-run();
+//run();
 

@@ -70,5 +70,11 @@
     "password": "e399a9e4ba39d2941cb14875f7545e418a96ca905c7b7915f6199b87adde9467",
     "name": "coincheckup-predictions-datasource",
     "connector": "cloudant"
+  },
+  "coinmarketcap-markets-datasource": {
+    "url": "https://62384ebd-6575-4fa6-b4ef-b1886c6c7d26-bluemix:e399a9e4ba39d2941cb14875f7545e418a96ca905c7b7915f6199b87adde9467@62384ebd-6575-4fa6-b4ef-b1886c6c7d26-bluemix.cloudant.com",
+    "database": "coinmarketcap_markets_db",
+    "name": "coinmarketcap-markets-datasource",
+    "connector": "cloudant"
   }
 }
