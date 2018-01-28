@@ -4,7 +4,7 @@
  * */
 
 //careful about changing the next two variables standard 3600 & 0.15
-const samplingInterval = 3600;//seconds
+const samplingInterval = 360;//seconds
 //const waitAfterDBinit = 30;//seconds
 const depositDataInterval = 0.2;//seconds
 
@@ -41,7 +41,7 @@ var noOfCalls = 0;
 var coinList = [];
 
 //toggler for database initital population process (beware it overwrites all data in db)
-var isDbPopulated = true;
+var isDbPopulated = false;
 
 //first digit is "1" for coinmarketcap coin model
 var initial_id = 1913112091000832;
@@ -245,7 +245,7 @@ var initializeDB = function() {
 
                 request(options, function (error, response, body) {
                     if (error) return console.error('Failed: %s', error.message);
-                    //console.log('Success: ', body);
+                    console.log('Success: ', body);
                 });
 
             }, depositDataInterval * 1000);
@@ -281,14 +281,14 @@ function mergeHistoricalWithCurrent(oldData,currentData,keepNulls){
 var mergeAndSend = function(coinList) {
 
     //make a poll for new data
-    setInterval(function () {
+    //setInterval(function () {
         //update historical data with fresh data
         request("https://api.coinmarketcap.com/v1/ticker/?limit=" + limit, function (error, response, body) {
 
             if (!error && response.statusCode == 200) {
                 var res = JSON.parse(body);
 
-                res.forEach(function (freshCoin) {
+                res.delayedForEach(function (freshCoin) {
 
                     var coinHistory = null;
                     for (var i = 0; i < coinList.length ; i++){
@@ -348,18 +348,19 @@ var mergeAndSend = function(coinList) {
                         };
 
                         throttledRequest(options, function (error, response, body) {
-
-                            if (error) return console.error('Failed: %s', error.message);
-                            //console.log('Success: ', body);
+                            if (error) {
+                                return console.error('Failed: %s', error.message);
+                            }
+                            console.log('Success: ', body);
                         });
                     }
 
-                });//, depositDataInterval * 1000);
+                }, depositDataInterval * 1000);
 
             }
 
         });
-    }, samplingInterval * 1000);
+    //}, samplingInterval * 1000);
 
 };
 

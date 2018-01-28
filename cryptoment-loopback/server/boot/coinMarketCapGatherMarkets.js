@@ -6,16 +6,13 @@
 var cheerio = require('cheerio');
 var request = require('request');
 var throttledRequest = require('throttled-request')(request);
-var waitBeforeNextPageInterval = 120;
-var updateDataInterval = 480;//24 * 60 * 60; //once per day
+var updateDataInterval = 24 * 60 * 60; //once per day
 var depositDataInterval = 0.2;//seconds
 
 throttledRequest.configure({
     requests: 1,
     milliseconds: depositDataInterval * 1000
 });
-
-//var allMarketsJson = {};
 
 
 const base_url = 'https://coinmarketcap.com/currencies/';
@@ -37,8 +34,6 @@ Array.prototype.delayedForEach = function(callback, timeout, thisArg){
         };
     caller();
 };
-
-//TODO dereferentiaza intanta de ico ca sa nu ai memory leak
 
 function crawlMarketAndUpdateDB(coin){
 
@@ -76,8 +71,6 @@ function crawlMarketAndUpdateDB(coin){
                 }
 
             }
-            //console.log(marketsJsonList);
-            //allMarketsJson[coinName] = marketsJsonList;
 
             var options = {
                 method: 'PUT',
@@ -97,7 +90,6 @@ function crawlMarketAndUpdateDB(coin){
                 },
                 json: true
             };
-
 
             throttledRequest(options, function (error, response, body) {
                 if (error) return console.error('Failed: %s', error.message);
@@ -129,11 +121,9 @@ function run() {
         request(options, function (error, response, body) {
             if (!error && response.statusCode == 200) {
 
-                //var reserve_id = initial_id;
                 var res = JSON.parse(body);
 
                 res.delayedForEach(function (coin) {
-                    //reserve_id++;
                     crawlMarketAndUpdateDB(coin);
                 }, depositDataInterval * 1000);
             }
@@ -142,4 +132,4 @@ function run() {
     //}, updateDataInterval * 1000);
 }
 
-run();
+//run();
