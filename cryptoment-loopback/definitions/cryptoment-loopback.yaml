@@ -4062,21 +4062,21 @@ definitions:
       historical90d:
         type: string
       id:
-        type: number
-        format: double
-      volatility1w:
         type: string
-      volatility30d:
-        type: string
-      winningMonths12m:
+      lastUpdated:
         type: string
       name:
         type: string
       rank:
         type: string
       symbol:
-        type: number
-        format: double
+        type: string
+      volatility1w:
+        type: string
+      volatility30d:
+        type: string
+      winningMonths12m:
+        type: string
     required:
       - id
     additionalProperties: false
@@ -4095,24 +4095,23 @@ definitions:
       githubScore:
         type: string
       id:
-        type: number
-        format: double
+        type: string
+      name:
+        type: string
       productScore:
         type: string
+      rank:
+        type: string
       socialMediaScore:
+        type: string
+      symbol:
         type: string
       teamScore:
         type: string
       totalScore:
         type: string
-      name:
+      lastUpdated:
         type: string
-      symbol:
-        type: string
-      rank:
-        type: string
-    required:
-      - id
     additionalProperties: false
   coincheckup_prediction_model:
     properties:
@@ -4121,18 +4120,17 @@ definitions:
       growthOthers:
         type: object
       id:
-        type: number
-        format: double
-      worldMoney:
-        type: object
-      name:
         type: string
-      symbol:
+      name:
         type: string
       rank:
         type: string
-    required:
-      - id
+      symbol:
+        type: string
+      worldMoney:
+        type: object
+      lastUpdated:
+        type: string
     additionalProperties: false
   coincheckup_coin_model:
     properties:
@@ -4141,8 +4139,7 @@ definitions:
         items:
           type: string
       id:
-        type: number
-        format: double
+        type: string
       lastUpdated:
         type: array
         items:
@@ -4185,8 +4182,6 @@ definitions:
         type: array
         items:
           type: string
-    required:
-      - id
     additionalProperties: false
 basePath: /api
 swagger: '2.0'
@@ -4225,7 +4220,7 @@ x-ibm-configuration:
     sb:
       properties:
         runtime-url: >-
-          https://apiconnect-8a1d894a-719e-48d5-956a-3928bc8b6bdf.cryptoment-cryptomentussouth.apic.mybluemix.net
+          https://apiconnect-5198348c-843e-4e00-99d6-f1f8cf37f407.cryptoment-cryptomentussouth.apic.mybluemix.net
         invoke-tls-profile: 'client:Loopback-client'
   assembly:
     execute:

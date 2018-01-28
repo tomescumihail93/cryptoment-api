@@ -1,7 +1,7 @@
 {
   "name": "coincheckup_score_model",
   "base": "PersistedModel",
-  "idInjection": true,
+  "idInjection": false,
   "options": {
     "validateUpsert": true
   },
@@ -33,14 +33,27 @@
     "id": {
       "type": "number",
       "id": true,
-      "required": true,
+      "generated": true,
+      "required": false,
       "isArray": false
+    },
+    "name": {
+      "type": "string",
+      "required": false
     },
     "productScore": {
       "type": "string",
       "required": false
     },
+    "rank": {
+      "type": "string",
+      "required": false
+    },
     "socialMediaScore": {
+      "type": "string",
+      "required": false
+    },
+    "symbol": {
       "type": "string",
       "required": false
     },
@@ -52,15 +65,7 @@
       "type": "string",
       "required": false
     },
-    "name": {
-      "type": "string",
-      "required": false
-    },
-    "symbol": {
-      "type": "string",
-      "required": false
-    },
-    "rank": {
+    "lastUpdated": {
       "type": "string",
       "required": false
     }

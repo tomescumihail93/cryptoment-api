@@ -1,7 +1,7 @@
 {
   "name": "coincheckup_coin_model",
   "base": "PersistedModel",
-  "idInjection": true,
+  "idInjection": false,
   "options": {
     "validateUpsert": true
   },
@@ -16,7 +16,8 @@
     "id": {
       "type": "number",
       "id": true,
-      "required": true,
+      "generated": true,
+      "required": false,
       "isArray": false
     },
     "lastUpdated": {

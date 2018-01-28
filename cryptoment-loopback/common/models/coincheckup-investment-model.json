@@ -1,7 +1,7 @@
 {
   "name": "coincheckup_investment_model",
   "base": "PersistedModel",
-  "idInjection": true,
+  "idInjection": false,
   "options": {
     "validateUpsert": true
   },
@@ -64,7 +64,8 @@
     "id": {
       "type": "number",
       "id": true,
-      "required": true,
+      "generated": true,
+      "required": false,
       "isArray": false,
       "updateResource": {
         "id": "common.coincheckup_investment_model.id",
@@ -77,15 +78,7 @@
         "isArray": false
       }
     },
-    "volatility1w": {
-      "type": "string",
-      "required": false
-    },
-    "volatility30d": {
-      "type": "string",
-      "required": false
-    },
-    "winningMonths12m": {
+    "lastUpdated": {
       "type": "string",
       "required": false
     },
@@ -98,7 +91,19 @@
       "required": false
     },
     "symbol": {
-      "type": "number",
+      "type": "string",
+      "required": false
+    },
+    "volatility1w": {
+      "type": "string",
+      "required": false
+    },
+    "volatility30d": {
+      "type": "string",
+      "required": false
+    },
+    "winningMonths12m": {
+      "type": "string",
       "required": false
     }
   },

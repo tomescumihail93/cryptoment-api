@@ -1,7 +1,7 @@
 {
   "name": "coincheckup_prediction_model",
   "base": "PersistedModel",
-  "idInjection": true,
+  "idInjection": false,
   "options": {
     "validateUpsert": true
   },
@@ -17,14 +17,15 @@
     "id": {
       "type": "number",
       "id": true,
-      "required": true,
+      "generated": true,
+      "required": false,
       "isArray": false
     },
-    "worldMoney": {
-      "type": "object",
+    "name": {
+      "type": "string",
       "required": false
     },
-    "name": {
+    "rank": {
       "type": "string",
       "required": false
     },
@@ -32,7 +33,11 @@
       "type": "string",
       "required": false
     },
-    "rank": {
+    "worldMoney": {
+      "type": "object",
+      "required": false
+    },
+    "lastUpdated": {
       "type": "string",
       "required": false
     }
