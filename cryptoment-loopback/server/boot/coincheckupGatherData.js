@@ -268,7 +268,7 @@ function run() {
         initializeDB();
     }
 
-    //requestFromDB();
+    requestFromDB();
     //setInterval(requestFromDB, samplingInterval * 1000);//
 
 }
@@ -448,8 +448,8 @@ function mergeHistoricalWithCurrent(oldData, currentData, keepNulls){
         list.push(oldData.toString());
     } else if (typeof(oldData) == "object"){
 
-        if (JSON.parse(oldData) instanceof Array) {
-            list = JSON.parse(oldData);
+        if (oldData instanceof Array) {
+            list = oldData;
         }else{
             list = [];
             list.push(oldData.toString());//TODO check this
@@ -508,6 +508,8 @@ var mergeAndSend = function(coinList) {
                         coinHistory.availableSupply = mergeHistoricalWithCurrent(coinHistory["availableSupply"],freshCoin["available_supply"],keepDuplicateData);
                         coinHistory.totalSupply = mergeHistoricalWithCurrent(coinHistory["totalSupply"],freshCoin["total_supply"],keepDuplicateData);
 
+
+
                         //update data to remote db
                         var options = {
                             method: 'PUT',
@@ -543,6 +545,7 @@ var mergeAndSend = function(coinList) {
                             if (error) return console.error('Failed: %s', error.message);
                             console.log('Success: ', body);
                         });
+
                     }
 
                 }, depositDataInterval * 1000);
