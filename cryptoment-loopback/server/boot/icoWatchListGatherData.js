@@ -3,12 +3,22 @@
  * company: Cryptoment
  * */
 
+/**
+ * Update duration 6 min
+ * Write interval 0.5 sec
+ */
+
+/**
+ * Attention! Be aware of the fact that in a long
+ * period of time the memory leak cause by the lack
+ * of icoInstance dereference will cause a crash eventually
+ */
+
 var cheerio = require('cheerio');
 var request = require('request');
 var throttledRequest = require('throttled-request')(request);
 var waitBeforeNextPageInterval = 120;
-var updateDataInterval = 480;//24 * 60 * 60; //once per day
-var depositDataInterval = 0.20;//seconds
+var depositDataInterval = 0.5;//seconds
 
 throttledRequest.configure({
     requests: 1,
@@ -21,8 +31,7 @@ var icoStates = {
     4: 'finished'
 };
 
-//first digit is "2" or "3" or "4" for icos from "live" , "upcoming" , "finished" in this specific order
-var initial_id = 913112091000832;
+var initial_id = 1913112091000832;
 
 class Ico{
 
@@ -131,23 +140,22 @@ Array.prototype.delayedForEach = function(callback, timeout, thisArg){
 
 //TODO dereferentiaza intanta de ico ca sa nu ai memory leak
 
+//run();
+
 //Scrape ICO's
-function run() {
-//setInterval(function() {
+exports.run = function run() {
+
     Object.keys(icoStates).delayedForEach(function (key) {
         request('https://icowatchlist.com/' + icoStates[key], function (error, response, html) {
             if (!error && response.statusCode == 200) {
                 var $ = cheerio.load(html);
-                var id = parseInt(key.toString() + initial_id.toString());
+                var id = initial_id.toString();
 
                 $('table.main-ico-table tr').each(function (i, elem) {
 
-
                     var icoInstance = new Ico();
                     icoInstance.setId(String(id++));
-
                     icoInstance.setMarket($(this).find("td div.row div a p span").text());
-
 
                     //finished icos page
                     if (key == 4) {
@@ -156,8 +164,6 @@ function run() {
                             icoInstance.setRaised(raised.substring(raised.indexOf(': ') + 2, raised.indexOf("Now:")));
                             icoInstance.setRoi(raised.substring(raised.indexOf("(") + 1, raised.indexOf("%)")));
                         }
-
-
                     }
 
                     var icoPath = $(this).find("td div.row div a").attr('href');
@@ -275,7 +281,6 @@ function run() {
             }
         });
     }, waitBeforeNextPageInterval * 1000);
-//}, updateDataInterval * 1000);
-}
+};
 
-//run();
+//TODO erase the DBs before you repopulate otherwise you will have the same ico in live and finished for instance

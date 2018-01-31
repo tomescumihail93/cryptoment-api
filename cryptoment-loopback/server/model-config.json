@@ -52,5 +52,17 @@
   "coincheckup_coin_model": {
     "dataSource": "coincheckup-coins-datasource",
     "public": true
+  },
+  "user_model": {
+    "dataSource": "users-datasource",
+    "public": true
+  },
+  "AccessToken": {
+    "dataSource": "access-tokens-datasource",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "acl-datasource",
+    "public": false
   }
 }

@@ -9,7 +9,7 @@ function sleep(milliseconds) {
     }
 }
 
-Array.prototype.delayedForEach = function(callback, timeout, thisArg){
+exports.Array.prototype.delayedForEach = function(callback, timeout, thisArg){
 var i = 0,
     l = this.length,
     self = this,

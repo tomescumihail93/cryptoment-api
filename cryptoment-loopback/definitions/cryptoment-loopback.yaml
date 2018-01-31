@@ -1149,6 +1149,91 @@ paths:
                 type: number
                 format: double
       deprecated: false
+  '/coinmarketcap_coin_models/{id}/markets':
+    get:
+      tags:
+        - coinmarketcap_coin_model
+      summary: Fetches hasOne relation markets.
+      operationId: coinmarketcap_coin_model.prototype.__get__markets
+      parameters:
+        - name: refresh
+          in: query
+          required: false
+          type: boolean
+        - name: id
+          in: path
+          description: coinmarketcap_coin_model id
+          required: true
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/coinmarketcap_markets_model'
+      deprecated: false
+    post:
+      tags:
+        - coinmarketcap_coin_model
+      summary: Creates a new instance in markets of this model.
+      operationId: coinmarketcap_coin_model.prototype.__create__markets
+      parameters:
+        - name: data
+          in: body
+          required: false
+          schema:
+            $ref: '#/definitions/coinmarketcap_markets_model'
+        - name: id
+          in: path
+          description: coinmarketcap_coin_model id
+          required: true
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/coinmarketcap_markets_model'
+      deprecated: false
+    put:
+      tags:
+        - coinmarketcap_coin_model
+      summary: Update markets of this model.
+      operationId: coinmarketcap_coin_model.prototype.__update__markets
+      parameters:
+        - name: data
+          in: body
+          required: false
+          schema:
+            $ref: '#/definitions/coinmarketcap_markets_model'
+        - name: id
+          in: path
+          description: coinmarketcap_coin_model id
+          required: true
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/coinmarketcap_markets_model'
+      deprecated: false
+    delete:
+      tags:
+        - coinmarketcap_coin_model
+      summary: Deletes markets of this model.
+      operationId: coinmarketcap_coin_model.prototype.__destroy__markets
+      parameters:
+        - name: id
+          in: path
+          description: coinmarketcap_coin_model id
+          required: true
+          type: string
+          format: JSON
+      responses:
+        '204':
+          description: Request was successful
+      deprecated: false
   /coinmarketcap_coin_models:
     post:
       tags:
@@ -3452,6 +3537,176 @@ paths:
                 type: number
                 format: double
       deprecated: false
+  '/coincheckup_coin_models/{id}/investments':
+    get:
+      tags:
+        - coincheckup_coin_model
+      summary: Fetches hasOne relation investments.
+      operationId: coincheckup_coin_model.prototype.__get__investments
+      parameters:
+        - name: refresh
+          in: query
+          required: false
+          type: boolean
+        - name: id
+          in: path
+          description: coincheckup_coin_model id
+          required: true
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/coincheckup_investment_model'
+      deprecated: false
+    post:
+      tags:
+        - coincheckup_coin_model
+      summary: Creates a new instance in investments of this model.
+      operationId: coincheckup_coin_model.prototype.__create__investments
+      parameters:
+        - name: data
+          in: body
+          required: false
+          schema:
+            $ref: '#/definitions/coincheckup_investment_model'
+        - name: id
+          in: path
+          description: coincheckup_coin_model id
+          required: true
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/coincheckup_investment_model'
+      deprecated: false
+    put:
+      tags:
+        - coincheckup_coin_model
+      summary: Update investments of this model.
+      operationId: coincheckup_coin_model.prototype.__update__investments
+      parameters:
+        - name: data
+          in: body
+          required: false
+          schema:
+            $ref: '#/definitions/coincheckup_investment_model'
+        - name: id
+          in: path
+          description: coincheckup_coin_model id
+          required: true
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/coincheckup_investment_model'
+      deprecated: false
+    delete:
+      tags:
+        - coincheckup_coin_model
+      summary: Deletes investments of this model.
+      operationId: coincheckup_coin_model.prototype.__destroy__investments
+      parameters:
+        - name: id
+          in: path
+          description: coincheckup_coin_model id
+          required: true
+          type: string
+          format: JSON
+      responses:
+        '204':
+          description: Request was successful
+      deprecated: false
+  '/coincheckup_coin_models/{id}/predictions':
+    get:
+      tags:
+        - coincheckup_coin_model
+      summary: Fetches hasOne relation predictions.
+      operationId: coincheckup_coin_model.prototype.__get__predictions
+      parameters:
+        - name: refresh
+          in: query
+          required: false
+          type: boolean
+        - name: id
+          in: path
+          description: coincheckup_coin_model id
+          required: true
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/coincheckup_prediction_model'
+      deprecated: false
+    post:
+      tags:
+        - coincheckup_coin_model
+      summary: Creates a new instance in predictions of this model.
+      operationId: coincheckup_coin_model.prototype.__create__predictions
+      parameters:
+        - name: data
+          in: body
+          required: false
+          schema:
+            $ref: '#/definitions/coincheckup_prediction_model'
+        - name: id
+          in: path
+          description: coincheckup_coin_model id
+          required: true
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/coincheckup_prediction_model'
+      deprecated: false
+    put:
+      tags:
+        - coincheckup_coin_model
+      summary: Update predictions of this model.
+      operationId: coincheckup_coin_model.prototype.__update__predictions
+      parameters:
+        - name: data
+          in: body
+          required: false
+          schema:
+            $ref: '#/definitions/coincheckup_prediction_model'
+        - name: id
+          in: path
+          description: coincheckup_coin_model id
+          required: true
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/coincheckup_prediction_model'
+      deprecated: false
+    delete:
+      tags:
+        - coincheckup_coin_model
+      summary: Deletes predictions of this model.
+      operationId: coincheckup_coin_model.prototype.__destroy__predictions
+      parameters:
+        - name: id
+          in: path
+          description: coincheckup_coin_model id
+          required: true
+          type: string
+          format: JSON
+      responses:
+        '204':
+          description: Request was successful
+      deprecated: false
   /coincheckup_coin_models:
     post:
       tags:
@@ -3834,6 +4089,650 @@ paths:
                 type: number
                 format: double
       deprecated: false
+  '/user_models/{id}/accessTokens/{fk}':
+    get:
+      tags:
+        - user_model
+      summary: Find a related item by id for accessTokens.
+      operationId: user_model.prototype.__findById__accessTokens
+      parameters:
+        - name: fk
+          in: path
+          description: Foreign key for accessTokens
+          required: true
+          type: string
+          format: JSON
+        - name: id
+          in: path
+          description: user_model id
+          required: true
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/AccessToken'
+      deprecated: false
+    delete:
+      tags:
+        - user_model
+      summary: Delete a related item by id for accessTokens.
+      operationId: user_model.prototype.__destroyById__accessTokens
+      parameters:
+        - name: fk
+          in: path
+          description: Foreign key for accessTokens
+          required: true
+          type: string
+          format: JSON
+        - name: id
+          in: path
+          description: user_model id
+          required: true
+          type: string
+          format: JSON
+      responses:
+        '204':
+          description: Request was successful
+      deprecated: false
+    put:
+      tags:
+        - user_model
+      summary: Update a related item by id for accessTokens.
+      operationId: user_model.prototype.__updateById__accessTokens
+      parameters:
+        - name: fk
+          in: path
+          description: Foreign key for accessTokens
+          required: true
+          type: string
+          format: JSON
+        - name: data
+          in: body
+          required: false
+          schema:
+            $ref: '#/definitions/AccessToken'
+        - name: id
+          in: path
+          description: user_model id
+          required: true
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/AccessToken'
+      deprecated: false
+  '/user_models/{id}/accessTokens':
+    get:
+      tags:
+        - user_model
+      summary: Queries accessTokens of user_model.
+      operationId: user_model.prototype.__get__accessTokens
+      parameters:
+        - name: filter
+          in: query
+          required: false
+          type: string
+          format: JSON
+        - name: id
+          in: path
+          description: user_model id
+          required: true
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/AccessToken'
+      deprecated: false
+    post:
+      tags:
+        - user_model
+      summary: Creates a new instance in accessTokens of this model.
+      operationId: user_model.prototype.__create__accessTokens
+      parameters:
+        - name: data
+          in: body
+          required: false
+          schema:
+            $ref: '#/definitions/AccessToken'
+        - name: id
+          in: path
+          description: user_model id
+          required: true
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/AccessToken'
+      deprecated: false
+    delete:
+      tags:
+        - user_model
+      summary: Deletes all accessTokens of this model.
+      operationId: user_model.prototype.__delete__accessTokens
+      parameters:
+        - name: id
+          in: path
+          description: user_model id
+          required: true
+          type: string
+          format: JSON
+      responses:
+        '204':
+          description: Request was successful
+      deprecated: false
+  '/user_models/{id}/accessTokens/count':
+    get:
+      tags:
+        - user_model
+      summary: Counts accessTokens of user_model.
+      operationId: user_model.prototype.__count__accessTokens
+      parameters:
+        - name: where
+          in: query
+          description: Criteria to match model instances
+          required: false
+          type: string
+          format: JSON
+        - name: id
+          in: path
+          description: user_model id
+          required: true
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            type: object
+            properties:
+              count:
+                type: number
+                format: double
+      deprecated: false
+  /user_models:
+    post:
+      tags:
+        - user_model
+      summary: Create a new instance of the model and persist it into the data source.
+      operationId: user_model.create
+      parameters:
+        - name: data
+          in: body
+          description: Model instance data
+          required: false
+          schema:
+            description: Model instance data
+            $ref: '#/definitions/user_model'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/user_model'
+      deprecated: false
+    put:
+      tags:
+        - user_model
+      summary: >-
+        Patch an existing model instance or insert a new one into the data
+        source.
+      operationId: user_model.upsert__put_user_models
+      parameters:
+        - name: data
+          in: body
+          description: Model instance data
+          required: false
+          schema:
+            description: Model instance data
+            $ref: '#/definitions/user_model'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/user_model'
+      deprecated: false
+    patch:
+      tags:
+        - user_model
+      summary: >-
+        Patch an existing model instance or insert a new one into the data
+        source.
+      operationId: user_model.upsert__patch_user_models
+      parameters:
+        - name: data
+          in: body
+          description: Model instance data
+          required: false
+          schema:
+            description: Model instance data
+            $ref: '#/definitions/user_model'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/user_model'
+      deprecated: false
+    get:
+      tags:
+        - user_model
+      summary: Find all instances of the model matched by filter from the data source.
+      operationId: user_model.find
+      parameters:
+        - name: filter
+          in: query
+          description: >-
+            Filter defining fields, where, include, order, offset, and limit -
+            must be a JSON-encoded string ({"something":"value"})
+          required: false
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/user_model'
+      deprecated: false
+  /user_models/replaceOrCreate:
+    post:
+      tags:
+        - user_model
+      summary: >-
+        Replace an existing model instance or insert a new one into the data
+        source.
+      operationId: user_model.replaceOrCreate
+      parameters:
+        - name: data
+          in: body
+          description: Model instance data
+          required: false
+          schema:
+            description: Model instance data
+            $ref: '#/definitions/user_model'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/user_model'
+      deprecated: false
+  /user_models/upsertWithWhere:
+    post:
+      tags:
+        - user_model
+      summary: >-
+        Update an existing model instance or insert a new one into the data
+        source based on the where criteria.
+      operationId: user_model.upsertWithWhere
+      parameters:
+        - name: where
+          in: query
+          description: Criteria to match model instances
+          required: false
+          type: string
+          format: JSON
+        - name: data
+          in: body
+          description: An object of model property name/value pairs
+          required: false
+          schema:
+            description: An object of model property name/value pairs
+            $ref: '#/definitions/user_model'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/user_model'
+      deprecated: false
+  '/user_models/{id}/exists':
+    get:
+      tags:
+        - user_model
+      summary: Check whether a model instance exists in the data source.
+      operationId: 'user_model.exists__get_user_models_{id}_exists'
+      parameters:
+        - name: id
+          in: path
+          description: Model id
+          required: true
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            type: object
+            properties:
+              exists:
+                type: boolean
+      deprecated: false
+  '/user_models/{id}':
+    head:
+      tags:
+        - user_model
+      summary: Check whether a model instance exists in the data source.
+      operationId: 'user_model.exists__head_user_models_{id}'
+      parameters:
+        - name: id
+          in: path
+          description: Model id
+          required: true
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            type: object
+            properties:
+              exists:
+                type: boolean
+      deprecated: false
+    get:
+      tags:
+        - user_model
+      summary: 'Find a model instance by {{id}} from the data source.'
+      operationId: user_model.findById
+      parameters:
+        - name: id
+          in: path
+          description: Model id
+          required: true
+          type: string
+          format: JSON
+        - name: filter
+          in: query
+          description: >-
+            Filter defining fields and include - must be a JSON-encoded string
+            ({"something":"value"})
+          required: false
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/user_model'
+      deprecated: false
+    delete:
+      tags:
+        - user_model
+      summary: 'Delete a model instance by {{id}} from the data source.'
+      operationId: user_model.deleteById
+      parameters:
+        - name: id
+          in: path
+          description: Model id
+          required: true
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            type: object
+      deprecated: false
+    put:
+      tags:
+        - user_model
+      summary: >-
+        Patch attributes for a model instance and persist it into the data
+        source.
+      operationId: 'user_model.prototype.updateAttributes__put_user_models_{id}'
+      parameters:
+        - name: data
+          in: body
+          description: An object of model property name/value pairs
+          required: false
+          schema:
+            description: An object of model property name/value pairs
+            $ref: '#/definitions/user_model'
+        - name: id
+          in: path
+          description: user_model id
+          required: true
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/user_model'
+      deprecated: false
+    patch:
+      tags:
+        - user_model
+      summary: >-
+        Patch attributes for a model instance and persist it into the data
+        source.
+      operationId: 'user_model.prototype.updateAttributes__patch_user_models_{id}'
+      parameters:
+        - name: data
+          in: body
+          description: An object of model property name/value pairs
+          required: false
+          schema:
+            description: An object of model property name/value pairs
+            $ref: '#/definitions/user_model'
+        - name: id
+          in: path
+          description: user_model id
+          required: true
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/user_model'
+      deprecated: false
+  '/user_models/{id}/replace':
+    post:
+      tags:
+        - user_model
+      summary: >-
+        Replace attributes for a model instance and persist it into the data
+        source.
+      operationId: user_model.replaceById
+      parameters:
+        - name: id
+          in: path
+          description: Model id
+          required: true
+          type: string
+          format: JSON
+        - name: data
+          in: body
+          description: Model instance data
+          required: false
+          schema:
+            description: Model instance data
+            $ref: '#/definitions/user_model'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/user_model'
+      deprecated: false
+  /user_models/findOne:
+    get:
+      tags:
+        - user_model
+      summary: Find first instance of the model matched by filter from the data source.
+      operationId: user_model.findOne
+      parameters:
+        - name: filter
+          in: query
+          description: >-
+            Filter defining fields, where, include, order, offset, and limit -
+            must be a JSON-encoded string ({"something":"value"})
+          required: false
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            $ref: '#/definitions/user_model'
+      deprecated: false
+  /user_models/update:
+    post:
+      tags:
+        - user_model
+      summary: 'Update instances of the model matched by {{where}} from the data source.'
+      operationId: user_model.updateAll
+      parameters:
+        - name: where
+          in: query
+          description: Criteria to match model instances
+          required: false
+          type: string
+          format: JSON
+        - name: data
+          in: body
+          description: An object of model property name/value pairs
+          required: false
+          schema:
+            description: An object of model property name/value pairs
+            $ref: '#/definitions/user_model'
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            description: Information related to the outcome of the operation
+            type: object
+            properties:
+              count:
+                description: The number of instances updated
+                type: number
+                format: double
+      deprecated: false
+  /user_models/count:
+    get:
+      tags:
+        - user_model
+      summary: Count instances of the model matched by where from the data source.
+      operationId: user_model.count
+      parameters:
+        - name: where
+          in: query
+          description: Criteria to match model instances
+          required: false
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            type: object
+            properties:
+              count:
+                type: number
+                format: double
+      deprecated: false
+  /user_models/login:
+    post:
+      tags:
+        - user_model
+      summary: Login a user with username/email and password.
+      operationId: user_model.login
+      parameters:
+        - name: credentials
+          in: body
+          required: true
+          schema:
+            type: object
+        - name: include
+          in: query
+          description: >-
+            Related objects to include in the response. See the description of
+            return value for more details.
+          required: false
+          type: string
+          format: JSON
+      responses:
+        '200':
+          description: Request was successful
+          schema:
+            description: >+
+              The response body contains properties of the AccessToken created
+              on login.
+
+              Depending on the value of `include` parameter, the body may
+              contain additional properties:
+
+
+
+
+
+
+
+                - `user` - `U+007BUserU+007D` - Data of the currently logged in
+
+              user. (`include=user`)
+
+
+            type: object
+      deprecated: false
+  /user_models/logout:
+    post:
+      tags:
+        - user_model
+      summary: Logout a user with access token.
+      operationId: user_model.logout
+      parameters: []
+      responses:
+        '204':
+          description: Request was successful
+      deprecated: false
+  /user_models/confirm:
+    get:
+      tags:
+        - user_model
+      summary: Confirm a user registration with email verification token.
+      operationId: user_model.confirm
+      parameters:
+        - name: uid
+          in: query
+          required: true
+          type: string
+        - name: token
+          in: query
+          required: true
+          type: string
+        - name: redirect
+          in: query
+          required: false
+          type: string
+      responses:
+        '204':
+          description: Request was successful
+      deprecated: false
+  /user_models/reset:
+    post:
+      tags:
+        - user_model
+      summary: Reset password for a user with email.
+      operationId: user_model.resetPassword
+      parameters:
+        - name: options
+          in: body
+          required: true
+          schema:
+            type: object
+      responses:
+        '204':
+          description: Request was successful
+      deprecated: false
 definitions:
   icowatchlist_live_model:
     properties:
@@ -3938,9 +4837,26 @@ definitions:
     required:
       - id
     additionalProperties: false
+  coinmarketcap_markets_model:
+    properties:
+      exchanges:
+        type: array
+        items:
+          type: object
+      id:
+        type: string
+      name:
+        type: string
+      rank:
+        type: string
+      symbol:
+        type: string
+      coinId:
+        type: string
+    additionalProperties: false
   coinmarketcap_coin_model:
     properties:
-      _id:
+      id:
         type: string
       availableSupply:
         type: array
@@ -3986,23 +4902,6 @@ definitions:
         type: array
         items:
           type: string
-    additionalProperties: false
-  coinmarketcap_markets_model:
-    properties:
-      exchanges:
-        type: array
-        items:
-          type: object
-      id:
-        type: string
-      name:
-        type: string
-      rank:
-        type: string
-      symbol:
-        type: string
-    required:
-      - id
     additionalProperties: false
   masternodespro_statistics_model:
     properties:
@@ -4079,6 +4978,10 @@ definitions:
         type: string
       winningMonths12m:
         type: string
+      coinId:
+        type: string
+    required:
+      - id
     additionalProperties: false
   coincheckup_score_model:
     properties:
@@ -4096,6 +4999,8 @@ definitions:
         type: string
       id:
         type: string
+      lastUpdated:
+        type: string
       name:
         type: string
       productScore:
@@ -4110,8 +5015,10 @@ definitions:
         type: string
       totalScore:
         type: string
-      lastUpdated:
+      coinId:
         type: string
+    required:
+      - id
     additionalProperties: false
   coincheckup_prediction_model:
     properties:
@@ -4121,6 +5028,8 @@ definitions:
         type: object
       id:
         type: string
+      lastUpdated:
+        type: string
       name:
         type: string
       rank:
@@ -4129,8 +5038,10 @@ definitions:
         type: string
       worldMoney:
         type: object
-      lastUpdated:
+      coinId:
         type: string
+    required:
+      - id
     additionalProperties: false
   coincheckup_coin_model:
     properties:
@@ -4182,6 +5093,52 @@ definitions:
         type: array
         items:
           type: string
+    required:
+      - id
+    additionalProperties: false
+  AccessToken:
+    properties:
+      id:
+        type: string
+      ttl:
+        default: 1209600
+        description: time to live in seconds (2 weeks by default)
+        type: number
+        format: double
+      created:
+        type: string
+        format: date-time
+      userId:
+        type: string
+    required:
+      - id
+    additionalProperties: false
+  user_model:
+    properties:
+      realm:
+        type: string
+      username:
+        type: string
+      credentials:
+        type: object
+      challenges:
+        type: object
+      email:
+        type: string
+      emailVerified:
+        type: boolean
+      status:
+        type: string
+      created:
+        type: string
+        format: date-time
+      lastUpdated:
+        type: string
+        format: date-time
+      id:
+        type: string
+    required:
+      - email
     additionalProperties: false
 basePath: /api
 swagger: '2.0'
@@ -4206,8 +5163,7 @@ securityDefinitions:
     name: X-IBM-Client-Secret
     type: apiKey
 security:
-  - clientIdHeader: []
-    clientSecretHeader: []
+  - {}
 x-ibm-configuration:
   testable: true
   enforced: true
@@ -4219,21 +5175,18 @@ x-ibm-configuration:
         runtime-url: $(TARGET_URL)
     sb:
       properties:
-        runtime-url: >-
-          https://apiconnect-4ae64311-ab8c-45c5-96ca-a0919853766c.cryptoment-cryptomentussouth.apic.mybluemix.net
+        runtime-url: 'https://cryptoment-api.mybluemix.net'
         invoke-tls-profile: 'client:Loopback-client'
   assembly:
     execute:
       - invoke:
-          target-url: $(runtime-url)$(request.path)$(request.search)
+          title: invoke
           timeout: 60
-          verb: GET
-          username: oftenterwayseldisholeass
-          password: 0fbbe1e579b6515ce6f50b4b9c91c638cfd9a154
-          cache-response: time-to-live
-          title: loopback-cloudant_connection
+          cache-response: protocol
+          cache-ttl: 900
+          version: 1.0.0
+          target-url: $(runtime-url)$(request.path)$(request.search)
           tls-profile: $(invoke-tls-profile)
-  gateway: datapower-gateway
   properties:
     runtime-url:
       value: ''
@@ -4243,3 +5196,4 @@ x-ibm-configuration:
       value: ''
       description: ''
       encoded: false
+  gateway: datapower-gateway

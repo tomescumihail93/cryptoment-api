@@ -1,0 +1,10 @@
+applications:
+- buildpack: sdk-for-nodejs
+  host: userauthenticationservice-node-e3b2c459-abea-4a59-a17d-196d977
+  name: userauthenticationservice-node-e3b2c459-abea-4a59-a17d-196d9778dce3
+  instances: 1
+  memory: 256M
+  disk_quota: 1024M
+  timeout: 180
+  services:
+  - user-authentication-service

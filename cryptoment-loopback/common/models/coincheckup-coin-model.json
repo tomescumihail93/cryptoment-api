@@ -99,7 +99,23 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "investments": {
+      "type": "hasOne",
+      "model": "coincheckup_investment_model",
+      "foreignKey": "coinId"
+    },
+    "predictions": {
+      "type": "hasOne",
+      "model": "coincheckup_prediction_model",
+      "foreignKey": "coinId"
+    },
+    "scores": {
+      "type": "hasOne",
+      "model": "coincheckup_score_model",
+      "foreignKey": "coinId"
+    }
+  },
   "acls": [],
   "methods": {}
 }

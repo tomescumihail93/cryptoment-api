@@ -6,7 +6,7 @@
 //careful about changing the next two variables standard 3600 & 0.2
 const samplingInterval = 1800;//seconds
 //const waitAfterDBinit = 30;//seconds
-const depositDataInterval = 0.2;//seconds
+const depositDataInterval = 0.25;//seconds
 
 
 //const thenRequest = require('request-then');
@@ -33,7 +33,7 @@ var date = new Date();
 const keepDuplicateData = false;
 
 //toggler for database initital population process (beware it overwrites all data in db)
-var isDbPopulated = false;
+var isDbPopulated = true;
 
 //limit the amount of entities populating/updating the DBs
 const hasLimit = false;
@@ -41,8 +41,7 @@ const hasLimit = false;
 //how many entities populating/updating the DBs
 var limit = 100;
 
-//first digit is "5" , "6" , "7" , "8" for coincheckup coin, investment, prediction, score model in this order.
-var initial_id = 913112091000832;
+var initial_id = 1913112091000832;
 
 Array.prototype.delayedForEach = function(callback, timeout, thisArg){
     var i = 0,
@@ -55,15 +54,7 @@ Array.prototype.delayedForEach = function(callback, timeout, thisArg){
     caller();
 };
 
-function run() {
 
-    if (!isDbPopulated) {
-        initializeDB();
-    }
-
-    setInterval(requestFromDB, samplingInterval * 1000);//
-
-}
 
 function requestFromDB(){
 
@@ -88,7 +79,7 @@ function requestFromDB(){
 
 function setOptions(coinHistory, coin, key ,reserve_id, update){
 
-    var var_id = parseInt(key.toString() + reserve_id.toString());
+    var var_id = reserve_id.toString();
     var options = {
         method: 'PUT',
         url: 'https://cryptoment-api.mybluemix.net/api/coincheckup_' + models[key] + '_models',
@@ -148,6 +139,7 @@ function setOptions(coinHistory, coin, key ,reserve_id, update){
     }else if(key == 6){
         options.body = {
             id: var_id.toString(),
+            coinId: var_id.toString(),
             name: coin["name"],
             rank: coin["rank"],
             symbol: coin["symbol"],
@@ -173,6 +165,7 @@ function setOptions(coinHistory, coin, key ,reserve_id, update){
     }else if(key == 7){
         options.body = {
             id: var_id.toString(),
+            coinId: var_id.toString(),
             name: coin["name"],
             rank: coin["rank"],
             symbol: coin["symbol"],
@@ -184,6 +177,7 @@ function setOptions(coinHistory, coin, key ,reserve_id, update){
     }else if(key == 8){
         options.body = {
             id: var_id.toString(),
+            coinId: var_id.toString(),
             name: coin["name"],
             rank: coin["rank"],
             symbol: coin["symbol"],
@@ -219,6 +213,7 @@ var initializeDB = function() {
 
                 Object.keys(models).delayedForEach(function (key) {
                     var options = setOptions(null, coin, key , reserve_id, false);
+
                     throttledRequest(options, function (error, response, body) {
                         if (error){
                             console.error('Failed: %s', error.message);
@@ -226,12 +221,11 @@ var initializeDB = function() {
                         console.log('Success:\n', body);
                     });
                 }, depositDataInterval * 1000);
-            }, 4.5 * depositDataInterval * 1000);
+            }, 5 * depositDataInterval * 1000);
         }
     });
 
-    //isDbPopulated = true;
-    //console.log("DB fully populated.");
+    isDbPopulated = true;
 
 };
 
@@ -300,7 +294,7 @@ var mergeAndSend = function(coinList) {
                         console.log('Success:\n', body);
                     });
                 }, depositDataInterval * 1000);
-            }, 4.5 * depositDataInterval * 1000);
+            }, 5 * depositDataInterval * 1000);
         }
     });
 };
@@ -308,3 +302,11 @@ var mergeAndSend = function(coinList) {
 
 //run();
 
+exports.run = function run() {
+
+    if (!isDbPopulated) {
+        initializeDB();
+    }else {
+        requestFromDB();
+    }
+};

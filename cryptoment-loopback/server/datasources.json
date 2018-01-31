@@ -76,5 +76,29 @@
     "database": "coinmarketcap_markets_db",
     "name": "coinmarketcap-markets-datasource",
     "connector": "cloudant"
+  },
+  "users-datasource": {
+    "url": "https://62384ebd-6575-4fa6-b4ef-b1886c6c7d26-bluemix:e399a9e4ba39d2941cb14875f7545e418a96ca905c7b7915f6199b87adde9467@62384ebd-6575-4fa6-b4ef-b1886c6c7d26-bluemix.cloudant.com",
+    "database": "users_db",
+    "username": "62384ebd-6575-4fa6-b4ef-b1886c6c7d26-bluemix",
+    "password": "e399a9e4ba39d2941cb14875f7545e418a96ca905c7b7915f6199b87adde9467",
+    "name": "users-datasource",
+    "connector": "cloudant"
+  },
+  "acl-datasource": {
+    "url": "https://62384ebd-6575-4fa6-b4ef-b1886c6c7d26-bluemix:e399a9e4ba39d2941cb14875f7545e418a96ca905c7b7915f6199b87adde9467@62384ebd-6575-4fa6-b4ef-b1886c6c7d26-bluemix.cloudant.com",
+    "database": "acls_db",
+    "username": "62384ebd-6575-4fa6-b4ef-b1886c6c7d26-bluemix",
+    "password": "e399a9e4ba39d2941cb14875f7545e418a96ca905c7b7915f6199b87adde9467",
+    "name": "acl-datasource",
+    "connector": "cloudant"
+  },
+  "access-tokens-datasource": {
+    "url": "https://62384ebd-6575-4fa6-b4ef-b1886c6c7d26-bluemix:e399a9e4ba39d2941cb14875f7545e418a96ca905c7b7915f6199b87adde9467@62384ebd-6575-4fa6-b4ef-b1886c6c7d26-bluemix.cloudant.com",
+    "database": "access_tokens_db",
+    "username": "62384ebd-6575-4fa6-b4ef-b1886c6c7d26-bluemix",
+    "password": "e399a9e4ba39d2941cb14875f7545e418a96ca905c7b7915f6199b87adde9467",
+    "name": "access-tokens-datasource",
+    "connector": "cloudant"
   }
 }

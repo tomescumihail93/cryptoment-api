@@ -78,18 +78,18 @@ space:
   none: true
 app:
   metadata:
-    guid: 4ae64311-ab8c-45c5-96ca-a0919853766c
+    guid: 39177c24-b6d2-49c6-b711-570781c6676d
   entity:
-    guid: 4ae64311-ab8c-45c5-96ca-a0919853766c
-    name: icowatchlist-api
+    guid: 39177c24-b6d2-49c6-b711-570781c6676d
+    name: cryptoment-api
     routes:
-      - guid: 24785896-681f-4750-b778-0a2be134ba45
-        host: apiconnect-4ae64311-ab8c-45c5-96ca-a0919853766c
+      - guid: b761fc95-2cd2-4793-b6f8-64a886479a14
+        host: cryptoment-api
         port: null
         path: ''
         domain:
-          guid: 1589125a-b9a9-4d91-a5ef-e5a62ea372ff
-          name: cryptoment-cryptomentussouth.apic.mybluemix.net
+          guid: f4b90d7e-2cd3-4d30-b200-f28bbaf6be20
+          name: mybluemix.net
     running_instances: 0
     services: []
     available_domains:
@@ -107,18 +107,18 @@ app:
     space_guid: db6416e4-505e-4a1a-9b45-4aeee2775ca4
     stack_guid: ac91d31a-86a3-453b-babf-8d49c9d763fc
     buildpack: null
-    detected_buildpack: null
-    detected_buildpack_guid: null
+    detected_buildpack: 'SDK for Node.js(TM) (ibm-node.js-6.12.2, buildpack-v3.17-20180105-1100)'
+    detected_buildpack_guid: ec7a268b-3c6a-4132-a3ce-096b8a53c5cf
     environment_json: {}
     memory: 256
     instances: 1
     disk_quota: 1024
     state: STOPPED
-    version: 8269d2b1-dab3-47e1-a4fa-ce34e2afb37d
+    version: fdf86e18-2cc6-4329-aa40-9d82dbad1521
     command: null
-    console: false
+    console: true
     debug: null
-    staging_task_id: null
+    staging_task_id: 45335dfc-c65c-44b2-91a1-c40283617bcd
     package_state: PENDING
     health_check_type: port
     health_check_timeout: null
@@ -127,8 +127,8 @@ app:
     staging_failed_description: null
     diego: true
     docker_image: null
-    package_updated_at: '2018-01-28T15:49:44Z'
-    detected_start_command: ''
+    package_updated_at: '2018-01-30T22:19:43Z'
+    detected_start_command: ./vendor/initial_startup.rb
     enable_ssh: true
     ports: null
 id: e5cabe21-cd8b-45fa-9bb0-27c733f8a2b6
@@ -146,3 +146,4 @@ workspaceDir:
   displayName: cryptoment-loopback
   type: project
   projectType: loopback
+products: []

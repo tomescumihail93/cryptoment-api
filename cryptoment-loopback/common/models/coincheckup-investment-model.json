@@ -66,17 +66,7 @@
       "id": true,
       "generated": true,
       "required": false,
-      "isArray": false,
-      "updateResource": {
-        "id": "common.coincheckup_investment_model.id",
-        "modelId": "common.coincheckup_investment_model",
-        "facetName": "common",
-        "name": "id",
-        "type": "number",
-        "isId": true,
-        "required": true,
-        "isArray": false
-      }
+      "isArray": false
     },
     "lastUpdated": {
       "type": "string",
@@ -103,6 +93,10 @@
       "required": false
     },
     "winningMonths12m": {
+      "type": "string",
+      "required": false
+    },
+    "coinId": {
       "type": "string",
       "required": false
     }

@@ -5,5 +5,5 @@ module.exports = function(server) {
   var router = server.loopback.Router();
   router.get('/', server.loopback.status());
   server.use(router);
-  //server.enableAuth();//uncomment this in order to use the loopback auth service
+  server.enableAuth();//uncomment this in order to use the loopback auth service
 };

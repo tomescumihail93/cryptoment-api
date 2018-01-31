@@ -11,68 +11,30 @@
         "object"
       ],
       "required": false,
-      "updateResource": {
-        "id": "common.coinmarketcap_markets_model.exchange",
-        "modelId": "common.coinmarketcap_markets_model",
-        "facetName": "common",
-        "name": "exchange",
-        "type": "string",
-        "required": false
-      },
       "isArray": true
     },
     "id": {
       "type": "number",
       "id": true,
       "generated": true,
-      "required": true,
-      "isArray": false,
-      "updateResource": {
-        "id": "common.coinmarketcap_markets_model.id",
-        "modelId": "common.coinmarketcap_markets_model",
-        "facetName": "common",
-        "name": "id",
-        "type": "string",
-        "isId": true,
-        "required": false,
-        "isArray": false
-      }
+      "required": false,
+      "isArray": false
     },
     "name": {
       "type": "string",
-      "required": false,
-      "updateResource": {
-        "id": "common.coinmarketcap_markets_model.pair",
-        "modelId": "common.coinmarketcap_markets_model",
-        "facetName": "common",
-        "name": "pair",
-        "type": "string",
-        "required": false
-      }
+      "required": false
     },
     "rank": {
       "type": "string",
-      "required": false,
-      "updateResource": {
-        "id": "common.coinmarketcap_markets_model.price",
-        "modelId": "common.coinmarketcap_markets_model",
-        "facetName": "common",
-        "name": "price",
-        "type": "string",
-        "required": false
-      }
+      "required": false
     },
     "symbol": {
       "type": "string",
-      "required": false,
-      "updateResource": {
-        "id": "common.coinmarketcap_markets_model.volume24h",
-        "modelId": "common.coinmarketcap_markets_model",
-        "facetName": "common",
-        "name": "volume24h",
-        "type": "string",
-        "required": false
-      }
+      "required": false
+    },
+    "coinId": {
+      "type": "string",
+      "required": false
     }
   },
   "validations": [],
