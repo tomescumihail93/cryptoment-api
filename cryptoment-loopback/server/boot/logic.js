@@ -23,8 +23,8 @@ Array.prototype.delayedForEach = function(callback, timeout, thisArg){
 };
 
 //one day cycle
-var fullDBupdateInterval = 24 * 60 * 60/4;// * 1000;
-var oneHour = 60 * 60/4;// * 1000;
+var fullDBupdateInterval = 24 * 60 * 60 * 1000;
+var oneHour = 60 * 60 * 1000;
 var quarterHour = oneHour/4;
 
 var noOfIterationsPerDay = new Array(24);
@@ -33,95 +33,58 @@ var hourCounter = 1;
 var dayCounter = 1;
 var waitTime = 0;
 
-setInterval(function(){
-
-    hourCounter = 1;
-
-    //setInterval(function(){
-    noOfIterationsPerDay.delayedForEach(function(){
-
-        waitTime = 0;
-
-        console.log('----------------------------');
 
 
-        //15 min runtime
-        //coinMarketCapCoinsCrawler.run();
+var run = function() {
+    setInterval(function () {
 
-        if(hourCounter == 2){
+        console.log("===============================================================");
+        console.log("A day has passed: " + dayCounter);
+        console.log("===============================================================");
+        dayCounter++;
 
-            waitTime += quarterHour;
-            setTimeout(function(){
+        hourCounter = 1;
 
-                console.log("An quarter has passed: coinMarketCapMarketsCrawler");
-                //hourCounter++;
-                console.log('----------------------------');
-                //15 min runtime
-                //coinMarketCapMarketsCrawler.run();
-            }, waitTime);//wait 30 minutes before crawling for markets on coinmarketcap
+        noOfIterationsPerDay.delayedForEach(function () {
+            waitTime = 0;
+            console.log('----------------------------');
+            //15 min runtime
+            coinMarketCapCoinsCrawler.run();
 
-        } else if(hourCounter == 3){
+            if (hourCounter == 2) {
+                waitTime += quarterHour;
+                setTimeout(function () {
+                    console.log("An quarter has passed: coinMarketCapMarketsCrawler");
+                    console.log('----------------------------');
+                    //15 min runtime
+                    coinMarketCapMarketsCrawler.run();
+                }, waitTime);//wait 15 minutes before crawling for markets on coinmarketcap
+            } else if (hourCounter == 3) {
+                waitTime += quarterHour;
+                setTimeout(function () {
+                    console.log("An quarter has passed: icoWatchListCrawler");
+                    console.log('----------------------------');
+                    //6 min runtime
+                    icoWatchListCrawler.run();
+                }, waitTime);//wait 15 minutes before crawling for ICOs on icowatchlist
+            } else if (hourCounter == 4) {
+                waitTime += quarterHour;
+                setTimeout(function () {
+                    console.log("An quarter has passed: coinCheckUpCrawler");
+                    console.log('----------------------------');
+                    //35 min runtime
+                    coinCheckUpCrawler.run();
+                }, waitTime);//wait 15 minutes before making prediction, investment, and score updates from coincheckup
+            }
+            console.log("An hour has passed: " + hourCounter + " coinMarketCapCoinsCrawler");
+            ++hourCounter;
+        }, oneHour);
 
-            waitTime += quarterHour;
-            setTimeout(function(){
+    }, fullDBupdateInterval);
+};
 
-                console.log("An quarter has passed: icoWatchListCrawler");
-                //hourCounter++;
-                console.log('----------------------------');
-                //6 min runtime
-                //icoWatchListCrawler.run();
-            },waitTime);//wait 60 minutes before crawling for ICOs on icowatchlist
+run();
 
-        } else if(hourCounter == 4){
-
-            waitTime += quarterHour;
-            setTimeout(function(){
-
-                console.log("An quarter has passed: coinCheckUpCrawler");
-                //hourCounter++;
-                console.log('----------------------------');
-                //35 min runtime
-                //coinCheckUpCrawler.run();
-            },waitTime);//wait 60 minutes before making prediction, investment, and score updates from coincheckup
-        }
-
-
-        console.log("An hour has passed: " + hourCounter + " coinMarketCapCoinsCrawler");
-        ++hourCounter;
-
-
-    }, oneHour);
-
-
-    console.log("===============================================================");
-    console.log("A day has passed: " + dayCounter);
-    console.log("===============================================================");
-    dayCounter++;
-
-}, fullDBupdateInterval);
-
-/*
-//15 min runtime - 1h interval
-setInterval(function(){
-    coinMarketCapCoinsCrawler.run();
-}, 15 * 60 * 1000);
-
-//15 min runtime - 1 per day
-setInterval(function(){
-    coinMarketCapMarketsCrawler.run();
-}, 24 * 60 * 60 * 1000);
-
-//6 min runtime - 1 per day
-setInterval(function(){
-    icoWatchListCrawler.run();
-}, 24 * 60 * 60 * 1000);
-
-//35 min runtime - 1 per day
-setInterval(function(){
-    coinCheckUpCrawler.run();
-}, 24 * 60 * 60 * 1000);
-
-*/
 
 
 

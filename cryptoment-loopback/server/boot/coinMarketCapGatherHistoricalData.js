@@ -231,8 +231,7 @@ var mergeAndSend = function(coinList) {
 
 };
 
-
-//run();
+//run()
 
 exports.run = function run() {
 
@@ -241,9 +240,5 @@ exports.run = function run() {
     } else {
         updateDB();
     }
-/*
-    setInterval(function(){
-        updateDB();
-    }, samplingInterval * 1000);//
-    */
+
 };

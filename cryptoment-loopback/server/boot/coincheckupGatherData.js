@@ -299,7 +299,6 @@ var mergeAndSend = function(coinList) {
     });
 };
 
-
 //run();
 
 exports.run = function run() {
